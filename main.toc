@@ -1,0 +1,5 @@
+\babel@toc {nil}{}\relax 
+\beamer@sectionintoc {1}{Introdução à Estatística e Informações da Disciplina}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Conceitos iniciais: Amostragem}{14}{0}{1}
+\beamer@sectionintoc {2}{Amostragem}{16}{0}{2}
+\beamer@sectionintoc {3}{Análise Exploratória de Dados}{61}{0}{3}

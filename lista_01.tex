@@ -1,0 +1,210 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{minted}
+
+\title{Lista 1 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) Analise os códigos abaixo. Qual o valor da variável $x$ ao final da execução de todas as linhas? Tente pensar inicialmente sem rodar o código no RStudio,
+em seguida use o RStudio para verificar sua resposta. 
+\begin{enumerate}[a)]
+    \item 
+    
+\begin{minted}[
+    frame=lines,  % Adds a top and bottom border
+    framesep=5pt, % Space between the code and the border
+    rulecolor=\color{black}, % Border color
+    bgcolor=lightgray!20  % Background color (optional)
+  ]{R}
+    x = 100
+    x = x/4
+    if(x <= 30){
+        y = x*2
+        x = y/5
+    }else{
+        x = 0
+    }
+    x
+    \end{minted}
+
+    \item 
+    
+\begin{minted}[
+    frame=lines,  % Adds a top and bottom border
+    framesep=5pt, % Space between the code and the border
+    rulecolor=\color{black}, % Border color
+    bgcolor=lightgray!20  % Background color (optional)
+  ]{R}
+    x = 100
+    x = x/4
+    if(x <= 30){
+      y = x*2
+      x = y/5
+    }else{
+      x = 0
+    }
+    g = function(x){
+      return(x+1)
+    }
+    x = g(1)
+    x
+    \end{minted}
+    \vspace{14px}
+    \item
+    \begin{minted}[
+        frame=lines,  % Adds a top and bottom border
+        framesep=5pt, % Space between the code and the border
+        rulecolor=\color{black}, % Border color
+        bgcolor=lightgray!20  % Background color (optional)
+      ]{R}
+
+    x = 100
+    x = x/4
+    if(x <= 30){
+        y = x*2
+        x = y/5
+    }else{
+        x = 0
+    }
+    g = function(x){
+        return(x+1)
+    }
+    h = function(y){
+        return(y^2)
+    }
+    x = h(g(x))
+    x
+    \end{minted}
+\item
+
+\begin{minted}[
+frame=lines,  % Adds a top and bottom border
+framesep=5pt, % Space between the code and the border
+rulecolor=\color{black}, % Border color
+bgcolor=lightgray!20  % Background color (optional)
+]{R}
+
+    k = 20
+    l = 40
+    s = function(y, z){
+        z = y +4
+        y = z + 5
+        return(z + y)
+    }
+    x = s(k, l)
+    x
+\end{minted}
+
+\end{enumerate}
+
+
+2) Os códigos a seguir apresentam erros. Identifique os erros e explique o motivo de cada um deles. Tente inicialmente identificá-los sem o auxilio do RStudio. 
+
+\begin{enumerate}[a)]
+
+    \item
+\begin{minted}[
+frame=lines,  % Adds a top and bottom border
+framesep=5pt, % Space between the code and the border
+rulecolor=\color{black}, % Border color
+bgcolor=lightgray!20  % Background color (optional)
+]{R}
+    d = 10 * k
+    k = 2
+    d
+\end{minted}
+        
+        \item
+\begin{minted}[
+frame=lines,  % Adds a top and bottom border
+framesep=5pt, % Space between the code and the border
+rulecolor=\color{black}, % Border color
+bgcolor=lightgray!20  % Background color (optional)
+]{R}
+    notas_p1 = c(9, 8.5, 4.2, 3.4 7.2)
+    notas_trabalho = c(3.4, 2.3, 7.2, 7, 8.5 )
+    media_parcial = notas_p1 * 0.4 + notas_trabalho * 0.1
+    media_parcial  
+\end{minted}
+
+    \item 
+    
+\begin{minted}[
+frame=lines,  % Adds a top and bottom border
+framesep=5pt, % Space between the code and the border
+rulecolor=\color{black}, % Border color
+bgcolor=lightgray!20  % Background color (optional)
+]{R}
+    aluno = "Maria"
+    idade = 29
+    sexo = "F"
+    if(sexo == "F"){
+        mensagem = "Bem vinda ao curso de Estatística da UFRJ"
+    }
+    else{
+        mensagem = "Bem vindo ao curso de Estatística da UFRJ"
+    }
+    mensagem
+\end{minted}
+
+    \item 
+\begin{minted}[
+    frame=lines,  % Adds a top and bottom border
+    framesep=5pt, % Space between the code and the border
+    rulecolor=\color{black}, % Border color
+    bgcolor=lightgray!20  % Background color (optional)
+    ]{R}
+    m = 23
+    if(m != 23.0){
+        s = 40
+    }
+    s
+\end{minted}
+\end{enumerate}
+
+
+3) Crie uma função em R que receba um número inteiro e retorne se esse número é par ou impar. 
+\textbf{Dica:} O operador $\%\%$ no R retorna o resto da divisão inteira. Por exemplo, 
+executando $4\%\%2$ no R, recebemos o valor 0, que é o resto da divisão de $4$ por $2$. Se escrevermos  $5\%\%2$, recebemos como resposta o valor $1$. 
+
+\vspace{5px}
+
+4) Crie uma função em R que receba um número inteiro não-negativo e retorne a sua raiz quadrada. 
+
+\textcolor{red}{Importante:} A questão 4 espera um número inteiro positivo como entrada, mas nada impede que um valor fora do domínio da função seja fornecido. 
+Nesse caso, adicione uma etapa para verificar se o valor inserido é de fato um inteiro não-negativo, caso não seja, retorne a 
+mensagem "Erro: Era esperado um inteiro não-negativo". Assuma que não há a possibilidade de serem fornecidos valores racionais e irracionais para a função.).
+\vspace{5px}
+
+5) Crie as seguintes funções em R:
+
+\begin{enumerate}[a)]
+    \item Uma função chamada \textit{soma} que receba dois números e retorne a soma deles.
+    Exemplo: \textit{soma}$(2,4)$  deve retornar $6$.
+    \item Uma função chamada \textit{subtr} que receba dois números e retorne a subtração do primeiro pelo segundo.
+    Exemplo: \textit{subtr}$(2,4)$  deve retornar $-2$.
+    \item Uma função chamada \textit{mult} que receba dois números e retorne a multiplicação entre eles.
+    Exemplo: \text{mult}$(2,4)$  deve retornar $8$.
+    \item Uma função chamada \textit{div} que receba dois números e retorne a divisão do primeiro pelo segundo. (\textcolor{red}{Atenção:} 
+    Perceba que no caso da divisão, temos problema caso o denominador seja igual a 0. Entenda como o R trata esse caso e escreva sua função de tal
+     forma que caso o denominador seja 0, então seu código retorne um texto com a mensagem "Erro: Divisão por 0")
+
+    Exemplo: \text{div}$(2,4)$  deve retornar $0.5$.
+    \item Crie uma função chamada \textit{calculadora} que recebe como entrada dois números e a operação desejada e retorne o resultado. 
+    \textbf{Dica:} Use as funções criadas nos itens anteriores. 
+    
+    Exemplos: 
+    \begin{itemize}
+        \item \textit{calculadora}$(2,4, "+")$ deve retornar $6$.
+        \item \textit{calculadora}$(2,4, "-")$ deve retornar $-2$.
+        \item \textit{calculadora}$(2,4, "*")$ deve retornar $8$.
+        \item \textit{calculadora}$(2,4, "/")$ deve retornar $0.5$.
+    \end{itemize}
+   
+\end{enumerate}
+
+
+\end{document}

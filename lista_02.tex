@@ -1,0 +1,66 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{minted}
+
+\title{Lista 2 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) Escreva uma função no R que receba um número natural $n$ e retorne $n!$ (n fatorial). \textbf{Dica:} Utilize os conceitos que vimos sobre estruturas de repetição. 
+
+\vspace{5px}
+
+2) Escreva uma função no R que receba um número natural $n\geq 1$ e retorne o valor que ocupa a $n$-ésima posição da sequência de Fibonacci. 
+\textbf{Dica:} Utilize os conceitos que vimos sobre estruturas de repetição. 
+
+\vspace{5px}
+
+3) Realize as seguintes tarefas envolvendo a base de dados adotada no curso:
+\begin{enumerate}[a)]
+    \item Leia a base de dados do curso dentro do RStudio. 
+    \item Crie uma variável chamada $N$ e armazene nela o valor do tamanho do conjunto de dados.
+    \item Qual a proporção de indivíduos do Sexo Feminino e do Sexo Masculino nesse conjunto de dados?
+    \item Transforme a coluna Frequência para que passe a armazenar o valor da frequência em hertz (Hz) ao invés de batidas por minuto. 
+    \item Escreva um código que mostre no console a idade máxima e a mínima existente no conjunto de daddos. 
+    \item Crie um histograma para a variável Duracao do Sono e o interprete. 
+    \item Crie um gráfico de barras para a variável Ocupacao e o interprete. 
+    \item Crie um gráfico de dispersão para as variáveis Nivel de Atividade Fisica (Eixo y) e Idade (Eixo x). Interprete esse gráfico e responda: O que podemos perceber que acontece com a variável Nível de Atividade Física conforme a Idade aumenta? 
+\end{enumerate}
+
+\vspace{5px}
+
+4) Considere que a base de dados adotada no curso represente uma população que desejamos estudar.
+Dessa população, selecione uma amostra de tamanho $60$ utilizando a Amostragem Aleatória Estratificada com base na variável Sexo usando a abordagem proporcional. 
+
+
+\textbf{Dica: } Para filtrar o conjunto de dados baseado em uma condição, primeiro devemos escrever o nome do DataFrame acompanhado da condição dentro de colchetes
+ sucedido por virgula e pela coluna que se deseja obter ao final da filtragem. Caso queiramos obter todas as colunas, deixamos vazio. 
+
+Exemplo: Suponha que tenhamos interesse em filtrar, no nosso conjunto de dados, todos os indivíduos que tenham idade inferior a 45 anos. O código para isso seria:
+
+\begin{minted}[linenos=false,breaklines]{R}
+    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+    dados_l45 = dados[dados$Idade < 45, ] # DataFrame contendo apenas indivíduos com idade inferior a 45 anos.
+\end{minted}
+
+Perceba que, após a virgula, não é colocado nada, deixando um espaço vazio. Isso faz com que seja retornada todas as colunas do conjunto de dados filtrado. 
+Por outro lado, caso escrevêssemos o código a seguir, obteriamos apenas a Ocupacao dos indivíduos com Idade inferior a 45 anos. 
+
+\begin{minted}[linenos=false,breaklines]{R}
+    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+    dados_l45 = dados[dados$Idade < 45, "Ocupacao"] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
+\end{minted}
+
+Uma outra possibilidade para fazer filtros em DataFrames é usar a função \textit{subset}. A função \textit{subset} recebe dois argumentos, o primeiro é o DataFrame no qual
+deseja-se aplicar o filtro e o segundo é a condição do filtro. Nesse caso, se quiséssemos filtrar nosso DatafFrame de forma a obter apenas os indivíduos que possuem 
+Idade inferior a 45, executaríamos o seguinte código:
+
+\begin{minted}[linenos=false,breaklines]{R}
+    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+    dados_l45 = subset(dados, Idade < 45) # DataFrame contendo apenas indivíduos com idade inferior a 45 anos.
+\end{minted}
+
+Note que a condição passada usa o nome da coluna sem a necessidade de usar o \$. Isso ocorre pois a própria função subset extrai os nomes das colunas internamente. 
+\end{document}

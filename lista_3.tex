@@ -1,0 +1,360 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{dsfont}
+\title{Lista 3 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) Um aluno da disciplina de Estatística decide usar a seguinte métrica como medida de resumo para sua análise exploratória de dados:
+
+$$\tilde{x} = \dfrac{\sum_{i=1}^n (x_i - \bar{x})}{n}$$
+
+Mostre que, independentemente de $n$ e do conjunto de dados $x_1, x_2, \dots, x_n$, a métrica escolhida pelo aluno sempre resulta em zero. Faz sentido o aluno adotar essa métrica em sua análise?
+
+\vspace{5px}
+
+2) Mostre que para qualquer conjunto de dados $(x_1, x_2, \dots, x_n)$ com $n \geq 1$, os escores padronizados $z_1, z_2, \dots, z_n$  apresentam média $0$ e desvio padrão igual a $1$. 
+
+\vspace{5px}
+
+3) Discorra sobre as interpretações da probabilidade discutidas em sala de aula, evidenciando as principais críticas que cada uma delas recebe.
+
+\vspace{5px}
+
+4) Descreva um espaço amostral para seguintes experimentos. Diga também sua cardinalidade.
+
+\begin{enumerate}[a)]
+    \item Uma moeda é jogada quatro vezes, e é observada a sequência obtida de caras e coroas.
+    \item Em uma linha de produção que fabrica peças em série, é feita a contagem de peças defeituosas produzidas em um período de 24 horas.
+    \item Uma lâmpada é fabricada e, em seguida, é ensaiado o tempo de duração da vida útil da lâmpada, através da colocação em um soquete e da anotação do tempo (em horas) até que ela queime.
+    \item Um lote de 10 peças contém 3 peças defeituosas. As peças são retiradas uma a uma, sem reposição, até que a última peça defeituosa seja encontrada. O número total de peças retiradas do lote é contado.
+    \item Peças são fabricadas até que 10 peças perfeitas sejam produzidas. O número total de peças fabricadas é contado.
+    \item De uma urna que contém apenas bolas pretas, tira-se uma bola e verifica-se sua cor.
+    \item Um dado de 20 faces é jogado 10 vezes.
+    \item Um dado de $n$ faces é jogado $k$ vezes.
+    \item De uma urna que contém 3 bolas verdes, 4 bolas brancas e 7 bolas vermelhas, retira-se uma bola e verifica-se sua cor.
+    \item Da mesma urna anterior, retira-se duas bolas e verifica-se a cor de cada uma delas.
+    \item Medir o pH de uma amostra de solução preparada com ácido acético em diferentes diluições. (Assuma que a concentração real do ácido pode variar devido a imprecisões na preparação.)
+    \item Verificar se uma reação catalítica ocorre dentro do tempo esperado em um lote de reatores industriais. (Nesse caso, a aleatoriedade está relacionada a variações na pureza dos reagentes, na temperatura ou na eficiência do catalisador.)
+    \item Considere o mesmo experimento anterior, mas agora estamos interessados em saber o tempo até que ocorra a reação.
+    \item Medir o spin de um elétron em uma direção específica (eixo $z$, por exemplo).
+\end{enumerate}
+
+\vspace{5px}
+
+5) Um professor da disciplina de Estatística resolveu adotar a seguinte dinâmica para aplicação de sua prova:
+
+\begin{itemize}
+    \item Cada estudante deve responder exatamente 7 questões de um total de 10.
+    \item O nível de dificuldade das questões aumenta de acordo com o número da questão, ou seja, a questão 1 é a mais fácil e a 10, a mais difícil.
+    \item As questões são de múltipla escolha, contendo, cada uma, 4 possíveis respostas.
+    \item As 7 questões são selecionadas de forma aleatória pelo professor no momento em que o aluno entra na sala.
+\end{itemize}
+
+Sabendo disso, responda:
+
+\begin{enumerate}[a)]
+    \item Quantas possíveis escolhas de questões o professor possui?
+    \item Qual a probabilidade de ele escolher as questões mais difíceis, ou seja, exatamente as questões 4, 5, 6, 7, 8, 9 e 10?
+    \item Qual a probabilidade de o professor escolher a questão 10?
+    \item Qual a probabilidade de o aluno errar todas as questões?
+    \item Qual a probabilidade de o aluno acertar pelo menos uma questão?
+    \item Qual pressuposto você teve que assumir para responder às questões (d) e (e)? Esse pressuposto é razoável nesse contexto?
+\end{enumerate}
+
+6) Um delegado da Polícia Cívil investiga o caso de desaparecimento de uma criança na cidade do Paraná. Sabe-se que no momento do desaparecimento da criança, existiam
+mais 5 crianças junto à criança desaparecida, sendo o nome dessas crianças: Judas, Marcos, Matheus, Madalena e Pedro. Com o objetivo de eliminar um possível viés sobre o caso, o 
+delegado decide selecionar aleatoriamente duas das 5 crianças para prestar depoimento. Sabe-se que o delegado suspeita que Judas e Pedro podem ter sido
+contaminados, ou seja, podem ter sido previamente instruídos a prestarem depoimentos falsos. 
+Dessa forma, responda: 
+
+\begin{enumerate}[a)]
+    \item Qual a probabilidade de que o delegado acabe selecionando Judas e Pedro para depor?
+    \item Qual a probabilidade de que o delegado selecione um grupo que contenha Judas ou Pedro para depor?
+\end{enumerate}
+
+\vspace{5px}
+
+7) Considere o experimento do lançamento de dois dados simétricos de 6 faces. Qual
+a probabilidade da soma dos resultados do lançamento dos dados dar um número ímpar dado que um dos dados apresentou o valor $1$?
+
+\vspace{5px}
+
+8) Cinquenta e dois por cento dos estudantes de certa faculdade são mulheres. 
+Cinco por cento dos estudantes dessa faculdade estão se formando em Engenharia Química.
+ Dois por cento dos estudantes são mulheres que estão se formando em Engenharia Química.
+  Se um estudante é selecionado aleatoriamente, determine a probabilidade condicional de que:
+
+\begin{enumerate}[a)]
+    \item Ele seja mulher, dado que está se formando em Engenharia Química.
+    \item Ele esteja se formando em Engenharia Química, dado que é mulher.
+\end{enumerate}
+
+\vspace{5px}
+
+9) Uma companhia de seguros analisou a frequência com que 2.000 segurados (1.000 homens e 1.000 mulheres) usaram o hospital. Os resultados são apresentados na tabela a seguir:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+\hline
+                      & Homens & Mulheres \\ \hline
+Usaram o hospital     & 100    & 150      \\
+Não usaram o hospital & 900    & 850      \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}[a)]
+    \item Qual a probabilidade de que uma pessoa segurada use o hospital?
+    \item Qual a probabilidade de que uma pessoa segurada use o hospital, dado que ela é homem?
+    \item Qual a probabilidade de que uma pessoa segurada use o hospital, dado que ela é mulher?
+\end{enumerate}
+
+
+10) Suponha que uma companhia de seguros classifique as pessoas em uma de três classes: risco baixo, risco médio e risco elevado.
+Os registros da companhia indicam que as probabilidades de que pessoas com riscos baixo, médio e elevado estejam envolvidas 
+em acidentes ao longo de um ano são, respectivamente, 0,05, 0,15 e 0,30. Além disso, 20\% da população é classificada como de risco baixo,
+50\% como risco médio e 30\% como risco elevado.
+
+\begin{enumerate}[a)]
+    \item Que proporção de pessoas sofre acidentes ao longo de um ano?
+    \item Se o segurado A não sofreu acidentes em 2024, qual é a probabilidade de que ele (ou ela) seja uma pessoa de risco baixo ou médio?
+\end{enumerate}
+
+\vspace{5px}
+
+11) Sejam $A$ e $B$ dois eventos tais que $\mathds{P}(A) = \dfrac{1}{2}$, $\mathds{P}(B) = \dfrac{1}{4}$ e $\mathds{P}(A\cap B) = \dfrac{1}{5}$. Calcule as probabilidades dos seguintes eventos:
+
+\begin{enumerate}[a)]
+    \item A não ocorre.
+    \item B não ocorre.
+    \item Pelo menos um dos eventos A ou B ocorre.
+    \item A não ocorre e B ocorre.
+    \item B não ocorre e A ocorre.
+    \item Não ocorre nenhum dos eventos A e B.
+    \item Pelo menos um dos eventos A e B não ocorre.
+\end{enumerate}
+
+\vspace{5px}
+
+12) Seja $A_1, A_2, A_3, \dots, A_{50}$ uma sequência de eventos mutuamente excludentes, tais que:
+
+$$\mathds{P}(A_i) = \dfrac{1}{50}, i \in \{1, 2, 3, \dots, 50 \}$$
+
+Calcule:
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}\left(\displaystyle\bigcup_{i=1}^{50} A_i\right)$
+    \item $\mathds{P}\left(\left( A_1^c \cap A_2^c \right)^c\right)$
+    \item $\mathds{P}\left(\left(\displaystyle\bigcap_{i=1}^{17} A_i^c\right)^c\right)$
+    \item O valor de $x$ tal que  $\mathds{P}\left(\left(\displaystyle\bigcap_{i=1}^x A_i^c\right)^c\right) \leq 0,5$
+    \item Assuma que $A_1, A_2, A_3, \dots, A_{50}$ são independentes. Calcule $\mathds{P}\left( \displaystyle\bigcap_{i=1}^{50} A_i\right)$
+    \item Assuma que $A_1, A_2, A_3, \dots, A_{50}$ são independentes. Encontre $x$ tal que  $\mathds{P}\left( \displaystyle\bigcap_{i=1}^{x} A_i\right) \leq 1,6 \cdot 10^{-7}$
+\end{enumerate}
+
+\vspace{5px}
+
+13) Seja $\Omega$ o espaço amostral de um experimento e $A_1, A_2, A_3, \dots, A_{200}$ uma sequência de eventos tais que:
+
+$$A_i = \begin{cases}
+\Omega & \text{se $i$ é par} \\
+\emptyset & \text{se $i$ é ímpar} 
+\end{cases}$$
+
+Calcule:
+
+\begin{enumerate}[a)]
+   \item $\mathds{P}\left(\displaystyle\bigcup_{i=1}^{200} A_i\right)$
+   \item $\mathds{P}\left(\displaystyle\bigcap_{i=1}^{200} A_i\right)$
+\end{enumerate}
+
+\vspace{5px}
+
+14) Em uma turma de 30 alunos, um professor deseja selecionar um grupo de 2 alunos para serem os representantes da turma.
+Sabe-se que essa turma possui maior quantidade de pessoas do sexo masculino do que do feminino.
+Sabendo disso, responda: Qual é a probabilidade de que o grupo seja formado unicamente por pessoas do sexo feminino?
+
+\vspace{5px}
+
+15) Uma moeda é viciada de modo que a probabilidade de sair cara é 4 vezes maior que a de sair coroa.
+ Para dois lançamentos independentes dessa moeda, determine:
+
+\begin{enumerate}[a)]
+    \item O espaço amostral.
+    \item A probabilidade de sair exatamente uma cara.
+    \item A probabilidade de sair pelo menos uma cara.
+    \item A probabilidade de saírem dois resultados iguais.
+    \item A probabilidade de que o segundo lançamento seja cara, dado que o primeiro foi cara.
+\end{enumerate}
+
+\vspace{5px}
+
+16) Suponha que dois eventos, A e B, sejam mutuamente exclusivos. Além disso, $\mathds{P}(A) = 0,30$ e $\mathds{P}(B) = 0,40$.
+
+\begin{enumerate}[a)]
+    \item Quanto é $\mathds{P}(A \cap B)$?
+    \item Quanto é $\mathds{P}(A | B)$?
+    \item Um estudante de Estatística argumenta que os conceitos de eventos mutuamente exclusivos e eventos independentes são, na verdade, os mesmos, e que se os eventos são mutuamente exclusivos, então devem ser independentes. Você concorda com essa afirmação? Use as informações deste problema para justificar sua resposta.
+    \item Qual conclusão geral você tira a respeito dos eventos mutuamente exclusivos e dos eventos independentes, com base nos resultados deste problema?
+\end{enumerate}
+
+\vspace{5px}
+
+17) Um rei vem de uma família com duas crianças. Qual é a probabilidade de que a outra criança seja uma menina?
+
+\vspace{5px}
+
+18) Três dados simétricos de seis lados são lançados.
+\begin{enumerate}[a)]
+    \item Defina o espaço amostral desse experimento. Qual a cardinalidade desse espaço amostral?
+    \item Sabe-se que o primeiro dado apresentou o valor $6$. Qual a probabilidade de que a soma dos três dados seja igual a $7$?
+    \item Qual a probabilidade de que a soma dos dados seja $10$? E de que seja $11$?
+    \item Qual a probabilidade de que a soma dos três dados seja igual a $18$, dado que a soma dos dois primeiros foi $12$?
+    \item Qual a probabilidade de que a soma dos três dados seja igual a $18$, dado que a soma dos dois primeiros foi $7$?
+\end{enumerate}
+
+\vspace{5px}
+
+19) Verifique se as seguintes afirmações são verdadeiras ou falsas:
+
+\begin{enumerate}[a)]
+    \item Sejam dois eventos $A$ e $B$. Se $\mathds{P}(A) + \mathds{P}(B) = 1$, então $A$ e $B$ são mutuamente excludentes.
+    \item Seja um espaço amostral $\Omega$ e $A$ e $B$ subconjuntos de $\Omega$. Se $A$ e $B$ são independentes, a não ocorrência de $A$ implica na ocorrência de $B$?
+    \item Sejam $A$ e $B$ dois eventos. Se $A$ não depende de $B$, então $B$ não depende de $A$?
+    \item Sejam $A$, $B$ e $C$ três eventos tais que $\mathds{P}(A|B) = \mathds{P}(A)$ e $\mathds{P}(A|C) = \mathds{P}(A)$. É possível afirmar que $\mathds{P}(A|B \cap C) =  \mathds{P}(A)$?
+    \item $\mathds{P}(A \cap B) = 0$ implica que $A$ e $B$ são independentes.
+\end{enumerate}
+
+\vspace{5px}
+
+20) Peças produzidas por uma máquina são classificadas como defeituosas,
+recuperáveis ou perfeitas com probabilidade de 0,1; 0,2 e 0,7; respectivamente.
+De um grande lote, foram sorteadas duas peças com reposição. Calcule:
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item Probabilidade de duas peças serem defeituosas
+    \item Probabilidade de pelo menos uma peça ser perfeita
+    \item Probabilidade de uma peça ser recuperável e uma perfeita
+    \item Indique as suposições utilizadas para resolver os itens anteriores. E se o sorteio for sem reposição?
+\end{enumerate}
+
+
+
+\vspace{5px}
+
+21) Duas fábricas locais, \(A\) e \(B\), produzem rádios. Cada rádio produzido na fábrica \(A\) é defeituoso com probabilidade \(0{,}05\),
+enquanto cada rádio produzido na fábrica \(B\) é defeituoso com probabilidade \(0{,}01\).
+Suponha que você compre dois rádios que foram produzidos na mesma fábrica, sendo que essa 
+é igualmente provável de ser \(A\) ou \(B\). Se o primeiro rádio que você verifica é defeituoso,
+qual é a probabilidade condicional de que o outro rádio também seja defeituoso?
+
+
+\vspace{5px}
+
+22) Uma indústria química realiza o controle de qualidade de lotes de um determinado reagente.
+ Para que um lote seja considerado aprovado, ele deve ser aprovado por três testes consecutivos. Caso ele seja reprovado em algum deles, o lote é 
+ automaticamente rejeitado.
+
+\begin{itemize}
+    \item \textbf{Teste A}: verifica se a pureza está acima de 98\%. A probabilidade de um lote ser aprovado neste teste é de $0{,}95$.
+    
+    \item \textbf{Teste B}: avalia a estabilidade térmica do composto. Este teste depende da pureza: se o lote foi aprovado no Teste A, a probabilidade de aprovação no Teste B é de $0{,}92$.
+    
+    \item \textbf{Teste C}: verifica a ausência de contaminantes metálicos. Se o reagente foi aprovado no teste A e B, então a probabilidade de ser aprovado no teste $C$ é $0,95$
+\end{itemize}
+\begin{enumerate}[a)]
+    \item Qual é a probabilidade de que um lote seja aprovado em todos os três testes, ou seja, que ele atenda simultaneamente aos critérios de pureza, estabilidade e ausência de contaminantes?
+    \item Se os testes fossem independentes. Qual seria a probabilidade do lote ser aprovado?
+\end{enumerate}
+
+
+\vspace{5px}
+
+23) Uma indústria de materiais produz um tipo específico de polímero utilizando dois tipos de reatores:
+
+\begin{itemize}
+    \item Reator Contínuo (R1): responsável por 60\% da produção total.
+    \item Reator Batelada (R2): responsável por 40\% da produção total.
+\end{itemize}
+
+Sabe-se que a probabilidade de ocorrência de bolhas (um defeito no polímero que compromete sua resistência) varia conforme o tipo de reator:
+
+\begin{itemize}
+    \item Se o polímero foi produzido no Reator Contínuo, a probabilidade de apresentar bolhas é de 1,5\%.
+    \item Se foi produzido no Reator Batelada a probabilidade de apresentar bolhas é de 4\%.
+\end{itemize}
+
+Um lote é selecionado aleatoriamente e verifica-se que ele apresenta bolhas.
+
+
+Qual é a probabilidade de que esse lote tenha sido produzido no Reator Batelada, dado que apresenta bolhas?
+
+\vspace{5px}
+
+24) Uma planta industrial possui três sensores diferentes (um de temperatura, outro de pressão e outro de vazamento) que monitoram falhas em um processo de destilação.
+ Cada sensor é calibrado para detectar um tipo específico de anomalia, mas ocasionalmente gera alarmes falsos.
+
+Sejam definidos os seguintes eventos
+
+\begin{itemize}
+    \item A: O sensor de temperatura gera alarme falso. 
+    \item B: O sensor de pressão gera alarme falso.
+    \item C: O sensor de vazamento gera alarme falso.
+\end{itemize}
+
+Sabe-se que: $\mathds{P}(A) = 0{,}03, \mathds{P}(B) = 0{,}02$ e $\mathds{P}(C) = 0{,}05$. Por falta de dados sobre a dependência entre os sensores, a equipe de engenharia deseja estimar uma \textbf{cota superior} para a probabilidade de ocorrer pelo menos um alarme falso durante essa hora.
+
+Determine um limitante superior para a probabilidade de que ocorra pelo menos um alarme falso.
+
+\vspace{5px}
+
+25) Mostre, utilizando apenas a definição de probabilidade condicional que, dados dois eventos $A$ e $B$ tal que $\mathds{P}(A)>0$:
+
+$$\mathds{P}(A|B) = \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P}(B)}$$
+
+
+\vspace{5px}
+
+26)Mostre que, se \(P(A) > 0\), então:
+
+\[
+P(A \cap B \mid A) \geq P(A \cap B \mid A \cup B)
+\]
+
+\vspace{5px}
+
+27) Sejam $E, F$ e $G$ três eventos definidos em um mesmo espaço amostral. Verifique, utilizando o Diagrama de Venn, que a seguinte relação é verdadeira:
+
+\begin{equation*}
+P(E \cup F \cup G) = P(E) + P(F) + P(G)
+- P(E^c \cap F \cap G)`'
+- P(E \cap F^c \cap G)
+- P(E \cap F \cap G^c)
+- 2P(E \cap F \cap G)
+\end{equation*}
+
+\vspace{5px}
+
+28) Mostre que, se \(E_1, E_2, \dots, E_n\) são eventos independentes, então:
+
+\[
+P(E_1 \cup E_2 \cup \dots \cup E_n) = 1 - \prod_{i=1}^{n} [1 - P(E_i)]
+\]
+
+\vspace{5px}
+
+29) Mostre que, se \(P(A \mid B) = 1\), então \(P(B^c \mid A^c) = 1\). Explique com palavras o que esse resultado significa. 
+
+\vspace{5px}
+
+30) Mostre que
+
+\[
+\frac{P(A \mid E)}{P(C \mid B)} = \frac{P(A)}{P(C)} \cdot \frac{P( E \mid A)}{P(B \mid C)}
+\]
+
+
+\end{document}

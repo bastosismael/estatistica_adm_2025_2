@@ -1,0 +1,157 @@
+
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=2.5cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+
+\title{\textbf{Trabalho 1 — Estatística (2025.1)}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\onehalfspacing
+
+\section*{Objetivo do Trabalho}
+
+Neste trabalho, vocês assumirão o papel de pesquisadores responsáveis por elaborar um texto (semelhante a um artigo científico) com base em dados reais.
+
+O objetivo é aplicar os conceitos estudados até aqui na disciplina, com foco em análise exploratória de dados. Espera-se que vocês elaborem perguntas relevantes sobre o tema e as respondam ao longo do texto, com base na análise do conjunto de dados fornecido.
+
+\section*{Organização e Grupos}
+
+\begin{enumerate}
+    \item Cada aluno deve colocar seu nome e e-mail no arquivo de seleção de temas.
+    \item Os grupos terão tamanho variável, dependendo do tamanho do conjunto de dados.
+    \item Após o prazo de manifestação de interesse, enviarei por e-mail a cada grupo um conjunto de dados referente ao tema escolhido e o método de amostragem. 
+    \item Para fins didáticos, trataremos esse conjunto de dados como a população de estudo.
+\end{enumerate}
+
+\section*{Avaliação}
+
+O trabalho será avaliado com nota de 0 a 10. As situações abaixo acarretarão automaticamente nota 0:
+
+\begin{itemize}
+    \item Entrega fora do prazo.
+    \item Trabalho desorganizado ou mal estruturado.
+    \item Não utilizar a linguagem R.
+    \item Não enviar todos os arquivos solicitados.
+    \item Não seguir o método de amostragem informado no e-mail. 
+    \item Não preencher o arquivo de seleção de temas com nome e e-mail no prazo indicado.
+    \item Plágio. 
+\end{itemize}
+
+
+\section*{Datas e Prazos}
+\begin{itemize}
+    \item Manifestação do tema de interesse: 22:00h de 25/04 até 30/04 00:00h.
+    \item Entrega do trabalho: até 06/06 00:00h.
+    \item A entrega deve ser feita no e-mail: ismael@dme.ufrj.br usando a seguinte estrutura:
+    \item \begin{itemize}
+        \item Assunto: Trabalho de Estatística. 
+        \item O corpo do texto deve conter os nomes dos integrantes e o título do trabalho. 
+        \item Em anexo devem colocar os arquivos requisitados. 
+        \item Apenas \textbf{um} dos membros do grupo deve fazer o envio.  
+    \end{itemize}
+\end{itemize}
+
+\subsection*{Itens obrigatórios para entrega:}
+
+\begin{itemize}
+    \item Arquivo contendo a amostra utilizada nas análises. 
+    \item Arquivo qmd e pdf com os resultados e análises da pesquisa (Parte 1 do trabalho).
+    \item Arquivo qmd e pdf contendo as respostas (Com os gráficos) da Parte 2 do trabalho (Pode ser entregue no mesmo arquivo do anterior).  
+\end{itemize}
+
+\section*{Parte 1 — Análise Exploratória de Dados}
+O trabalho deve seguir a seguinte estrutura:
+
+\subsection*{Título}
+Relacionado à principal pergunta da pesquisa. Pode ser simples, mas deve representar o objetivo do trabalho.
+
+\subsection*{Capítulo 1 — Introdução}
+Apresente o tema, os objetivos da pesquisa, definição da pergunta principal que deseja responder através da pesquisa e 
+perguntas adicionais caso verifique necessidade. Além disso, a Introdução pode conter qualquer outro aspecto que julgar relevante (como o tamanho da população, contexto da pesquisa, etc.).
+
+\subsection*{Capítulo 2 — Descrição dos Dados}
+Liste as variáveis do conjunto de dados e explique o que cada uma representa. Classifique-as como:
+
+\begin{itemize}
+    \item Quantitativa (Discreta ou Contínua) ou
+    \item Qualitativa (Nominal ou Ordinal)
+\end{itemize}
+
+No caso de variáveis qualitativas, descreva os possíveis valores que a variável assume e seus significados.
+
+\subsection*{Capítulo 3 — Metodologia}
+Descreva detalhadamente o método de amostragem adotado, evidenciando o tamanho amostral selecionado. Explicite também as vantagens e desvantagens do método de amostragem adotado. 
+
+Observação: Não é necessário explicar o motivo da seleção do tamanho amostral, haja vista que isso será discutido mais para o fim do curso. 
+
+\subsection*{Capítulo 4 — Análise Exploratória}
+Utilize gráficos e tabelas de frequência para analisar \textbf{todas} as variáveis do seu conjunto de dados, excetuando-se apenas variáveis como nome ou id.
+Você pode (e deve) utilizar os gráficos discutidos em aula: dispersão, barras, histogramas e boxplots.
+
+Interprete os resultados de forma crítica e os use para responder as perguntas iniciais ou gerar novos insights.
+
+Nesta seção também é interessante você analisar relações entre a variável de interesse e as demais variáveis, fazendo uso do gráfico de dispersão e do coeficiente de correlação. 
+
+\subsection*{Capítulo 5 — Conclusão}
+Discuta os principais achados da sua análise. Responda a pergunta principal e comente limitações que afetaram a análise.
+
+\textcolor{red}{\textbf{Importante:}} A estrutura apresentada acima é o mínimo exigido. A exploração de mais elementos de maneira criativa será positivamente avaliada.
+
+\section*{Parte 2 — Tamanho Amostral e Propriedades da Média Amostral}
+
+\subsection*{Exercício 1}
+
+\begin{enumerate}[a)]
+    \item Escolha uma variável quantitativa da sua população.
+    \item Calcule a média populacional e a armazene na variável \texttt{media\_populacional}.
+    \item Crie dois conjuntos de dados (vetores) vazios chamados \texttt{media\_amostral} e \texttt{variancia\_media\_amostral}.
+    \item Considerando $n$ como sendo cada uma das seguintes proporções do tamanho da população (\% do tamanho da população):\\
+    $2\%, 4\%, 6\%, \dots, 98\%$, realize:
+        \begin{itemize}
+            \item Extraia uma amostra de tamanho $n$ via Amostragem Aleatória Simples.
+            \item Calcule a média amostral da variável selecionada.
+            \item Calcule a variância das médias amostrais. 
+            \item Armazene a média amostral e a variância das médias amostrais nos vetores \texttt{media\_amostral} e \texttt{variancia\_media\_amostral}, respectivamente.
+        \end{itemize}
+    \item Construa um gráfico constituído dos seguintes elementos:
+        \begin{itemize}
+            \item Gráfico de dispersão da \texttt{media\_amostral} vs tamanhos amostrais.
+            \item Linha horizontal vermelha em \texttt{y = media\_populacional}.
+        \end{itemize}
+    \item Construa outro gráfico composto pelos seguintes elementos:
+    \begin{itemize}
+        \item Gráfico de dispersão da \texttt{variancia\_media\_amostral} vs tamanhos amostrais.
+        \item Linha horizontal roxa em \texttt{y = 0}.
+        \item Obs: Ajuste seu gráfico para que a linha acima seja visível. 
+    \end{itemize}
+    \item Escreva um texto interpretando os gráficos.
+\end{enumerate}
+
+\subsection*{Exercício 2}
+
+\begin{enumerate}[a)]
+    \item Escolha (de preferência a mesma do Exercício 1) uma variável quantitativa do sua população.
+    \item Calcule a média populacional e a armazene na variável \texttt{media\_populacional}.
+    \item Crie um conjunto de dados (vetor) vazio chamado \texttt{media\_amostras}.
+    \item Extraia 1.000 amostras de tamanho $40\%$ do tamanho da população utilizando o método de Amostragem Aleatória Simples e calcule a média de cada uma, armazenando-as no vetor \texttt{media\_amostras}.
+    \item Crie um vetor \texttt{media\_das\_medias}, onde cada posição $i$ armazena a média dos $i$ primeiros valores de \texttt{media\_amostras}.
+    \item Construa um gráfico contendo:
+        \begin{itemize}
+            \item Um gráfico de dispersão de \texttt{media\_das\_medias} vs número de amostras ($1, 2, ..., 1000$).
+            \item Linha horizontal vermelha em \texttt{y = media\_populacional}.
+        \end{itemize}
+    \item Escreva um texto interpretando o gráfico.
+\end{enumerate}
+
+\end{document}

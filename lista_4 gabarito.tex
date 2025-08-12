@@ -1,0 +1,134 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\title{Lista 4 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) 
+\begin{enumerate}[a)]
+    \item Bernoulli. Citar o que caracteriza uma variável que segue a distribuição de Bernoulli.
+    \item Binomial. $Y\sim Binomial(10, 0,1)$
+    \item $0,0574$
+    \item $1 - 0,9^{10}$
+    \item $10$
+\end{enumerate}
+
+\vspace{5px}
+
+2) 
+\begin{enumerate}[a)]
+    \item $\mathbb{E}[Y] = \sum_{i=1}^{20} \mathbb{E}[X_i] = 20 \cdot 0,5 = 10$ e $Var(Y) = \sum_{i=1}^{20} Var(X_i) = 20 \cdot 0,25 = 5$
+    \item $W \sim Bernoulli(0,5^2)$; $p_W(w) = 0,5^{2w} (1-0,5^2)^(1-w)$ 
+    \item $V \sim Bernoulli(0,5^n)$; $p_V(v) = 0,5^{n \cdot v} (1-0,5^n)^(1-v)$
+    \item $supp(X) = \{-2, 2\}$. Média: $0$, Variância: $4$
+\vspace{5px}
+
+3) 
+
+\begin{enumerate}[a)]
+    \item $S \sim Poisson(3)$
+    \item $\dfrac{e^{-3}3^2}{2!}$
+    \item $e^{-3/4}$
+    \item $1 - \mathds{P}(S\leq 4) = $
+    \item $\dfrac{e^{-6}6^6}{6!}$
+\end{enumerate}
+
+\vspace{5px}
+
+4) 
+
+\begin{enumerate}[a)]
+    \item $3/32$
+    \item $11/16$
+    \item $3; 0,795$
+    \item $3$
+\end{enumerate}
+
+\vspace{5px}
+
+5) Seja $Z$ uma variável aleatória tal que $Z\sim N(0,1)$, calcule:
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(Z>1) = 0,1587$
+    \item $\mathds{P}(-1 \leq Z<1) = 0,6826$
+    \item  $\mathds{P}(Z>2| Z> 1) = 0,1437$
+    \item $\mathds{P}(Z>2| Z< -1) = 0$
+    \item $\mathds{P}(Z>2| Z< 3) = 0,0215$
+    \item $\mathds{P}(Z<-2) = 0,0228$
+    \item $\mathds{P}(-4<Z<4) \approx 1$
+\end{enumerate}
+
+\vspace{5px}
+
+6) Se X é uma variável aleatória normal com parâmetros $\mu=10$ e $\sigma^2=36$, calcule:
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(X>5) = 0,7967$
+    \item $\mathds{P}(4<X<16) = 0,6826$
+    \item $\mathds{P}(X<8) = 0,3707$
+    \item $\mathds{P}(X<20) = 0,9525$
+    \item $\mathds{P}(X>16) = 0,1587$
+    \item $\mathds{P}(X>5 | X> 2) = 0,8788$
+    \item $x$ tal que $\mathds{P}(X>x) = 0.75 \implies x \approx 5,98$
+    \item $\mathds{P}(|X-10| \leq 5) = 0,5934$
+\end{enumerate}
+
+\vspace{5px}
+
+7)  Suponha que a altura dos homens de 25 anos de idade, em cm, seja uma variável aleatória normal com parâmetros $\mu = 180$ e $\sigma^2=16$. 
+Qual a probabilidade de um homem de 25 anos de idade ter mais de 1,88 de altura?
+
+Definamos $X:$ Altura dos homens de 25 anos em cm. 
+$$X \sim Normal(180, 16)$$
+
+$$\mathds{P}(X > 188) = \mathds{P}(Z > 2) = 0,0228$$
+
+\vspace{5px}
+
+8) 
+\begin{enumerate}[a)]
+    \item $0,0228$
+    \item $0,6826$
+\end{enumerate}
+\vspace{5px}
+
+9) 
+
+\begin{enumerate}[a)]
+    \item $X \sim Normal(50, 1,5^2)$
+    \item $0,9544$
+    \item  $1-0,9544$
+    \item $(1-0,9544) \cdot 10000$
+    \item $0,9974$
+\end{enumerate}
+
+\vspace{5px}
+
+
+10)
+\begin{enumerate}[a)]
+    \item IC(\mu, 90\%) = [17,016; 18,984] . Interpretação: É possível afirmar com 90\% de confiança que o intervalo contém a verdadeira média. (Aprofundar no que significa essa frase, conforme visto na  última aula)
+    \item IC(\mu, 95\%) = [16,824; 19,176] . Interpretação: É possível afirmar com 95\% de confiança que o intervalo contém a verdadeira média.  (Aprofundar no que significa essa frase, conforme visto na  última aula)
+    \item  IC(\mu, 90\%) = [17,412; 18,588] . Interpretação: É possível afirmar com 90\% de confiança que o intervalo contém a verdadeira média.  (Aprofundar no que significa essa frase, conforme visto na  última aula)
+\end{enumerate}
+
+11) 
+
+\begin{enumerate}[a)]
+
+
+    \item $286/625 = 0,4576$
+
+    \item   Usando o método conservador.  $IC(p, 95\%) = [0,4184;  0,4968]
+
+    \item Não.
+
+    \item $2401$
+\end{enumerate}
+
+\end{document} 

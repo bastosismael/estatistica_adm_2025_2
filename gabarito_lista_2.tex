@@ -1,0 +1,338 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{dsfont}
+
+\title{Lista 2 - Estatística para Administração - 2024.2}
+\begin{document}
+\date{}
+\maketitle
+
+1) Quantas permutações diferentes existem das letras A,B,C,D,E,F, se
+\begin{enumerate}[a)] % a), b), c), ...
+    \item Se não há nenhuma restrição então temos $6!$ permutações.
+    \item Como fixamos a letra A na primeira posição, temos $5!$ permutações.
+    \item Nesse caso também temos $5!$ permutações.
+    \item Como a primeira e a última letras são fixas, temos $4!$ permutações.
+\end{enumerate}
+
+\vspace{5px}
+
+2) Em uma prova, um estudante deve responder exatamente 7 questões de um total de 10 questões. Quantas escolhas ele tem?
+
+$$\binom{10}{7} =\dfrac{10!}{7!3!} = \dfrac{10 \cdot 9 \cdot 8}{3 \cdot 2 \cdot 1} = 120$$
+\vspace{5px}
+
+3) No antigo padrão brasileiro, placas de carro eram códigos com 3 letras seguidas por 4 números. Os ministérios envolvidos com transporte e mobilidade nos quatro países do Mercosul resolveram, entretanto, criar um emplacamento comum com um padrão único no país.
+\begin{itemize}
+    \item Brasil: AAA 1A11
+    \item Uruguai: AAA 1111
+    \item Argentina e Venezuela: AA 111 AA
+    \item Paraguai: AAAA 111
+\end{itemize}
+
+Em que, A pode ser substituído por qualquer letra e 1 por qualquer número. Quantas placas diferentes podem ser criadas em cada país seguindo esse padrão?
+
+\begin{itemize}
+    \item Brasil: $26^4 \cdot 10^3$
+    \item Uruguai: $26^3 \cdot 10^4$
+    \item Argentina e Venezuela: $26^4 \cdot 10^3$ 
+    \item Paraguai: $26^4 \cdot 10^3$
+\end{itemize}
+\vspace{5px}
+
+4) Descreva o espaço amostral dos seguintes experimentos
+
+\begin{enumerate}[a)] % a), b), c), ...
+    \item $\Omega = \{Cara, Coroa\}^4$
+    \item $\Omega= \{0, 1, 2, 3, \dots\}$
+    \item $\Omega= [0, \infty)$ 
+    \item $\Omega = \{3,4,5,6,7,8,9,10\}$
+    \item $\Omega = \{10, 11, 12, 13, \dots \}$
+    \item $\Omega = \{preta\}$
+    \item $\Omega = \{verde, branca, vermelha\}$ 
+    \item $\Omega = \{verde, branca, vermelha\}^2$ 
+\end{enumerate}
+
+\vspace{5px}
+
+5) Informações sobre fundos mútuos, fornecidas pela Morningstar Investment Research, incluem o tipo de fundo mútuo (Capital Nacional Norte-Americano, Capital Internacional ou Renda Fixa) e a classificação da Morningstar para o fundo. A classificação vai de 1 estrela (menor classificação) a 5 estrelas (maior classificação). Suponha que uma amostra com 25 fundos mútuos forneceu as seguintes contagens:
+
+\begin{itemize}
+    \item 16 fundos mútuos eram de Capital Nacional Norte-Armericano
+    \item 13 fundos mútuos foram classificados com 3 estrelas ou menos
+    \item 7 dos fundos de Capital Nacional Norte-Americanos foram classificados com 4 estrelas
+    \item 2 dos fundos de Capital Nacional Norte-Americano foram classificados com 5 estrelas
+\end{itemize}
+
+Assuma que um desses 25 fundos mútuos será aleatoriamente selecionado, a fim de saber mais sobre o fundo em questão e sua estratégia de investimento 
+
+Definamos os seguintes eventos:
+
+ \begin{itemize}
+        \item A: O fundo ser de Capital Nacional Norte-Americano.
+        \item B: O fundo ser avaliado com 4 ou 5 estrelas. 
+    \end{itemize}
+    
+\begin{enumerate}[a)]
+    \item $\mathds{P}(A) = \dfrac{16}{25}$
+    \item $\mathds{P}(B) = \dfrac{12}{25}$
+    \item $\mathds{P}(A \cap B) = \dfrac{9}{25}$
+    \item 
+   Temos que:
+    \begin{align*}
+       \mathds{P}(A\cup B) &= \mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) \\
+       &= \dfrac{16}{25} + \dfrac{12}{25} - \dfrac{9}{25} = \dfrac{19}{25}
+    \end{align*}
+\end{enumerate}
+
+\vspace{5px}
+
+6) Uma companhia de seguros analisou a frequência com que 2.000 segurados(1.000 homens e 1.000 mulheres) usaram o hospital. Os resultados são apresentados na tabela a seguir:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+\hline
+                      & Homens & Mulheres \\ \hline
+Usaram o hospital     & 100    & 150      \\
+Não usaram o hospital & 900    & 850      \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\dfrac{250}{2000} = 0,125$
+    \item $\dfrac{100}{1000} = 0,10$
+    \item $\dfrac{150}{1000} = 0,15$
+\end{enumerate}
+
+\vspace{5px}
+
+7) Sejam $A$ e $B$ dois eventos tais que $\mathds{P}(A) = 1/2, \mathds{P}(B)=1/4$ e $\mathds{P}(A\cap B) = 1/5$. Calcule as probabilidades dos seguintes eventos:
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\mathds{P}(A^c) = 1 - \mathds{P}(A) = 1/2$
+    \item $\mathds{P}(B^c) = 1 - \mathds{P}(B) = 3/4$
+    \item $\mathds{P}(A \cup B) = \mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A\cap B) = 1/2 + 1/4 - 1/5 = 0,55$
+    \item $\mathds{P}(A^c \cap B) = \mathds{P}(B) - \mathds{P}(A \cap B) = 1/4 - 1/5 = 0,05$
+    \item $\mathds{P}(A \cap B^c) = \mathds{P}(A) - \mathds{P}(A \cap B) = 1/2 - 1/5 = 0,3$
+    \item $\mathds{P}(A^c \cap B^c) =\mathds{P}(A \cup B)^c  = 1 - \mathds{P}(A \cup B) = 1 - 0.55 = 0,45$
+    \item $\mathds{P}(A^c \cup B^c) = \mathds{P}(A \cap B)^c =  1 - \mathds{P}(A \cap B) = 1 - 1/5 = 0,8$
+\end{enumerate}
+
+\vspace{5px}
+
+8)Em uma escola, 60\% dos estudantes não usam anel nem colar; 20\% usam anel e 30\%
+colar. Se um aluno é escolhido aleatoriamente, qual a probabilidade de que esteja usando
+
+Definamos:
+
+\begin{itemize}
+    \item A : Usar anel
+    \item B: Usar colar
+\end{itemize}
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\mathds{P}(A \cup B) = \mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B)$
+    Note que não temos $\mathds{P}(A \cap B)$, mas temos $\mathds{P}(A^c \cap B^c)$, logo
+    \begin{align*}
+        \mathds{P}(A^c \cap B^c) &= \mathds{P}(A \cup B)^c\\
+        &= 1 - \mathds{P}(A \cup B)\\
+        &= 1 - (\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B)\\
+        &= 1 - (0,2 + 0,3 - \mathds{P}(A \cap B)\\
+        &= 1 - 0,5  + \mathds{P}(A \cap B)\\
+        &= 0,5  + \mathds{P}(A \cap B)\\
+    \end{align*}
+
+    Logo
+
+    $$\mathds{P}(A \cap B) = 0,6 - 0,5 = 0,1$$
+
+    Portanto
+    $\mathds{P}(A \cup B) = 0,2 + 0,3 - 0,1 = 0,4$
+    \item $\mathds{P}(A \cap B) = 0,1$
+    \item $\mathds{P}(A \cap B^c) = \mathds{P}(A) - \mathds{P}(A \cap B) = 0,2 - 0,1 = 0,1$
+\end{enumerate}
+
+\vspace{5px}
+
+9)Um restaurante popular apresenta apenas dois tipos de refeições: salada completa ou um prato
+à base de carne. Considere que 20\% dos fregueses do sexo masculino preferem a salada, 30\%
+das mulheres escolhem carne, 75\% dos fregueses são homens e os seguintes eventos:
+
+\begin{itemize}
+    \item H: freguês é homem
+    \item M: freguês é mulher
+    \item A: freguês prefere salada
+    \item B: freguês prefere carne
+\end{itemize}
+
+Calcular:
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item$ \mathds{P}(H) = 0,75$
+    \item $\mathds{P}(A|H) = 0,2$
+    \item $\mathds{P}(B|M) = 0,30$
+    \item $\mathds{P}(A \cap H) = \mathds{P}(A | H)\mathds{P}(H) = 0,2 \cdot 0,75 = 0,15$
+\end{enumerate}
+
+\vspace{5px}
+
+10) Dois dados de 6 faces são lançados e é anotada a face obtida em cada um dos dados (Por exemplo, se saiu o resultado 2 no primeiro e 4 no segundo, é anotado o par (2,4)). Com base nisso, resolva as seguintes questões:
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\Omega = \{1,2,3,4,5,6\}^2$
+    \item Definamos o evento A: O resultado do primeiro dado é igual ao do segundo. Segue que: $A = \{(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)\}$
+
+    Logo, 
+
+    $$\mathds{P}(A) = \dfrac{6}{36} = \dfrac{1}{6}$$
+    \item Definamos o evento B: O resultado do primeiro dado é maior que o do segundo. Segue que:
+
+    $$B = \{(2,1), (3,2), (3,1), (4,3), (4,2), (4,1), (5,4), (5,3), (5,2), (5,1), (6,5), (6,4), (6,3), (6,2), (6,1) \}$$
+
+    Logo, 
+
+    $$\mathds{P}(B) = \dfrac{15}{36} = 0,42$$
+    \item  Definamos o evento C: O resultado do primeiro dado é maior ou igual ao do segundo. Segue que:
+
+    {\tiny $$C = \{(1,1), (2,2), (2,1), (3,3), (3,2), (3,1), (4,4), (4,3), (4,2), (4,1), (5,5), (5,4), (5,3), (5,2), (5,1), (6,6), (6,5), (6,4), (6,3), (6,2), (6,1) \}$$}
+
+    Logo, 
+
+    $$\mathds{P}(B) = \dfrac{21}{36} = 0,58$$
+    
+    \item Definamos o evento D: A soma dos resultados da 3. Segue que:
+
+$$D = \{(1,2), (2,1)\}$$
+
+Logo, 
+
+$$\mathds{P}(D) = \dfrac{2}{36}$$
+        
+\end{enumerate}
+
+
+\vspace{5px}
+
+11) Uma urna contém 20 bolas vermelhas, 10 bolas azuis e 5 bolas brancas. Um experimento consiste em retirar uma bola da urna, olhar sua cor, descartar a bola e em seguida retirar outra bola e olhar sua cor. Resolva as seguintes questões:
+
+Para a resolução desse problema, consideremos os seguintes eventos:
+
+\begin{itemize}
+    \item $V_i:$ A i-ésima bola é vermelha
+    \item $A_i:$ A i-ésima bola é azul
+    \item $B_i:$ A i-ésima bola é branca
+\end{itemize}
+
+Com $i=1,2$
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\Omega =\{vermelha, azul, branca\}^2$ 
+    \item $\mathds{P}(A_1 \cap A_2) = \mathds{P}(A_1) \mathds{P}(A_2|A_1)= \dfrac{10}{35} \cdot \dfrac{9}{34} = \dfrac{90}{1190} = 0,07$
+    \item 
+    \begin{align*}
+        \mathds{P}((B_1 \cap A_2) \cup (A_1 \cap B_2))  &= \mathds{P}(B_1 \cap A_2) + \mathds{P}(A_1 \cap B_2) \\
+        &= \mathds{P}(B_1)\mathds{P}(A_2 | B_1) + \mathds{P}(A_1)\mathds{P}(B_2 | A_1)\\
+        &= \dfrac{5}{35} \cdot \dfrac{10}{34} + \dfrac{10}{35} \cdot \dfrac{5}{34}\\
+        &= \dfrac{50 + 50}{35 \cdot 34} \\
+        &= \dfrac{100}{1190} = 0,08
+    \end{align*}
+
+    \item \begin{align*}
+        \mathds{P}((V_1 \cap V_2) \cup (B_1 \cap B_2)) &= \mathds{P}(V_1 \cap V_2) + \mathds{P}(B_1 \cap B_2)\\
+        &=\mathds{P}(V_1) \mathds{P}(V_2 | V_1) + \mathds{P}(B_1) \mathds{P}(B_2 | B_1)\\
+        &=\dfrac{20}{35} \cdot  \dfrac{19}{34} + \dfrac{5}{35} \cdot  \dfrac{4}{34}\\
+        &=\dfrac{400}{1190} = 0,34
+    \end{align*}
+\end{enumerate}
+
+12) Considere a mesma situação da questão anterior, mas no entanto assuma que após retirar a primeira bola, ela seja colocada novamente na urna ao invés de ser descartada. Nesse caso, resolva as seguintes questões:
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\mathds{P}(A_1, A_2) = \dfrac{10}{35}\cdot \dfrac{10}{35} = \dfrac{100}{1225} = 0,08$
+    \item \begin{align*}
+        \mathds{P}((B_1 \cap A_2) \cup (A_1 \cap B_2))  &= \mathds{P}(B_1 \cap A_2) + \mathds{P}(A_1 \cap B_2) \\
+        &= \mathds{P}(B_1)\mathds{P}(A_2 | B_1) + \mathds{P}(A_1)\mathds{P}(B_2 | A_1)\\
+        &= \dfrac{5}{35} \cdot \dfrac{10}{35} + \dfrac{10}{35} \cdot \dfrac{5}{35}\\
+        &= \dfrac{50 + 50}{35 \cdot 35} \\
+        &= \dfrac{100}{1225} = 0,08
+    \end{align*}
+    \item \begin{align*}
+        \mathds{P}((V_1 \cap V_2) \cup (B_1 \cap B_2)) &= \mathds{P}(V_1 \cap V_2) + \mathds{P}(B_1 \cap B_2)\\
+        &=\mathds{P}(V_1) \mathds{P}(V_2 | V_1) + \mathds{P}(B_1) \mathds{P}(B_2 | B_1)\\
+        &=\dfrac{20}{35} \cdot  \dfrac{20}{35} + \dfrac{5}{35} \cdot  \dfrac{5}{35}\\
+        &=\dfrac{425}{1225} = 0,35
+    \end{align*}
+\end{enumerate}
+
+13) Uma moeda é viciada de modo que a probabilidade de sair cara é 4 vezes maior que a de sair coroa. Para 2 lançamentos independentes dessa moeda, determine:
+
+Para resolver esse exercício, primeiro precisamos determinar numericamente a probabilidade de sair cara e coroa. 
+
+Definamos os seguintes eventos:
+
+\begin{itemize}
+    \item A: Sair cara
+    \item B: Sair coroa
+\end{itemize}
+
+Sabemos que:
+
+$$\mathds{P}(A) = 4 \cdot \mathds{P}(B)$$
+
+Além disso, 
+
+$$\mathds{P}(A) + \mathds{P}(B) = 1$$
+
+Logo:
+
+$$4 \cdot \mathds{P}(B) + \mathds{P}(B) = 1$$
+
+Portanto, 
+
+$$\mathds{P}(B) = \dfrac{1}{5}$$
+$$\mathds{P}(A) = \dfrac{4}{5}$$
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\Omega = \{(Cara, Coroa\}^2$
+    \item $$\mathds{P}((Cara, Coroa) \cup (Coroa, Cara)) = \dfrac{4}{5}\cdot \dfrac{1}{5} + \dfrac{1}{5}\cdot\dfrac{4}{5} = \dfrac{8}{25} = 0,32$$
+    \item $$\mathds{P}((Cara, Coroa) \cup (Coroa, Cara) \cup (Cara, Cara)) = \dfrac{4}{5}\cdot \dfrac{1}{5} + \dfrac{1}{5}\cdot\dfrac{4}{5} + \dfrac{4}{5}\cdot \dfrac{4}{5} = \dfrac{24}{25} = 0,960$$
+    \item $$\mathds{P}((Cara, Cara), (Coroa, Coroa)) =\dfrac{4}{5} \cdot \dfrac{4}{5} + \dfrac{1}{5} \cdot \dfrac{1}{5} = \dfrac{17}{25} = 0,68$$
+\end{enumerate}
+
+
+
+14)Peças produzidas por uma máquina são classificadas como defeituosas,
+recuperáveis ou perfeitas com probabilidade de 0,1; 0,2 e 0,7; respectivamente.
+De um grande lote, foram sorteadas duas peças com reposição. Calcule:
+
+Definamos os seguintes eventos:
+
+\begin{itemize}
+    \item D: A peça ser defeituosa
+    \item R: A peça ser recuperável
+    \item P: A peça ser defeituosa
+\end{itemize}
+
+$\Omega=\{D, R, P\}^2$
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item $\mathds{P}(D,D) = 0,1^2 = 0,01$
+    \item $1 - \mathds{P}(P^c, P^c)= 0,91$
+    \item $\mathds{P}(R,P) + \mathds{P}(P,R) = 0,2 \cdot 0,7 + 0,7 \cdot 0,2 = 0,28$
+    \item Supomos que as retiradas são independentes. Nesse caso deveríamos ter as probabilidades condicionais. 
+\end{enumerate}
+
+15) Suponha que tenhamos dois eventos, A e B, que sejam mutuamente exclusivos. Suponha, além disso, que saibamos que $\mathds{P}(A) = 0,30$ e $\mathds{P}(B) = 0,40$.
+
+\begin{enumerate}[a)] % a), b), c), .
+    \item $0$
+    \item $0$
+    \item Esse estudando está equivocado, se isso fosse verdade teríamos que a resposta da questão b seria $\mathds{P}(A)\mathds{P}(B)$ 
+    \item Dois eventos mutuamente exclusivos são necessariamente dependentes um do outro, pois a ocorrência de um inviabiliza a ocorrência do outro. 
+\end{enumerate}
+
+
+\end{document}

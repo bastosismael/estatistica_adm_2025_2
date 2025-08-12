@@ -1,0 +1,1943 @@
+\section{Introdução à Probabilidade}
+
+\begin{frame}{Uma breve história da Probabilidade}
+    \begin{itemize}
+        \item O surgimento da Probabilidade está diretamente ligada ao estudo de jogos de azar. 
+        \pause 
+        \item A Probabilidade, conforme estudamos hoje, surge em 1654 através de correspondências entre Pierre de Fermat e Blaise pascal acerca do \textbf{Problema dos Pontos} . 
+        \pause
+
+        \item Observação: O problema já havia sido proposto, aproximadamente, 100 anos antes por Luca Pacioli (Considerado o pai da contabilidade). 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{O Problema dos Pontos}
+    Vamos voltar para 1654. 
+    \pause
+    Vamos jogar o seguinte jogo:
+
+    \textbf{Regras do Jogo:}
+    \begin{itemize}
+        \item O jogo tem exatamente dois jogadores. 
+        \pause
+        \item Cada jogador escolhe uma face de uma moeda (Cara ou Coroa).
+        \pause
+        \item Cada jogador aposta um valor (Exemplo: R\$ 25,00).
+        \pause
+        \item A cada rodada a moeda é lançada e é anotado o resultado, somando 1 ponto para o jogador que escolheu o resultado obtido.
+        \pause
+        \item Vence quem obtiver o total de 3 pontos. Levando o prêmio (Nesse caso, R\$ 50,00)
+    \end{itemize}
+\pause
+    \textcolor{red}{Pergunta:} Esse jogo é justo?
+\end{frame}
+
+\begin{frame}{Jogando o jogo}
+    \textbf{Vamos jogar o jogo!}
+    
+    \pause
+
+    \textbf{Uma chuva de meteoros cai na UFRJ}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{figures/molten_rain.jpg}
+    \end{figure}
+    \pause
+    Cada jogador está exatamente com dois pontos, como dividir o prêmio?
+\end{frame}
+
+\begin{frame}{OJogando o jogo, novamente}
+    \textbf{Vamos jogar o jogo de novo!}
+
+    \pause
+
+    \textbf{Uma chuva de meteoros cai na UFRJ}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{figures/molten_rain.jpg}
+    \end{figure}
+    \pause
+    Nesse caso, um jogador está com dois pontos e o outro com um ponto, como dividir o prêmio?
+\end{frame}
+
+\begin{frame}{O Problema dos Pontos}
+    \begin{itemize}
+        \item Esse problema ficou conhecido como problema dos pontos. 
+        \pause
+        \item Pascal e Fermat propõem uma solução para o problema envolvendo probabilidades. 
+        \pause
+        \item Recomendação de leitura que apresenta as correspondências e realiza comentários:  \href{https://archive.org/details/unfinishedgamepa0000devl}{The Unfinished Game} 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Como começar pelo começo se as coisas acontecem antes de acontecer?}
+   \begin{itemize}
+    \item De fato, a Probabilidade não começa em 1654, mas sim muito antes, talvez $2.000$ ou $600$ anos antes de cristo. 
+    \pause
+    \item Mas essa é uma história longa e não será abordada em nossa disciplina. 
+   \end{itemize} 
+\end{frame}
+
+\begin{frame}{O que significa a probabilidade de algo acontecer?}
+    Vamos considerar a seguinte afirmação:
+
+    \begin{itemize}
+        \item A probabilidade de chover amanhã é 30\%
+    \end{itemize}
+
+    \pause
+
+    O que de fato essa informação nos diz?
+
+\end{frame}
+
+\begin{frame}{O mundo é realmente aleatório?}
+
+    \begin{itemize}
+        \item  As coisas realmente acontecem aleatoriamente no mundo em que vivemos?
+        \pause
+        \item  A aleatoriadade realmente existe?
+        \pause
+        \item O que é a aleatóriedade?
+    \end{itemize} 
+\end{frame}
+
+\begin{frame}{Breve comentário sobre aleatoriedade e Teoria do Caos}
+    \textbf{Filme: De caso com o acaso (1998)}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\linewidth]{figures/filme_sliding_doors.jpg}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item Apesar disso, será que existe alguma espécie de ordem no caos?
+    \end{itemize}
+
+    Vamos jogar um jogo!
+\end{frame}
+
+\begin{frame}{Interpretações da Probabilidade}
+   \begin{itemize}
+    \item Intepretação Clássica: A probabilidade nada mais é que uma simples fração, onde o numerador é o número de casos favoráveis e o denominador é o número de todos os casos possíveis.
+    \item Interpretação Frequentista: A probabilidade de um evento ocorrer é igual a frequência observada na qual ele ocorre. 
+    \item Intepretação Lógica: Probabilidade como a relação entre proposições. 
+    \item Interpretação Subjetivista (Bayesiana). Probabilidade não existe. \pause Exceto na mente de cada um.  
+   \end{itemize} 
+\end{frame}
+
+
+\begin{frame}{Experimentos Aleatórios}
+
+\begin{exemplo}
+    \begin{enumerate}
+        \item Jogar um dado e observar a face superior.
+        \item Lançar uma moeda quatro vezes e contar o número de caras.
+        \item Em uma linha de produção, fabrica-se peças em série e conte-se o número de peças defeituosas produzidas em um período de 24 horas.
+        \item Uma lâmpada é fabricada. Em seguida é ensaiada quanto à duração da vida, pela colocação em um soquete e anotação do tempo decorrido (em horas) até queimar.
+        \item Peças são fabricadas até que 10 peças perfeitas sejam produzidas. O número total de peças fabricadas é contado.
+    \end{enumerate}
+\end{exemplo}
+\end{frame}
+
+\begin{frame}{Espaço amostral}
+    O espaço amostral, denotado pela letra grega $\Omega$, é definido como o conjunto de todos os possíveis resultados de um experimento. Relacionando com os experimentos anteriores, temos:
+    \begin{exemplo}
+        \begin{enumerate}
+            \item $\Omega =\{1, 2, 3, 4, 5, 6\}$
+            \item  $\Omega =\{0, 1, 2, 3, 4\}$
+            \item $\Omega =\{0, 1, 2, 3 , \dots, n\}$ onde $n$ é o número máximo que pode ser produzido em 24 horas.
+            \item $\{t : t \geq 0\}$
+            \item $\{10, 11, 12, \dots\}$
+        \end{enumerate}
+    \end{exemplo}
+\textcolor{red}{Importante}:O espaço amostral está sempre relacionado ao experimento
+\end{frame}
+
+\begin{frame}{Espaço amostral}
+    \textbf{Qual é o espaço amostral do experimento do lançamento de uma moeda?}
+
+    \begin{itemize}
+        \item Vídeo: Lançamento de uma moeda.
+    \end{itemize}
+\end{frame}
+\begin{frame}{Espaço amostral}
+    \begin{exemplo}
+        Uma caixa contém 3 bolas de gude: 1 vermelha, 1 verde e uma azul. Considere um experimento que consiste em retirar uma bola de gude da caixa, colocada de volta, em seguida outra bola é retirada. Descreva o espaço amostral.
+    \end{exemplo}
+\end{frame}
+\begin{frame}{Eventos}
+
+Um evento é simplesmente um subconjunto de um espaço amostral. Note que o próprio $\Omega$ é um evento. Relacionando com os espaços amostrais construídos anteriormente:
+
+\begin{exemplo}
+    \begin{enumerate}
+        \item Um número par ocorre, isto é, $A_1= \{2,4,6\}$
+        \pause
+        \item $\{2\}$; isto é, duas caras ocorrem
+        \pause
+        \item $\{0\}$; isto é, todas as peças são perfeitas.
+        \pause
+        \item $\{t : t < 3\}$; isto é, a lâmpada queima em menos de 3 horas.
+        \pause
+        \item $\{0\}$; isto é, nenhuma peça defeitusosa é fabricada. 
+    \end{enumerate}
+\end{exemplo}
+    
+\end{frame}
+
+\begin{frame}{Operações envolvendo eventos}
+    Assim como vimos anteriormente, eventos são conjuntos, logo, tudo que vimos de teoria dos conjuntos pode ser também aplicado para eventos. Nesse sentido, definimos as seguintes operações:
+    \begin{enumerate}[a)] % a), b), c), ...
+        \item Se $A$ e $B$ forem eventos, $A \cup B$ será o evento que ocorrerá se, e somente se, $A$ ou $B$ (ou ambos) ocorrerem.
+        \pause
+        \item Se $A$ e $B$ forem eventos, $A \cap B$ será o evento que ocorrerá se, e somente se, $A$ e $B$ ocorrerem.
+        \pause
+        \item Se $A$ for um evento, $A^c$ será o evento que ocorrerá se, e somente se, não ocorrer A.
+        \pause
+        \item Se $A_1, \dots, A_n$ for qualquer coleção finita de eventos, então $\bigcup_{i=1}^n A_i$ será o evento que ocorrerá se, e somente se, ao menos um dos eventos $A_i$ ocorrer. 
+        \pause
+        \item Se $A_1, \dots, A_n$ for qualquer coleção finita de eventos, então $\bigcap{i=1}^n A_i$ será o evento que ocorrerá se, e somente se, todos os eventos $A_i$ ocorrer. 
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Eventos mutuamente excludentes}
+
+Dois eventos, A e B, são denominados mutuamente excludentes se eles não puderem ocorrer juntos. Isso significa dizer que $A\cap B = \emptyset$.
+
+\end{frame}
+
+\begin{frame}{Noção primitiva de probabilidade}
+
+Assumindo que todos os elementos do espaço amostral são equiprováveis, de forma ingênua, definidos a probabilidade de um evento $A$ ocorrer da seguinte forma:
+
+$$\mathds{P}(A) = \dfrac{\text{número de elementos em A}}{\text{número de elementos em }  \Omega} $$
+
+\pause
+\begin{exemplo}
+    Uma moeda honesta é lançada duas vezes, qual a probabilidade de sair duas caras?
+\end{exemplo}
+
+\pause 
+\begin{exemplo}
+    Um dado de seis faces é lançado. Qual a probabilidade de sair um número maior do que 4? 
+\end{exemplo}
+
+\end{frame}
+
+\begin{frame}
+    \begin{exemplo}
+        Ao lançarmos dois dados de seis faces, qual a probabilidade da soma dos dois ser igual a sete?
+            
+        \end{exemplo}
+\end{frame}
+
+\begin{frame}{Probabilidade como função}
+
+A noção primitiva de probabilidade nos diz como calcular probabilidades, mas não o que de fato é probabilidade. 
+
+\begin{definicao}
+    Probabilidade, denotada por $\mathds{P}$ é uma função que toma um evento $A \subset \Omega$ como entrada e retorna $\mathds{P}(A) \in [0,1]$ como saída. Essa função deve satisfazer as seguintes propriedades:
+
+    \begin{enumerate}
+        \item $\mathds{P}(\Omega) = 1$
+        \item Para todo evento $A$, $\mathds{P}(A) \geq 0$
+        \item Se $A$ e $B$ forem eventos mutuamente excludentes, então $\mathds{P}(A \cup B) = \mathds{P}(A) + \mathds{P}(B)$
+        \item Seja $A_1, A_2, \dots, A_n$ uma sequência de eventos mutuamente exclusivos dois a dois, então $\mathds{P}(\bigcup_{i=1}^n A_i) = \sum_{i=1}^{n} \mathds{P}(A_i)$
+    \end{enumerate}
+
+\end{definicao}
+    
+\end{frame}
+
+\begin{frame}{Probabilidade - Propriedades}
+
+A partir das propriedades definidas no slide anterior, podemos derivar outras propriedades. Sejam $A$ e $B$  eventos, logo temos que:
+\begin{enumerate}
+    \item $\mathds{P}(\emptyset) = 0$
+    \pause
+    \item $\mathds{P}(A^c) = 1 - \mathds{P}(A)$
+    \pause
+    \item Se $A \subset B$ então $\mathds{P}(A) \leq \mathds{P}(B)$
+    \pause
+    \item $0 \leq \mathds{P} \leq 1$
+    \pause
+    \item $\mathds{P}(A \cap B^c) = \mathds{P}(A) - \mathds{P}(A \cap B)$
+    \pause
+    \item $\mathds{P}(A \cup B) = \mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B)$ *
+\end{enumerate}
+    * Principio da inclusão-exclusão
+\end{frame}
+
+\begin{frame}{Probabilidade}
+    \begin{exemplo}
+        De uma dada população, 42\% são ruivos, 35\% tem olhos azuis e 20\% são ruivos de olhos azuis. Escolhendo ao acaso uma pessoa dessa população, qual a probabilidade de
+        \begin{enumerate}[a)] % a), b), c), ..
+            \item Ser ruivo ou ter olhos azuis?
+            \item Não ser ruivo e ter olhos azuis?
+            \item Ser ruivo mas não ter olhos azuis?
+        \end{enumerate}
+    \end{exemplo}
+
+\end{frame}
+
+\begin{frame}{Probabilidade}
+    \begin{exemplo}
+        Um lote contém peças pesando 5, 10, 15, 20, 25 gramas. Admitamos que ao menos duas peças de cada peso sejam encontradas no lote. Duas peças são retiradas do lote. Sejam $X$ o peso da primeira peça escolhida e $Y$ o peso da segunda. 
+        \begin{enumerate}[a)] % a), b), c), ..
+            \item Determine o espaço amostral desse experimento.
+            \item Determine a probabilidade de $X$ ser igual a Y.
+            \item Determine a probabilidade de $Y$ ser maior do que $X$.
+            \item Determine a probabilidade da primeira peça pesar 10 gramas a menos que a segunda peça.
+        \end{enumerate}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Probabilidade}
+    Um professor de uma disciplina decide montar os grupos de um trabalho da seguinte forma:
+    \begin{enumerate}
+        \item Serão definidos 8 temas.
+        \item Serão definidos dois grupos para cada tema. 
+        \item Cada grupo deve conter exatamente 2 alunos. 
+        \item Os alunos devem manifestar interesse no tema, respeitando o limite máximo de 4 pessoas por tema. Sendo a formação do grupo definida de forma aleatória pelo professor. 
+    \end{enumerate}
+
+    \pause
+
+    Suponha que Ana e Marcos desejam fazer o trabalho em dupla e, portanto, se inscreveram no mesmo tema. Qual a probabilidade de que eles terminem no mesmo grupo?
+\end{frame}
+
+\begin{frame}{Probabilidade condicional}
+    \begin{itemize}
+        \item  A probabilidade de um evento ocorrer pode ser modificada ao descobrirmos novas informações que o afete.
+        \pause 
+        \item Considere o experimento do lançamento de dois dados. Qual a probabilidade da soma dos resultados do lançamento dos dados dar 6 ?
+        \pause
+        \item Digamos que o primeiro dado apresentou o número 3. Qual a probabilidade da soma dos resultados ser igual a 6?
+        \pause
+        \item Digamos que um dos dados apresentou o número 3. Qual a probabilidade da soma dos valores ser um número par?
+    \end{itemize}
+   
+
+\end{frame}
+
+\begin{frame}{Probabilidade condicional}
+
+O problema proposto anteriormente é chamado de probabilidade condicional.
+
+\begin{definicao}
+    Sejam A e B dois eventos com $\mathds{P}(B>0)$. Dado que sabemos que B ocorreu, a probabilidade do evento A ocorrer pode ser definida como:
+
+    $$\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}$$
+\end{definicao}
+\end{frame}
+
+\begin{frame}{Probabilidade condicional}
+    Uma editora lançou 360 livros e pode dividi-los entre ficção e não-ficção ou entre nacionais e internacionais segundo a tabela a seguir:
+    
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Origem \textbackslash{} Estilo} & \textbf{Ficção} & \textbf{Não-ficção} & \textbf{Total} \\
+        \hline
+        Nacional     & 90  & 70  & 160 \\
+        \hline
+        Internacional & 120 & 80  & 200 \\
+        \hline
+        \textbf{Total}       & 210 & 150 & 360 \\
+        \hline
+        \end{tabular}
+        \caption{Distribuição de livros por origem e estilo}
+        \end{table}
+        
+        \pause
+
+        \begin{itemize}
+            \item Um livro é escolhido. Qual a probabilidade do livro escolhido ser nacional dado que é um livro não-ficcional. 
+        \end{itemize}
+\end{frame}
+
+\begin{frame}{Regra da multiplicação}
+ Sejam $A$ e $B$ dois eventos com $\mathds{P}(B)>0$. Então vale:
+ $$\mathds{P}(A \cap B) = \mathds{P}(A | B) \mathds{P}(B) = \mathds{P}(B | A) \mathds{P}(A)$$
+\end{frame}
+
+\begin{frame}
+\begin{exemplo}
+    Uma urna contém 4 bolinhas amarelas e 2 bolinhas verdes. Um
+experimento consiste em retirar uma bolinha, verificar sua cor e retirar uma
+segunda bolinha sem reposição. Calcule a probabilidade associada a cada re-
+sultado desse experimento.
+\end{exemplo}
+
+\textbf{Observação:} Resolva usando a regra da multiplicação e o diagrama de árvore. 
+\end{frame}
+
+\begin{frame}{Regra da multiplicação}
+    Podemos generalizar a regra da multiplicação para mais de 2 eventos:
+
+    \pause
+
+Sejam $A_1, A_2, \dots , A_n$ eventos num mesmo espaço amostral. Se
+    $P(\cap_{i=1}^{n-1}A_i) > 0$, então:
+
+    $$\mathds{P}(\cap_{i=1}^n A_i) = \mathds{P}(A_1)\mathds{P}(A_2|A_1) \cdot \dots \cdot \mathds{P}(A_n|A_i, \dots, A_{n-1} )$$
+
+\end{frame}
+\begin{frame}{Particionamento do espaço amostral}
+Uma técnica que nos será últil a partir de agora é particionar (dividir) o espaço amostral em eventos \textbf{mutuamente excludentes} de tal forma que a união deles
+seja o próprio espaço amostral. 
+\end{frame}
+
+\begin{frame}{Particionamento do espaço amostral}
+    \begin{definicao}
+        Sejam A e B dois eventos em um mesmo espaço amostral:
+        $$\mathds{P}(A) = \mathds{P}(A|B)\mathds{P}(B) + \mathds{P}(A|B^c)\mathds{P}(B^c)$$
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Particionamento do espaço amostral}
+    \begin{exemplo}[1]
+        Em certo hospital especializado em doenças respiratórias, 75\% dos pacientes são fumantes ou ex-fumantes e são indicados pelo código F, enquanto pacientes que nunca fumaram são indicados pelo código NF. Cerca de 60\% dos pacientes do grupo F precisam de internação, enquanto apenas 20\% dos não-fumantes  são internados. Se escolhermos ao acaso um paciente que acabou de entrar no hospital, qual a probabilidade dele precisar de internação?
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Particionamento do espaço amostral}
+    Podemos generalizar essa noção para $n$ eventos através do Teorema abaixo, conhecido como \textbf{Lei da Probabilidade Total}
+    Seja $\{B_1, \dots, B_n\}$ uma partição do espaço amostral $\Omega$, onde, $\Omega=\bigcup_{i=1}^n B_i$, $\mathds{P}(B_i)>0$ e $\{B_1, \dots, B_n\}$ disjuntos dois a dois. Se $A$ é um evento qualquer em $\Omega$, vale:
+
+    $$\mathds{P}(A) = \sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$$
+\end{frame}
+
+\begin{frame}{Particionamento do espaço amostral}
+\begin{exemplo}[2]
+    Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza em uma fazenda $F_1$, 30\% de uma outra fazenda $F_2$ e 50\% de $F_3$. Um orgão de fiscalização inspecionou as fazendas de surpresa e observou que 20\% do leite produzido por $F_1$ estava adulterado por adição de água, enquanto para $F_2$ e $F_3$, essa proporção era de 5\% e 2\%, respectivamente. Na indústria de sorvetes, os galões de leite são armazenados em um refrigerador sem identificação das fazendas. 
+
+    \begin{itemize}
+        \item Qual a probabilidade do leite estar adulterado?
+    \end{itemize}
+\end{exemplo}
+\end{frame}
+
+\begin{frame}{Teorema de Bayes}
+
+    Sejam $A$ e $B$ dois eventos e $\mathds{P}(B)>0$. Então vale:
+    
+$$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
+    
+\end{frame}
+
+\begin{frame}{Teorema de Bayes}
+        \begin{exemplo}[3]
+        Em dado aeroporto, sabe-se que 90\% dos pousos atrasam em dias de chuva e 15\% nos dias que não chove. Seu amigo tem um voo com destino a esse aeroporto e a previsão de tempo disse que com probabilidade 0,4 estaria chovendo na região. Dado que o pouso está atrasado, qual a probabilidade de estar chovendo na região do aeroporto?
+    \end{exemplo}
+\end{frame}
+\begin{frame}{Teorema de Bayes}
+    \begin{exemplo}[4]
+        Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza em uma fazenda $F_1$, 30\% de uma outra fazenda $F_2$ e 50\% de $F_3$. Um orgão de fiscalização inspecionou as fazendas de surpresa e observou que 20\% do leite produzido por $F_1$ estava adulterado por adição de água, enquanto para $F_2$ e $F_3$, essa proporção era de 5\% e 2\%, respectivamente. Na indústria de sorvetes, os galões de leite são armazenados em um refrigerador sem identificação das fazendas. 
+
+        \begin{itemize}
+            \item Qual é a probabilidade do leite ser proveniente da fazenda $F_1$ dado que o leite está adulterado?
+        \end{itemize}
+    \end{exemplo}
+
+    
+\end{frame}
+
+\begin{frame}{Teorema de Bayes}
+\begin{exemplo}[5]
+        Uma clínica envia amostras de uma certa substância para 3 laboratórios de análises A, B e C nas seguintes proporções 0,2; 0,3; 0,5 respectivamente. A probabilidade de cada um dos laboratórios elaborar uma análise errada é de $\dfrac{1}{2}, \dfrac{1}{3}, \dfrac{1}{6}$ respectivamente. Baseado nessas informações, pergunta-se:
+
+    \begin{itemize}
+        \item Qual é a probabilidade de um exame executado dar errado?
+        \item Uma análise resultou errada, qual a probabilidade de ter sido feita pelo laboratório A? Pelo B? Pelo C?
+    \end{itemize}
+\end{exemplo}
+
+\end{frame}
+
+\begin{frame}{Teorema de Bayes}
+\begin{exemplo}[6]
+        Pelo fato de um novo procedimento médico ter se mostrado efetivo na detecção prévia de uma doença, propôs-se um rastreamento médico da população. A probabilidade do teste identificar corretamente alguém com a doença, dando positivo, é de 0,99 e a probabilidade do teste identificar corretamente alguém sem a doença, dando negativo, é de 0,95. A incidência da doença na população é 0,0001. Você fez o teste e o resultado foi positivo. Qual a probabilidade de você ter a doença?
+\end{exemplo}
+
+\end{frame}
+
+\begin{frame}{Independência}
+    Dizemos que dois eventos A e B definidos em um mesmo espaço amostral são independentes se:
+    $$\mathds{P}(A\cap B) = \mathds{P}(A) \mathds{P}(B)$$
+\end{frame}
+
+\begin{frame}{Independência}
+\begin{exemplo}[7]
+    Suponha que a probabilidade de uma pessoa ser do tipo sanguíneo O é 0,45, ser A é 0,42 e ser B é 0,10. Suponha ainda que a probabilidade de $Rh^+$ é se 0,90 e que o fator independe do tipo sanguíneo. Nestas condições, qual a probabilidade de uma pessoa tomada ao acaso da população ser:
+
+    \begin{itemize}
+        \item O e $Rh^+$
+        \item AB e $RH^-$
+    \end{itemize}
+\end{exemplo}
+    
+\end{frame}
+
+\begin{frame}{Independência}
+
+\begin{exemplo}
+    Ao lançarmos dois dados de seis faces, considere os eventos:
+    \begin{itemize}
+        \item A: O resultado do primeiro é 4
+        \item B: A soma dos dois resultados é 7
+    \end{itemize}
+
+    A e B são independentes?
+\end{exemplo}
+    
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias}
+    Em muitos experimentos é útil trabalhar com uma "variável resumo".
+
+    \begin{exemplo}[8]
+        Numa pesquisa de opinião, decidimos perguntar a 20 pessoas se elas concordam ou discordam sobre determinado assunto. Nessa pesquisa, anotaremos o valor 1 se a pessoa concorda e 0 se a pessoa discorda.
+
+        \begin{itemize}
+            \item Observe que o tamanho do espaço amostral desse experimento contém $2^{20}=1048576$ elementos.
+            \item Podemos estar interessados em características específicas em relação aos elementos do espaço amostral. 
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias}
+
+\begin{definicao}
+    Uma variável aleatória nada mais é que uma função que toma como entrada elementos do espaço amostral e gera como saída um número real
+\end{definicao}
+
+\begin{itemize}
+    \item Variáveis aleatórias serão denotadas em geral por letras maiúsculas do final do alfabeto: $W, X, Y, Z$
+    \pause
+    \item Denotaremos por $\Omega_X$ o conjunto de possíveis valores assumidos pela Variável Aleatória $X$.
+    \pause
+    \item \textcolor{red}{Atenção}: Note que $X$ pode ser a função identidade, $\Omega_X$ é igual a $\Omega$.
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/variavel_aleatoria.png}
+    \label{fig:enter-label}
+\end{figure}
+
+\end{frame}
+\begin{frame}{Variáveis aleatórias}
+    \begin{exemplo}[9]
+        Considere o experimento do lançamento de duas moedas. Nesse caso temos:
+        $$\Omega = \{(Cara, Cara), (Coroa, Coroa), (Cara, Coroa), (Coroa, Cara)\}$$
+
+        Definamos a variável aleatória $X:$Número de caras obtidas nas duas moedas. Dessa forma temos, $X((Cara, Cara)) = 2$, $X((Cara, Coroa)) = 1$,  $X((Coroa, Cara)) = 1$, $X((Coroa, Coroa)) = 0$
+    \end{exemplo}
+
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias discretas}
+    \begin{definicao}
+        Uma variável aleatória discreta é aquela que pode tomar apenas um número contável de valores, tais como $0,1,2,3,4, \dots$. Denotaremos por $\Omega_X$ o conjunto de possíveis valores que essa variável pode assumir.
+
+        \begin{itemize}
+            \item Variáveis aleatórias discretas geralmente estão relacionadas à contagem. 
+        \end{itemize}
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias discretas}
+\begin{exemplo}[10]
+    Se lançamos três dados de seis faces podemos definir, entre outras, as seguintes variáveis aleatórias discretas:
+    \begin{itemize}
+        \item X: A soma dos resultados:
+            $$\Omega_X = \{3,4,5,\dots, 16,17,18\}$$
+        \item: X: O produto dos dois primeiros resultados:
+            $$\Omega_X = \{1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 30, 36\}$$
+            \item X: O máximo entre os resultados:
+            $$\Omega_X = \{1,2,3,4,5,6\}$$
+            \item X: O mínimo entre os resultados:
+            $$\Omega_X =  \{1,2,3,4,5,6\}$$
+            \item X: O número de vezes em que apareceu o resultado 6:
+            $$\Omega_X =  \{1,2,3\}$$
+    \end{itemize}
+\end{exemplo}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias discretas}
+    \begin{exemplo}
+        \begin{figure}
+            \centering
+            \includegraphics[width=1\linewidth]{figures/tab_exemplo_va_discreta.png}
+        \end{figure}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+    A função de probabilidade de uma variável aleatória discreta é uma lista com as probabilidades associadas a cada possível valor que a variável assume. Também é chamada de função massa de probabilidade. Seja $X$ uma variável aleatória que assume os valores $x_1, x_2, \dots, x_n$, utilizaremos a seguinte notação para representar essa função:
+
+    $$p(x_i) = \mathds{P}(X=x_i)$$
+
+    Essa função deve satisfazer as seguintes propriedades:
+
+\begin{itemize}
+    \item $p_X(x_i) \geq 0$ para todo $i$,
+    \item $\sum_{i=1}^{n} p_X(x_i) = 1$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+    Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
+
+    \begin{itemize}
+        \item Qual o espaço amostral desse experimento?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+    Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
+
+    \begin{itemize}
+        \item Qual o espaço amostral desse experimento?
+        \item Definamos a variável aleatória Y: Número de caras obtidas, qual a função de probabilidade associada a essa variável?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+
+\begin{exemplo}[11]
+     Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
+
+     \begin{itemize}
+         \item Defina o espaço amostral desse experimento
+         \item Determine a função de probabilidade de $X$.
+     \end{itemize}
+     
+\end{exemplo}
+   
+\end{frame}
+\begin{frame}{Função distribuição acumulada}
+    \begin{definicao}
+        Seja $X$ uma variável aleatória, definiremos sua \textbf{Função distribuição acumulada} da seguinte forma:
+        
+$$F_X(x) = \mathds{P}(X \leq x)$$
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Função distribuição acumulada}
+    \begin{exemplo}[12]
+        Considere a variável aleatória $X$ que representa o número de pedidos durante o período de 5 minutos em uma empresa de vendas online.
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=1\linewidth]{figures/exemplo_otite.png}
+        \end{figure}
+        Nesse caso:
+        \pause
+        \begin{itemize}
+            \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
+            \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
+            \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
+            \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Função distribuição acumulada}
+            \begin{itemize}
+            \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
+            \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
+            \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
+            \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
+            \item \vdots
+            \item $F_X(6) = \mathds{P}(X \leq 6)=1$
+        \end{itemize}
+\end{frame}
+
+\begin{frame}{Variável aleatória discreta}
+\begin{exemplo}[12]
+    
+
+    Considere a variável aleatória $X$ possuindo a seguinte função de probabilidade:
+
+    \begin{table}[]
+\begin{tabular}{cc}
+\hline
+x  & $p_X(x)$ \\ \hline
+20 & 0,20     \\
+25 & 0,15     \\
+30 & 0,25     \\
+35 & 0,40     \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+    \item Esta distribuição de probabilidade é valida? Explique.
+    \item Qual a probabilidade de $X$ ser igual a 30?
+    \item Qual a probabilidade de $X$ ser menor ou igual a 25?
+    \item Qual é a probabilidade de $X$ ser maior que 30?
+\end{enumerate}
+\end{exemplo}
+\end{frame}
+\begin{frame}
+    Imagine o seguinte jogo:
+    \begin{itemize}
+        \item O jogador aposta $R\$ 10,00$ e escolhe cara ou coroa
+        \item Uma moeda honesta é jogado ao ar.
+        \item Se a moeda mostrar o resultado cara, então o jogador ganhar  $R\$ 10,00$. Caso contrário, perde os $R\$ 10,00$ apostados. 
+    \end{itemize}
+
+    \pause
+    Esse jogo é justo?
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    O valor esperado, média, ou esperança matemática é uma quantidade utilizada como resumo do comportamento de uma V.A. 
+
+    $$\mathbb{E}[X] = \sum_{x_i \in \Omega_X} x_i \mathds{P}(X=x_i)$$
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    Historicamente, o conceito de esperança foi usado para verificar se jogos eram justos. Entretanto, esse conceito não se restringe apenas à esse campo. 
+
+    \pause
+
+    Vamos verificar se o jogo proposto anteriormente é justo:
+    \begin{itemize}
+        \item Definamos $X$: ganho obtido no jogo. 
+        \pause
+        \item $\mathds{E}[X] = 10 \cdot \dfrac{1}{2} -10 \cdot \dfrac{1}{2} = 0 $
+        \pause
+        \item Portanto, o jogo é justo. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+\begin{exemplo}
+Um jogo funciona da seguinte forma:
+    \begin{itemize}
+        \item O jogador deve pagar R\$10,00 para participar do jogo.
+        \item Se a soma dos resultados dos dois dados for igual a 10, então o jogador ganha $R\$200,00$
+        \item Se a soma dos resultados dos dois dados for igual a 7, então o jogador perde $R\$100,00$
+        \item Se a soma dos resultados dos dois dados for um número primo diferente de 7, então o jogador ganha $R\$100,00$
+        \item Se a soma dos resultados dos dois dados for um número não-primo diferente de 10, então o jogador perde  $R\$50,00$
+    \end{itemize}
+    Sabendo disso, defina uma variável aleatória como sendo o ganho (ou perda) obtido pelo jogador, obtenha sua esperança e responda a seguinte pergunta: Esse jogo é justo?
+\end{exemplo}    
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    Vamos jogar outro jogo:
+    \begin{itemize}
+        \item O jogador deve apostar $x$ reais, com $x > 0$.
+        \pause
+        \item Uma moeda honesta é jogado ao ar até que saia cara pela primeira vez.
+        \pause
+        \item O número de jogadas até sair cara (inlcuindo a própria rodada que saiu cara) é denotado por $n$.
+        \pause
+        \item O jogador ganha $R\$: 2^n$
+        \pause
+        \item Qual o valor de $x$ para que esse jogo seja justo?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    O jogo do slide anterior ficou conhecido como Paradoxo de São Petesburgo. Sua proposição provoca discussões que se estendem até os dias de hoje. 
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    Vamos sair um pouco do contexto dos jogos. Se eu jogo um dado simétrico de seis faces, 
+    definindo $X:$ Resultado apresentado pelo dado. 
+\pause
+    $$\mathds{E}[X] = \sum_{s=1}^{6} s \cdot \frac{1}{6} = 3,5$$
+\pause
+Qual o significado do valor $3,5$?
+\end{frame}
+
+\begin{frame}{Variância de Variáveis Aleatórias}
+    A variância representa o grau de dispersão de uma variável aleatória em relação a sua média ou esperança $\mathbb{E}[X]$. A forma geral para o cálculo é:
+
+    $$Var(X) = \mathbb{E}[(X - \mathbb{E}[X])^2]$$
+
+    Uma forma alternativa de presentar a variância é através da seguinte expressão:
+
+    $$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$$
+
+    onde
+
+     $$\mathbb{E}[X^2] = \sum_{x_i \in \Omega_X} x_i^2 \mathds{P}(X=x_i)$$
+\end{frame}
+
+\begin{frame}{Exemplos}
+\begin{exemplo}
+     Considere o experimento de lançar uma moeda honesta para o ar 5 vezes e anotar a sequência dos resultados
+
+    \begin{itemize}
+        \item Qual o espaço amostral desse experimento?
+        \item Definamos a variável aleatória Y: Número de tentativas até obter a primeira cara, qual a função de probabilidade associada a essa variável?
+        \item Calcule o valor esperado da variável Y.
+        \item Calcule a variância da variável Y.
+    \end{itemize} 
+\end{exemplo}
+    
+\end{frame}
+
+\begin{frame}{Exemplos}
+    \begin{exemplo}[11]
+     Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
+
+     \begin{itemize}
+         \item Defina o espaço amostral desse experimento
+         \item Determine a função de probabilidade de $X$.
+         \item Determine o valor esperado de $X$.
+         \item Determine a variância de $X$.
+     \end{itemize}
+     
+\end{exemplo}
+\end{frame}
+
+
+\begin{frame}{Outras medidas de dispersão}
+
+Também podemos calcular o desvio padrão de uma variável aleatória. 
+
+$$DP(X) = \sqrt{Var(X)}$$
+
+Além disso, podemos calcular o coeficiente de variação
+
+$$CV = \dfrac{DP(X)}{\mathbb{E}[X]}$$
+\end{frame}
+
+\begin{frame}{Propriedades do Valor Esperado e Variância}
+    $$\mathbb{E}[aX +b] = a\mathbb{E}[X] + b$$
+    $$Var(aX +b) = a^2Var(X)$$
+
+    Sejam $X_1, X_2, \dots, X_n \text{ v.as independentes com } \mathbb{E}[X_i]<\infty$ então:
+
+$$\mathbb{E}[X_1 + X_2 + \dots + X_n] = \mathbb{E}[X_1] + E[X_2] + \dots + \mathbb{E}[X_n]$$
+\end{frame}
+
+\begin{frame}{Distribuições de Probabilidade para Variáveis Aleatórias Discretas}
+    Algumas variáveis aleatórias aparecem com bastante frequência em situações práticas e justificam um estudo mais aprofundado. Em geral, nesses casos, a \textbf{função de probabilidade} pode ser escrita de maneira mais compacta, isto é, existe uma lei para atribuir probabilidades. 
+
+    As distribuições de probabilidade para variáveis discretas mais importantes são:
+
+    \begin{itemize}
+        \item Distribuição de Bernoulli
+        \item Distribuição Binomial 
+        \item Distribuição de Poisson
+        \item Distribuição Geométricas
+        \item Distribuição Hipergeométrica
+        \item Distribuição Binomial negativa
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição de Bernoulli}
+
+Considere os seguintes experimentos:
+
+\begin{itemize}
+    \item Lançamento de uma moeda 
+    \item Retirada de uma peça de um conjunto de 10 peças seguido pela verificação se a peça é defeituosa ou não
+    \item Pesquisa de opinião se aprova ou não aprova a atual gestão da UFRJ. 
+    \item Um aluno realiza uma prova e em seguida verifica se passou ou não. 
+    \item Realização de inseminação artificial seguida pela verificação se ocorreu gravidez ou não.
+\end{itemize}
+
+    O que esses experimentos tem em comum?
+
+    \pause
+
+    Todos os experimentos acima tem unicamente dois resultados possíveis. Sendo possível criar uma variável aleatória que associe cada resultado aos valores 1 e 0. 
+\end{frame}
+
+\begin{frame}{Distribuição de Bernoulli}
+    A distribuição de probabilidade da variável aleatória $X$ que segue distribuição de Bernoulli com parâmetro $p$ é dada por. 
+
+    \begin{table}[H]
+    \centering
+\begin{tabular}{cc}
+\hline
+x & $p_X(x)$ \\ \hline
+1 & p        \\
+0 & 1-p      \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+    \item Notação: $X \sim Bernoulli(p)$
+    \item A função de probabilidade da distribuição Bernoulli é dada por: $$p_X(x) = \mathds{P}(X=x) = p^x(1-p)^{1-x} \text{ para x = 0,1}$$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição de Bernoulli}
+    \textbf{Valor Esperado}
+    $$\mathbb{E}[X] = 1\cdot p + 0 \cdot (1-p) = p$$
+    
+    \textbf{Variância}
+    \begin{align*}
+        Var(X) &= \mathbb{E}[X^2] - \mathbb{E}[X]^2\\
+        &=p\cdot 1^2 + (1-p)\cdot 0 - p^2\\
+        &= p(1-p)
+    \end{align*}
+\end{frame}
+
+\begin{frame}{Distribuição de Bernoulli: Exemplo}
+    \begin{exemplo}[13]
+        \textbf{Experimento:} Lançamento de um dado 
+        Definamos $X:$ Verificação se o dado apresentou uma face menor que 3
+
+        Temos que:
+        \begin{itemize}
+            \item $X = 1$ se o resultado obtido for 1 ou 2
+            \item $X= 0 $ se o resultado obtido for 3, 4 ou 5
+        \end{itemize}
+
+        Função de probabilidade de $X$
+        \pause
+        \begin{table}[H]
+\begin{tabular}{cc}
+\hline
+x & $p_X(x)$ \\ \hline
+1 & 2/6      \\
+0 & 4/6      \\ \hline
+\end{tabular}
+\end{table}
+
+Podemos dizer que $X \sim Bernoulli(1/3)$
+    \end{exemplo}
+\end{frame}
+\begin{frame}{Distribuição Binomial}
+
+    \begin{itemize}
+        \item São realizados n ensaios de Bernoulli independentes
+        \item Cada ensaio só pode ter dois resultados possíveis: sucesso ou fracasso
+        \item A probabilidade $p$ de sucesso em cada ensaio é a mesma
+    \end{itemize}
+
+    Vamos definir a variável aleatória $X$ como sendo o número total de sucessos nos n ensaios de Bernoulli. Portanto, X poderá assumir os valores $0, 1, \dots, n$
+\end{frame}
+
+\begin{frame}{Distribuição Binomial}
+    Suponha que lancemos uma moeda $n$ vezes. Como vimos, podemos construir uma variável aleatória associada a esse experimento que resulta em 1 caso a moeda de cara e 0 caso de coroa. 
+    Suponha que ocorra 1 apenas nos $x$ primeiros ensaios e 0 nos $n-x$ ensaios restantes. 
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.3\linewidth]{figures/binom_1.png}
+    \end{figure}
+
+    Como os ensaios são independentes, temos que:
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{figures/binom_2.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Distribuição Binomial}
+    Porém, o evento "$x$ sucessos em $n$ ensaios" pode ocorrer de diferentes ordens distintas, todas com a mesma probabilidade. 
+
+    Como o número de ordens é o número de combinações de $n$ elementos escolhendo $x$, então a probabilidade de ocorrerem $x$ sucessos em $n$ ensaios de Bernoulli é representada por:
+    $$\mathds{P}(X=x) = \binom{n}{x}p^x(1-p)^{n-x}, x = 0,1, \dots, n$$
+\end{frame}
+
+\begin{frame}{Distribuição Binomial: Exemplo}
+
+Retira-se 3 cartas com reposição. Seja $X$ o número de vezes que sai alguma carta de copas. Ent\~ao $X\sim\mBin(3,1/4)$. 
+\medskip
+
+$\Omega_X = \{0, 1, 2, 3\}$\\
+\medskip
+
+
+$$\mathds{P}(X=2)={\color{blue}3}\left(\frac{1}{4}\right)^{{\color{red}2}}\left(\frac{3}{4}\right)^{\color{green}1}$$
+
+\begin{itemize}
+\item {\color{blue}3} : Número de formas de ter 2 cartas de copas em 3 tentativas\\
+\item {\color{red}2} : Número de copas nas 3 tentativas\\
+\item {\color{green}1} : Número de não-copas nas 3 tentativas\\
+\end{itemize}
+\begin{itemize}
+    \item Calcule $\mathds{P}(X=0)$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição Binomial}
+    \textbf{Valor Esperado e Variância}: $\mathbb{E}[X] = np$ e $Var(X) = np(1-p)$
+\end{frame}
+
+\begin{frame}{Distribuição Binomial: Exemplo}
+    Voltar ao exemplo das pastilhas. 
+\end{frame}
+\begin{frame}{Distribuição Binomial: Exemplo}
+    \begin{exemplo}[14]
+        Certo jogador de basquete costuma acertar 70\% dos lançamentos
+na cesta. Esse jogador foi convidado para participar de um evento beneficente
+em que ele pode arrecadar um grande prêmio para uma instituição de sua escolha se ele fizer 10 lançamentos e acertar todos. Supondo que os lançamentos
+são independentes, qual a probabilidade de ele conseguir o prêmio?
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Distribuição Binomial: Exemplo}
+    \begin{exemplo}[16]
+        Cada amostra de ar tem uma probabilidade de 10\% de conter um determinado poluente orgânico. Considere 18 amostras que sejam independentes com relação à presença do poluente. Seja a variável aleatória $X$ definida como o número de amostras de ar que contêm o poluente orgânico. pergunta-se:
+
+        \begin{itemize}
+            \item Qual a probabilidade de que exatamente duas amostras contenham o poluente
+            \item Qual a probabilidade de que pelo menos 4 amostras contenham o poluente. 
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Distribuição de Poisson}
+
+Seja um experimento realizado nas seguintes condições:
+
+\begin{enumerate}
+    \item As ocorrências são independentes
+    \item As ocorrências são aleatórias
+    \item A variável aleatória $X$ é o número de ocorrências de um evento ao longo de algum intervalo
+\end{enumerate}
+
+    Vamos definir a variável aleatória $X$como sendo o número de ocorrências em um intervalo. Portanto, $X$ poderá assumir os valores $0, 1, \dots $(sem limite superior)
+\end{frame}
+
+\begin{frame}{Distribuição de Poisson}
+    Uma variável aleatória segue a distribuição de Poisson se sua função de probabilidade é dada por:
+
+    $$\mathds{P}(X=x)=\dfrac{e^{-\lambda} \lambda^x}{x!}, \quad x=0,1,2,\dots$$
+
+    em que o parâmetro $\lambda > 0$ representa a taxa média de ocorrência por unidade de medida(tempo,  por exemplo)
+\end{frame}
+
+\begin{frame}{Distribuição de Poisson}
+    Notação: $X \sim$ Poisson($\lambda$)
+    Esperança e Variância: $\mathbb{E}[X] = Var(X) = \lambda$
+\end{frame}
+
+
+\begin{frame}{Exemplo: Distribuição de Poisson}
+    Sabe-se que em média ocorrem 2 terremotos por semana em certa
+região do mundo. Numa dada semana, qual a probabilidade de ocorrerem 4
+terremotos nessa região?
+
+\end{frame}
+
+\begin{frame}{Exemplo: Distribuição de Poisson}
+    \begin{exemplo}[18]
+        Chamadas telefônicas são recebidas à taxa de 48 por hora no balcão de reservas da Regional Airways
+
+        \begin{itemize}
+            \item Calcule a probabilidade de serem recebidas três chamadas em um intervalo de cinco minutos?
+            \item Calcule a probabilidade de serem recebidas exatamente 10 chamadas em 15 minutos.
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
+
+
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias contínuas}
+    Uma variável aleatória é contínua se assume valores em qualquer intervalo dos números reais. 
+
+    Dessa forma, não é possível atribuir probabilidades para um ponto específico, apenas para intervalos da reta. 
+
+    \begin{definicao}
+        Dize-se que $X$ é uma variável aleatória contínua, se existir uma função $f_X$, denominada função densidade de probabilidade (fdp) de $X$ que satisfaça as seguintes condições:
+
+        \begin{enumerate}
+            \item $f(x) \geq 0$ para todo x
+            \item $\int_{-\infty}^{\infty} f(x) dx = 1$
+        \end{enumerate}
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias contínuas}
+    Exemplos de variáveis aleatórias contínuas:
+    \begin{itemize}
+        \item Altura de estudantes em uma disciplina
+        \item Intervalo de tempo entre chegadas de um ônibus
+        \item Peso de pessoas
+        \item Profundidade de lagos
+    \end{itemize}
+\end{frame}
+\begin{frame}{Variáveis aleatórias contínuas}
+Nesse caso, temos:
+   $$ \mathds{P}(a \leq X \leq b) = \int_{a}^{b} f_X(x) dx$$
+
+   O que implica que
+   $$\mathds{P}(X =a) = 0$$
+
+   \begin{figure}
+       \centering
+       \includegraphics[width=0.7\linewidth]{figures/continua_1.png}
+   \end{figure}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias contínuas}
+    \begin{exemplo}[20]
+        Suponhamos que um ponto seja escolhido no intervalo $(0,1)$.Representemos por $X$ a variável aleatória cujo valor seja a abcissa $x$ do ponto escolhido. 
+
+        Seja $I \subset$ $(0,1)$, etão $\mathds{P}(X \in I)$ será diretamente proporcional ao comprimento de $I$.
+
+        Qual é a fdp de $X$? Podemos encontrar uma função $f$ tal que:
+        \pause
+        $$\mathds{P}(a<X<b) = \int_{a}^{b} f(x) dx$$
+        \pause
+        Perceba que se $a<b<0$ ou $1<a<b, \mathds{P}(a<X<b) =0$ e, portanto, $f(x) =0$. Se $0<a<b<1, \mathds{P}(a<X<b) = b-a$ e, portanto, $f(x) = 1$. Dessa forma, temos que:
+
+        $$f(x) = \begin{cases}
+            1, &0<x<1\\
+            0, &\text{ caso contrário}
+        \end{cases}$$
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias contínuas}
+    \begin{exemplo}[21]
+        Suponha que $X$ seja uma variável aleatória contínua cuja função densidade de probabilidade é dada por:
+
+        $$f_X(x) = \begin{cases}
+            C(4x -2x^2) & 0<x<2\\
+            0 & \text{ caso contrário}
+        \end{cases}$$
+        \begin{enumerate}[a)]
+            \item Qual é o valor de C?
+            \item Determine $\mathds{P}(X>1)$
+        \end{enumerate}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias contínuas}
+    A quantidade de tempo, em horas, que um computador funciona sem estragar é uma variável aleatória contínua com função deinsidade de probabilidade:
+
+    $$f(x) = \begin{cases}
+        \lambda e^{-x/100} & x\geq 0\\
+        0& x<0
+    \end{cases}$$
+    Qual a probabilidade de que:
+    \begin{enumerate}[a)]
+        \item O computador funcione entre 50 e 150 horas antes de estragar?
+        \item Ele funcione pelo menos 100 horas?
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Função distribuição de uma variável aleatória contínua}
+
+   Vimos que sendo $X$ uma variável aleatória discreta:
+    $$F_X(x) = \mathds{P}(X \leq x)$$
+
+    Essa definição se manterá a mesma para variáveis aleatórias contínuas, no entanto, para obter a função distribuição teremos que nos valer do uso da integral.
+
+    \begin{definicao}
+        Seja $Y$ uma variável aleatória contínua, temos que sua função distribuição acumulada é dada por:
+            $$F_Y(y) = \mathds{P}(Y \leq y) = \int_{-\infty}^{y} f_Y(y)$$
+    \end{definicao}
+
+\end{frame}
+\begin{frame}{Esperança de Variáveis aleatórias contínuas}
+    Para variáveis aleatórias discretas, vimos que a esperança de uma variável aleatória discreta $X$ é dada por:
+    $$\mathbb{E}[X] = \sum_{x \in \Omega_X} x \mathds{P}(X=x)$$
+
+    De forma análoga, sendo $X$ uma variável aleatória contínua, temos que:
+
+    $$\mathbb{E}[X] = \int_{-\infty}^{\infty} x f_X(x)$$
+\end{frame}
+\begin{frame}{Variância de Variáveis aleatórias contínuas}
+    A seguinte relação ainda é valida para variáveis aleatórias contínuas:
+
+    $$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$$
+
+    onde:
+
+    $$\mathbb{E}[X^2] = \int_{-\infty}^{\infty} x^2 f_X(x)dx$$
+\end{frame}
+
+\begin{frame}{Distribuição Normal padrão}
+    Uma variável aleatória $Z$ tem distribuição \textbf{Normal padrão}, se:
+
+    \begin{itemize}
+        \item $Z$ assume valores em $\mathbb{R}$
+        \item A f.d.p $f_Z$ é dada por:
+        $$f_Z(z) = \dfrac{1}{\sqrt{2\pi}} e^{-z^2/2}, z\in \mathbb{R}$$
+    \end{itemize}
+
+    Notação $Z \sim N(0,1)$
+\end{frame}
+
+\begin{frame}{Distribuição Normal padrão}
+    Se $Z \sim N(0,1)$, $f_Z$ é simétrica em torno de 0
+    $$f_Z(z) = f_Z(-z) \forall z \in \mathbb{R}$$
+
+    Como a Normal padrão é uma distribuição contínua, a seguinte relação é valida:
+
+    $$\mathds{P}(Z \leq z_0) = \int_{-\infty}^{z_0}\dfrac{1}{\sqrt{2\pi}} e^{-x^2/2}, \text{ para } z\in \mathbb{R}$$
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.3\linewidth]{figures/normal_p_1.png}
+    \end{figure}
+
+    Essa integral é impossível de ser resolvida analiticamente, nesse sentido, surge a necessidade de utilização de uma tabela.
+\end{frame}
+
+\begin{frame}{Utilizando a tabela da Distribuição Normal padrão}
+    Conforme visto no slide anterior, temos que utilizar tabelas. Algumas informações importantes:
+
+    \begin{itemize}
+        \item A Normal não é a única distribuição na qual é preciso utilizar tabelas.
+        \item Não existe apenas uma tabela da distribuição Normal, assim como veremos nessa aula. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição Normal padrão}
+Seja $Z \sim N(0,1)$, calcule as seguintes probabilidades:
+
+\begin{itemize}
+    \item $\mathds{P}(Z > 0)$
+    \item $\mathds{P}(Z < 0)$
+    \item $\mathds{P}(Z \leq 0,76)$
+     \item$ \mathds{P}(Z \geq 0,76)$
+     \item$ \mathds{P}(Z \leq 1,79)$
+     \item$ \mathds{P}(Z \geq 2,54)$
+     \item$ \mathds{P}(Z > -0,5)$
+     \item$ \mathds{P}(Z < -0,5)$
+     \item$ \mathds{P}(Z < -1,43)$
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Distribuição Normal($\mu, \sigma$)}
+    Uma variável aleatória tem distribuição Normal com parâmetros $\mu, \sigma^2$, se:
+
+    \begin{itemize}
+        \item X assume valores em $\mathbb{R}$
+        \item A f.d.p $f_X$ é dada por:
+
+        $$f_X(x) =\dfrac{1}{\sqrt{2\pi\sigma^2}} e^{-\dfrac{(x-\mu)^2}{2\sigma^2}}, x \in \mathbb{R}$$
+    \end{itemize}
+
+    \textbf{Notação:} $X \sim N(\mu, \sigma^2)$
+\end{frame}
+
+\begin{frame}{Distribuição Normal($\mu, \sigma$)}
+
+
+\textbf{Problema:} 
+
+\begin{itemize}
+\item Novamente temos uma função a qual não é possível calcular a integral analiticamente. 
+    \item Só temos uma tabela para calcular propriedades envolvendo a distribuição Normal e ela considera apenas distribuições normais com média 0 e variância 1, o que fazer?
+\end{itemize}
+\pause
+\textbf{Solução:}
+    Se $X \sim N(\mu, \sigma^2)$ então:
+
+    $$\dfrac{X - \mu}{\sigma} \sim N(0,1)$$
+\end{frame}
+
+\begin{frame}{Distribuição Normal($\mu, \sigma$)}
+
+Considere $X \sim N(10, 5)$
+    \textbf{Exemplos:}
+    \begin{enumerate}[a)]
+        \item $\mathds{P}(X \leq 13)$
+        \item $\mathds{P}(X \geq 11,7)$
+        \item $\mathds{P}(X > 9.75)$
+        \item $\mathds{P}(X < 7.3)$
+        \item $\mathds{P}(9,75 <X < 11,7)$
+        \item $\mathds{P}(X < 9,75| X < 11,7)$
+        \item O valor de c tal que $\mathds{P}(X > c) = 0.95$
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Distribuição Normal($\mu, \sigma$)}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figures/normal_dp.jpg}
+    \end{figure}
+\end{frame}
+% \begin{frame}{Distribuição exponencial}
+%     A distribuição exponencial é usada frequentemente para modelar o tempo decorrido entre eventos. 
+
+%     \begin{definicao}
+%         Uma variável aleatória $X$ segue a distribuição exponencial com parâmetro $\lambda>0$ se sua p.d.f é dada por:
+
+%         $$f_X(x) = \begin{cases}
+%             \lambda e^{-\lambda x}, & x>0\\
+%             0, & \text{caso contrário}
+%         \end{cases}$$
+%     \end{definicao}
+%     \textbf{Notação:}  $X \sim Exponencial(\lambda)$
+% \end{frame}
+
+% \begin{frame}{Distribuição exponencial}
+% \begin{itemize}
+%     \item \textbf{Média:}$\dfrac{1}{\lambda}$
+%     \item \textbf{Variância:}$\dfrac{1}{\lambda^2}$
+%     \item \textbf{Função distribuição acumulada:}$F_X(x) = 1 - e^{-\lambda \cdot x}$
+% \end{itemize}
+      
+% \end{frame}
+
+% \begin{frame}{Distribuição exponencial}
+
+% \begin{exemplo}[22]
+%     Suponha que a duração de um telefonema, em minutos, seja uma variável aleatória exponencial com parâmetro $\lambda = 1/10$. Se alguém chega logo na sua frente
+% em uma cabine telefônica, determine a probabilidade de que você tenha que
+% esperar:
+
+% \begin{enumerate}[a)]
+%     \item Mais de 10 minutos
+%     \item Entre 10 e 20 minutos
+% \end{enumerate}
+% \end{exemplo}
+    
+% \end{frame}
+
+% \begin{frame}{Distribuição exponencial}
+%     \begin{exemplo}
+%         Suponha que o número de quilômetros que um carro pode rodar sem que
+% sua bateria se descarregue seja exponencialmente distribuído com um valor
+% médio de 10.000 km. Se uma pessoa deseja fazer uma viagem de 5000 km,
+% qual é a probabilidade de que ele ou ela consiga completar a viagem sem ter
+% que trocar a bateria do carro? 
+%     \end{exemplo}
+% \end{frame}
+
+
+% \begin{frame}{Distribuição exponencial}
+%     \textbf{Perda de memória da distribuição exponencial:}
+
+%     Seja $X$ uma variável aleatória, tal que $X\sim Exponencial(\lambda)$, mostre que: 
+%     $$\mathds{P}(X \geq s+t|X \geq s ) = \mathds{P}(X \geq t)$$
+% \end{frame}
+
+% \section{Inferência Estatística}
+
+% \begin{frame}{Inferência Estatística}
+
+% A partir de agora mudaremos o foco do nosso curso para estudar a área da estatística conhecida como Inferência Estatística. 
+
+% A Inferência Estatística é um conjunto de técnicas que objetiva estudar a
+% população através de evidências fornecidas por uma amostra. É a amostra que
+% contém os elementos que podem ser observados e, a partir daí, quantidades de
+% interesse podem ser medidas.
+    
+% \end{frame}
+% \begin{frame}{Amostragem}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.5\linewidth]{figures/pop_amostra.png}
+%     \end{figure}
+% \end{frame}
+
+% \begin{frame}{População}
+%     \begin{definicao}
+%         Dizemos que uma população é uma coleção completa de todos os elementos (valores, pessoas, medidas, etc) a serem estudados
+%     \end{definicao}
+% \end{frame}
+
+% \begin{frame}{Amostra}
+%     \begin{definicao}
+%         Dizemos que uma amostra é um subconjunto finito da população
+%     \end{definicao}
+% \end{frame}
+
+% \begin{frame}{Amostra}
+%     Imagine o seguinte problema: Você deseja saber a média de reprovações de alunos em disciplinas de toda a UFRJ, no entanto, você precisa saber isso em um período de 12 horas. 
+
+%     Nesse cenário, vários problemas podem surgir:
+
+%     \begin{itemize}
+%         \item Alguns professores podem não dar aula no dia em que a pesquisa é feita.
+%         \item Talvez você não tenha tempo de se deslocar em todas as unidades da faculdade.
+%         \item Alguns professores podem se recusar em te dar essa informação. 
+%     \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Amostra}
+%     Alguns problemas permanecem em aberto:
+
+%     \begin{itemize}
+%         \item De que forma eu vou selecionar essa amostra?
+%         \item Qual o tamanho da amostra que devo selecionar?
+%         \item Quais garantias teóricas eu tenho de que a característica encontrada para a minha amostra realmente reflete a característica da população?
+%     \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Amostragem probabilística x Amostragem não-probabilística}
+% \begin{itemize}
+%     \item  A amostragem será probabilística se todos os elementos da população tiverem probabilidade conhecida, e diferente de zero, de pertencer à amostra. Caso contrário, a amostragem será não-probabilística.
+%     \pause 
+%     \item A utilização de uma amostragem probabilística é a melhor recomendação que se deve fazer no sentido de se
+% garantir a representatividade da amostra, pois o acaso será o único responsável por eventuais discrepâncias entre
+% população e amostra, o que é levado em consideração pelos métodos de análise da Estatística Indutiva (ou Inferência
+% Estatística)
+% \end{itemize}
+   
+% \pause
+    
+% \end{frame}
+
+% \begin{frame}{Amostragem aleatória simples}
+%     Amostragem aleatória simples é dos métodos de amostragem mais comumente utilizados na prática. 
+
+%     \pause
+
+%     \begin{definicao}
+%         Uma amostra aleatória simples de tamanho $n$ de uma população de tamanho $N$ é uma amostra selecionada de forma independente e sem reposição de tal maneira que cada elemento na amostra tenha a mesma probabilidade de ser escolhido. 
+%     \end{definicao}
+
+%     \pause
+
+%     Na prática, a amostragem simples ao acaso pode ser realizada numerando-se a população de 1 a N, sorteando-se, a
+% seguir, por meio de um dispositivo aleatório qualquer, n números dessa sequência, os quais corresponderão aos
+% elementos sorteados para a amostra.
+% \end{frame}
+
+% \begin{frame}{Amostragem aleatória simples}
+%     \textbf{Vantagens:}
+%     \begin{itemize}
+%         \item Simplicidade e facilidade de execução: O processo é fácil de entender e implementar, pois basta sortear aleatoriamente os elementos sem necessidade de subdivisões ou cálculos complexos.
+%         \item Garantia de resultados teóricos: Todos os principais resultados que veremos ao longo do curso tomam como base a aodção desse método de amostragem. 
+%     \end{itemize}
+%     \textbf{Desvantagens:}
+%     \begin{itemize}
+%         \item Dificuldade de aplicação em grandes populações: Para populações muito grandes, pode ser difícil enumerar todos os elementos e realizar o sorteio, tornando o processo impraticável.
+%         \item Menor controle sobre a representatividade de subgrupos: Como a seleção é inteiramente aleatória, alguns subgrupos importantes da população podem acabar sendo sub-representados na amostra, especialmente em amostras pequenas.
+%     \end{itemize}
+% \end{frame}
+% \begin{frame}{Amostragem sistemática}
+
+%     \begin{definicao}
+%         A amostragem sistemática é um tipo de amostragem probabilística, onde se faz uma seleção aleatória do primeiro elemento para a amostra e logo se selecionam os itens subsequentes utilizando intervalos fixos ou sistemáticos até chegar ao tamanho da amostra desejada.
+%     \end{definicao}
+
+%     \pause
+
+%     \begin{exemplo}
+%         Para entrevistar moradores de uma rua com 200 casas, se for preciso entrevistar 20 pessoas, divide-se o total de casas pelo número de amostras (200/20 = 10). Escolhe-se uma casa de partida aleatoriamente e, a partir daí, visita-se cada 10ª casa.
+%     \end{exemplo}
+    
+% \end{frame}
+
+% \begin{frame}{Amostragem sistemática}
+%     A partir de sua definição, já conseguimos perceber as principais vantagens e desvantagens desse método:
+%     \
+    
+%     \textbf{Vantagens:}
+%     \begin{itemize}
+%         \item Método simples e oferece um procedimento bem organizado e bem definido. 
+%     \end{itemize}
+    
+%     \textbf{Desvantagens:}
+%     \begin{itemize}
+%         \item Se a amostra apresentar algum tipo de ordenação, pode acabar ocorrendo do intervalo definido acabar coincidindo com a ordenação
+%         \item A única parte probabilística desse método está em escolher o primeiro item. 
+%     \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Amostragem por conglomerados}
+
+%     \begin{definicao}
+%         A amostragem por conglomerados é um método em que a população é dividida em grupos (ou conglomerados), que devem ser representativos e heterogêneos, ou seja, similares à população total. Em vez de selecionar elementos individuais de toda a população, alguns conglomerados são sorteados aleatoriamente, e todos os elementos dentro dos conglomerados escolhidos são incluídos na amostra. Esse método é muito usado quando a população é extensa ou dispersa geograficamente.
+%     \end{definicao}
+
+%     \begin{exemplo}
+%         Para estudar o desempenho dos alunos em um estado, pode-se dividir a população em conglomerados por escola. Em vez de selecionar alunos aleatoriamente de todas as escolas, escolhem-se algumas escolas ao acaso e, em seguida, todos os alunos dessas escolas participam da amostra.
+%     \end{exemplo}
+% \end{frame}
+
+
+% \begin{frame}{Amostragem por conglomerados}
+%     \textbf{Vantagens:}
+%     \begin{itemize}
+%         \item Economia de tempo e custo: Como a coleta de dados é feita em grupos específicos, reduz-se a necessidade de deslocamento e logística, especialmente em áreas geográficas grandes.
+
+% \item Amostra adequada para populações grandes e dispersas: Esse método é ideal para populações que estão espalhadas, onde é caro e impraticável acessar indivíduos dispersos.
+
+%     \end{itemize}
+
+%     \textbf{Desvantagens:}
+
+% \begin{itemize}
+%     \item Risco de vieses e menor precisão: Se os conglomerados não forem representativos da população, a amostra pode introduzir vieses, e a precisão pode ser menor em comparação com amostras totalmente aleatórias.
+
+% \item Dificuldade na definição dos conglomerados: Os conglomerados precisam ser representativos da população como um todo; se forem homogêneos entre si, a amostra pode não representar bem a população total.
+
+
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Amostragem estratificada}
+%     \begin{definicao}
+%         A amostragem estratificada é um método em que a população é dividida em subgrupos (ou estratos) que compartilham características comuns (como idade, renda, localização, etc.). Após a divisão, realiza-se uma amostragem aleatória em cada estrato para garantir que todos os subgrupos estejam proporcionalmente representados na amostra final. Esse método é ideal quando se quer garantir que todos os segmentos de uma população estejam incluídos na amostra.
+%     \end{definicao}
+% \pause
+%     \begin{exemplo}
+%         Na UFRJ, poderíamos realizar uma pesquisa com alunos de diferentes cursos, nesse caso os estratos seriam cada um dos cursos da UFRJ. Em seguida selecionamos aleatoriamente alunos de cada um dos cursos. Isso garante que cada curso seja representado na amostra.
+%     \end{exemplo}
+% \end{frame}
+
+% \begin{frame}{Amostragem estratificada}
+%     \textbf{Vantagens:}
+%     \begin{itemize}
+%         \item Alta representatividade: Ao incluir todos os subgrupos, a amostragem estratificada oferece uma amostra mais representativa, reduzindo o risco de vieses.
+
+% \item Maior precisão nas estimativas: Como cada estrato é amostrado proporcionalmente, as estimativas tendem a ser mais precisas, especialmente se os estratos tiverem características distintas.
+%     \end{itemize}
+% \textbf{Desvantagens:}
+
+% \begin{itemize}
+%     \item Necessidade de informações detalhadas: É preciso ter informações suficientes para dividir a população corretamente nos estratos, o que nem sempre é viável ou fácil.
+
+% \item Dificuldade de definir os estratos corretamente: Se os estratos não forem bem definidos ou não refletirem as diferenças da população, a amostra pode perder representatividade.
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Amostragem}
+%     Na prática, o método de amostragem adotado é a amostragem aleatória simples, justamente por ela possuir garantias teóricas que veremos a seguir. 
+% \end{frame}
+
+
+% \begin{frame}{Parâmetro x Estatística}
+% \textbf{Parâmetro}
+% \begin{definicao}
+%     É uma medida numérica desconhecida que descreve alguma característica da população
+% \end{definicao}
+
+
+% \textbf{Exemplos:}
+% \begin{itemize}
+%     \item Média populacional ($\mu$)
+%     \item Variância populacional ($\sigma^2$)
+%     \item Desvio padrão populacional ($\sigma$)
+%     \item Proporção populacional($\pi$)
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Parâmetro x Estatística}
+% \textbf{Estatística}
+% \begin{definicao}
+%     É uma medida numérica  que descreve alguma característica da amostra.
+% \end{definicao}
+
+
+% \textbf{Exemplos:}
+% \begin{itemize}
+%     \item Média amostral ($\hat{\mu}$)
+%     \item Variância amostral ($\hat{\sigma}^2$)
+%     \item Desvio padrão amostral ($\hat{\sigma}$)
+%     \item Proporção amostral($\hat{\pi}$)
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Primeira garantia: A média das médias amostrais é igual a verdadeira média}
+
+%     Vamos retomar o exemplo anterior em que desejávamos realizar uma pesquisa com os professores da UFRJ para saber a média de reprovação de alunos em apenas 12 horas. 
+
+% \pause 
+% \begin{itemize}
+%     \item A UFRJ conta atualmente com o total de 176 cursos.
+%     \item Vamos supor que cada curso tem aproximadamente 40 disciplinas em sua grade curricular. 
+%     \item Nesse caso temos aproximadamente $176 \times 40 = 7040$ professores a serem entrevistados
+%     \pause
+%     \item Obviamente, conforme já vimos, não será possível entrevistar todos os professores, nesse caso selecionamos uma amostra de 100 professores por meio da amostragem aleatória simples.
+%     \item Esse tamanho de amostra é representativo?
+% \end{itemize}
+    
+% \end{frame}
+
+\begin{frame}{Relembrando a Amostragem Aleatória Simples}
+ Exercício: Explique como funciona a Amostragem Aleatória Simples.
+\end{frame}
+
+\begin{frame}{Exemplo no R}
+    Exemplo no R: Trabalho da Eduarda e da Larissa
+\end{frame}
+
+\begin{frame}{Distribuições amostrais}
+    No exemplo do trabalho da Larissa e Eduarda, vimos que:
+    \begin{itemize}
+        \item A média amostral parece convergir para a média populacional a medida que $n$ aumentam
+        \pause
+        \item A variãncia das médias parece convergir para 0 a medida que $n$ aumenta. 
+        \pause
+        \item A média das médias parece ser igual a verdadeira média a media que o número de amostras aumenta.
+        \pause
+        \item A distribuição das médias parece ser Normal. 
+    \end{itemize} 
+    \pause
+    Isso é sempre verdade? \pause De fato é verdade e o que nos garante isso são os dois resultados mais importantes da teoria das probabilidades,
+     a Lei dos Grandes Números e o Teorema Central do Limite
+\end{frame}
+
+\begin{frame}{Lei dos Grandes Números}
+A Lei dos Grandes Números possui duas versões (Na verdade mais de duas):
+
+\pause
+\textbf{Lei Fraca dos Grandes Números:}
+
+Seja \( X_1, X_2, \dots, X_n \) uma sequência de variáveis aleatórias independentes e identicamente distribuídas (i.i.d.) com esperança \( \mu = \mathbb{E}[X_i] \) e variância finita \( \sigma^2 = \mathrm{Var}(X_i) < \infty \). Então, para todo \( \varepsilon > 0 \),
+\[
+\lim_{n \to \infty} \mathbb{P}\left( \left| \frac{1}{n} \sum_{i=1}^{n} X_i - \mu \right| > \varepsilon \right) = 0.
+\]
+\pause
+\textbf{Lei Forte dos Grandes Números:}
+
+Seja \( X_1, X_2, \dots, X_n \) uma sequência de variáveis aleatórias independentes e identicamente distribuídas (i.i.d.) com esperança \( \mu = \mathbb{E}[X_i] \). Suponha que \( \mathbb{E}[|X_i|] < \infty \). Então,
+\[
+\frac{1}{n} \sum_{i=1}^{n} X_i \xrightarrow{\text{quase certamente}} \mu, \quad \text{isto é,} \quad \mathbb{P}\left( \lim_{n \to \infty} \frac{1}{n} \sum_{i=1}^{n} X_i = \mu \right) = 1.
+\]
+
+\end{frame}
+
+\begin{frame}{Teorema Central do Limite}
+
+    Se $n$  for suficientemente grande, então $\Bar{X}$ terá uma distribuição aproximadamente Normal de média $\mu$ e variância $\sigma^2/n$, ou seja:
+
+    $$\Bar{X} = \dfrac{1}{n}\sum_{i=1}^n X_i \sim N\left( \mu, \dfrac{\sigma^2}{n}\right)$$
+\end{frame}
+
+\begin{frame}{Primeira garantia: A média das médias amostrais é igual a verdadeira média}
+
+    Por meio do Teorema Central do Limite, temos o seguinte resultado:
+
+    $$\mathbb{E}[\Bar{X}] = \mu $$
+\end{frame}
+
+\begin{frame}{Segunda garantia: A variância da média amostral}
+
+    Além disso, temos também garantias sobre a variância:
+    $$Var(\Bar{X}) = \dfrac{\sigma^2}{n}$$
+
+   \pause
+
+   Perceba que quando $n\to \infty$, $\dfrac{\sigma^2}{n} \to 0$
+\end{frame}
+
+\begin{frame}{Teorema Central do Limite}
+    Outra forma de ver o \textbf{Teorema Central do Limite} é o padronizando:
+
+     Seja $X_1, X_2, \dots, X_n$ uma sequência de variáveis aleatórias independentes e identicamente distribuídas com média $\mu$ e variância $\sigma^2$, então:
+
+    $$\dfrac{\Bar{X} - \mathbb{E}[\Bar{X}]}{\sqrt{Var(\Bar{X}})} = \dfrac{\Bar{X} - \mu}{\sqrt{\dfrac{\sigma^2}{n}}} \xrightarrow[n \to \infty ]{\text{em distribuição}} N(0,1)$$
+
+    $$\dfrac{\sum_{i=1}^n X_i - n\mu}{\sqrt{n\sigma^2}}  \xrightarrow[n \to \infty ]{\text{em distribuição}} N(0,1)$$
+    \pause
+    Uma pergunta que fica é: Na prática, qual $n$ é considerado suficientemente grande?
+\end{frame}
+
+
+\begin{frame}{Estimação por intervalo}
+
+\begin{itemize}
+    \item Até agora só vimos os estimadores pontuais, que fornecem como estimativa um único valor numérico para o parâmetro de interesse. 
+    \item  O método de estimação por intervalo visa estabelecer um intervalo de confiança, incorpora, à estimativa pontual do parâmetro,
+informações a respeito da variabilidade do estimador. Intervalos de confiança são
+obtidos através da distribuição amostrai de seus estimadores.
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Intervalo de confiança}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figures/confidence_interval.png}
+    \end{figure}
+\end{frame}
+
+
+\begin{frame}{Caso 1: Variância conhecida}
+    Considere que temos interesse em construir um intervalo de confiança para a média $\mu$ de uma certa população com variância conhecida $\sigma^2$. Supondo uma amostra de tamanho $n$, vimos que a média amostral tem distribuição Normal com a mesma média $\mu$ e variância $\sigma^2/n$, ou seja, 
+
+    $$Z =\dfrac{\Bar{X} - \mu}{\sigma/\sqrt{n}} \sim N(0,1)$$
+
+    \pause
+
+    Logo, fixando um valor $\alpha$ tal que $0<\alpha<1$, podemos encontrar dois valores $a$ e $b$ tal que:
+
+    $$\mathds{P}(a <Z < b) = \alpha$$
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    $$\mathds{P}(a <Z < b) = \alpha$$
+
+    \begin{itemize}
+        \item Perceba que, como a distribuição Normal é simétrica, podemos dizer que a = -b.
+        \item Além disso, $a$ e $b$ são funções de $\alpha$. Qual é a regra dessa função?
+    \end{itemize}
+    \pause
+
+    De fato, $a=-z_{\alpha/2}$ e $b = z_{\alpha/2}$
+   
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    $$\mathds{P}(-z_{\alpha/2} <Z < z_{\alpha/2}) = \alpha$$
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\linewidth]{figures/confidence_interval_2.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    Substituindo, temos que:
+
+    \begin{align*}
+        \mathds{P}(-z_{\alpha/2} <Z < z_{\alpha/2}) &= \mathds{P}\left(-z_{\alpha/2} < \dfrac{\Bar{X} - \mu}{\sigma/\sqrt{n}} < z_{\alpha/2}\right)\\
+        &= \mathds{P}\left(\Bar{X} -z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} < \mu < \Bar{X} + z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right)
+    \end{align*}
+
+    Dessa forma, o intervalo de confiança para $\mu$, com coeficiente de confiança $\alpha$ é dado por:
+
+    $$IC(\mu, \alpha) = \left[ \Bar{X} - z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} ; \Bar{X}+ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right]$$
+
+    $ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}$ é denominada margem de erro.
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    \textcolor{red}{Super Mega Importante} - \textbf{Interpretação do intervalo de confiança:} Se obtivermos várias
+amostras de mesmo tamanho e, para cada uma delas, calcularmos os
+correspondentes intervalos de confiança com coeficiente de confiança $\alpha$ ,
+esperamos que a proporção de intervalos que contenham o valor de $\mu$ seja igual
+a $\alpha$ .
+
+Ou seja, se coletarmos 1000 amostras encontrarmos o intervalo de confiança para $\mu$ com nível de confiança $95\%$, então espera-se que 950 intervalos contenham a média populacional.  
+\pause
+
+\vspace{10px}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{figures/mu_crying.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    \begin{exemplo}
+        Considere que a altura dos estudantes de uma escola siga a distribuição Normal com média $\mu$ desconhecida e variância igual a $10^{-2}$ .
+         Uma amostra de dez estudantes foi sorteada e forneceu média 1,69. 
+         Forneça uma estimativa para o parâmetro desconhecido $\mu$ \pause com 95\% de confiança e interprete o resultado obtido. 
+         \pause Agora calcule com 99\% de confiança. \pause Agora calcule com 50\% de confiança. 
+    \end{exemplo}
+\end{frame}
+
+
+% \begin{frame}{Caso 2: Variância desconhecida}
+% Na prática é muito comum encontrarmos cenários em que não se tem a variância populacional. 
+
+% O que fazer nesse caso?
+
+% \pause 
+
+% A solução é muito simples, basta substituir o desvio padrão pelo seu estimador.
+
+% $$IC(\mu, \alpha) = \left[ \Bar{X} - t_{c}\dfrac{\hat{\sigma}}{\sqrt{n}} ; \Bar{X}+ t_{c}\dfrac{\hat{\sigma}}{\sqrt{n}}\right]$$
+
+% No entanto, perceba que agora ao invés de $z$, temos $t$. Isso ocorre pois o teorema central do limite foi violado, mas, encontrou-se uma nova distribuição que parecia ser adequada nesse caso, a t de Student.
+% \end{frame}
+
+% \begin{frame}{Caso 2: Variância desconhecida}
+%     Nesse caso, temos o seguinte resultado:
+
+%     $$\dfrac{\Bar{X} - \mu}{\hat{\sigma}/\sqrt{n}} \sim t_{n-1}$$
+% \end{frame}
+
+% \begin{frame}{Distribuição t de Student}
+
+% \textbf{Características da distribuição}
+%     \begin{itemize}
+%         \item É simétrica com média t = 0, assim como a Normnal(0,1) era.
+%         \item Apresenta comportamento diferente dependendo do número de graus de liberdade
+%         \item Conforme os graus de liberdade aumentam, mais próxima ela se torna da Normal
+%     \end{itemize}
+
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.5\linewidth]{figures/Student_t_pdf.svg.png}
+%     \end{figure}
+% \end{frame}
+
+% \begin{frame}{Caso 2: Variância desconhecida}
+%     \begin{exemplo}
+%     Uma máquina que produz doces estava programada para fazer bombom com peso médio de 450g. Agora, devido a falhas mecanincas, o equipamente desregulou e, antes que ocorra um prejuizo, deseja-se saber qual o novo peso médio. Para isso, foi retirada uma amostra de 29 bombons que apresentaram média igual a 534g e desvio padrão igual a 20g. Calcule um intervalo de confiança para a média populacional considerando $95\%$ de confiança. 
+%     \end{exemplo}
+% \end{frame}
+
+% \begin{frame}{Caso 2: Variância desconhecida}
+%     Em uma amostra aleatória de 20 municípios do Rio de Janeiro, considerando-se os dados da Secretaria de Segurança Pública relativos ao crime de lesão corporal, a média de crimes é de 87 e o desvio padrão igual a 101,94. Construa um intervalo de 99\% de confiança para a média populacional. 
+% \end{frame}
+% \begin{frame}{Caso 3: Proporção}
+%     Um resultado bastante útil que podemos usar em decorrência do Teorema Central do Limite é a possibilidade de aproximar uma distribuição Binomial para uma distribuição Normal. 
+
+%     \textbf{Como fazer isso? }
+
+%     Primeiramente, temos que lembrar que se $X \sim Binomial(n, p)$, então:
+
+%     $$X = W_1 + W_2 + W_3 + \dots + W_n$$
+
+%     onde $W_i \sim Bernoulli(p)$
+
+%     Logo, pelo Teorema Central do Limite:
+
+%     $$X \sim N(E[X], Var(X))$$
+
+%     ou seja, 
+
+%     \pause
+
+%     $$X \sim N(np, np(1-p))$$
+% \end{frame}
+
+
+\begin{frame}{Caso 3: Proporção}
+    Um estimador (estatística) natural para estimar a proporção populacional seria considerar  seria basicamente somar a quantidade dos eventos de interesse e dividr pelo total:
+
+    $$\hat{p} = \dfrac{\sum_{i=1}^n W_i}{n}$$
+
+    Logo, 
+
+    $$\hat{p} \sim N\left(p, \dfrac{p(1-p)}{n}\right)$$
+\end{frame}
+
+\begin{frame}{Caso 3: Proporção}
+    Dessa forma, um intervalo de confiança com nível de confiança $\alpha$ é dado da seguinte forma:
+
+    $$IC(\pi, \alpha) = \left[ \hat{p} - z_{\alpha/2}\sqrt{\dfrac{p(1-p)}{n}} ; \hat{p}+ z_{\alpha/2}\sqrt{\dfrac{p(1-p)}{n}}\right]$$
+\end{frame}
+
+\begin{frame}{Caso 3: Proporção}
+    \begin{exemplo}
+        Uma empresa visa oferecer uma conta universitária para os alunos da UFRJ e gostaria de saber quantos alunos vão aceitar a oferta. A empresa decide enviar uma oferta para 1000 alunos e 140 aceitam criar a conta universitária
+
+        \begin{enumerate}
+            \item Qual o tamanho da amostra $(n)$?
+            \item Qual a proporção amostral $(\hat{p})$
+            \item Construa um intervalo de confiança com 5\% de significância para a proporção de alunos que irão aceitar criar a conta. 
+        \end{enumerate}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Caso 3: Proporção}
+    \begin{exemplo}
+         Numa pesquisa com 50 eleitores, o candidato José João obteve a preferência de
+17 desses eleitores. Supondo que a eleição ocorresse na época da pesquisa,
+construa os intervalos de confiança otimista e conservador (p=1/2) para a proporção de
+votos a serem recebidos pelo candidato mencionado. Use um coeficiente de
+confiança igual a 94\%.
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Calculando o tamanho da amostra}
+    \begin{exemplo}
+        Uma pesquisa eleitoral tem o objetivo de entender quantas pessoas irão votar em um determinado prefeito no ano de 2024. Ela deseja ter uma margem 
+        de erro de 1\% para mais ou para menos e com nível de confiança 95\%. Com base em experiências passadas, ela espera que aproximadamente 50\% dos entrevistados irão votar no candidato.
+
+        \pause
+
+        Temos que:
+
+\begin{align*}
+    z_{\alpha/2}\sqrt{\dfrac{p(1-p)}{n}} &= 0,01 \implies 1,96 \cdot \sqrt{\dfrac{0,25}{n}} = 0,1\\
+    & \implies \dfrac{0,25}{n} = \left(\dfrac{0,01}{1,96}\right)^2 \implies n \approx 9604 
+\end{align*}
+    \end{exemplo}
+\end{frame}
+
+% \begin{frame}{Testes de Hipóteses}
+
+% \begin{itemize}
+%     \item Nos teste de hipóteses, estamos interessados em saber se determinada afirmação sobre uma população, usualmente sobre um parâmetro dessa, desejamos saber se os resultados
+% experimentais provenientes de uma amostra contrariam ou não tal afirmação.
+%     \item O objetivo do teste estatístico de hipóteses é, então, fornecer uma metodologia que nos permita verificar se os dados amostrais trazem evidências que apoiem ou não uma hipótese (estatística) formulada.
+% \end{itemize}
+    
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+% \begin{itemize}
+%     \item A construção de um teste de hipóteses, para um parâmetro populacional, pode ser
+% colocada do seguinte modo. Existe uma variável X associada a dada população e tem-se
+% uma hipótese sobre determinado parâmetro $\theta$ dessa população.
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+% \begin{exemplo}
+%     Supondo que a distribuição dos valores da glicemia de jejum em uma população de pessoas não diabéticas seja normal, um pesquisador deseja testar a hipótese de que a média de glicemia de jejum nessa população seja igual a 85 mg/dl. Como proceder?
+% \end{exemplo}
+%    \pause
+% \begin{itemize}
+%     \item Vamos tentar resolver esse problema utilizando o que já aprendemos de intervalos de confiança.
+%     \pause
+%     \item Sabemos que o intervalo de confiança para a média quando a variância é desconhecida é dada por:
+% \end{itemize}
+
+% $$IC(\mu, \alpha) = \left[ \Bar{X} - t_{\frac{\alpha}{2}, n-1}\dfrac{\hat{\sigma}}{\sqrt{n}} ; \Bar{X}+ t_{\frac{\alpha}{2}, n-1}\dfrac{\hat{\sigma}}{\sqrt{n}}\right]$$
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+%     Vamos separar o procedimento do teste de hipóteses em 5 passos. 
+% \textbf{Passo 1:} Expressar o tema da pesquisa em termos de uma hipótese estatística
+%     \begin{itemize}
+%         \item O primeiro passo para montar nosso teste de hipóteses é estabelecer uma hipótese que será avaliada. Essa hipótese é chamada de hipótese nula, representada por $H_0$. No exemplo anterior, a hipótese nula é de que a distribuição de probabilidades da glicemia de jejum na população que estamos estudando é normal com média igual a 85 mg/dl. \item Ao estabelecermos uma hipótese a ser testada, a mesma será confrontada com uma hipótese alternativa, representada por $H_1$. No exemplo acima, a hipótese alternativa é que a distribuição de probabilidades da glicemia de jejum na população que estamos estudando é normal com média diferente de 85 mg/dl.
+%     \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+% Nesse caso temos:
+
+%         $$\begin{cases}
+%             H_0: \mu = 85 mg/dl \\
+%             H_1: \mu \neq 85 mg/dl
+%         \end{cases}$$
+% \end{frame}
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+% \textbf{Passo 2:} Selecionar o nível de confiança ($\alpha$)
+
+% \begin{itemize}
+%     \item Precisamos atribuir um nível de confiança $\alpha$ para o teste. A ideia é a mesma utilizada para o intervalo de confiança. Para esse exemplo vamos supor $\alpha=95\%$.
+% \end{itemize}
+    
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+%     \textbf{Passo 3: Selecionar a amostra e realizar os cálculos}
+
+%     No exemplo anterior, vamos supor que selecionamos uma amostra que apresentou os seguintes resultados:
+% \begin{itemize}
+%     \item $\Bar{x}$ = 92 mg/dl
+%     \item n = 36
+%     \item s = 16 mg/dl
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+
+% \textbf{Passo 4:} Tomar a decisão
+
+% \begin{itemize}
+%     \item Vamos calcular o intervalo de confiança para a média populacional
+%     \pause
+%     \item Nesse caso, rejeita-se a hipótese nula, pois $85$ não está presente no intervalo calculado. 
+% \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Procedimento geral do Teste de Hipóteses}
+%     E se tivéssemos:
+%     \begin{itemize}
+%     \item $\Bar{x}$ = 89 mg/dl
+%     \item n = 36
+%     \item s = 16 mg/dl
+%     \pause
+%     \item Devemos aceitar a hipótese nula?
+% \end{itemize}
+% \end{frame}
+% \end{document}

@@ -1,0 +1,98 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\title{Lista 5 - Estatística para Administração - 2024.2}
+\begin{document}
+\date{}
+\maketitle
+
+1) 
+
+\begin{enumerate}[a)]
+    \item Queremos calcular:
+    \[
+    P(X \leq 220).
+    \]
+    Primeiro, padronizamos a variável:
+    \[
+     Z = \frac{220 - 200}{10} = 2.
+    \]
+    Utilizando a tabela da distribuição normal padrão temos que:
+    \[
+    P(Z \leq 2) \approx 0.9772.
+    \]
+
+
+    \item 
+    \[
+    P(X > x) = 0.01 \implies P(X \leq x) = 1 - 0.01 = 0.99.
+    \]
+
+
+    Utilizando a tabela da distribuição Normal fornecida no curso, temos que $P(Z \leq z) = 0.99$ corresponde a $z \approx 2.33$. Assim:
+    \[
+    \frac{x - 200}{10} = 2.33 \quad \Rightarrow \quad x = 200 + 10 \cdot 2.33 = 223.3.
+    \]
+
+\end{enumerate}
+
+
+2) 
+
+\begin{enumerate}[a)]
+    \item Resposta nos slides da disciplina. Importante ressaltar a garantia teórica.  
+    \item Sabemos que:
+    \begin{itemize}
+        \item Média amostral: $\bar{x} = 4,2$ Kg.
+        \item Variância populacional: $\sigma^2 = 0,16 \quad \Rightarrow \quad \sigma = \sqrt{0,16} = 0,4$ Kg.
+        \item Tamanho da amostra: $n = 100$.
+    \end{itemize}
+    O intervalo de confiança para a média populacional com um nível de confiança de 95\% é dado por:
+    
+    $$IC(\mu, 95\%) = \left[\bar{X} - z_{0.95/2} \cdot \frac{\sigma}{\sqrt{n}} ; \bar{X} + z_{0.95/2} \cdot \frac{\sigma}{\sqrt{n}}\right],$$
+    
+    Substituindo, temos que? O intervalo de confiança é:
+    \[
+    IC(\mu, 95\%) = [4,2 - 1,96 \cdot 0,04; 4,2 + 1,96 \cdot 0,04]  = [4.1216; 4.2784].
+    \]
+    
+    \textbf{Interpretação:} Com 95\% de confiança, podemos afirmar que a média do peso dos recém-nascidos no hospital está entre $4,1216$ Kg e $4,2784$ Kg. Ou seja, se obtivéssemos $m$ amostras de tamanho 100 e calculássemos o intervalo de confiança utilizando cada uma das médias amostrais, é esperado que aproximadamente $95\%$ dos intervalos contenham a média populacional. 
+    
+    \item O raciocínio é semelhante ao do exercício anterior, muda apenas o valor de $z$. Importante apresentar sua observação a respeito da influência do nível de confiança na amplitude do intervalo. 
+    \item Raciocínio semelhante ao da questão b, mudando apenas o tamanho amostral. Importante apresentar sua observação a respeito da influência do tamanho da amostra na amplitude do intervalo. 
+\end{enumerate}
+
+
+3)
+Para a resolução dos itens abaixo definamos a seguinte variável aleatória:
+
+$$X: \text{ Número de acidentes por dia} $$
+
+Segue que:
+
+$$X \sim Poisson(2)$$
+\begin{enumerate}[a)]
+    \item  $\mathds{P}(X=0) = \dfrac{e^{-2} 2^0}{0!} = e^{-2} \approx 0,1353 $
+    \item \begin{align*}
+        \mathds{P}(X \geq 2) &= 1 - \mathds{P}(X < 2)\\
+        &=  1- (\mathds{P}(X=0) + \mathds{P}(X=1))\\
+        &= 1-\left(e^{-2} + \dfrac{e^{-2} \cdot 2^1}{1!}\right)\\
+        &=  1- 3e^{-2} \approx 0,5941
+    \end{align*}
+    \item Nesse caso definiremos outra variável aleatória $Y$:
+
+    $$Y: \text{ Número de acidentes por semana} $$
+
+    Segue que:
+    $$ Y \sim Poisson(2\cdot 7 )$$
+
+    Logo:
+
+    $\mathds{P}(Y \geq 10) = 1 - \mathds{P}(Y < 10) = 1- \sum_{k=0}^{9} \dfrac{e^{-14}14^k}{k!}$
+
+    Obs: Nesse caso é suficiente deixar a expressão dessa forma, não precisa obter um valor numérico. 
+\end{enumerate}
+\end{document}

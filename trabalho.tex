@@ -1,0 +1,117 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\title{Trabalho - Bioestatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+\section{Instruções para o Trabalho 1}
+
+Neste trabalho, vocês se posicionarão na figura de um pesquisador que deseja elaborar uma texto (artigo) acerca dos resultados se sua pesquisa.
+Ao longo do trabalho, vocês devem usar os conceitos aprendidos nessa primeira parte da disciplina. É importante que vocês se coloquem 
+no papel de um pesquisador/investigador e elaborem perguntas acerca do seu tema as quais serão respondidas ao longo de seu texto. 
+
+Para obter o tema e objetivo de sua pesquisa, os seguintes passos devem ocorrer:
+\begin{enumerate}
+    \item Colocar seu nome e e-mail no tema de pesquisa de interesse. 
+    \item Cada grupo deve ser composto de exatamente três pessoas. 
+    \item A determinação do grupo se dará de forma aleatória, de acordo com as pessoas que manifestaram interesse no tema. 
+    \item Após o período de preenchimento, enviarei um e-mail para cada grupo com uma amostra coletada acerca do tema de pesquisa selecionado. 
+    \item Para fins didáticos, a amostra enviada por e-mail será tratada como sendo a população de estudo, uma vez que a etapa de coleta de dados não será realizada por vocês.
+\end{enumerate}
+
+O trabalho será avaliado como uma nota entre 0 e 10. As seguintes situações implicarão automaticamente em nota 0:
+
+\begin{itemize}
+    \item Entregar o trabalho fora do prazo. 
+    \item Entregar o trabalho de forma não-estruturada (desorganizado). 
+    \item Não usar a linguagem R.
+    \item Não entregar todos os arquivos.
+    \item Código não condizente com o texto. 
+    \item Não colocar o nome e e-mail no arquivo de seleção de temas durante o período de seleção. 
+\end{itemize}
+
+Ao término do trabalho, é necessário que vocês enviem os seguintes itens:
+
+\begin{itemize}
+    \item Arquivo em texto da sua pesquisa. 
+    \item Código utilizado na pesquisa.  
+    \item Imagens adicionais (Caso existam).
+\end{itemize}
+
+\textcolor{red}{Obsevações}:
+\begin{itemize}
+    \item A escrita do código \textbf{não} será avaliada. Entretanto, será verificado se o código está condizente com os resultados do seu texto. 
+    \item Caso seu grupo opte por fazer o trabalho usando o Quadro/R Markdown, então o arquivo markdown substitui o código, ou seja, 
+    não precisa criar um arquivo com o código separado. 
+\end{itemize}
+
+Após a obtenção do seu conjunto de dados, vocês devem realizar a Parte 1 do trabalho. 
+
+\section{Parte 1 - Amostragem e Análise Exploratória de Dados}
+
+Para realização do trabalho, os seguintes elementos devem estar presentes:
+Título do trabalho: Deve estar relacionado com a pergunta principal que vocês desejam responder com sua pesquisa. Não precisa ser algo muito rebuscado.  
+Capítulo 1 - Introdução: Neste capítulo vocês devem falar sobre aspectos gerais de sua pesquisa. Como por exmplo: Tamanho da população, objetivo da pesquisa, tema da pesquisa e
+perguntas a serem respondidas ao longo da pesquisa. Vocês não precisam se limitar a esses exemplos, podendo colocar mais elementos que vocês julgarem importantes. 
+
+Capítulo 2 - Descrição do conjunto de dado: Neste capítulo vocês devem elencar as colunas poresentes no seu conjunto de dados, explicando a informação que cada uma delas traz 
+e classificando-as em Quantitativa(Discreta ou Contínua) ou Qualitativa(Nominal ou Ordinal). Caso a variável seja Qualitativa, vocês devem dizer quais os possíveis valores que ela assume e 
+o que cada valor significa. 
+
+Capítulo 3 - Análise Exploratória: Nessa seção vocês devem fazer uma análise de todas as colunas presentes no seu conjunto de dados. Para isso, vocês devem utilizar
+os gráficos que vimos nas aulas (dispersão, barras, histograma ou boxplot) e as tabelas de frequência. É importante que vocês interpretem cada uma das visualizações geradas, 
+valendo-se dessas intepretações para responder perguntas ou gerar insights a respeito do objeto de estudo. 
+
+Capítulo 4 - Conclusão: Nessa seção vocês devem discutir o quwe vocês podem concluir com a pesquisa de vocês e reponder a pergunta definida inicialmente. Nessa 
+seção também podem ser levantadas as limitações que impactaram o desenvolvimento do trabalho. 
+
+
+
+\textcolor{red}{Importante}: A estrutura acima é apenas o requisito mínimo do trabalho, vocês podem ir além caso julguem necessário (Esse aspecto contribuirá positivamente para sua nota).
+É importante que ao longo do trabalho vocês exercitem a criatividade.
+
+
+\section{Parte 2 - Impacto do tamanho amostral e propriedade da média amostral}
+
+1) Faça os seguintes passos:
+\begin{enumerate}[a)]
+    \item Selecione uma variável quantitativa do seu banco de dados. 
+    \item Calcule a média populacional dessa variável e a armazene em uma variável chamada \textit{media\_populacional}.
+    \item Crie dois conjuntos de dados (vetores) vazios no R. Um chamado \textit{media\_amostral} e outro chamado  \textit{variancia\_amostral}.
+    \item Obtenha uma amostra de tamanho $5\%$ de $n$ por meio da Amostragem Aleatória Simples do seu conjunto de dados. 
+    \item Calcule a média e variância amostral dessa amostra e armazene nos vetores \textit{media\_amostral} e \textit{variancia\_amostral}, respectivamente.
+    \item Repita os itens d) e e) para uma amostra de tamanho $10\%, 15\%, 20\%, 25\%, 30\%, 35\%, 40\%, 45\%, 50\%, 55\%, 60\%, 65\%, 70\%, 75\%, 85\%, 90\%, 95\%$ do 
+    tamanho amostral.
+    \item Construa um gráfico que possua:
+    \begin{itemize}
+    \item Um gráfico de dispersão com $y=$\textit{media\_amostral} e $x=$\{5, 10, 15, 20, 25, 30, \dots, 95 \} (As porcentagens adotadas no tamanho amostral, sem o símbolo \%)
+    \item Na mesma figura, faça outro gráfico de dispersão em que $y=$\textit{variancia\_amostral} e $x=$\{5, 10, 15, 20, 25, 30, \dots, 95 \}. Utilize uma cor diferente da usada anteriormente. 
+    \item Uma reta horizontal vermelha em $y=$\textit{media\_populacional}.
+    \item Escreva um texto explicando o que você entende ao analisar o gráfico. 
+    \end{itemize} 
+\end{enumerate}
+
+
+2) Faça os seguintes passos:
+
+\begin{enumerate}[a)]
+    \item Selecione uma variável quantitativa do seu banco de dados (Recomenda-se que seja selecionada a mesma do item anterior). 
+    \item Calcule a média populacional dessa variável e a armazene em uma variável chamada \textit{media\_populacional}.
+    \item Crie um conjunto de dados (vetores) vazios no R chamado \textit{media\_amostral}.
+    \item Obtenha 1000  amostras de tamanho $50\%$ de $n$ por meio da Amostragem Aleatória Simples do seu conjunto de dados e armazene em uma variável chamada \textit{amostras}. 
+    \item Calcule a média de cada uma das amostras e armazene-as no vetor \textit{media\_amostras}.
+    \item Crie um conjunto de dados (vetor) vazio chamado \textit{media\_das\_medias}.
+    \item O vetor \textit{media\_das\_medias} deve ter tamanho 1000, cada posição $i \in \{1,2, 3, 4, 5, \dots, 1000\}$ desse vetor é obtida fazendo a média dos $i$ primeiros elementos do conjunto \textit{media\_das\_medias}. 
+    \item Construa um gráfico que possua:
+    \begin{itemize}
+    \item Um gráfico de dispersão com $y=$\textit{media\_das\_medias} e $x=$\{1, 2, 3, 4, 5 \dots, 1000 \}.
+    \item Uma reta horizontal vermelha em $y=$\textit{media\_populacional}.
+    \item Escreva um texto explicando que conclusão você tira ao analisar o gráfico. 
+    \end{itemize} 
+\end{enumerate}
+
+\end{document}

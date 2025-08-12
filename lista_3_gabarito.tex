@@ -1,0 +1,215 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsmath}
+
+\title{Lista 3 - Gabarito - Estatística  - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) $$\sum_{i=1}^n \dfrac{(x_i - \bar{x})}{n} = \sum_{i=1}^n \dfrac{x_i}{n} -  \dfrac{n\bar{x}}{n}  = \bar{x} - \bar{x} = 0$$
+
+2) \begin{itemize}
+    \item $$\bar{z} = \sum_{i=1}^n \dfrac{z_i}{n} = \sum_{i=1}^n \dfrac{(x_i - \bar{x})}{n} =  \sum_{i=1}^n \dfrac{(z_i - \bar{z})}{n} = 0 \text{(Resultado da questão anterior)}  $$
+    \item \begin{align*}
+      Var(z) &= \sum_{i=1}^n \dfrac{(z_i - \bar{z})^2}{n}
+      =  \sum_{i=1}^n \dfrac{(z_i - 0)^2}{n}
+      = \sum_{i=1}^n \dfrac{\left(\frac{x_i - \bar{x}}{\sigma}\right)^2}{n}\\
+      &= \sum_{i=1}^n \dfrac{\left(x_i - \bar{x}\right)^2}{\sigma^2 n}
+       = \dfrac{1}{\sigma^2} \sum_{i=1}^n \dfrac{\left(x_i - \bar{x}\right)^2}{n}
+      = \dfrac{\sigma^2}{\sigma^2} = 1
+    \end{align*}
+    \end{itemize}
+    
+    
+ 3) Falar sobre as interpretrações vistas em sala, focando nas principais abordadas ao longo das aulas.
+
+ 5) 
+ \begin{enumerate}
+    \item $120$
+    \item $1/120$
+    \item $\dfrac{\binom{9}{6}}{\binom{10}{7}}$
+    \item $\left(\dfrac{3}{4}\right)^7$
+    \item $1 - \left(\dfrac{3}{4}\right)^7$
+    \item (1)- Independência entre as respostas de cada pergunta; (2) A probabilidade de acerto e erro em cada questão é a mesma.
+     O pressuposto (1) é razoável, já o (2) não parece ser razoável, haja vista que a dificuldade das questões não é a mesma. 
+ \end{enumerate}
+
+ 6) Essa questão é bem semelhante ao problema da seleção dos grupos para o trabalho que vimos em sala
+
+ \begin{enumerate}
+    \item \dfrac{1}{\binom{5}{2}}
+    \item \dfrac{\binom{4}{1}}{\binom{5}{2}} + \dfrac{\binom{4}{1}}{\binom{5}{2}} -  \dfrac{1}{\binom{5}{2}}
+ \end{enumerate}
+
+ 7) Questão semelhante a resolvida em sala
+ \begin{itemize}
+    \item A: A soma dar um número impar
+    \item B: Um dos dados apresentar o valor 1
+ \end{itemize}
+
+ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)} = \dfrac{\frac{|A\cap B|}{|\Omega|}}{\frac{|B|}{|\Omega|}} = \dfrac{|A\cap B|}{|B|} = \dfrac{6}{11}$$
+
+8) 
+\begin{itemize}
+    \item A: Se formando em Engenharia Química
+    \item B: Ser mulher
+\end{itemize}
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(B|A) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(A)} = \dfrac{0,02}{0,05}$
+    \item $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)} = \dfrac{0,02}{0,52}$
+\end{enumerate}
+
+9)
+
+\begin{enumerate}[a)]
+    \item $250/2000$
+    \item $100/1000$
+    \item $150/1000$
+\end{enumerate}
+
+10) 
+
+\begin{enumerate}[a)]
+    \item $0,175$
+    \item $0.7454$
+\end{enumerate}
+
+11) 
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(A^c) = 1 - \mathds{P}(A) = 1/2$
+    \item $\mathds{P}(B^c) = 1 - \mathds{P}(B) = 3/4$
+    \item $\mathds{P}(A \cup B) =\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) = 1/2 + 1/4 - 1/5 = 11/20 $
+    \item $\mathds{P}(A^c \cap B) = \mathds{P}(B) - \mathds{P}(A \cap B) = 1/4 - 1/5 = 1/20$ 
+    \item $\mathds{P}(A \cap B^c) = \mathds{P}(A) - \mathds{P}(A \cap B) = 1/2 - 1/5 = 3/10$ 
+    \item $\mathds{P}(A^c \cap B^c) = 1 - \mathds{P}(A \cup B) = 9/20$
+    \item $\mathds{P}(A^c \cup B^c) = 1 - \mathds{P}(A \cap B) = 4/5$
+\end{enumerate}
+
+12) Questões b,c e d usar as leis de deMorgan. 
+
+\begin{enumerate}[a)]
+    \item $1$
+    \item $2/50$ 
+    \item $17/50 $
+    \item $\sum_{i=1}^x \dfrac{1}{50} \leq 0,5 \iff \dfrac{x}{50} \leq 0,5 \iff x \leq 25 $
+    \item $\left( \dfrac{1}{50}\right)^{50}$
+    \item $\left(\dfrac{1}{50}\right)^x \leq 1,6 \cdot 10^{-7} \iff x = \dfrac{\log(1,6 \cdot 10^{-7})}{\log(1/50)}$
+\end{enumerate}
+
+13) 
+
+\begin{enumerate}
+    \item 1
+    \item 0
+\end{enumerate}
+
+14) Não é possível resolver a questão. A questão não informa a quantidade exata de pessoas do sexo feminino. Essa questão é semelhante a que vimos em sala, 
+chegando a conclusão que nem sempre é possível calcular probabilidades pelo ponto de vista frequentista. 
+
+15)
+
+\begin{enumerate}[a)]
+    \item $\Omega = \{Cara, Coroa\}^2$\\
+     Para resolver as questões b,c e d precisamos das probabilidades de cara e coroa:
+    \begin{itemize}
+    \item $\mathds{P}(Cara) = 4 \cdot \mathds{P}(Coroa)$
+    \item $\mathds{P}(Cara) + \mathds{P}(Coroa) = 1
+    \end{itemize}
+
+Isso implica que:
+
+\begin{align*}
+&1 - \mathds{P}(Coroa)   =  4 \cdot \mathds{P}(Coroa)
+&\implies  \mathds{P}(Coroa) = \dfrac{1}{5}
+&\implies \mathds{P}(Cara) = \dfrac{4}{5}
+\end{align*}
+    \item $2 \cdot \dfrac{1}{5} \cdot \dfrac{4}{5} = \dfrac{8}{25}$ 
+    \item $\dfrac{8}{25} + \dfrac{16}{25} = \dfrac{24}{25}$
+    \item  $\dfrac{1}{25} + \dfrac{16}{25} = \dfrac{17}{25}$
+\end{enumerate}
+
+16) 
+
+\begin{enumerate}[a)]
+    \item 0
+    \item $\mathds{P}(A|B) = 0$
+    \item Não. Claramente isso não é verdade, como pode ser visto $\mathds{P}(A \cap B) = 0 \neq 0,30 \cdot 0,40$. Além disso, pela questão $b$ percebemos que a ocorrência de $B$ anula a ocorrência de $A$, portanto, são dependentes. 
+    \item Percebemos que, se $\mathds{P}(A) \neq 0$ e $\mathds{P}(B) \neq 0$, então o fato de serem mutuamente excludentes implica que são dependentes. Entretanto, o contrário não é sempre válido. 
+\end{enumerate}
+
+17) 2/3
+
+18) 
+\begin{enumerate}[a)]
+    \item $\Omega = \{1,2,3,4,5,6\}^3$ ; $|\Omega| = 216$
+    \item 0
+    \item $27/216$
+    \item $1/6$
+    \item 0
+\end{enumerate}
+
+19) 
+\begin{enumerate}[a)]
+    \item Falso. Por exemplo, considere um experimento de um lançamento de um dado:
+    \begin{itemize}
+        \item $\Omega = \{1,2,3,4,5,6\}$
+        \item $A$: Saír um número par = $\{2,4,6\}$
+        \item $B$: Sair um número primo = $\{2,3,5\}$
+    \end{itemize}
+
+    Perceba que $\mathds{P}(A) + \mathds{P}(B) = 1/2 + 1/2 = 1$, entretanto, $A \cap B = \{2\} \neq \emptyset$, logo, não são mutuamente excludentes. 
+    \item Falso. Não necessariamente, isso só seria verdade se $A$ e $B$ formasse uma partição de $\Omega$. 
+    \item Verdadeiro. Consequência direta do Teorema de Bayes. 
+    \item Falso. A ser independente de C e de B não garante que seja independente se os dois ocorrerem ao mesmo tempo. 
+    \item Falso. Pensar na ideia de probabilidade condicional. 
+\end{enumerate}
+
+20) \begin{enumerate}
+    \item $0,1^2$
+    \item $2 \cdot 0,7 \cdot 0,3 + 0,7^2$ ou $1- 0,3^2$
+    \item $2 \cdot 0,2 \cdot 0,7$
+    \item Foi assumido que as retiradas são independentes. Se fosse sem reposição, as probabilidades iriam se alterar a cada retirada. 
+\end{enumerate}
+
+21) \begin{itemize}
+    \item $D_1$ = Primeiro radio ser defeituoso
+    \item  $D_2$ = Segundo radio ser defeituoso
+\end{itemize}
+
+\begin{align*}
+  \mathds{P}(D_2|D_1)  &= \dfrac{\mathds{P}(D_1 \cap D_2)}{\mathds{P}(D_1)} =  \dfrac{\mathds{P}(D_1 \cap D_2 | A) \mathds{P}(A) + \mathds{P}(D_1 \cap D_2 | B) \mathds{P}(B)}{\mathds{P}(D_1|A)\mathds{P}(A) + \mathds{P}(D_1|B)\mathds{P}(B)}\\
+  &=  \dfrac{0,05^2 \cdot 0,5 + 0,01^2 \cdot 0,5}{0,05^\cdot 0,5 + 0,01 \cdot 0,5} = 0,0433
+\end{align*}
+
+22) 
+
+\begin{enumerate}[a)]
+    \item $0,78665$(Resolvida em sala).
+    \item Seria a multiplicação das probabilidades individuais de cada teste. (Resolvida em sala). 
+\end{enumerate}
+
+23) \begin{itemize}
+    \item B : Lote produzido no Reator Batelada
+    \item O : Apresentar bolhas
+\end{itemize} 
+
+$$\mathds{P}(B|O) = \dfrac{\mathds{P}(O|B)\mathds{P}(B)}{\mathds{P}(O)} = \dfrac{0,04 \cdot 0,4}{0,04 \cdot 0,4 + 0,015 \cdot 0,6} = 0,64 $$
+
+24) $$\mathds{A \cup B \cup C} \leq \mathds{P}(A) + \mathds{P}(B) + \mathds{P}(C) = 0,1$$
+
+25) Prova do Teorema de Bayes vista em sala
+
+26) Usar a definição de probabilidade condicional nos dois lados e olhar para os denominadores (Fazendo o Diagrama de Venn pode ajudar)
+
+27) Fazer o Diagrama de Venn para os três eventos. Perceber e descontar as intersecçõs mutuas. 
+
+28) Leis de DeMorgan + Regra da multiplicação.
+
+29) Leis de DeMorgan + Definição de Probabilidade Condicional + Regra da multiplicação. 
+
+30) Aplicar o Teorema de Bayes no numerador e no denominador. 
+ \end{document}

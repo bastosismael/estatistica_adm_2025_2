@@ -1,0 +1,214 @@
+\documentclass{beamer}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage{adjustbox}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multirow}
+\usetheme{Warsaw}
+\usepackage{minted}
+\usepackage[portuguese]{babel}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins} 
+% Definindo o contador
+\newcounter{exerciciocontador}
+\newcounter{definicaocontador}
+\newcounter{exemplocontador}
+
+
+\newtcolorbox{definicao}[1][]{
+  enhanced,
+  width=\textwidth, % Para ocupar toda a largura disponível
+  colback=green!5!white,
+  colframe=green!80!black,
+  fonttitle=\bfseries\color{black}, % Título em preto
+  title={Definição ~\refstepcounter{definicaocontador}\thedefinicaocontador: \quad },
+  left=3mm,
+  right=3mm,
+  top=2mm,
+  bottom=2mm,
+  sharp corners,
+  boxrule=0.9pt,
+  drop shadow,
+  attach title to upper,
+  #1
+}
+
+\newtcolorbox{exercicio}[1][]{
+  enhanced,
+  width=\textwidth, % Para ocupar toda a largura disponível
+  colback=red!5!white,
+  colframe=red!80!black,
+  fonttitle=\bfseries\color{black}, % Título em preto
+  title={Exercício ~\refstepcounter{exerciciocontador}\theexerciciocontador: \quad },
+  left=3mm,
+  right=3mm,
+  top=2mm,
+  bottom=2mm,
+  sharp corners,
+  boxrule=0.9pt,
+  drop shadow,
+  attach title to upper,
+  #1
+}
+\newtcolorbox{atencao}[1][]{
+  enhanced,
+  width=\textwidth, % Para ocupar toda a largura disponível
+  colback=red!5!white,
+  colframe=red!70!black,
+  fonttitle=\bfseries\color{black}, % Título em preto
+  title={Atenção: \quad },
+  left=3mm,
+  right=3mm,
+  top=2mm,
+  bottom=2mm,
+  sharp corners,
+  boxrule=0.9pt,
+  drop shadow,
+  attach title to upper,
+  #1
+}
+
+\newtcolorbox{exemplo}[1][]{
+  enhanced,
+  width=\textwidth, % Para ocupar toda a largura disponível
+  colback=red!2!white,
+  colframe=red!40!black,
+  fonttitle=\bfseries\color{black}, % Título em preto
+  title={Exemplo ~\refstepcounter{exemplocontador}\theexemplocontador: \quad },
+  left=3mm,
+  right=3mm,
+  top=2mm,
+  bottom=2mm,
+  sharp corners,
+  boxrule=0.9pt,
+  drop shadow,
+  attach title to upper,
+  #1
+}
+
+
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+
+\title{Estatística para Administração}
+\author{ Prof. Ismael Bastos}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+    \begin{figure}[htpb]
+        \begin{center}
+            \includegraphics[width=0.25\linewidth]{figures/arbalest.png}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\section{Introdução à Estatística e Informações da Disciplina}
+\begin{frame}{O que é Estatística}
+    Entendemos a Estatística como um conjunto de técnicas que permite, de forma sistemática,
+organizar, descrever, analisar e interpretar dados oriundos de estudos ou
+experimentos, realizados em qualquer área do conhecimento. 
+\end{frame}
+
+\begin{frame}{Áreas da Estatística}
+
+Podemos dividir a Estatística em três áreas:
+\begin{itemize}
+    \item Estatística Descritiva
+    \item Probabilidade
+    \item Inferência Estatística
+\end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Áreas da Estatística}
+\begin{itemize}
+    \item \textbf{Estatística Descritiva} (\textit{Conheça seus dados}) : Etapa inicial em qualquer análise de dados. É um conjunto de métodos estatísticos que tem por objetivo a organização, descrição e o resumo de dados. 
+\pause 
+    \item \textbf{Probabilidade} (\textit{Qual a incerteza associada aos dados?}) : Auxilia na modelagem de fenômenos aleatórios, ou seja, aqueles em que há incerteza.
+\pause
+    \item \textbf{Inferência Estatística} (\textit{Quais conclusões podemos tirar a partir destes dados?}): É um método estatístico que possibilita tirar conclusões sobre uma população a partir de informações contidas na amostra.
+\end{itemize}
+
+\end{frame}
+\begin{frame}{População x Amostra}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\linewidth]{figures/pop_sample.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{População x Amostra}
+    Por que precisamos selecionar uma amostra?
+\end{frame}
+\begin{frame}{Áreas da Estatística}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figures/int_1.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Informações da Disciplina}
+\begin{itemize}
+    \item Trabalho 1 valendo 10 pontos 
+    \item Prova 1 valendo 10 pontos 
+    \item Prova 2 valendo 10 pontos 
+\end{itemize}
+
+
+$$\text{Nota Final} = 0,4 \cdot T_1 + 0,3 \cdot P_1 + 0,3 \cdot P_2$$
+
+\end{frame}
+\begin{frame}{Funcionamento da disciplina}
+    \begin{itemize}
+        \item Aulas expositivas com conteúdo em slide. 
+        \item Aulas práticas envolvendo aplicações. 
+        \item Resolução de exemplos e exercícios no quadro *.
+        \item Uso da linguagem de programação R.
+        \item Disponibilização de informações da disciplina através do site da disciplina e do SIGA. 
+        \item Listas de exercício
+        \item Alguns códigos estarão presentes nos slides, mas alguns outros serão disponibilizados separadamente.
+    \end{itemize}
+    *: A resolução de exemplos e exercícios não será disponibilizada no site.
+\end{frame}
+
+\begin{frame}{Linguagem de programação R}
+    \begin{itemize}
+        \item Por que usar a linguagem R para estatística?
+        \item Instalação do R e R Studio. 
+        \item Posit Cloud. 
+    \end{itemize}
+\end{frame}
+
+
+\include{estat_descritiva}
+%\include{probabilidade}
+
+
+\end{document}

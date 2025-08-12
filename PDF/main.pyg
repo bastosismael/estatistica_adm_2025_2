@@ -1,0 +1,4 @@
+populacao = c("F", "M", "M", "F", "M", "F", "M", "F", "F", "F")
+freq_absoluta = table(populacao)
+freq_relativa = prop.table(freq_absoluta)
+print(freq_relativa)

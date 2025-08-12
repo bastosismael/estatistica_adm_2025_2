@@ -1,0 +1,182 @@
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{float}
+\title{Prova 2 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) (1,8 pontos) Uma empresa ambiental realiza análises para detectar a presença de um poluente tóxico em amostras de solo coletadas de áreas industriais. 
+A proporção histórica de amostras contaminadas é estimada em 20\%.
+
+A empresa possui um teste rápido para detecção do poluente que apresenta as seguintes características:
+
+\begin{itemize}
+    \item Se a amostra estiver contaminada, o teste apresenta resultado positivo com probabilidade 75\%.
+    \item Se a amostra estiver limpa, o teste apresenta resultado negativo com probabilidade 85\%.
+\end{itemize}
+
+\begin{enumerate}[a)]
+    \item (0,6 pontos) Qual a probaiblidade do teste dar positivo?
+    \item (0,6 pontos) Calcule a probabilidade de a amostra estar realmente contaminada, dado que o teste rápido deu positivo.
+    \item (0,6 pontos) Calcule a probabilidade de a amostra estar realmente contaminada e o teste dar positivo. Discuta a diferença prática desse resultado para o da questão $b$.
+\end{enumerate}
+
+2 (1,8 pontos) Após concluir o curso de Estatística, três alunos de Engenharia Química (Aluno A, Aluno B e Aluno C) decidem ir a um cassino aplicar seus conhecimentos de probabilidade. Eles escolhem jogar roleta.
+
+A versão da roleta utilizada nesse cassino possui 36 casas numeradas de 1 a 36. As casas de números pares são pretas, e as ímpares, vermelhas. O funcionário do cassino gira a roleta e, ao final, a bolinha metálica indica o número sorteado.
+
+Além de apostar diretamente nos números, é possível apostar apenas na cor onde a bolinha vai parar (vermelho ou preto). O Aluno A, responsável pela festa de formatura da turma, decide apostar metade do dinheiro arrecadado apostando na cor vermelha. Antes de apostar, discute com os colegas:
+
+\begin{itemize}
+    \item O \textbf{Aluno A} argumenta que a chance de a bolinha parar no vermelho é igual à de parar no preto, pois as casas são equiprováveis.
+    \item O \textbf{Aluno B} discorda, afirmando que a probabilidade não pode ser conhecida sem observar várias rodadas e calcular a frequência da cor vermelha.
+\end{itemize}
+
+  \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{figures/roleta.jpg}
+    \end{figure}
+
+
+\begin{enumerate}[label=\alph*), resume]
+    \item[a)] (0,5 pontos) Suponha que você é o Aluno C. Com base no que estudou no curso, avalie qual dos colegas está correto. Explique qual interpretação de probabilidade cada um está utilizando e quais pressupostos ou garantias cada abordagem envolve.
+\end{enumerate}
+
+Após essa discussão, os alunos perdem a aposta (a bolinha parou no preto), perdendo metade do dinheiro destinado à festa de formatura da turma.
+
+Transtornado com a perda e refletindo sobre a interpretação do Aluno B, o Aluno A conclui que o colega pode estar certo e decide colocar essa abordagem em prática. No dia seguinte, retorna sozinho ao cassino.
+
+Ele chega às 18h e passa quatro horas observando a roleta. Após registrar várias rodadas, nota que a bolinha parou no vermelho em apenas 40\% das vezes.
+
+A partir disso, conclui que a frequência do vermelho ``precisará aumentar'' nas próximas jogadas para atingir 50\% e decide adotar a seguinte estratégia: dividir o dinheiro restante em 40 partes iguais e apostar, na cor vermelha, uma parte a cada nova rodada da roleta.
+
+\begin{enumerate}[label=\alph*), resume]
+    \item[b)] (0,4 pontos) O raciocínio do Aluno A está correto? Justifique sua resposta.
+\end{enumerate}
+
+Por fim, considere as regras desse jogo:
+
+\begin{itemize}
+    \item O jogador aposta um valor de $x$ reais ($x>0$) em uma cor (vermelho ou preto).
+    \item Se acertar, recebe $2x$ (recupera o valor apostado mais um valor igual).
+    \item Se errar, perde o valor apostado.
+\end{itemize}
+
+\begin{enumerate}[label=\alph*), resume]
+    \item[c)] (1 ponto) Com base no conceito de jogo justo discutido ao longo da disciplina, analise se essa versão da roleta é um jogo justo.
+\end{enumerate}
+
+% 2)(1,5 pontos) Carlos trabalha em um restaurante. Após vencerem juntos um bolão da Mega-Sena e dividirem igualmente o prêmio de R\$ 40 milhões, os 6 colegas de Carlos pedem demissão da empresa. Carlos, que não havia participado do bolão, permanece no setor e é promovido a gerente.
+
+% A empresa autoriza a contratação de \textbf{6 novos funcionários}, mas o processo levará cerca de 6 meses. Carlos fica extremamente triste e desanimado com a vida devido ao fato de não ter participado do bolão,
+% então, agora como gerente, ele decide reduzir gastos do setor com  \textit{bolos, refrigerantes e decoração} das comemorações de aniversário do setor. Dessa forma, 
+% ele decide que não irá comemorar os aniversários dos membros do setor individualmente.
+
+% Para evitar custos semanais com festas repetidas, ele estabelece o seguinte critério:
+
+% \begin{quote}
+% \textit{“Se a chance de pelo menos dois dos 7 funcionários (ele mais os 6 futuros) fazerem aniversário na mesma semana for maior ou igual a 20\%, então só haverá uma comemoração por mês. Caso contrário, posso considerar comemorações semanais.”}
+% \end{quote}
+
+% \begin{enumerate}[a)]
+%     \item (1 ponto) Sabendo que há 52 semanas no ano e assumindo que os aniversários são distribuídos aleatoriamente ao longo das semanas, \textbf{qual decisão Carlos deve tomar?}
+%     \item (0,5 ponto) Carlos sabe que a empresa não funciona na semana que sucede o Natal. Logo, se ele decidir comemorar os aniversários semanalmente e alguém fizer aniversário nessa semana, não há comemoração. Qual a probabilidade de que pelo menos dois dos 7 funcionários façam aniversário na semana que sucede o Natal. Obs: Assuma que a data de aniversário de Carlos pode ocorrer em qualquer semana do ano, inclusive na semana que sucede o Natal.
+% \end{enumerate}
+
+
+3) (3,2 pontos) Uma distribuição contínua bastante importante e que é bastante adotada em problemas práticos é a distribuição Exponencial. A distribuição exponencial 
+modela o intervalo entre a ocorrência entre eventos. Dizemos que uma variável aleatória $X$ segue a distribuição exponencial com parâmetro $\lambda$(Notação: $X \sim \mathcal{E}xp(\lambda)$) se sua função densidade de probabilidade é dada por:
+
+$$f(x) = \begin{cases}
+    \lambda e^{-\lambda x} & x\geq 0,\\
+    0 & x < 0.
+\end{cases}$$
+
+Sabendo disso responda:
+
+\begin{enumerate}[a)]
+    \item (1 ponto) Mostre que se $X \sim \mathcal{E}xp(\lambda)$ então $\mathbb{E}[X] = \dfrac{1}{\lambda}$ e $Var(X) = \dfrac{1}{\lambda^2}$
+    \item (0,8 pontos) Uma das propriedades mais interessantes envolvendo a a distribuição Exponencial é a falta de memória, que diz que se $X$ é uma 
+        variável aleatória que segue a distribuição Exponencial, então a probabilidade de $X$ ser maior que $s+t$ dado que $X$ é maior que $s$ é 
+        igual a probabilidade de $X$ ser maior que t. De maneira formal:
+        
+        $$\mathds{P}(X>s+t|X>t) = \mathds{P}(X>t)$$
+
+        Mostre que a relação acima é valida. 
+    \item (1,4 pontos) Ao analisar a distribuição Exponencial, é inevitável a relacionarmos com a distribuição de Poisson. Sabendo disso, responda:
+    \begin{enumerate}[i.)]
+        \item (0,3 pontos) Que categoria de eventos do mundo real podem ser modelados por uma variável aleatória que siga a Distribuição de Poisson?
+        \item (0,2 pontos) De um exemplo de situação real que poderia ser modelada por uma variável aleatória que siga a distribuição Exponencial
+         e outro que poderia ser modelado por uma que siga a distribuição de Poisson.  
+        \item (0,9 pontos) Em um laboratório de Química, um analisador automático monitora continuamente uma corrente líquida de ácido acético,
+        identificando a presença de partículas contaminantes. Dados históricos indicam que, em média,
+        são detectadas 2 partículas contaminantes por hora de operação.
+        \begin{enumerate}[1)]
+            \item (0,2 pontos) O que é uma função de probabilidade. Qual a função de probabilidade de uma variável aleatória que segue a distribuição de Poisson?
+            \item (0,3 pontos) Qual a probabilidade de o analisador detectar exatamente 1 partícula contaminante durante um intervalo de 30 minutos?
+            \item (0,4 pontos) Qual a probabilidade de o equipamento detectar pelo menos 2 partículas contaminantes em uma hora?
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+\vspace{5px}
+
+4) (2 pontos) Um estudante de Engenharia Química está realizando uma pesquisa sobre o uso de equipamentos de segurança em laboratórios da UFRJ apra seu TCC.
+Como parte do estudo, ele investiga a frequência de uso do lava-olhos de emergência por parte dos alunos em atividades práticas.
+
+   \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.6\linewidth]{figures/lava_olhos.jpg}
+    \end{figure}
+
+O aluno entrevistou 150 estudantes que frequentam laboratórios de química. 27 deles relataram já ter utilizado o lava-olhos pelo menos uma vez durante suas atividades acadêmicas.
+
+\begin{enumerate}[a)]
+\item (0,5 ponto) Mostre que se $X \sim Bernoulli(p)$ então a variância máxima de $X$ é igual a $1/4$.
+
+\item(0,5 ponto)  Estime a proporção populacional de estudantes que já usaram o lava-olhos com base na amostra.
+ Em seguida, usando o resultado do item $a)$, construa um intervalo de confiança de 95\% para essa proporção.
+
+\item (0,5 ponto) Seu orientador sugere que você coloque no seu TCC como conclusão de sua pesquisa o seguinte parágrafo:
+
+\begin{quote}
+    Por meio da amostra coletada foi possível gerar um intervalo de confiança com 95\% de confiança para a proporção verdadeira de alunos que já usaram o lava-olhos (\textbf{intervalo gerado na questão (a)}). Dessa forma, 
+    podemos dizer que, com probabilidade de 95\%, a proporção verdadeira de uso do lava-olhos nos laboratórios está contida no intervalo calculado. 
+\end{quote}
+
+O que você faria nessa situação? Decidiria aceitar a surgestão do seu orientador ou diria que a sugestão dele está incorreta? Justifique sua resposta. 
+
+
+\item (0,5 ponto)  O aluno deseja repetir a pesquisa no próximo semestre, mas agora quer garantir uma margem de erro de no máximo 4 pontos percentuais (\(0{,}04\)) para a proporção estimada, mantendo o nível de confiança em 95\%.
+
+Qual deve ser o tamanho mínimo da nova amostra? Novamente, assuma o resultado da questão $a)$.
+
+
+\item (0,5 ponto) Se você decidisse aumentar o tamanho da amostra, o que aconteceria com a amplitude do intervalo? E se o nível de confiança fosse aumentado?
+
+\end{enumerate}
+
+5)(1,5 pontos) Diga se as afirmações a seguir são verdadeiras ou falsas e justifique matematicamente suas respostas. 
+
+\begin{enumerate}[a)]
+    \item (0,2 pontos) Dados dois eventos $A$ e $B$. Se $A$ e $B$ são mutuamente excludentes então também são independentes. 
+    \item (0,3 pontos) Dados dois eventos $F$ e $G$ tal que $F \subset G$, portanto, $\mathds{P}(G|F) = 1$
+    \item (1 ponto) Dados dois eventos $A$ e $B$, se $\mathds{P}(A|B) =1$ então $\mathds{P}(B^c|A^c) =1$
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,176 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\title{Lista 4 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) Um estudante do curso de Engenharia está investigando a qualidade de produção de lápis em uma pequena fábrica local, 
+como parte de um projeto sobre aplicações da estatística em contextos reais. Para isso, ele seleciona aleatoriamente 10 lápis da produção diária e verifica,
+ com o auxílio de uma régua e uma lupa, se cada lápis está ou não com defeito (por exemplo, ponta quebrada ou madeira rachada).
+  O estudante liga para a empresa que fabrica os lapís e pergunta qual a pocentagem média de lapís com defeito produzidos pela empresa, obtendo como
+   resposta que 10\% dos lapís produzidos em um dia apresentam algum defeito de fabricação.
+
+\begin{enumerate}[a)]
+    \item Defina a variável aleatória \( X_i \) associada ao \( i \)-ésimo lápis testado. Que tipo de variável aleatória é \( X_i \)? Justifique.
+    
+    \item Defina a variável aleatória \( Y = \sum_{i=1}^{10} X_i \), correspondente ao número total de lápis defeituosos na amostra de 10 lápis. Qual a distribuição de \( Y \)? Justifique.
+    
+    \item Qual é a probabilidade de exatamente 3 lápis estarem defeituosos?
+    
+    \item Qual é a probabilidade de ao menos 1 lápis apresentar defeito?
+
+    \item Suponha que o estudante fique extremamente fascinado com sua investigação e decida testar mais 100 lápis.
+     Qual o número esperado de lapís com defeito que ele irá encontrar dentre esses 100?
+\end{enumerate}
+
+\vspace{5px}
+
+2) Seja $X_1, X_2, \dots, X_{20}$ uma sequência de variáveis aleatórias I.I.D (Independentes e Identicamente Distribuídas), tal que $X_1 \sim Bernoulli(0.5)$
+\begin{enumerate}[a)]
+    \item Seja $Y=\sum_{i=1}^{20} X_i$. Mostre que $\mathds{E}[Y] = 10$ e $Var(Y) = 5$
+    \item Seja $W=X_1 \cdot X_2$. Diga a distribuição de $W$ e escreva a função de probabilidade de $W$.
+    \item Seja $V = \prod_{i=1}^n X_i$. Diga a distribuição de $V$ e escreva a função de probabilidade de $V$.
+    \item Seja $U = 4 \cdot X_1 - 2$. Qual o suporte de $U$? Qual a esperança (média)  e variância de $U$?
+\end{enumerate} 
+
+\vspace{5px}
+
+3) Durante o monitoramento de uma tubulação que transporta ácido sulfúrico concentrado, um engenheiro químico registra, em média, 3 vazamentos microscópicos por mês ao longo de um trecho de 200 metros da tubulação.
+
+Esses vazamentos, embora pequenos, são importantes para o planejamento de manutenção preventiva e monitoramento ambiental. Supõe-se que a ocorrência desses vazamentos segue uma distribuição de Poisson.
+
+\begin{enumerate}[a)]
+    \item Defina a variável aleatória \( S \) correspondente ao número de vazamentos microscópicos em um mês. Qual é a distribuição de \( S \)? Qual é seu parâmetro?
+
+    \item Qual é a probabilidade de que ocorram exatamente 2 vazamentos microscópicos em um dado mês?
+
+    \item Qual é a probabilidade de que, em um semana, não ocorra nenhum vazamento?
+
+    \item Qual é a probabilidade de que ocorram mais de 4 vazamentos em um mês?
+
+    \item Suponha que o engenheiro deseje saber a probabilidade de ocorrerem exatamente 6 vazamentos no intervalo de 2 meses. Qual seria essa probabilidade?
+\end{enumerate}
+
+\vspace{5px}
+
+4) A duração de um tipo de sensor utilizado em sistemas de alarme segue uma distribuição contínua com densidade, em meses, dada por:
+\[
+f(x) = 
+\begin{cases}
+k(x - 1)(5 - x) & \text{se } 1 \leq x \leq 5\\
+0 & \text{caso contrário}
+\end{cases}
+\]
+
+\begin{enumerate}[a)]
+    \item Determine o valor da constante \( k \) que torna \( f(x) \) uma função densidade.
+    
+    \item Qual é a probabilidade de que um sensor dure entre 2 e 4 meses?
+    
+    \item Qual é o valor esperado  e a variância da vida útil do sensor?
+    
+    \item Qual é a mediana da distribuição? (Dica: resolva \( P(X \leq m) = 0{,}5 \))
+\end{enumerate}
+
+\vspace{5px}
+
+5) Seja $Z$ uma variável aleatória tal que $Z\sim N(0,1)$, calcule:
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(Z>1)$
+    \item $\mathds{P}(-1 \leq Z<1)$
+    \item  $\mathds{P}(Z>2| Z> 1)$
+    \item $\mathds{P}(Z>2| Z< -1)$
+    \item $\mathds{P}(Z>2| Z< 3)$
+    \item $\mathds{P}(Z<-2)$
+    \item $\mathds{P}(-4<Z<4)$
+\end{enumerate}
+
+\vspace{5px}
+
+6) Se X é uma variável aleatória normal com parâmetros $\mu=10$ e $\sigma^2=36$, calcule:
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(X>5)$
+    \item $\mathds{P}(4<X<16)$
+    \item $\mathds{P}(X<8)$
+    \item $\mathds{P}(X<20)$
+    \item $\mathds{P}(X>16)$
+    \item $\mathds{P}(X>5 | X> 2)$
+    \item $x$ tal que $\mathds{P}(X>x) = 0.75$
+    \item $\mathds{P}(|X-10| \leq 5)$
+\end{enumerate}
+
+\vspace{5px}
+
+7)  Suponha que a altura de um homem de 25 anos de idade, em cm, seja uma variável aleatória normal com parâmetros $\mu = 180$ e $\sigma^2=16$. 
+Qual a probabilidade de homens de 25 anos de idade ter mais de 1,88 de altura?
+
+\vspace{5px}
+
+8) Suponha $X \sim N(\mu, \sigma)$, encontre:
+\begin{enumerate}[a)]
+    \item $\mathds{P}(X \geq \mu + 2\sigma)$
+    \item $\mathds{P}(|X-\mu| \leq \sigma)$
+\end{enumerate}
+\vspace{5px}
+
+9) Uma indústria química produz pastilhas catalisadoras cilíndricas usadas em reações de craqueamento catalítico.
+ A massa de cada pastilha é uma variável aleatória contínua que segue uma distribuição normal com média
+  \( \mu = 50 \) g e desvio padrão \( \sigma = 1{,}5 \) g.
+
+O setor de controle de qualidade estabelece que as pastilhas devem ter massa entre 47 g e 53 g para serem consideradas \textbf{dentro do padrão}.
+ Pastilhas fora desse intervalo são \textbf{descartadas}.
+
+\begin{enumerate}[a)]
+    \item Seja \( X \) a variável aleatória que representa a massa de uma pastilha. Qual a distribuição de \( X \)?
+    
+    \item Qual a probabilidade de uma pastilha estar dentro do padrão ?
+    
+    \item Qual é a proporção de pastilhas que são descartadas?
+    
+    \item Se forem produzidas 10.000 pastilhas em um lote, qual o número esperado de pastilhas descartadas?
+    
+    \item O engenheiro decide ajustar o processo para reduzir o desvio padrão para \( \sigma = 1{,}0 \) g, mantendo a média. 
+    Qual seria agora a nova proporção esperada de pastilhas dentro do padrão (entre 47 g e 53 g)?
+\end{enumerate}
+
+\vspace{5px}
+
+
+10) Uma empresa de consultoria quer avaliar o impacto médio de um treinamento de liderança sobre o desempenho dos gestores em termos de produtividade
+ (medida em número de projetos concluídos por mês). A variância do número de projetos concluídos mensalmente por gestores é conhecida e igual a 
+ \( \sigma^2 = 9 \).  
+
+Para essa análise, foi realizada uma pesquisa utilizando o método de amostragem aleatória simples com 25 gestores que participaram do treinamento. A partir dessa amostra, foi obtido que o número médio de projetos concluídos foi igual a 18.  
+
+\begin{enumerate}[a)]
+    \item  Calcule um intervalo de confiança de \( 90\% \) para a média do número de projetos concluídos pelos gestores após o treinamento e interprete o resultado encontrado. 
+    \item Calcule um intervalo de confiança de \( 95\% \) para a média do número de projetos concluídos pelos gestores após o treinamento e interprete o resultado encontrado.
+    \item A empresa conseguiu aumentar o tamanho da amostra para 70 gestores e obteve o mesmo número médio de projetos concluídos. Calcule o  intervalo de confiança de \( 90\% \) para a média com esse novo tamanho de amostra. 
+    \item Explique com suas palavras como o tamanho da amostra e o nível de confiança influenciam na amplitude do intervalo encontrado. 
+\end{enumerate}
+
+11) Durante o período pré-eleitoral em um município, uma equipe de estatísticos contratada por uma empresa de consultoria em engenharia
+ foi encarregada de realizar uma pesquisa de intenção de voto. Foram entrevistados aleatoriamente 625 eleitores.
+
+Dentre os entrevistados, 286 declararam intenção de votar no candidato Luiz Inácio Bolsonaro.
+
+\begin{enumerate}[a)]
+    \item Estime a proporção \( \hat{p} \) de eleitores que pretendem votar em Luiz Inácio Bolsonaro com base na amostra.
+
+    \item Construa um intervalo de confiança de 95\% para a verdadeira proporção de eleitores que pretendem votar no candidato.
+
+    \item A legislação eleitoral exige que a margem de erro da pesquisa não ultrapasse 2 pontos percentuais.
+     A pesquisa atende a esse critério? Justifique com cálculos.
+
+    \item Qual deveria ser o tamanho mínimo da amostra para garantir uma margem de erro máxima de 2 pontos percentuais com 95\% de confiança,
+     independentemente da proporção observada?
+\end{enumerate}
+
+\end{document} 

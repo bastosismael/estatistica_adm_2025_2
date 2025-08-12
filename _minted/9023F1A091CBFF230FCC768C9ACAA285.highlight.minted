@@ -1,0 +1,6 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{populacao}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{F\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{M\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{M\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{F\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{M\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{F\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{M\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{F\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{F\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{F\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{freq\PYGZus{}absoluta}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{table}\PYG{p}{(}\PYG{n}{populacao}\PYG{p}{)}
+\PYG{n}{freq\PYGZus{}relativa}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{prop.table}\PYG{p}{(}\PYG{n}{freq\PYGZus{}absoluta}\PYG{p}{)}
+\PYG{n}{freq\PYGZus{}acumulada}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{cumsum}\PYG{p}{(}\PYG{n}{freq\PYGZus{}relativa}\PYG{p}{)}
+\end{MintedVerbatim}

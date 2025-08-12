@@ -1,0 +1,10 @@
+\frametitle{Correlação - Exemplo no R}
+    Para calcular o coeficiente de correlação entre duas variáveis no R, utilizamos a função \textit{cor}.
+    \begin{block}{Correlação no R}
+    \begin{minted}[linenos=false,breaklines]{R}
+    dados = read.csv(file.choose())
+    duracao_sono = dados$`Duracao do Sono`
+    idade = dados$idade
+    cor_dsono_idade = cor(duracao_sono, idade)
+    \end{minted}
+    \end{block}

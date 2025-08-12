@@ -1,0 +1,234 @@
+\documentclass{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\title{Lista 1 - Gabarito - Estatística para Administração - 2024.2}
+\begin{document}
+\date{}
+\maketitle
+
+1) Classifique cada uma das variáveis abaixo em qualitativa(nominal/ordinal) ou quantitativa (discreta/contínua)
+
+\begin{enumerate}[a)] % a), b), c), ...
+\item Qualitativa nominal
+\item Qualitativa nominal
+\item Quantitativa contínua
+\item Qualitativa ordinal
+\item Qualitativa ordinal
+\end{enumerate}
+
+2) Os dados abaixo referem-se ao salário (em salários mínimos) de 20 funcionários administrativos de uma indústria
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\hline
+10,1 & 7,3  & 8,5 & 5,0 & 4,2  & 3,1 & 2,2 & 9,0 & 9,4 & 6,1 \\ \hline
+3,3  & 10,7 & 1,5 & 8,2 & 10,0 & 4,7 & 3,5 & 6,5 & 8,9 & 6,1 \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}[a)]
+\item 
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{lccc}
+\hline
+Faixa Salarial & $n_i$ & $f_i$ & $f_{ac}$ \\ \hline
+{[}1,3)        & 2     & 0,1   & 0,1    \\
+{[}3, 5)       & 5     & 0,25   & 0,35    \\
+{[}5, 7)       & 4     & 0,20  & 0,55   \\
+{[}7,9)       & 4     & 0,20  & 0,75      \\
+{[}9,11)       & 5     & 0,25  & 1      \\
+total          & 20    & 1     &        \\ \hline
+\end{tabular}
+\end{table}
+
+\item 
+Para calcular a média, basta somar todos os valores e dividir pelo total de valores. 
+
+Ao longo da resolução desse exercício iremos denominar pela letra $X$ o nosso conjunto de dados.
+
+{\tiny $$\Bar{X} = \dfrac{10,1 + 7,3 + 8,5 + 5,0 + 4,2 + 3,1 + 2,2 + 9,0 + 9,4 + 6,1 + 3,3 + 10,7 + 1,5 + 8,2 + 10,0 + 4,7 + 3,5 + 6,5 + 8,9 + 6,1}{20}=6,415$$}
+
+Para calcular a mediana, primeiramente precisamos ordenar os dados. 
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+\hline
+1,5 & 2,2 & 3,1 & 3,3 & 3,5 & 4,2 & 4,7 & 5,0 & 6,1  & 6,1  \\ \hline
+6,5 & 7,3 & 8,2 & 8,5 & 8,9 & 9,0 & 9,4 & 10  & 10,1 & 10,7 \\ \hline
+\end{tabular}
+\end{table}
+
+Como o tamanho do conjunto de dados é par, devemos pegar os elementos que ocupam as posições $\dfrac{20}{2}$ e $\dfrac{20}{2} + 1$ e fazer a média entre eles
+
+$$M = \dfrac{6,1 + 6,5}{2} = 6,3$$
+
+\item 
+
+{\tiny \begin{align*}
+dm(X) &= \dfrac{1}{20} (|10,1 -6,415| + |7,3 -6,415| + |8,5 -6,415| + |5,0 -6,415| + |4,2 -6,415| + |3,1 -6,415| + |2,2 -6,415|+ \\
+& + |9,0 -6,415| + |9,4 -6,415|+ |6,1 -6,415| + |3,3 -6,415| + |10,7 -6,415| + |1,5 -6,415| + |8,2 -6,415| +\\
+&+|10,0  -6,415|+ |4,7 -6,415| + |3,5 -6,415| + |6,5 -6,415| + |8,9 -6,415| + |6,1 -6,415|) = 2,445
+\end{align*}}
+
+{\tiny \begin{align*}
+s^2 &= \dfrac{1}{20} ( (10,1 -6,415)^2 + (7,3 -6,415)^2 + (8,5 -6,415)^2 + (5,0 -6,415)^2 + (4,2 -6,415)^2 + (3,1 -6,415)^2 + (2,2 -6,415)^2+ \\
+& + (9,0 -6,415)^2 + (9,4 -6,415)^2+ (6,1 -6,415)^2 + (3,3 -6,415)^2 + (10,7 -6,415)^2 + (1,5 -6,415)^2 + (8,2 -6,415)^2 +\\
+&+(10,0  -6,415)^2+ (4,7 -6,415)^2 + (3,5 -6,415)^2 + (6,5 -6,415)^2 + (8,9 -6,415)^2 + (6,1 -6,415)^2) = 8,21
+\end{align*}}
+
+$$s = \sqrt{8,21} = 2,86$$
+
+\item 
+
+$$CV = \dfrac{s}{\Bar{X}} = \dfrac{2,86}{6,415} = 0,44$$
+\end{enumerate}
+
+3) Uma pesquisa com usuários de transporte coletivo da cidade do Rio de Janeiro indagou sobre os diferentes meios de transporte utilizados em suas locomoções diárias. Dentre ônibus, metrô e trem, a quantidade de diferentes meios de transporte utilizados foi o seguinte:
+
+$$2, 3, 2, 1, 2, 1, 2, 1, 2, 3, 1, 1, 1, 2, 2, 3, 1, 1, 1, 1, 2, 1, 1, 2, 2, 1, 2,
+1 ,2, 3 $$
+
+\begin{enumerate}[a)]
+\item Quantitativa discreta
+\item 
+
+Para calcular a média, basta somar todos os valores e dividir pela quantidade de elementos.
+
+{\tiny $$\Bar{X} = \dfrac{2+ 3+ 2+ 1+ 2+ 1+ 2+ 1+ 2+ 3+ 1+ 1+ 1+ 2+ 2+ 3+ 1+ 1+ 1+ 1+ 2+ 1+ 1+ 2+ 2+ 1+ 2+
+1 +2+ 3}{30} = 1,67$$}
+
+Para calcular a mediana, primeiramente precisamos ordenar os dados
+
+$$1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3$$
+Como a quantidade de elementos é 30, que é um número par, para calcular a mediana devemos calcular a média entre os elementos $\dfrac{30}{2}$ e $\dfrac{30}{2} +1$
+
+$$M = \dfrac{2+2}{2}=2$$
+
+A moda é o valor que aparece com maior frequência em nosso conjunto de dados. Nesse caso é o valor $1$.
+
+\item 
+$$dm(x) = \dfrac{14 \times |1 - 1,67| + 12 \times |2 - 1,67| + 4 \times |3-1,67|}{30} = \dfrac{9,38+ 3,96 + 5,32}{30} = 0,622 $$
+$$s^2 =  \dfrac{14 \times (1 - 1,67)^2 + 12 \times (2 - 1,67)^2 + 4 \times (3-1,67)^2}{30} = \dfrac{6,28 + 1,31 + 7,07}{30} = 0,49$$
+$$s = \sqrt{0,49} = 0,7$$
+\item 
+$$CV = \dfrac{0,7}{1,67} = 0,42$$
+
+Podemos dizer que a variabilidade é alta.
+\item 
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{llll}
+\hline
+x     & $n_i$ & $f_i$ & $f_{ac}$ \\ \hline
+1     & 14    & 0,47  & 0,47     \\
+2     & 12    & 0,4   & 0,87     \\
+3     & 4     & 0,13  & 1        \\
+total & 30    & 1     &          \\ \hline
+\end{tabular}
+\end{table}
+\end{enumerate}
+
+4) Um questionário foi aplicado aos dez funcionários do setor de contabilidade de uma empresa, fornecendo os dados apresentados na seguinte tabela
+\begin{table}[H]
+\begin{tabular}{ccccc}
+\hline
+Funcionário & Curso (completo) & Idade & Salário (R\$) & Anos de Empresa \\ \hline
+1           & superior         & 34    & 1440,00       & 5               \\
+2           & superior         & 43    & 1450,00       & 8               \\
+3           & médio            & 32    & 1440,00       & 6               \\
+4           & médio            & 37    & 3300,00       & 8               \\
+5           & médio            & 24    & 4300,00       & 3               \\
+6           & médio            & 25    & 2700,00       & 2               \\
+7           & médio            & 27    & 1960,00       & 5               \\
+8           & médio            & 22    & 5600,00       & 2               \\
+9           & fundamental      & 21    & 6700,00       & 3               \\
+10          & fundamental      & 26    & 4500,00       & 3               \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}[a)]
+\item 
+\begin{itemize}
+    \item Funcionário: Qualitativa nominal
+    \item Curso: Qualitativa ordinal
+    \item Idade: Quantitativa discreta/contínua
+    \item Salário: Quantitativa contínua
+    \item Anos de Empresa: Quantitativa Discreta
+\end{itemize}
+\item 
+$$\Bar{X} = \dfrac{34+43+32+37+24+25+27+22+21+26}{10} = \dfrac{291}{10} = 29,1$$
+
+Como todos os valores da variável idade aparecem uma única vez, a moda são todos os valores, ou seja, 
+
+$$\textbf{Moda} = \{34,43,32,37,24,25,27,22,21,26\}$$
+
+Para obter a mediana, primeiro precisamos ordenar os dados
+$$21, 22, 24, 25, 26, 27, 32, 34, 37, 43$$
+Como temos 10 valores em nosso conjunto de dados, um número par, devemos tomar a média dos elementos $\dfrac{10}{2}$ e $\dfrac{10}{2}+1$
+
+$$M =\dfrac{26+27}{2} = 26,5 $$
+\item
+
+Para obter os quartis, primeiro precisamos ordenar os dados
+$$1440,00; 1440,00; 1450,00; 1960,00; 2700,00; 3300,00; 4300,00; 4500,00; 5600,00; 6700,00$$
+
+A posição do primeiro quartil é $\dfrac{10 + 1}{4} = 2,75$, como esse não é um número inteiro iremos tomar a média dos elementos da posição $2$ e $3$
+$$Q1 = \dfrac{1440 + 1450}{2} = 1445 $$
+
+O segundo quartil é exatamente a própria mediana, que nesse caso é a media dos elementos que ocupam a posição $5$ e $6$
+$$Q2 = \dfrac{2700 + 3300}{2}=3000$$
+
+O posição do terceiro quartil é $\dfrac{3\cdot 11}{4} = 8,25$, como esse não é um número inteiro iremos tomar a média dos elementos da posição $8$ e $9$
+$$Q3 = \dfrac{4500+5600}{2} = 5050$$
+\item 
+{\tiny\begin{align*}
+    dm(idade)&=\dfrac{1}{10}(|21-29,1| + |22-29,1| + |24 - 29,1| +|25-29,1| + |26-29,1| + |27-29,1|+\\
+    &+ |32-29,1| + |34-29,1| + |37-29,1| + |43-29,1|) = 5,92
+\end{align*}}
+
+{\tiny\begin{align*}
+    s^2(idade)&=\dfrac{1}{10}((21-29,1)^2 + (22-29,1)^2 + (24 - 29,1)^2 +(25-29,1)^2 + (26-29,1)^2 + (27-29,1)^2+\\
+    &+ (32-29,1)^2 + (34-29,1)^2 + (37-29,1)^2 + (43-29,1)^2) = 51
+\end{align*}}
+
+\item 
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{llll}
+\hline
+Curso       & $n_i$ & $f_i$ & $f_{ac}$ \\ \hline
+superior    & 2     & 0,2   & 0,2      \\
+médio       & 6     & 0,6   & 0,8      \\
+fundamental & 2     & 0,2   & 1        \\
+total       & 10    & 1     &          \\ \hline
+\end{tabular}
+\end{table}
+
+\item 
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{cccc}
+\hline
+Faixa etária & $n_i$ & $f_i$ & $f_{ac}$ \\ \hline
+{[}20, 24)   & 2     & 0,2   & 0,2      \\
+{[}24, 28)   & 4     & 0,4   & 0,6      \\
+{[}28, 32)   & 0     & 0     & 0,6      \\
+{[}32, 36)   & 2     & 0,2   & 0,8      \\
+{[}36, 40)   & 1     & 0,1   & 0,9      \\
+{[}40, 44)   & 1     & 0,1   & 1        \\
+total        & 10    & 1     &          \\ \hline
+\end{tabular}
+\end{table}
+\end{enumerate}
+
+\end{document}

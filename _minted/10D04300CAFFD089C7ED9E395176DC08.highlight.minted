@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{+w}{    }\PYG{n}{populacao}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Tom\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Lia\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Ema\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Max\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Ana\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Lua\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Mia\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Isa\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Ilo\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Gal\PYGZdq{}}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{N}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{length}\PYG{p}{(}\PYG{n}{populacao}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{n}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{5}
+\PYG{+w}{    }\PYG{n}{k}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{N}\PYG{o}{/}\PYG{n}{n}
+\PYG{+w}{    }\PYG{n}{amostra}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{c}\PYG{p}{(}\PYG{p}{)}
+\PYG{+w}{    }\PYG{n}{valor\PYGZus{}inicial}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{sample}\PYG{p}{(}\PYG{n+nf}{seq}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{n}{k}\PYG{p}{)}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1}\PYG{p}{)}
+\PYG{+w}{    }\PYG{k+kr}{for}\PYG{p}{(}\PYG{n}{i}\PYG{+w}{ }\PYG{k+kr}{in}\PYG{+w}{ }\PYG{n+nf}{seq}\PYG{p}{(}\PYG{n}{valor\PYGZus{}inicial}\PYG{p}{,}\PYG{n}{N}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{k}\PYG{p}{)}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{n}{amostra}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{c}\PYG{p}{(}\PYG{n}{amostra}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{populacao}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]}\PYG{p}{)}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

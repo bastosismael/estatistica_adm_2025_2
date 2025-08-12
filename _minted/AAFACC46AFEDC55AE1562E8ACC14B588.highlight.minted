@@ -1,0 +1,12 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{require}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{readxl\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{dados}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{read\PYGZus{}excel}\PYG{p}{(}\PYG{n+nf}{file.choose}\PYG{p}{(}\PYG{p}{)}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{sheet}\PYG{o}{=}\PYG{l+m}{1}\PYG{p}{)}
+\PYG{n}{duracao\PYGZus{}sono}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{dados}\PYG{o}{\PYGZdl{}}\PYG{n}{`Duracao do Sono`}
+\PYG{n}{idade}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{dados}\PYG{o}{\PYGZdl{}}\PYG{n}{Idade}
+\PYG{n+nf}{plot}\PYG{p}{(}\PYG{n}{x}\PYG{o}{=}\PYG{n}{idade}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{y}\PYG{o}{=}\PYG{n}{duracao\PYGZus{}sono}\PYG{p}{,}
+\PYG{+w}{     }\PYG{n}{main}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Duracao do Sono X Idade\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{     }\PYG{n}{xlab}\PYG{+w}{ }\PYG{o}{=}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Idade\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ylab}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Duracao do Sono\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{     }\PYG{n}{bg}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZsh{}87ceeb\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{} Cor dos pontos}
+\PYG{+w}{     }\PYG{n}{cex}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+m}{1.5}\PYG{p}{,}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{} Tamanho dos pontos}
+\PYG{+w}{     }\PYG{n}{pch}\PYG{o}{=}\PYG{l+m}{21}\PYG{p}{)}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{} Tipo do ponto}
+\end{MintedVerbatim}

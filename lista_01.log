@@ -1,0 +1,311 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.31)  29 MAR 2025 01:32
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**/home/ismael/Documents/estatistica_eng_quimica/lista_01
+(/home/ismael/Documents/estatistica_eng_quimica/lista_01.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks16
+\labelindent=\skip50
+\enit@outerparindent=\dimen141
+\enit@toks=\toks17
+\enit@inbox=\box51
+\enit@count@id=\count193
+\enitdp@description=\count194
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count195
+\float@exts=\toks18
+\float@box=\box52
+\@float@everytoks=\toks19
+\@floatcapt=\box53
+) (/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2022/12/12 v2.7 Yet another Pygments shim for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
+ (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count196
+) (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
+\FV@CodeLineNo=\count197
+\FV@InFile=\read2
+\FV@TabBox=\box54
+\c@FancyVerbLine=\count198
+\FV@StepNumber=\count199
+\FV@OutFile=\write3
+) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/01/19 line numbers on paragraphs v5.1
+\linenopenalty=\count266
+\output=\toks21
+\linenoprevgraf=\count267
+\linenumbersep=\dimen142
+\linenumberwidth=\dimen143
+\c@linenumber=\count268
+\c@pagewiselinenumber=\count269
+\c@LN@truepage=\count270
+\c@internallinenumber=\count271
+\c@internallinenumbers=\count272
+\quotelinenumbersep=\dimen144
+\bframerule=\dimen145
+\bframesep=\dimen146
+\bframebox=\box55
+LaTeX Info: Redefining \\ on input line 3131.
+)
+\c@FV@TrueTabGroupLevel=\count273
+\c@FV@TrueTabCounter=\count274
+\FV@TabBox@Group=\box56
+\FV@TmpLength=\skip51
+\c@FV@HighlightLinesStart=\count275
+\c@FV@HighlightLinesStop=\count276
+\FV@LoopCount=\count277
+\FV@NCharsBox=\box57
+\FV@BreakIndent=\dimen147
+\FV@BreakIndentNChars=\count278
+\FV@BreakSymbolSepLeft=\dimen148
+\FV@BreakSymbolSepLeftNChars=\count279
+\FV@BreakSymbolSepRight=\dimen149
+\FV@BreakSymbolSepRightNChars=\count280
+\FV@BreakSymbolIndentLeft=\dimen150
+\FV@BreakSymbolIndentLeftNChars=\count281
+\FV@BreakSymbolIndentRight=\dimen151
+\FV@BreakSymbolIndentRightNChars=\count282
+\c@FancyVerbLineBreakLast=\count283
+\FV@LineBox=\box58
+\FV@LineIndentBox=\box59
+\c@FV@BreakBufferDepth=\count284
+\FV@LineWidth=\dimen152
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count285
+\calc@Bcount=\count286
+\calc@Adimen=\dimen153
+\calc@Bdimen=\dimen154
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count287
+\calc@Cskip=\skip54
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "lista_01.w18")...executed.
+
+ (./lista_01.w18)
+runsystem(rm -- "lista_01.w18")...executed.
+
+) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count288
+\decimalpart=\count289
+)
+Package: xstring 2023/01/14 v1.85 String manipulations (CT)
+) (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen155
+\fb@frh=\dimen156
+\FrameRule=\dimen157
+\FrameSep=\dimen158
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box60
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count290
+\c@minted@pygmentizecounter=\count291
+\@float@every@listing=\toks22
+\c@listing=\count292
+)
+runsystem(mkdir -p _minted-lista_01)...executed.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+runsystem(which pygmentize && touch lista_01.aex)...executed.
+
+runsystem(rm lista_01.aex)...executed.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box61
+) (./lista_01.aux)
+\openout1 = `lista_01.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen159
+\scratchbox=\box62
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen160
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks24
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 11.
+\openout3 = `lista_01.pyg'.
+
+(./_minted-lista_01/default.pygstyle) (./_minted-lista_01/3CDAA4D701E5D1A559514B57BEB320DC0F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex)
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/268217BE56A7E37BE0F540A6AF31C8810F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex)
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/08951EF34C405C34608E09B8B68573F90F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/A5CF0613B887F67E34153450855D69220F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex)
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/49278A77F9D19827A26D27EF0C47F9820F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex)
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/F012E5506C68DCAB9A268EC789531B6C0F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex) [2]
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/D5645AE6CC5A3FC9CC19DA4271BBF6090F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex)
+\openout3 = `lista_01.pyg'.
+
+ (./_minted-lista_01/3C1BAD198187756C9B046AB2210A7C150F6AC5E3130AFAE0E9BCA65CAF37FC19.pygtex) [3]
+! Undefined control sequence.
+l.190     Exemplo: \text
+                        {mult}$(2,4)$  deve retornar $8$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.195     Exemplo: \text
+                        {div}$(2,4)$  deve retornar $0.5$.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.58395pt too wide) in paragraph at lines 196--198
+[]\OT1/cmr/m/n/10 Crie uma fun^^Xc~ao chamada \OT1/cmr/m/it/10 cal-cu-ladora \OT1/cmr/m/n/10 que re-cebe como en-trada dois n^^Sumeros
+ []
+
+[4] (./lista_01.aux)
+runsystem(rm lista_01.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5771 strings out of 476091
+ 113028 string characters out of 5794081
+ 1860330 words of memory out of 5000000
+ 26071 multiletter control sequences out of 15000+600000
+ 516479 words of font info for 46 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 77i,6n,76p,361b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on lista_01.pdf (4 pages, 99945 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

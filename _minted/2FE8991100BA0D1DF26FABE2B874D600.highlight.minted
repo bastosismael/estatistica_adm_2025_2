@@ -1,0 +1,15 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{modulo}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{function}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kr}{return}\PYG{p}{(}\PYG{n+nf}{abs}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}\PYG{p}{)}
+\PYG{p}{\PYGZcb{}}
+\PYG{n}{quadratica}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kr}{function}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kr}{return}\PYG{p}{(}\PYG{n}{x}\PYG{o}{\PYGZca{}}\PYG{l+m}{2}\PYG{p}{)}
+\PYG{p}{\PYGZcb{}}
+\PYG{n+nf}{curve}\PYG{p}{(}\PYG{n}{modulo}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{\PYGZhy{}2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{col}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZsh{}60B5FF\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{      }\PYG{n}{ann}\PYG{o}{=}\PYG{k+kc}{FALSE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ylim}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{3}\PYG{p}{)}\PYG{p}{)}
+\PYG{n+nf}{par}\PYG{p}{(}\PYG{n}{new}\PYG{o}{=}\PYG{k+kc}{TRUE}\PYG{p}{)}
+\PYG{n+nf}{curve}\PYG{p}{(}\PYG{n}{quadratica}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{\PYGZhy{}2}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{2}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{col}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZsh{}FF9149\PYGZdq{}}\PYG{p}{,}
+\PYG{+w}{      }\PYG{n}{axes}\PYG{o}{=}\PYG{k+kc}{FALSE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ann}\PYG{o}{=}\PYG{k+kc}{FALSE}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{ylim}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{0}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{3}\PYG{p}{)}\PYG{p}{)}
+\PYG{n+nf}{points}\PYG{p}{(}\PYG{l+m}{\PYGZhy{}1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{col}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{red\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{pch}\PYG{o}{=}\PYG{l+m}{19}\PYG{p}{)}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{} Adiciona um ponto vermelho no ponto (\PYGZhy{}1,1)}
+\PYG{n+nf}{points}\PYG{p}{(}\PYG{l+m}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{col}\PYG{o}{=}\PYG{l+s}{\PYGZsq{}}\PYG{l+s}{red\PYGZsq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{pch}\PYG{o}{=}\PYG{l+m}{19}\PYG{p}{)}\PYG{+w}{  }\PYG{c+c1}{\PYGZsh{} Adiciona um ponto vermelho no ponto (1,1)}
+\end{MintedVerbatim}

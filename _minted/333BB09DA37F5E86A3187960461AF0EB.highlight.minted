@@ -1,0 +1,4 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{altura}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{  }\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+m}{1.90}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.67}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.87}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.55}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.76}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.87}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.95}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.66}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.75}\PYG{p}{,}\PYG{+w}{ }\PYG{l+m}{1.60}\PYG{p}{)}
+\PYG{n}{media\PYGZus{}altura}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{mean}\PYG{p}{(}\PYG{n}{altura}\PYG{p}{)}
+\end{MintedVerbatim}

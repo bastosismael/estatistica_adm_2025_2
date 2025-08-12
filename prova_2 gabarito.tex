@@ -1,0 +1,185 @@
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{float}
+\title{Prova 2 - Estatística - 2025.1}
+\begin{document}
+\date{}
+\maketitle
+
+1) (1,8 pontos)Definamos os seguintes eventos:
+
+\begin{itemize}
+    \item $T_{+}$: O teste dar positivo. 
+    \item $C$: Leite estar contaminado.
+\end{itemize}
+
+\begin{align*}
+    \mathds{P}(C|T_{+}) &= \dfrac{\mathds{P}(T_{+}|C) \mathds{P}(C) }{\mathds{P}(T_{+})}\\
+    &= \dfrac{\mathds{P}(T_{+}|C) \mathds{P}(C) }{\mathds{P}(T_{+} \cap C) +\mathds{P}(T_{+} \cap C^c) }\\
+    &= \dfrac{\mathds{P}(T_{+}|C) \mathds{P}(C) }{\mathds{P}(T_{+}|C) \mathds{P}(C) + \mathds{P}(T_{+}|C^c) \mathds{P}(C^c) }\\
+    &= \dfrac{0,7 \cdot 0,3}{0,7 \cdot 0,3 + 0,2 \cdot 0,7 } = \dfrac{0,21}{0,21 + 0,14} = \dfrac{0,21}{0,35}= 0,6\\
+\end{align*}
+
+Resposta: O Engenheiro deve rejeitar esse lote. 
+
+2) (2,25 pontos) 
+
+Conforme vimos em sala, uma forma de avalair se um jogo é justo é através do conceito de esperança. Definamos a variável aleatória $G:$ Ganho(ou perda) do jogador, portanto:
+
+\begin{align*}
+    \mathds{E}[G] &= -3 + 1,7649 \cdot 10^6 \cdot \mathds{P}(G= 1,7649 \cdot 10^6)  + 1,7374 \cdot 10^3 \cdot \mathds{P}(G= 1,7374 \cdot 10^3) +\\ 
+    &+ 3 \cdot 10^1 \cdot  \mathds{P}(G=  3 \cdot 10^1)  + 1,2 \cdot 10^1 \cdot  \mathds{P}(G=  1,2 \cdot 10^1) + 6  \cdot  \mathds{P}(G=  6)\\ 
+\end{align*}
+
+O espaço amostral $\Omega$ do experimento são todas as possíveis combinações de 15 números dentre os 25 do cartão, logo:
+$$|\Omega| = \binom{25}{15}.$$
+
+A maior parte dos resultados abaixo está na seção de Informações Úteis da prova. 
+
+Dessa forma:
+\begin{itemize}
+    \item $\mathds{P}(G= 1,7649 \cdot 10^6) = \dfrac{1}{\binom{25}{15}} = 3,06 \cdot 10^{-7}$
+    \item $\mathds{P}(G= 1,7374 \cdot 10^3) = \dfrac{\binom{15}{14}\binom{10}{1}}{\binom{25}{15}} = \dfrac{150}{\binom{25}{15}} = 4,58 \cdot 10^{-5}.$
+    \item $\mathds{P}(G= 3 \cdot 10^1) = \dfrac{\binom{15}{13}\binom{10}{2}}{\binom{25}{15}} = \dfrac{4725}{\binom{25}{15}} = 1,44 \cdot 10^{-3}.$
+    \item $\mathds{P}(G= 1,2 \cdot 10^1) = \dfrac{\binom{15}{12}\binom{10}{3}}{\binom{25}{15}} = \dfrac{455 \cdot 120}{\binom{25}{15}} = \dfrac{54600}{\binom{25}{15}} = 5,01 \cdot 10^{-2}.$
+    \item $\mathds{P}(G= 6) = \dfrac{\binom{15}{11}\binom{10}{4}}{\binom{25}{15}} = \dfrac{1365 \cdot 210}{\binom{25}{15}} = \dfrac{286650}{\binom{25}{15}} = 8,77 \cdot 10^{-2}.$
+\end{itemize}
+
+Portanto:
+
+\begin{align*}
+    \mathds{E}[G] &= -3 + 1,7649 \cdot 10^6 \cdot 3,06 \cdot 10^{-7} + 1,7374 \cdot 10^3 \cdot  4,58 \cdot 10^{-5} +  3 \cdot 10^1 \cdot 1,44 \cdot 10^{-3} +  1,2 \cdot 10^1 \cdot 5,01 \cdot 10^{-2} + 6 \cdot 8,77 \cdot 10^{-2}\\
+    &= -3 + 5,4 \cdot 10^{-1} + 7,96 \cdot 10^{-2} + 4,32 \cdot 10^{-2} + 6,01 \cdot 10^{-1} + 5,26 \cdot 10^{-1}\\
+    &= -3 +1,667 + 0,123\\
+    &= -3 +1,79\\
+    &=-1,21\\
+\end{align*}
+
+
+
+\begin{enumerate}
+    \item Haja vista que a esperança gerou um valor negativo, esse jogo não é justo, favorecendo a empresa que realiza o jogo e não o jogador. 
+    \item 
+    \begin{enumerate}[i)]
+    \item (0,25 pontos) Pierre está usando a interpretação frequentista 
+    \item (0,5 ponto)
+     Podemos dizer que a interpretação adotada por ele não é a mais adequada, pois a interpretação clássica parece 
+     se encaixar melhor no problema, haja vista que, dado que o sorteio é feito de forma aleatória, cada número sorteado possui a mesma chance de ser sorteado. 
+     Se estivessemos em um cenário onde existem dúvidas sobre a equiprobabilidade dos resultados (por exemplo: sites de aposta online que surgiram recentemente), poderíamos dizer que a interpretação de Pierre é coerente e mais adequada que a clássica, 
+     entretanto, é importante ressaltar que a interpretação frequentista só nos da garantias assintóticas, ou seja, frequência = probabilidade quando o número de amostras (ou tentativas) tende para o infinito, dessa forma, apesar de ser mais adequada nesse contexto, 
+    na prática as garantias são frágeis. 
+\end{enumerate}
+\end{enumerate}
+
+
+
+\vspace{5px}
+
+
+3) 
+
+
+\begin{enumerate}[a)]
+    \item \begin{itemize}
+        \item $$\mathbb{E}[X] = \int_{a}^{b} x\cdot \dfrac{1}{b-a} dx = \dfrac{1}{b-a}\left[ \dfrac{x^2}{2}\right]_{a}^{b} = \dfrac{b^2 - a^2}{2(b-a)} = \dfrac{(b-a)(b+a)}{2(b-a)} = \dfrac{a+b}{2}$$
+        \item $$Var(X) = \mathbb{E}[X^2] = \mathbb{E}[X]^2$$
+        
+        $$\mathbb{E}[X^2] = \int_{a}^{b} x^2\cdot \dfrac{1}{b-a} dx = \dfrac{1}{b-a}\left[ \dfrac{x^3}{3}\right]_{a}^{b} = \dfrac{b^3 - a^3}{3(b-a)}$$
+\begin{align*}
+    Var(X) &= \dfrac{b^3 - a^3}{3(b-a)} -  \left(\dfrac{a+b}{2}\right)^2\\
+    &= \dfrac{2b^3 - 2a^3 - 3(b-a)\cdot (a+b)^2 }{12(b-a)}\\
+    &=\dfrac{2b^3 - 2a^3 - 3(b^2-a^2)\cdot (a+b) }{12(b-a)}\\
+    &=\dfrac{2b^3 - 2a^3 - 3ab^2 -3b^3 +3a^3 +3a^2b }{12(b-a)}\\
+    &= \dfrac{  a^3 - 3ab^2  +3a^2b -b^3}{12(b-a)}\\
+    &= \dfrac{  (b-a)^3}{12(b-a)} =  \dfrac{ (b-a)^2}{12}
+\end{align*}
+        $$$$
+    \end{itemize}
+
+    \begin{enumerate}[i)]
+        \item É uma função cujo domínio é o espaço amostral $\Omega$ e o contradomínio é o conjunto dos números reais $\mathbb{R}$.
+        \item Uma variável aleatória discreta assume valores em um conjunto enumerável, já a contínua assume valores em um conjunto não-enumerável. 
+        \item É uma função que fornece a probabilidade da variável aleatória assumir cada um dos possíveis valores de seu suporte. Sendo $X$ uma variável aleatória discreta e $p_X$ é função de probabilidade de $X$ se e somente se:
+        \begin{itemize}
+            \item $p_X(x) \geq 0 \forall x \in \Omega_X$
+            \item $\sum_{x \in \Omega_X} p_X(x) = 1$
+        \end{itemize}
+        \item $\mathds{P}(T=2) = 0$  e $\mathds{P}(V=2) = 1/6$
+        \item $F_T(4) = \displaystyle\int_{1}^{4} \dfrac{1}{5} dx = 3/5$ e $F_V(4) = 4/6$
+        \item Discreta: Observar o resultado apresentado por um dado de seis faces. Contínua: Tempo de resposta de uma página web.
+    \end{enumerate}
+\end{enumerate}
+
+\vspace{5px}
+4) 
+\begin{enumerate}[a)]
+    \item 
+    \begin{align*}
+        IC(\mu, 95\%) &= [-0,533 - 1,96 \cdot \dfrac{0,072}{\sqrt{36}} ; -0,533 + 1,96 \cdot \dfrac{0,072}{\sqrt{36}}]\\
+        &=[-0,533 - 1,96 \cdot 0,012 ; -0,533 + 1,96 \cdot 0,012]\\
+        &=[-0,533 - 0,02352 ; -0,533 + 0,02352]\\
+        &=[-0,5565 ; -0,5095]\\
+    \end{align*}
+    
+
+    \item Não. A interpretação de Leôncio está completamente equivocada. A interpretação correta seria que se fossem coletadas outras $n$ amostras e montados intervalos de confiança para a média utilizando cada uma das amostras, então espera-se que $95\%$
+    dos intervalos contém a verdadeira média. 
+
+    \item Se o tamanho da amostra aumntasse, então teríamos um intervalos mais estreito. Se o nível de confiança aumentasse, teríamos um intervalo de maior amplitude. 
+    
+
+    \item  \begin{align*}
+        1,96 \cdot \dfrac{0,072}{\sqrt{n}} = 0,005 &\iff n =   \left(\dfrac{1,96 \cdot 0,072}{ 0,005}\right)^2\\
+        \iff n = 797
+    \end{align*}
+\end{enumerate}
+
+\vspace{5px}
+
+5) 
+\begin{enumerate}[a)]
+    \item (0,3) Significa dizer que $A$ e $B$ não podem ocorrer simultaneamente. Formalmente, $A$ e $B$ são mutuamente excludentes se $A \cap B = \emptyset$.
+    \item (0,3) Dizer que $A$ é independente de $B$ significa dizer que a probabilidade de $A$ ocorrer não é afetada pela ocorrência de B. Formalmente, se $A$ é independente de $B$, temos que:
+   
+   Verificando a ida:
+
+    $$\mathds{P}(A|B) = \mathds{P}(A)$$
+    
+    O fato de $A$ ser independente de $B$ implica que $B$ é independente de $A$, sendo isso uma consequência direta do Teorema de Bayes :
+
+    $$\mathds{P}(B|A) = \dfrac{\mathds{P}(A|B) \mathds{P}(B)}{\mathds{P}(A)} = \dfrac{\mathds{P}(A) \mathds{P}(B)}{\mathds{P}(A)} = \mathds{P}(B)$$
+
+    \item (0,5) Se $\mathds{P}(A) \neq 0$ e $\mathds{P}(B) \neq 0$, então de acordo com a questão (a), se $A$ e $B$ são mutuamente excludentes então $A \cap B = \emptyset \implies \mathds{P}(A \cap B)=0$. Logo:
+    $$\mathds{P}(A|B) = \dfrac{\mathds{P}(A\cap B)}{\mathds{P}(B)} = 0 \neq \mathds{P}(A)$$
+
+    e
+
+    $$\mathds{P}(B|A) = \dfrac{\mathds{P}(B\cap A)}{\mathds{P}(A)} = 0 \neq \mathds{P}(A)$$
+
+    No entanto, se $\mathds{P}(A) = 0$ ou $\mathds{P}(B) = 0$, $\mathds{P}(A \cap B) = \mathds{P}(A) \cdot \mathds{P}(B) = 0$ e a afirmação se torna verdadeira. 
+
+    Verificando a volta:
+    
+    Se $A$ e $B$ são independentes, então $\mathds{P}(A \cap B) =\mathds{P}(A) \cdot \mathds{P}(B)$, dessa forma:
+    $$\mathds{P}(A) \cdot \mathds{P}(B) = 0 \iff \mathds{P}(A) = 0 \text{ ou } \mathds{P}(B) = 0$$
+
+    Dessa forma, independência de $A$ e $B$ implica em eles serem mutuamente excludentes apenas caso a probabilidade de um dos evenetos ocorrer seja igual a 0. 
+\end{enumerate}
+
+
+
+\end{document}

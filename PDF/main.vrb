@@ -1,0 +1,12 @@
+\frametitle{Tabela de frequência - Exemplo no R (Frequência Relativa)}
+Uma forma de mostrar a frequência relativa é apresentada no código abaixo.
+\begin{block}{Tabela de frequência no R (Frequência Relativa)}
+\begin{minted}[linenos=false,breaklines]{R}
+populacao = c("F", "M", "M", "F", "M", "F", "M", "F", "F", "F")
+freq_absoluta = table(populacao)
+freq_relativa = prop.table(freq_absoluta)
+print(freq_relativa)
+\end{minted}
+\end{block}
+\pause
+\textcolor{red}{Atenção:} Perceba que no código acima, a função que gera a tabela de frequência relativa (\textit{prop\_table}) recebe como argumento a própria tabela de frequência absoluta.

@@ -1,0 +1,50 @@
+\textbf{Informações úteis:}
+
+\vspace{5px}
+
+Sejam $A$ e $B$ dois eventos em um mesmo espaço amostral:
+
+Probabilidade condicional:
+
+$$\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}.$$
+
+Teorema de Bayes:
+
+$$\mathds{P}(A|B) = \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P}(B)}.$$
+
+Probabilidade envolvendo particionamento do espaço amostral:
+
+$$\mathds{P}(A) = \mathds{P}(A \cap B) + \mathds{P}(A \cap B^c) = \mathds{P}(A|B)\mathds{P}(B) + \mathds{P}(A|B^c)\mathds{P}(B^c). $$
+
+Seja $B_1, B_2, \dots, B_n$ uma partição do espaço amostral:
+
+$$\mathds{P}(A) = \sum_{i=1}^n \mathds{P}(A|B_i) \mathds{P}(B_i).$$
+
+\vspace{5px}
+Seja $X\sim Bernoulli(p)$, então $\mathbb{E}[X]=p$ e $Var(X) = p(1-p)$.
+\vspace{5px}
+Seja $X \sim Binomial(n, p)$, então $p_X(x) = \binom{n}{x}p^x (1-p)^{n-x}$.
+\vspace{5px}
+
+Seja $X \sim Binomial(n, p)$, então $\mathbb{E}[X] = np$ e $Var(X) = np(1-p)$.
+
+\vspace{5px}
+Seja $X \sim Poisson(\lambda)$, então $p_X(x) = \dfrac{e^{-\lambda} \lambda^x}{x!}$.
+
+\vspace{5px}
+Seja $X\sim Poisson(\lambda)$, então $\mathbb{E}[X]=\lambda$ e $Var(X) = \lambda$.
+
+\vspace{5px}
+Seja $X$ uma variável aleatória discreta, então $\mathds{E}[X]= \displaystyle\sum_{x \in \Omega_X} x \mathds{P}(X=x)$
+
+\vspace{5px}
+Seja $X$ uma variável aleatória contínua, então $\mathds{E}[X]= \displaystyle\int_{-\infty}^{\infty} x f(x)$ onde $f$ é a f.d.p de $X$. 
+
+\vspace{5px}
+Seja $X$ uma variável aleatória qualquer, então $Var(X) = \mathds{E}[X^2] - \mathds{E}[X]^2
+
+\vspace{5px}
+$IC(\mu, \alpha) = \left[ \Bar{X} - z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} ; \Bar{X}+ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right]$
+
+\vspace{5px}
+$IC(\pi, \alpha) = \left[ \hat{p} - z_{\alpha/2}\sqrt{\dfrac{p(1-p)}{n}} ; \hat{p}+ z_{\alpha/2}\sqrt{\dfrac{p(1-p)}{n}}\right]$
