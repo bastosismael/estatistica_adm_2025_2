@@ -1,6 +1,0 @@
-\begin{MintedVerbatim}[commandchars=\\\{\}]
-\PYG{n+nf}{require}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{readxl\PYGZdq{}}\PYG{p}{)}
-\PYG{n}{dados}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{read\PYGZus{}excel}\PYG{p}{(}\PYG{n+nf}{file.choose}\PYG{p}{(}\PYG{p}{)}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{sheet}\PYG{o}{=}\PYG{l+m}{1}\PYG{p}{)}
-\PYG{n}{duracao\PYGZus{}sono}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{dados}\PYG{o}{\PYGZdl{}}\PYG{n}{`Duracao do Sono`}
-\PYG{n}{amplitude\PYGZus{}duracao\PYGZus{}sono}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{max}\PYG{p}{(}\PYG{n}{duracao\PYGZus{}sono}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{\PYGZhy{}}\PYG{+w}{ }\PYG{n+nf}{min}\PYG{p}{(}\PYG{n}{duracao\PYGZus{}sono}\PYG{p}{)}
-\end{MintedVerbatim}

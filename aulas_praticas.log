@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.11)  15 AUG 2025 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.11)  19 AUG 2025 10:40
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**/home/ismael/Documentos/Material_Aula/estatistica_adm/main
-(/home/ismael/Documentos/Material_Aula/estatistica_adm/main.tex
+**/home/ismael/Documentos/Material_Aula/estatistica_adm/aulas_praticas
+(/home/ismael/Documentos/Material_Aula/estatistica_adm/aulas_praticas.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/beamer/beamer.cls
@@ -533,16 +533,14 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen293
 \beamer@dimb=\dimen294
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/float/float.sty
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeCambridgeUS.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count345
 \float@exts=\toks46
 \float@box=\box77
 \@float@everytoks=\toks47
 \@floatcapt=\box78
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 12.
- (/usr/share/texmf-dist/tex/latex/doublestroke/dsfont.sty
+) (/usr/share/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 ) (/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
@@ -669,7 +667,31 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@cntb=\count361
 \multirow@dima=\skip67
 \bigstrutjot=\dimen323
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeWarsaw.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeshadow.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)) (/usr/share/texmf-dist/tex/latex/minted/minted.sty
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count362
+\lst@gtempboxa=\box95
+\lst@token=\toks54
+\lst@length=\count363
+\lst@currlwidth=\dimen324
+\lst@column=\count364
+\lst@pos=\count365
+\lst@lostspace=\dimen325
+\lst@width=\dimen326
+\lst@newlines=\count366
+\lst@lineno=\count367
+\lst@maxwidth=\dimen327
+ (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count368
+\lst@skipnumbers=\count369
+\lst@framebox=\box96
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+ (/usr/share/texmf-dist/tex/latex/minted/minted.sty
 Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
  (/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
 Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
@@ -679,81 +701,81 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyvrb
  (/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count362
+\FV@CodeLineNo=\count370
 \FV@InFile=\read4
-\FV@TabBox=\box95
-\c@FancyVerbLine=\count363
-\FV@StepNumber=\count364
+\FV@TabBox=\box97
+\c@FancyVerbLine=\count371
+\FV@StepNumber=\count372
 \FV@OutFile=\write5
 ) (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 ) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2025/01/29 line numbers on paragraphs v5.4
-\linenopenalty=\count365
-\output=\toks54
-\linenoprevgraf=\count366
-\linenumbersep=\dimen324
-\linenumberwidth=\dimen325
-\c@linenumber=\count367
-\c@pagewiselinenumber=\count368
-\c@LN@truepage=\count369
-\c@internallinenumber=\count370
-\c@internallinenumbers=\count371
-\quotelinenumbersep=\dimen326
-\bframerule=\dimen327
-\bframesep=\dimen328
-\bframebox=\box96
-\@LN@amsmath@ams@eqpen=\count372
+\linenopenalty=\count373
+\output=\toks55
+\linenoprevgraf=\count374
+\linenumbersep=\dimen328
+\linenumberwidth=\dimen329
+\c@linenumber=\count375
+\c@pagewiselinenumber=\count376
+\c@LN@truepage=\count377
+\c@internallinenumber=\count378
+\c@internallinenumbers=\count379
+\quotelinenumbersep=\dimen330
+\bframerule=\dimen331
+\bframesep=\dimen332
+\bframebox=\box98
+\@LN@amsmath@ams@eqpen=\count380
 LaTeX Info: Redefining \\ on input line 3187.
 )
-\c@FancyVerbWriteLine=\count373
-\c@FancyVerbBufferLine=\count374
-\c@FV@TrueTabGroupLevel=\count375
-\c@FV@TrueTabCounter=\count376
-\FV@TabBox@Group=\box97
-\FV@bgcolorstructbox=\box98
+\c@FancyVerbWriteLine=\count381
+\c@FancyVerbBufferLine=\count382
+\c@FV@TrueTabGroupLevel=\count383
+\c@FV@TrueTabCounter=\count384
+\FV@TabBox@Group=\box99
+\FV@bgcolorstructbox=\box100
 \FV@TmpLength=\skip68
-\c@FV@HighlightLinesStart=\count377
-\c@FV@HighlightLinesStop=\count378
-\FV@LoopCount=\count379
-\FV@NCharsBox=\box99
-\FV@BreakIndent=\dimen329
-\FV@BreakIndentNChars=\count380
-\FV@BreakSymbolSepLeft=\dimen330
-\FV@BreakSymbolSepLeftNChars=\count381
-\FV@BreakSymbolSepRight=\dimen331
-\FV@BreakSymbolSepRightNChars=\count382
-\FV@BreakSymbolIndentLeft=\dimen332
-\FV@BreakSymbolIndentLeftNChars=\count383
-\FV@BreakSymbolIndentRight=\dimen333
-\FV@BreakSymbolIndentRightNChars=\count384
-\c@FancyVerbLineBreakLast=\count385
-\FV@LineBox=\box100
-\FV@LineIndentBox=\box101
-\c@FV@BreakBufferDepth=\count386
-\FV@LineWidth=\dimen334
+\c@FV@HighlightLinesStart=\count385
+\c@FV@HighlightLinesStop=\count386
+\FV@LoopCount=\count387
+\FV@NCharsBox=\box101
+\FV@BreakIndent=\dimen333
+\FV@BreakIndentNChars=\count388
+\FV@BreakSymbolSepLeft=\dimen334
+\FV@BreakSymbolSepLeftNChars=\count389
+\FV@BreakSymbolSepRight=\dimen335
+\FV@BreakSymbolSepRightNChars=\count390
+\FV@BreakSymbolIndentLeft=\dimen336
+\FV@BreakSymbolIndentLeftNChars=\count391
+\FV@BreakSymbolIndentRight=\dimen337
+\FV@BreakSymbolIndentRightNChars=\count392
+\c@FancyVerbLineBreakLast=\count393
+\FV@LineBox=\box102
+\FV@LineIndentBox=\box103
+\c@FV@BreakBufferDepth=\count394
+\FV@LineWidth=\dimen338
 ) (/usr/share/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
 Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Python literal format
 ) (/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks55
-\pgfopts@list@add@b@toks=\toks56
+\pgfopts@list@add@a@toks=\toks56
+\pgfopts@list@add@b@toks=\toks57
 ) (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
 Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Unrestricted shell escape enabled on input line 75.
 )
-\c@minted@FancyVerbLineTemp=\count387
-\@float@every@listing=\toks57
-\c@listing=\count388
+\c@minted@FancyVerbLineTemp=\count395
+\@float@every@listing=\toks58
+\c@listing=\count396
 ) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
-\babel@savecnt=\count389
-\U@D=\dimen335
+\babel@savecnt=\count397
+\U@D=\dimen339
 \l@unhyphenated=\language3
  (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read5
 LaTeX Info: Redefining \textlatin on input line 3835.
-\bbl@dirlevel=\count390
+\bbl@dirlevel=\count398
  (/usr/share/texmf-dist/tex/generic/babel/errbabel.def)
 
 ! Package babel Error: Unknown option 'portuguese'. Either you misspelled it
@@ -778,7 +800,9 @@ Package babel Info: You haven't specified a language as a class or package
 (/usr/share/texmf-dist/tex/generic/babel/nil.ldf
 Language: nil 2025/02/14 v25.4 Nil language
 \l@nil=\language4
-)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+)) (/usr/share/texmf-dist/tex/latex/oberdiek/stackrel.sty
+Package: stackrel 2016/05/16 v1.3 Adding subscript option to stackrel (HO)
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
 (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
@@ -786,38 +810,53 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box102
+\l__tikzfill_img_box=\box104
 )) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
+)
+\c@tcblisting=\count399
 ))
-\c@exerciciocontador=\count391
-\c@definicaocontador=\count392
-\c@exemplocontador=\count393
- (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+\c@exerciciocontador=\count400
+\c@definicaocontador=\count401
+\c@exemplocontador=\count402
+\c@codigocontador=\count403
+ (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/09/23 1.10c listings language file
+) (/usr/share/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/09/23 1.10c listings language file
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count394
-\l__pdf_internal_box=\box103
-) (./main.aux (./estat_descritiva.aux))
-\openout1 = `main.aux'.
+\l__color_backend_stack_int=\count404
+\l__pdf_internal_box=\box105
+) (./aulas_praticas.aux)
+\openout1 = `aulas_praticas.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 192.
+LaTeX Font Info:    ... okay on input line 192.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -827,14 +866,14 @@ LaTeX Font Info:    ... okay on input line 120.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
+* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=307.28987pt
+* \textwidth=342.2953pt
 * \textheight=244.6939pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-61.31996pt
+* \evensidemargin=-61.31996pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -855,77 +894,77 @@ LaTeX Font Info:    ... okay on input line 120.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count395
-\scratchdimen=\dimen336
-\scratchbox=\box104
-\nofMPsegments=\count396
-\nofMParguments=\count397
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count398
-\MPscratchDim=\dimen337
-\MPnumerator=\count399
-\makeMPintoPDFobject=\count400
-\everyMPtoPDFconversion=\toks59
+\scratchcounter=\count405
+\scratchdimen=\dimen340
+\scratchbox=\box106
+\nofMPsegments=\count406
+\nofMParguments=\count407
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count408
+\MPscratchDim=\dimen341
+\MPnumerator=\count409
+\makeMPintoPDFobject=\count410
+\everyMPtoPDFconversion=\toks60
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 120.
- (./main.out) (./main.out)
+Package hyperref Info: Link coloring OFF on input line 192.
+ (./aulas_praticas.out) (./aulas_praticas.out)
 \@outlinefile=\write6
-\openout6 = `main.out'.
+\openout6 = `aulas_praticas.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 120.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 192.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 120.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 192.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 120.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 192.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 120.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 120.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 192.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 120.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 120.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 192.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 120.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 120.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 120.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 192.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 120.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 120.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 192.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 120.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 192.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 120.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 120.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 120.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 120.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 120.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 192.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 120.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 120.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 192.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 192.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 120.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 192.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 120.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 192.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 120.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 192.
  (/usr/share/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -938,226 +977,866 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./main.nav)
-<figures/arbalest.png, id=49, 301.125pt x 301.125pt>
+) (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+\c@lstlisting=\count411
+ (./aulas_praticas.nav)
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 192--192
+ [][][][]  
+ []
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 201--201
+ [][][][]  
+ []
+
+<figures/arbalest.png, id=31, 301.125pt x 301.125pt>
 File: figures/arbalest.png Graphic file (type png)
 <use figures/arbalest.png>
-Package pdftex.def Info: figures/arbalest.png  used on input line 129.
-(pdftex.def)             Requested size: 76.82246pt x 76.82031pt.
+Package pdftex.def Info: figures/arbalest.png  used on input line 201.
+(pdftex.def)             Requested size: 85.57382pt x 85.5734pt.
 
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./figures/arbalest.png>]
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/arbalest.png>]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 204--204
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [2
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 215--215
+ [][][][]  
+ []
 
-[3
-
-]
-
-[4
-
-]
-
-[5
-
-]
-
-[6
-
-]
-
-[7
-
-]
-<figures/pop_sample.png, id=307, 588.2778pt x 373.1541pt>
-File: figures/pop_sample.png Graphic file (type png)
-<use figures/pop_sample.png>
-Package pdftex.def Info: figures/pop_sample.png  used on input line 165.
-(pdftex.def)             Requested size: 215.10196pt x 136.4421pt.
-
-
-[8
-
- <./figures/pop_sample.png>]
-
-[9
-
-]
-<figures/int_1.png, id=375, 580.41844pt x 304.88907pt>
-File: figures/int_1.png Graphic file (type png)
-<use figures/int_1.png>
-Package pdftex.def Info: figures/int_1.png  used on input line 175.
-(pdftex.def)             Requested size: 245.83282pt x 129.13185pt.
-
-
-[10
-
- <./figures/int_1.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 187.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 215.
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 187.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 215.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 187.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 215.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
 
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[3
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 222--222
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[4
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 230--230
+ [][][][]  
+ []
+
+<figures/quadro_vs_slide.png, id=170, 1211.4861pt x 522.5121pt>
+File: figures/quadro_vs_slide.png Graphic file (type png)
+<use figures/quadro_vs_slide.png>
+Package pdftex.def Info: figures/quadro_vs_slide.png  used on input line 230.
+(pdftex.def)             Requested size: 302.87077pt x 130.6277pt.
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[5
+
+ <./figures/quadro_vs_slide.png>]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 239--239
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 247--247
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[7
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 258--258
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 270--270
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 273--273
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 281--281
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 299--299
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [11
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 302--302
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 318--318
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Somando números
+                        
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Somando números
+                        
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [12
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 321--321
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 337--337
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Subtraindo números
+                           
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Subtraindo números
+                           
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [13
 
 ]
-\openout2 = `estat_descritiva.aux'.
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 340--340
+ [][][][]  
+ []
 
- (./estat_descritiva.tex
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 356--356
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Multiplicando números
+                              
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Multiplicando números
+                              
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [14
 
-
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 359--359
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 375--375
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Dvidindo números
+                         
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9   # Dvidindo números
+                         
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [15
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 379--379
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 395--395
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+! Missing { inserted.
+<to be read again> 
+                   $
+l.6 ...tencia de um elemento usamos o símbolo $^$
+                                                  
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.6 ...tencia de um elemento usamos o símbolo $^$
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Potenciação 
+                      de números
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A7.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Potenciação 
+                      de números
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Potenciação 
+                      de números
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "A3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Potenciação 
+                      de números
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Potenciação de números
+                                 
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Potenciação de números
+                                 
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [16
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 399--399
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 413--413
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Modulo de um número
+                            
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Modulo de um número
+                            
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [17
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 416--416
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 430--430
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Raiz quadrada de números
+                                 
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "BA.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8   # Raiz quadrada de números
+                                 
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [18
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 446--446
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [19
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 449--449
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 465--465
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [20
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 477--477
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [21
 
 ]
 
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [22
 
 ]
-\openout4 = `main.vrb'.
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 493--493
+ [][][][]  
+ []
 
- (./main.vrb
-\pydata@fh@_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted=\write7
-\openout7 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250815191415 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
- (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250815191415 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
- (./_minted/default.style.minted) (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [23
 
-] (./main.vrb (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 506--506
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [24
 
-] (./main.vrb (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
+]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 519--519
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [25
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 522--522
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 528--528
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [26
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 531--531
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 547--547
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [27
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 550--550
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 562--562
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [28
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 572--572
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [29
 
 ]
+Overfull \hbox (8.5257pt too wide) in paragraph at lines 584--584
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [30
 
 ]
-\openout4 = `main.vrb'.
+\tf@nav=\write7
+\openout7 = `aulas_praticas.nav'.
 
- (./main.vrb (./_minted/435F8E60A39EF8059EB60B0A5BBAB03F.highlight.minted))
+\tf@toc=\write8
+\openout8 = `aulas_praticas.toc'.
 
-[31
+\tf@snm=\write9
+\openout9 = `aulas_praticas.snm'.
 
-]
+runsystem(latexminted cleantemp  --timestamp 20250819104040 062DEF1E8D8E65B0AA3DFE61003A0EC0)...executed.
 
-[32
-
-]
-
-[33
-
-]
-
-[34
-
-]
-
-[35
-
-])
-\tf@nav=\write8
-\openout8 = `main.nav'.
-
-\tf@toc=\write9
-\openout9 = `main.toc'.
-
-\tf@snm=\write10
-\openout10 = `main.snm'.
-
- (./main.aux (./estat_descritiva.aux))
+ (./aulas_praticas.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 321AC222889F07A7E3DA360A23033A1B;646.
+Package rerunfilecheck Info: File `aulas_praticas.out' has not changed.
+(rerunfilecheck)             Checksum: EBDAD9BC3618FCEC3E676BD04E199FFA;76.
  ) 
 Here is how much of TeX's memory you used:
- 34541 strings out of 475171
- 738689 string characters out of 5767095
- 1245225 words of memory out of 5000000
- 56804 multiletter control sequences out of 15000+600000
- 570661 words of font info for 79 fonts, out of 8000000 for 9000
+ 36852 strings out of 475171
+ 767240 string characters out of 5767095
+ 1542024 words of memory out of 5000000
+ 59108 multiletter control sequences out of 15000+600000
+ 567185 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,20n,123p,862b,1115s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (35 pages, 990340 bytes).
+ 128i,16n,123p,551b,2007s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on aulas_praticas.pdf (30 pages, 1658350 bytes).
 PDF statistics:
- 1295 PDF objects out of 1440 (max. 8388607)
- 1088 compressed objects within 11 object streams
- 74 named destinations out of 1000 (max. 500000)
- 358 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1013 PDF objects out of 1200 (max. 8388607)
+ 851 compressed objects within 9 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

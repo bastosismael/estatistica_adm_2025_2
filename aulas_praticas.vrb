@@ -1,0 +1,12 @@
+\frametitle{Amostragem Aleatória Simples}
+
+ Para realizar o sorteio dos números, utiliziaremos a função \textit{sample}. Essa função recebe como argumentos um vetor a ser amostrado e o tamanho da amostra.
+\begin{lstlisting}[language=R]
+  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+  print(populacao)
+  populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
+  print(populacao_numeros)
+  numeros_amostra = sample(populacao_numeros, 3)
+  amostra = populacao[numeros_amostra]
+  print(amostra)
+  \end{lstlisting}

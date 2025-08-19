@@ -1,10 +1,12 @@
-\frametitle{Correlação - Exemplo no R}
-    Para calcular o coeficiente de correlação entre duas variáveis no R, utilizamos a função \textit{cor}.
-    \begin{block}{Correlação no R}
-    \begin{minted}[linenos=false,breaklines]{R}
-    dados = read.csv(file.choose())
-    duracao_sono = dados$`Duracao do Sono`
-    idade = dados$idade
-    cor_dsono_idade = cor(duracao_sono, idade)
-    \end{minted}
-    \end{block}
+\frametitle{Amostragem aleatória estratificada - Exemplo no R}
+\begin{block}{Amostragem aleatória estratificada (Proporcional) no R}
+\begin{minted}[linenos=false,breaklines]{R}
+n = 3
+populacao = c("Tom", "Lia", "Ema", "Max", "Ana", "Lua", "Mia", "Isa", "Ilo", "Gal")
+populacao_M = c("Tom", "Max", "Ilo")
+populacao_F = c("Lia", "Ema", "Ana", "Lua", "Mia", "Isa", "Gal")
+amostra_1 = sample(populacao_M, round(0.3 * n))
+amostra_2 = sample(populacao_F, round(0.7 * n))
+amostra = c(amostra_1, amostra_2)
+\end{minted}
+\end{block}
