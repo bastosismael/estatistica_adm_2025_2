@@ -185,7 +185,7 @@
 }
 
 
-\title{Estatística II para Contabilidade - Aulas Práticas}
+\title{Estatística para Administração - Aulas Práticas}
 \author{ Prof. Ismael Bastos}
 \date{}
 
@@ -263,7 +263,7 @@
   \item Valores numéricos decimais são separados por ponto (.) e não por virgula. 
   \item Valores textuais precisam sempre ser colocados dentro de aspas (Podendo ser aspas duplas ou simples, adote um padrão).
   \item Valores lógicos precisam ser usados com letras em maíusculo, qualquer coisa diferente disso teremos um erro. 
-  \item Nomes de variáveis não podem iniciar com caracteres especiais ou números. Ex: 2idade, \_nome, \*casa são nomes não permitidos. 
+  \item Nomes de variáveis não podem iniciar com caracteres especiais ou números. Ex: 2idade, \_nome, *casa são nomes não permitidos. 
   \item Nomes de variáveis não podem ser palavras reservadas pela linguagem. Ex: TRUE, FALSE, c, print ...
 \end{itemize}
 \end{atencao}
@@ -384,8 +384,8 @@ As operações a seguir são operações matemáticas envolvendo um elemento. No
     \item \textbf{Potência}:Para realizar calcular a $n$-ésima potencia de um elemento usamos o símbolo $^$
     \begin{lstlisting}[language=R]
   # Potenciação de números
-  q = 2^2 # dois ao quadrado
-  qu =  2^3 # dois ao cubo    
+  x = 2^2 # dois ao quadrado
+  y =  2^3 # dois ao cubo    
   # Multiplicando variaveis
   a = 5
   b = 4
@@ -421,7 +421,7 @@ As operações a seguir são operações matemáticas envolvendo um elemento. No
     \item \textbf{Raiz quadrada}:Para calcular raiz quadrada de um elemento usamos a função \textit{sqrt}.
     \begin{lstlisting}[language=R]
   # Raiz quadrada de números
-  q = sqrt(81) # Raiz quadrada de 81 
+  x = sqrt(81) # Raiz quadrada de 81 
   # Raiz quadrada de variaveis
   a = 25
   raiz = sqrt(a) # raiz quadrada de 25
@@ -465,7 +465,7 @@ As operações a seguir são operações matemáticas envolvendo um elemento. No
 \end{frame}
 
 \begin{frame}{Operações envolvendo vetores}
-  As mesmas operações que vimos para números funcioina também para vetores desde que ambos 
+  As mesmas operações que vimos para números funcionam também para vetores desde que ambos 
   possuam apenas elementos do tipo numérico e tenham a mesma quantidade de elementos.
   
   \pause
@@ -476,110 +476,110 @@ As operações a seguir são operações matemáticas envolvendo um elemento. No
   
 \end{frame}
 
-\begin{frame}{Acessando elementos de um vetor}
+% \begin{frame}{Acessando elementos de um vetor}
 
-  Cada elemento dentro de um vetor ocupa uma posição específica, sendo essa posição indexada por um número. Nesse caso, 
-  a \textcolor{red}{ordem importa}.
+%   Cada elemento dentro de um vetor ocupa uma posição específica, sendo essa posição indexada por um número. Nesse caso, 
+%   a \textcolor{red}{ordem importa}.
 
-Para acessar o elemento que ocupa a posição $i$ de um vetor, basta invocar o vetor passando a posição do elemento entre colchetes. 
+% Para acessar o elemento que ocupa a posição $i$ de um vetor, basta invocar o vetor passando a posição do elemento entre colchetes. 
 
-\begin{exemplo}
-Suponha que tenhamos o seguinte vetor:
+% \begin{exemplo}
+% Suponha que tenhamos o seguinte vetor:
 
-$$v = c("A", "U", "L", "A", "1")$$
+% $$v = c("A", "U", "L", "A", "1")$$
 
-Para acessar o elemento que ocupa a terceira posição (o valor "L"), devemos escrever $v[3]$
-\end{exemplo}
-\end{frame}
+% Para acessar o elemento que ocupa a terceira posição (o valor "L"), devemos escrever $v[3]$
+% \end{exemplo}
+% \end{frame}
 
-\begin{frame}{Acessando elementos de um vetor}
- Podemos também acessar múltiplas posições do vetor ao mesmo tempo, basta passar um vetor de posições entre colchetes. 
+% \begin{frame}{Acessando elementos de um vetor}
+%  Podemos também acessar múltiplas posições do vetor ao mesmo tempo, basta passar um vetor de posições entre colchetes. 
 
- \begin{exemplo}
-Suponha que tenhamos o seguinte vetor:
+%  \begin{exemplo}
+% Suponha que tenhamos o seguinte vetor:
 
-$$v = c("A", "U", "L", "A", "1")$$
+% $$v = c("A", "U", "L", "A", "1")$$
 
-Para acessar os elementos que ocupam a terceira e quarta posição (o valor "L"), devemos escrever $v[c(3,4)]$
-\end{exemplo}
+% Para acessar os elementos que ocupam a terceira e quarta posição (o valor "L"), devemos escrever $v[c(3,4)]$
+% \end{exemplo}
 
-\end{frame}
-\begin{frame}{Tarefa 3 - Lidando com vetores no R}
+% \end{frame}
+% \begin{frame}{Tarefa 3 - Lidando com vetores no R}
 
-  \begin{exercicio}
-    \begin{enumerate}[a)]
-      \item Crie um vetor com o nome que você quiser e armazene a idade dos membros de seu grupo e o ano atual.
-      \item Crie um vetor com o nome que você quiser e armazene o nome dos membros de seu grupo e o nome da disciplina.
-      \item Acesse o elemento que ocupa a segunda posição do vetor do item b).
-      \item Acesse os elementos que ocupam a segunda e primeira posição do vetor do item a). 
-      \item Multiplique o vetor criado no item a) por 3. 
-      \item Calcule a raiz quadrada dos elementos do vetor do item a). 
-    \end{enumerate}
-  \end{exercicio}
-\end{frame}
+%   \begin{exercicio}
+%     \begin{enumerate}[a)]
+%       \item Crie um vetor com o nome que você quiser e armazene a idade dos membros de seu grupo e o ano atual.
+%       \item Crie um vetor com o nome que você quiser e armazene o nome dos membros de seu grupo e o nome da disciplina.
+%       \item Acesse o elemento que ocupa a segunda posição do vetor do item b).
+%       \item Acesse os elementos que ocupam a segunda e primeira posição do vetor do item a). 
+%       \item Multiplique o vetor criado no item a) por 3. 
+%       \item Calcule a raiz quadrada dos elementos do vetor do item a). 
+%     \end{enumerate}
+%   \end{exercicio}
+% \end{frame}
 
-\begin{frame}[fragile]
-    \frametitle{Obtendo o tamanho do vetor}
-    Para obter o tamanho de um vetor, utilizamos a função $length$.
-  \begin{lstlisting}[language=R]
-  nomes = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-  print(length(nomes))
-  \end{lstlisting}
-\end{frame}
+% \begin{frame}[fragile]
+%     \frametitle{Obtendo o tamanho do vetor}
+%     Para obter o tamanho de um vetor, utilizamos a função $length$.
+%   \begin{lstlisting}[language=R]
+%   nomes = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+%   print(length(nomes))
+%   \end{lstlisting}
+% \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{Amostragem Aleatória Simples}
-  Para realizar a Amostragem Aleatória Simples, seguiremos exatamente os passos definidos na aula teórica da disciplina. 
+% \begin{frame}[fragile]
+% \frametitle{Amostragem Aleatória Simples}
+%   Para realizar a Amostragem Aleatória Simples, seguiremos exatamente os passos definidos na aula teórica da disciplina. 
 
-Consideremos o seguinte exemplo de uma população de $10$ pessoas na qual desejamos obter uma amostra de tamanho $3$.
-  \begin{lstlisting}[language=R]
-  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-  print(populacao)
-  \end{lstlisting}
+% Consideremos o seguinte exemplo de uma população de $10$ pessoas na qual desejamos obter uma amostra de tamanho $3$.
+%   \begin{lstlisting}[language=R]
+%   populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+%   print(populacao)
+%   \end{lstlisting}
 
-Vamos atribuir um número a cada um dos elementos da população:
-\begin{lstlisting}[language=R]
-  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-  print(populacao)
-  populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
-  print(populacao_numeros)
-  \end{lstlisting}
-\end{frame}
+% Vamos atribuir um número a cada um dos elementos da população:
+% \begin{lstlisting}[language=R]
+%   populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+%   print(populacao)
+%   populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
+%   print(populacao_numeros)
+%   \end{lstlisting}
+% \end{frame}
 
-\begin{frame}[fragile]
- \frametitle{Amostragem Aleatória Simples}
+% \begin{frame}[fragile]
+%  \frametitle{Amostragem Aleatória Simples}
  
- Para realizar o sorteio dos números, utiliziaremos a função \textit{sample}. Essa função recebe como argumentos um vetor a ser amostrado e o tamanho da amostra. 
-\begin{lstlisting}[language=R]
-  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-  print(populacao)
-  populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
-  print(populacao_numeros)
-  numeros_amostra = sample(populacao_numeros, 3)
-  amostra = populacao[numeros_amostra]
-  print(amostra)
-  \end{lstlisting}
-\end{frame}
+%  Para realizar o sorteio dos números, utiliziaremos a função \textit{sample}. Essa função recebe como argumentos um vetor a ser amostrado e o tamanho da amostra. 
+% \begin{lstlisting}[language=R]
+%   populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+%   print(populacao)
+%   populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
+%   print(populacao_numeros)
+%   numeros_amostra = sample(populacao_numeros, 3)
+%   amostra = populacao[numeros_amostra]
+%   print(amostra)
+%   \end{lstlisting}
+% \end{frame}
 
-\begin{frame}{O que veremos na próxima aula}
-  \begin{itemize}
-    \item Uso do RStudio.
-    \item Amostragem Aleatória Estratificada.
-    \item Funções no R. 
-    \item DataFrames.
-    \item Carregando tabelas Excel no R. 
-  \end{itemize}
-\end{frame}
+% \begin{frame}{O que veremos na próxima aula}
+%   \begin{itemize}
+%     \item Uso do RStudio.
+%     \item Amostragem Aleatória Estratificada.
+%     \item Funções no R. 
+%     \item DataFrames.
+%     \item Carregando tabelas Excel no R. 
+%   \end{itemize}
+% \end{frame}
 
-\begin{frame}{Exercícios de Fixação (Para Casa)}
-  \begin{enumerate}[a)]
-    \item Instalar o R ou se ambientar com o Posit Cloud. 
-    \item Copie o conjunto de dados presente no arquivo notas.txt e cole no seu prompt (terminal) e o armazene em uma variável.
-    \item Considerando esse conjunto de dados como sendo a população de estudo, obtenha uma amostra de tamanho 10. 
-    \item Obtenha o sétimo elemento da amostra obtida. 
-    \item Obtenha o primeiro, terceiro e quinto elementos da amostra encontrada. 
-    \item Refaça os itens a), b) e c). A amostra encontrada é igual a anterior? Por que?
-    \item Use o R como calculadora e efetue operações matemáticas e números de sua escolha.
-  \end{enumerate}
-\end{frame}
+% \begin{frame}{Exercícios de Fixação (Para Casa)}
+%   \begin{enumerate}[a)]
+%     \item Instalar o R ou se ambientar com o Posit Cloud. 
+%     \item Copie o conjunto de dados presente no arquivo notas.txt e cole no seu prompt (terminal) e o armazene em uma variável.
+%     \item Considerando esse conjunto de dados como sendo a população de estudo, obtenha uma amostra de tamanho 10. 
+%     \item Obtenha o sétimo elemento da amostra obtida. 
+%     \item Obtenha o primeiro, terceiro e quinto elementos da amostra encontrada. 
+%     \item Refaça os itens a), b) e c). A amostra encontrada é igual a anterior? Por que?
+%     \item Use o R como calculadora e efetue operações matemáticas e números de sua escolha.
+%   \end{enumerate}
+% \end{frame}
 \end{document}

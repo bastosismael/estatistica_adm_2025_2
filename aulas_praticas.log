@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.11)  19 AUG 2025 10:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.11)  23 AUG 2025 02:21
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -982,12 +982,12 @@ Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
 \c@lstlisting=\count411
  (./aulas_praticas.nav)
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 192--192
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 192--192
  [][][][]  
  []
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 201--201
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 201--201
  [][][][]  
  []
 
@@ -999,28 +999,28 @@ Package pdftex.def Info: figures/arbalest.png  used on input line 201.
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/arbalest.png>]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 204--204
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 204--204
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [2
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 215--215
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 215--215
  [][][][]  
  []
 
@@ -1038,28 +1038,28 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [3
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 222--222
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 222--222
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [4
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 230--230
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 230--230
  [][][][]  
  []
 
@@ -1071,112 +1071,112 @@ Package pdftex.def Info: figures/quadro_vs_slide.png  used on input line 230.
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [5
 
  <./figures/quadro_vs_slide.png>]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 239--239
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 239--239
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [6
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 247--247
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [7
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 258--258
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 258--258
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [8
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 270--270
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 270--270
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [9
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 273--273
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 273--273
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 281--281
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 281--281
  [][][][]  
  []
 
 (./aulas_praticas.vrb)
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [10
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 299--299
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 299--299
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [11
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 302--302
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 302--302
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 318--318
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 318--318
  [][][][]  
  []
 
@@ -1214,21 +1214,21 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [12
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 321--321
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 321--321
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 337--337
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 337--337
  [][][][]  
  []
 
@@ -1266,21 +1266,21 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [13
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 340--340
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 340--340
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 356--356
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 356--356
  [][][][]  
  []
 
@@ -1318,21 +1318,21 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [14
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 359--359
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 359--359
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 375--375
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 375--375
  [][][][]  
  []
 
@@ -1370,21 +1370,21 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [15
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 379--379
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 379--379
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 395--395
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 395--395
  [][][][]  
  []
 
@@ -1503,21 +1503,21 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [16
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 399--399
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 399--399
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 413--413
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 413--413
  [][][][]  
  []
 
@@ -1555,21 +1555,21 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [17
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 416--416
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 416--416
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 430--430
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 430--430
  [][][][]  
  []
 
@@ -1607,56 +1607,56 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 )
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [18
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 446--446
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 446--446
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [19
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 449--449
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 449--449
  [][][][]  
  []
 
 \openout4 = `aulas_praticas.vrb'.
 
 
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 465--465
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 465--465
  [][][][]  
  []
 
 (./aulas_praticas.vrb)
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [20
 
 ]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 477--477
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 477--477
  [][][][]  
  []
 
 
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
@@ -1665,144 +1665,11 @@ Overfull \hbox (8.5257pt too wide) has occurred while \output is active
 ]
 
 
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [22
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 493--493
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[23
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 506--506
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[24
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 519--519
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[25
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 522--522
- [][][][]  
- []
-
-\openout4 = `aulas_praticas.vrb'.
-
-
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 528--528
- [][][][]  
- []
-
-(./aulas_praticas.vrb)
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[26
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 531--531
- [][][][]  
- []
-
-\openout4 = `aulas_praticas.vrb'.
-
-
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 547--547
- [][][][]  
- []
-
-(./aulas_praticas.vrb)
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[27
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 550--550
- [][][][]  
- []
-
-\openout4 = `aulas_praticas.vrb'.
-
-
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 562--562
- [][][][]  
- []
-
-(./aulas_praticas.vrb)
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[28
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 572--572
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[29
-
-]
-Overfull \hbox (8.5257pt too wide) in paragraph at lines 584--584
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (8.5257pt too wide) has occurred while \output is active
- [][][][]  
- []
-
-[30
 
 ]
 \tf@nav=\write7
@@ -1814,7 +1681,7 @@ Overfull \hbox (8.5257pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `aulas_praticas.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20250819104040 062DEF1E8D8E65B0AA3DFE61003A0EC0)...executed.
+runsystem(latexminted cleantemp  --timestamp 20250823022145 062DEF1E8D8E65B0AA3DFE61003A0EC0)...executed.
 
  (./aulas_praticas.aux)
  ***********
@@ -1825,18 +1692,18 @@ Package rerunfilecheck Info: File `aulas_praticas.out' has not changed.
 (rerunfilecheck)             Checksum: EBDAD9BC3618FCEC3E676BD04E199FFA;76.
  ) 
 Here is how much of TeX's memory you used:
- 36852 strings out of 475171
- 767240 string characters out of 5767095
- 1542024 words of memory out of 5000000
- 59108 multiletter control sequences out of 15000+600000
+ 36794 strings out of 475171
+ 766481 string characters out of 5767095
+ 1500023 words of memory out of 5000000
+ 59072 multiletter control sequences out of 15000+600000
  567185 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,123p,551b,2007s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on aulas_praticas.pdf (30 pages, 1658350 bytes).
+Output written on aulas_praticas.pdf (22 pages, 1636979 bytes).
 PDF statistics:
- 1013 PDF objects out of 1200 (max. 8388607)
- 851 compressed objects within 9 object streams
- 62 named destinations out of 1000 (max. 500000)
+ 769 PDF objects out of 1000 (max. 8388607)
+ 639 compressed objects within 7 object streams
+ 46 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

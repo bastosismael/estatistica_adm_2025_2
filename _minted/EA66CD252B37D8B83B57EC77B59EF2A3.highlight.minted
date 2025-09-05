@@ -1,0 +1,10 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n+nf}{require}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{readxl\PYGZdq{}}\PYG{p}{)}
+\PYG{n}{dados}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{read\PYGZus{}excel}\PYG{p}{(}\PYG{n+nf}{file.choose}\PYG{p}{(}\PYG{p}{)}\PYG{p}{,}\PYG{+w}{ }\PYG{n}{sheet}\PYG{o}{=}\PYG{l+m}{1}\PYG{p}{)}
+\PYG{n}{sexo}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{dados}\PYG{o}{\PYGZdl{}}\PYG{n}{Sexo}
+\PYG{n}{freq\PYGZus{}sexo}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n+nf}{table}\PYG{p}{(}\PYG{n}{sexo}\PYG{p}{)}
+\PYG{n+nf}{pie}\PYG{p}{(}\PYG{n}{freq\PYGZus{}sexo}\PYG{p}{,}
+\PYG{+w}{    }\PYG{n}{border}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{white\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{} Coloca bordas brancas}
+\PYG{+w}{    }\PYG{n}{col}\PYG{o}{=}\PYG{n+nf}{c}\PYG{p}{(}\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZsh{}60B5FF\PYGZdq{}}\PYG{p}{,}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{\PYGZsh{}FF9149\PYGZdq{}}\PYG{p}{)}\PYG{p}{,}\PYG{+w}{ }\PYG{c+c1}{\PYGZsh{} Cor de cada fatia}
+\PYG{+w}{    }\PYG{n}{main}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s}{\PYGZdq{}}\PYG{l+s}{Proporcao de Individuos por Sexo\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

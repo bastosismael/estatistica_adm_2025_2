@@ -4,12 +4,15 @@
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=black,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    pdftitle={Overleaf Example},
+    linkcolor=cyan!85!white,        
+    filecolor=magenta!80!white,     
+    urlcolor=lime!75!white,         
+    citecolor=orange!80!white,      
+    pdftitle={Seu Título},
+    pdfauthor={Seu Nome},
+    pdfsubject={Assunto do Documento},
     pdfpagemode=FullScreen,
-    }
+}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -23,6 +26,16 @@
 \usepackage[portuguese]{babel}
 \usepackage{tcolorbox}
 \tcbuselibrary{skins} 
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{itemize item}{\color{blue}$\bullet$}
+\setbeamertemplate{enumerate item}{%
+  \color{blue}%
+  \shadowbox{\insertenumlabel)}%
+}
+\setbeamercolor{enumerate item}{fg=gray}
+\setbeamercolor{enumerate subitem}{fg=gray}
+\setbeamercolor{enumerate subsubitem}{fg=gray}
+\setbeamertemplate{enumerate subitem}{\color{gray}(\insertenumlabel)}
 % Definindo o contador
 \newcounter{exerciciocontador}
 \newcounter{definicaocontador}

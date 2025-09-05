@@ -1,12 +1,16 @@
-\frametitle{Amostragem Aleatória Simples}
+\frametitle{Coleção de valores no R - Vetores}
 
- Para realizar o sorteio dos números, utiliziaremos a função \textit{sample}. Essa função recebe como argumentos um vetor a ser amostrado e o tamanho da amostra.
-\begin{lstlisting}[language=R]
-  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-  print(populacao)
-  populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
-  print(populacao_numeros)
-  numeros_amostra = sample(populacao_numeros, 3)
-  amostra = populacao[numeros_amostra]
-  print(amostra)
+  Podemos também querer armazenar mais de um valor em uma variável. Para fazer isso,
+  usamos a função $c$.
+
+  \begin{lstlisting}[language=R]
+  nomes = c("Jean", "Lucas", "Caio", "Leo")
+  idades = c(25, 28, 12, 56)
+  print(nomes)
+  print(idades)
   \end{lstlisting}
+
+  \begin{atencao}
+    Todos os valores dentro de um vetor devem ser do mesmo tipo.
+  \end{atencao}
+
