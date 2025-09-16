@@ -1,16 +1,11 @@
-\frametitle{Coleção de valores no R - Vetores}
+\frametitle{Amostragem Aleatória Estratificada no R}
 
-  Podemos também querer armazenar mais de um valor em uma variável. Para fazer isso,
-  usamos a função $c$.
-
-  \begin{lstlisting}[language=R]
-  nomes = c("Jean", "Lucas", "Caio", "Leo")
-  idades = c(25, 28, 12, 56)
-  print(nomes)
-  print(idades)
-  \end{lstlisting}
-
-  \begin{atencao}
-    Todos os valores dentro de um vetor devem ser do mesmo tipo.
-  \end{atencao}
-
+\begin{lstlisting}[language=R]
+n = 3
+populacao = c("Tom", "Lia", "Ema", "Max", "Ana", "Lua", "Mia", "Isa", "Ilo", "Gal")
+populacao_M = c("Tom", "Max", "Ilo")
+populacao_F = c("Lia", "Ema", "Ana", "Lua", "Mia", "Isa", "Gal")
+amostra_1 = sample(populacao_M, round(0.3 * n))
+amostra_2 = sample(populacao_F, round(0.7 * n))
+amostra = c(amostra_1, amostra_2)
+\end{lstlisting}

@@ -476,110 +476,208 @@ As operações a seguir são operações matemáticas envolvendo um elemento. No
   
 \end{frame}
 
-% \begin{frame}{Acessando elementos de um vetor}
+\section{Aula 2}
 
-%   Cada elemento dentro de um vetor ocupa uma posição específica, sendo essa posição indexada por um número. Nesse caso, 
-%   a \textcolor{red}{ordem importa}.
+\begin{frame}{Acessando elementos de um vetor}
 
-% Para acessar o elemento que ocupa a posição $i$ de um vetor, basta invocar o vetor passando a posição do elemento entre colchetes. 
+  Cada elemento dentro de um vetor ocupa uma posição específica, sendo essa posição indexada por um número. Nesse caso, 
+  a \textcolor{red}{ordem importa}.
 
-% \begin{exemplo}
-% Suponha que tenhamos o seguinte vetor:
+Para acessar o elemento que ocupa a posição $i$ de um vetor, basta invocar o vetor passando a posição do elemento entre colchetes. 
 
-% $$v = c("A", "U", "L", "A", "1")$$
+\begin{exemplo}
+Suponha que tenhamos o seguinte vetor:
 
-% Para acessar o elemento que ocupa a terceira posição (o valor "L"), devemos escrever $v[3]$
-% \end{exemplo}
-% \end{frame}
+$$v = c("A", "U", "L", "A", "1")$$
 
-% \begin{frame}{Acessando elementos de um vetor}
-%  Podemos também acessar múltiplas posições do vetor ao mesmo tempo, basta passar um vetor de posições entre colchetes. 
+Para acessar o elemento que ocupa a terceira posição (o valor "L"), devemos escrever $v[3]$
+\end{exemplo}
+\end{frame}
 
-%  \begin{exemplo}
-% Suponha que tenhamos o seguinte vetor:
+\begin{frame}{Acessando elementos de um vetor}
+ Podemos também acessar múltiplas posições do vetor ao mesmo tempo, basta passar um vetor de posições entre colchetes. 
 
-% $$v = c("A", "U", "L", "A", "1")$$
+ \begin{exemplo}
+Suponha que tenhamos o seguinte vetor:
 
-% Para acessar os elementos que ocupam a terceira e quarta posição (o valor "L"), devemos escrever $v[c(3,4)]$
-% \end{exemplo}
+$$v = c("A", "U", "L", "A", "1")$$
 
-% \end{frame}
-% \begin{frame}{Tarefa 3 - Lidando com vetores no R}
+Para acessar os elementos que ocupam a terceira e quarta posição (o valor "L"), devemos escrever $v[c(3,4)]$
+\end{exemplo}
 
-%   \begin{exercicio}
-%     \begin{enumerate}[a)]
-%       \item Crie um vetor com o nome que você quiser e armazene a idade dos membros de seu grupo e o ano atual.
-%       \item Crie um vetor com o nome que você quiser e armazene o nome dos membros de seu grupo e o nome da disciplina.
-%       \item Acesse o elemento que ocupa a segunda posição do vetor do item b).
-%       \item Acesse os elementos que ocupam a segunda e primeira posição do vetor do item a). 
-%       \item Multiplique o vetor criado no item a) por 3. 
-%       \item Calcule a raiz quadrada dos elementos do vetor do item a). 
-%     \end{enumerate}
-%   \end{exercicio}
-% \end{frame}
+\end{frame}
+\begin{frame}{Tarefa 3 - Lidando com vetores no R}
 
-% \begin{frame}[fragile]
-%     \frametitle{Obtendo o tamanho do vetor}
-%     Para obter o tamanho de um vetor, utilizamos a função $length$.
-%   \begin{lstlisting}[language=R]
-%   nomes = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-%   print(length(nomes))
-%   \end{lstlisting}
-% \end{frame}
+  \begin{exercicio}
+    \begin{enumerate}[a)]
+      \item Crie um vetor com o nome que você quiser e armazene o nome de 5 pessoas da turma.
+      \item Acesse o elemento que ocupa a segunda posição do vetor do item a).
+      \item Acesse os elementos que ocupam a segunda e primeira posição do vetor do item a).
+      \item Crie um vetor com o nome que quiser e armazene as notas de cada aluno. 
+      \item Multiplique o vetor criado no item d) por 3. 
+      \item Calcule a raiz quadrada dos elementos do vetor do item d). 
+    \end{enumerate}
+  \end{exercicio}
+\end{frame}
 
-% \begin{frame}[fragile]
-% \frametitle{Amostragem Aleatória Simples}
-%   Para realizar a Amostragem Aleatória Simples, seguiremos exatamente os passos definidos na aula teórica da disciplina. 
+\begin{frame}[fragile]
+    \frametitle{Obtendo o tamanho do vetor}
+    Para obter o tamanho de um vetor, utilizamos a função $length$.
+  \begin{lstlisting}[language=R]
+  nomes = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+  print(length(nomes))
+  \end{lstlisting}
+\end{frame}
 
-% Consideremos o seguinte exemplo de uma população de $10$ pessoas na qual desejamos obter uma amostra de tamanho $3$.
-%   \begin{lstlisting}[language=R]
-%   populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-%   print(populacao)
-%   \end{lstlisting}
+\begin{frame}[fragile]
+\frametitle{Amostragem Aleatória Simples}
+  Para realizar a Amostragem Aleatória Simples, seguiremos exatamente os passos definidos na aula teórica da disciplina. 
 
-% Vamos atribuir um número a cada um dos elementos da população:
-% \begin{lstlisting}[language=R]
-%   populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-%   print(populacao)
-%   populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
-%   print(populacao_numeros)
-%   \end{lstlisting}
-% \end{frame}
+Consideremos o seguinte exemplo de uma população de $10$ pessoas na qual desejamos obter uma amostra de tamanho $3$.
+  \begin{lstlisting}[language=R]
+  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+  print(populacao)
+  \end{lstlisting}
 
-% \begin{frame}[fragile]
-%  \frametitle{Amostragem Aleatória Simples}
+Vamos atribuir um número a cada um dos elementos da população:
+\begin{lstlisting}[language=R]
+  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+  print(populacao)
+  populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
+  print(populacao_numeros)
+  \end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+ \frametitle{Amostragem Aleatória Simples}
  
-%  Para realizar o sorteio dos números, utiliziaremos a função \textit{sample}. Essa função recebe como argumentos um vetor a ser amostrado e o tamanho da amostra. 
-% \begin{lstlisting}[language=R]
-%   populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
-%   print(populacao)
-%   populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
-%   print(populacao_numeros)
-%   numeros_amostra = sample(populacao_numeros, 3)
-%   amostra = populacao[numeros_amostra]
-%   print(amostra)
-%   \end{lstlisting}
-% \end{frame}
+ Para realizar o sorteio dos números, utiliziaremos a função \textit{sample}. Essa função recebe como argumentos um vetor a ser amostrado e o tamanho da amostra. 
+\begin{lstlisting}[language=R]
+  populacao = c("Jean", "Lucas", "Caio", "Leo", "Ana", "Vera", "Teo", "Mia", "Ina", "Isa")
+  print(populacao)
+  populacao_numeros = c(1,2,3,4,5,6,7,8,9,10)
+  print(populacao_numeros)
+  numeros_amostra = sample(populacao_numeros, 3)
+  amostra = populacao[numeros_amostra]
+  print(amostra)
+  \end{lstlisting}
+\end{frame}
 
-% \begin{frame}{O que veremos na próxima aula}
-%   \begin{itemize}
-%     \item Uso do RStudio.
-%     \item Amostragem Aleatória Estratificada.
-%     \item Funções no R. 
-%     \item DataFrames.
-%     \item Carregando tabelas Excel no R. 
-%   \end{itemize}
-% \end{frame}
+\begin{frame}[fragile]
+  \frametitle{Como ler um arquivo Excel no R\\RStudio}
+  Existem duas formas de ler um arquivo Excel no RStudio. 
+  A primeira é através de uma função:
 
-% \begin{frame}{Exercícios de Fixação (Para Casa)}
-%   \begin{enumerate}[a)]
-%     \item Instalar o R ou se ambientar com o Posit Cloud. 
-%     \item Copie o conjunto de dados presente no arquivo notas.txt e cole no seu prompt (terminal) e o armazene em uma variável.
-%     \item Considerando esse conjunto de dados como sendo a população de estudo, obtenha uma amostra de tamanho 10. 
-%     \item Obtenha o sétimo elemento da amostra obtida. 
-%     \item Obtenha o primeiro, terceiro e quinto elementos da amostra encontrada. 
-%     \item Refaça os itens a), b) e c). A amostra encontrada é igual a anterior? Por que?
-%     \item Use o R como calculadora e efetue operações matemáticas e números de sua escolha.
-%   \end{enumerate}
-% \end{frame}
+  \pause
+  \begin{lstlisting}[language=R]
+  dados = read.csv("Caminho do arquivo")
+  \end{lstlisting}
+\end{frame}
+
+\begin{frame}
+  Segunda forma: Lendo pela interface do RStudio. 
+\end{frame}
+
+\begin{frame}{Como a tabela é armazenada dentro do R?}
+  \begin{itemize}
+    \item Uma tabela é armazenada dentro do R como uma estrutura chamada DataFrame
+    \pause
+    \item Para visualizar a tabela no RStudio, basta usar o camando \textit{View}.
+    \pause
+    \item Para visualizar todas as variáveis (colunas) da tabela, usamos o comando \textit{names}.
+    \pause
+    \item As colunas de um DataFrame são tratadas como vetores, logo, podemos aplicar todo o conhecimento de vetores que vimos anteriormente.
+    \pause
+    \item Para acessar uma coluna, basta usar o nome que atribuimos à tabela seguido pelo símbolo \$ e o nome da coluna. Dica, apertar tab depois do \$ exibe as colunas possíveis.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Filtrando uma tabela}
+Para filtrar o conjunto de dados baseado em uma condição, primeiro devemos escrever o nome do DataFrame acompanhado da condição dentro de colchetes
+ sucedido por virgula e pela coluna que se deseja obter ao final da filtragem. Caso queiramos obter todas as colunas, deixamos vazio. 
+
+ \begin{exemplo}
+  Suponha que tenhamos interesse em filtrar, no nosso conjunto de dados, todos os indivíduos que tenham idade inferior a 45 anos. O código para isso seria:
+
+\begin{lstlisting}[language=R]
+    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+    dados_l45 = dados[dados$Idade < 45, ] # DataFrame contendo apenas indivíduos com idade inferior a 45 anos.
+\end{lstlisting}
+
+ \end{exemplo}
+
+\end{frame}
+
+\begin{frame}[fragile]
+ \frametitle{Filtrando uma tabela}
+\begin{exemplo}
+    Perceba que, após a virgula, não é colocado nada, deixando um espaço vazio. Isso faz com que seja retornada todas as colunas do conjunto de dados filtrado. 
+Por outro lado, caso escrevêssemos o código a seguir, obteriamos apenas a Ocupacao dos indivíduos com Idade inferior a 45 anos. 
+
+\begin{lstlisting}[language=R]
+    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+    dados_l45 = dados[dados$Idade < 45, "Ocupacao"] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
+\end{lstlisting}
+\end{exemplo}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Filtrando uma tabela}
+\begin{exemplo}
+Podemos também querer filtrar basedo em um conjunto de valores, nesse caso usamos o comparador lógico \%in\%.
+
+\begin{lstlisting}[language=R]
+  dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+  dados_l45 = dados[dados$Idade %in% c(12, 45, 27, 30), ] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
+\end{lstlisting}
+\end{exemplo}
+\end{frame}
+
+\begin{frame}{Tarefa 4 - Lidando com arquivos Excel}
+  \begin{enumerate}[a)]
+    \item Leia a base de dados (tabela) do curso dentro do RStudio.
+    \item Visualize a tabela dentro do RStudio.
+    \item Mostre na tela os valores da coluna Ocupacao.
+    \item Qual o tamanho (número de linhas) dessa tabela?
+    \item Calcule a média, mediana, variância e desvio padrão dos valores da variável  Duracao do Sono.
+    \item Crie uma tabela contendo a frequência nominal para a variável Sexo.
+    \item Crie uma tabela contendo a frequência relativa para a variável Ocupacao.   
+    \item Considere que essa tabela é a população. Obtenha uma amostra aleatória simples de tamanho 50. 
+    \item Desafio: Construa um boxplot para a variável Nivel de atividade física.
+    \item Desafio: Construa um boxplot para a variável Nivel de atividade física por sexo.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Lendo arquivos Excel no formato xls ou xlsx}
+
+Para ler arquivos Excel, primeiro precisamos instalar a biblioteca \textit{readxl}.
+
+\begin{lstlisting}[language=R]
+   install.packages("readxl")
+\end{lstlisting}
+
+\pause
+
+\begin{itemize}
+  \item Após isso, lemos o arquivo usando o comando \textit{read\_excel}.
+  \item Podemos também ler pela interface do RStudio. 
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Amostragem Aleatória Estratificada no R}
+
+\begin{lstlisting}[language=R]
+n = 3
+populacao = c("Tom", "Lia", "Ema", "Max", "Ana", "Lua", "Mia", "Isa", "Ilo", "Gal")
+populacao_M = c("Tom", "Max", "Ilo")
+populacao_F = c("Lia", "Ema", "Ana", "Lua", "Mia", "Isa", "Gal")
+amostra_1 = sample(populacao_M, round(0.3 * n))
+amostra_2 = sample(populacao_F, round(0.7 * n))
+amostra = c(amostra_1, amostra_2)
+\end{lstlisting}
+\end{frame}
 \end{document}

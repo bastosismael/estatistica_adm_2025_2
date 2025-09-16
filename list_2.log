@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  12 SEP 2025 14:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  6 SEP 2025 02:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**/home/ismael/Documentos/Material_Aula/estatistica_adm/atividade_sala_1
-(/home/ismael/Documentos/Material_Aula/estatistica_adm/atividade_sala_1.tex
+**/home/ismael/Documentos/Material_Aula/estatistica_adm/list_2
+(/home/ismael/Documentos/Material_Aula/estatistica_adm/list_2.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -348,27 +348,27 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box57
-) (./atividade_sala_1.aux)
-\openout1 = `atividade_sala_1.aux'.
+) (./list_2.aux)
+\openout1 = `list_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count303
@@ -422,114 +422,199 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 21.
-(./atividade_sala_1.out) (./atividade_sala_1.out)
+Package hyperref Info: Link coloring OFF on input line 19.
+(./list_2.out) (./list_2.out)
 \@outlinefile=\write3
-\openout3 = `atividade_sala_1.out'.
+\openout3 = `list_2.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 23.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 22.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 23.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 22.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 23.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 22.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 23.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 22.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 23.
+(Font)              <14.4> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 23.
+(Font)              <10> on input line 22.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 23.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+(Font)              <7> on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Warning: No \author given.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 26.
-(/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \hbox (3.85806pt too wide) in paragraph at lines 29--31
-[]\T1/lmr/m/n/12 O grupo deve escrever as respostas nas folhas fornecidas, sendo todas as respostas referentes
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 29.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 29.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
  []
 
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 46.
-(/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 46.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 46.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 46.
-<figures/qr_code.png, id=5, 3011.25pt x 3011.25pt>
-File: figures/qr_code.png Graphic file (type png)
-<use figures/qr_code.png>
-Package pdftex.def Info: figures/qr_code.png  used on input line 49.
-(pdftex.def)             Requested size: 193.47578pt x 193.44072pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (5.0495pt too wide) in paragraph at lines 66--70
-\T1/lmr/m/n/12 salariais de seu setor. Nesse sentido, ele resolve perguntar a sua amiga Amanda, supervisora
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+Overfull \hbox (5.25235pt too wide) in paragraph at lines 70--71
+[]\T1/lmr/m/n/12 Calcule a médiana da Idade dos participantes. Compare a mediana com a média encontrada
  []
 
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.76 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \@endpefalse \endgroup 
+                                                  
+l.76 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.76 \end{table}
+                
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
 
-[2 <./figures/qr_code.png>]
-<figures/lotofacil.png, id=30, 355.3275pt x 193.6836pt>
-File: figures/lotofacil.png Graphic file (type png)
-<use figures/lotofacil.png>
-Package pdftex.def Info: figures/lotofacil.png  used on input line 111.
-(pdftex.def)             Requested size: 241.84843pt x 131.83017pt.
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.76 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+<figures/pizza_1_exercicio.png, id=32, 432.11438pt x 258.9675pt>
+File: figures/pizza_1_exercicio.png Graphic file (type png)
+<use figures/pizza_1_exercicio.png>
+Package pdftex.def Info: figures/pizza_1_exercicio.png  used on input line 84.
+(pdftex.def)             Requested size: 193.47578pt x 115.94946pt.
+<figures/boxplot_2.png, id=33, 969.6225pt x 506.6428pt>
+File: figures/boxplot_2.png Graphic file (type png)
+<use figures/boxplot_2.png>
+Package pdftex.def Info: figures/boxplot_2.png  used on input line 95.
+(pdftex.def)             Requested size: 290.22107pt x 151.64613pt.
 
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc} <./figures/lotofacil.png>]
-Overfull \hbox (3.7964pt too wide) in paragraph at lines 151--153
-\T1/lmr/m/n/12 com que ele apareceu em sorteios anteriores, ou seja, considera que a probabilidade é proporcional
- []
+[2 <./figures/pizza_1_exercicio.png (PNG copy)>]
 
+[3 <./figures/boxplot_2.png>]
 
-
-[4] (./atividade_sala_1.aux)
+[4] (./list_2.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `atividade_sala_1.out' has not changed.
+Package rerunfilecheck Info: File `list_2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12631 strings out of 475171
- 194671 string characters out of 5767095
- 620524 words of memory out of 5000000
- 35416 multiletter control sequences out of 15000+600000
- 602161 words of font info for 76 fonts, out of 8000000 for 9000
+ 12564 strings out of 475171
+ 192933 string characters out of 5767095
+ 621465 words of memory out of 5000000
+ 35337 multiletter control sequences out of 15000+600000
+ 596719 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,9n,79p,580b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on atividade_sala_1.pdf (4 pages, 2712320 bytes).
+ 69i,8n,79p,570b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on list_2.pdf (4 pages, 233538 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 40 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

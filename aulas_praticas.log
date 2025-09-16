@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.11)  23 AUG 2025 02:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  16 SEP 2025 09:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -991,7 +991,7 @@ Overfull \hbox (4.43816pt too wide) in paragraph at lines 201--201
  [][][][]  
  []
 
-<figures/arbalest.png, id=31, 301.125pt x 301.125pt>
+<figures/arbalest.png, id=35, 301.125pt x 301.125pt>
 File: figures/arbalest.png Graphic file (type png)
 <use figures/arbalest.png>
 Package pdftex.def Info: figures/arbalest.png  used on input line 201.
@@ -1063,7 +1063,7 @@ Overfull \hbox (4.43816pt too wide) in paragraph at lines 230--230
  [][][][]  
  []
 
-<figures/quadro_vs_slide.png, id=170, 1211.4861pt x 522.5121pt>
+<figures/quadro_vs_slide.png, id=176, 1211.4861pt x 522.5121pt>
 File: figures/quadro_vs_slide.png Graphic file (type png)
 <use figures/quadro_vs_slide.png>
 Package pdftex.def Info: figures/quadro_vs_slide.png  used on input line 230.
@@ -1672,6 +1672,440 @@ Overfull \hbox (4.43816pt too wide) has occurred while \output is active
 [22
 
 ]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 479--479
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 495--495
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[24
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 508--508
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 521--521
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[26
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 524--524
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 530--530
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[27
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 533--533
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 549--549
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[28
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 552--552
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 564--564
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[29
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 567--567
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 575--575
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[30
+
+] (./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[31
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 579--579
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[32
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 593--593
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[33
+
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[34
+
+]
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[35
+
+]
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[36
+
+]
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[37
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 596--596
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 610--610
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...] # DataFrame contendo apenas indivíduos 
+                                                  com idade inferior a 45 anos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...] # DataFrame contendo apenas indivíduos 
+                                                  com idade inferior a 45 anos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[38
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 613--613
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 624--624
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...oluna Ocupacao contendo apenas indivíduos 
+                                                  com idade inferior a 45 anos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...oluna Ocupacao contendo apenas indivíduos 
+                                                  com idade inferior a 45 anos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[39
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 627--627
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 636--636
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb
+
+! LaTeX Error: Invalid UTF-8 byte sequence (�\expandafter).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...oluna Ocupacao contendo apenas indivíduos 
+                                                  com idade inferior a 45 anos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte "AD.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 ...oluna Ocupacao contendo apenas indivíduos 
+                                                  com idade inferior a 45 anos.
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[40
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 651--651
+ [][][][]  
+ []
+
+
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[41
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 654--654
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 668--668
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[42
+
+] (./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[43
+
+]
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 671--671
+ [][][][]  
+ []
+
+\openout4 = `aulas_praticas.vrb'.
+
+
+Overfull \hbox (4.43816pt too wide) in paragraph at lines 682--682
+ [][][][]  
+ []
+
+(./aulas_praticas.vrb)
+
+
+Overfull \hbox (4.43816pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[44
+
+]
 \tf@nav=\write7
 \openout7 = `aulas_praticas.nav'.
 
@@ -1681,7 +2115,7 @@ Overfull \hbox (4.43816pt too wide) has occurred while \output is active
 \tf@snm=\write9
 \openout9 = `aulas_praticas.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20250823022145 062DEF1E8D8E65B0AA3DFE61003A0EC0)...executed.
+runsystem(latexminted cleantemp  --timestamp 20250916090711 062DEF1E8D8E65B0AA3DFE61003A0EC0)...executed.
 
  (./aulas_praticas.aux)
  ***********
@@ -1689,21 +2123,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `aulas_praticas.out' has not changed.
-(rerunfilecheck)             Checksum: EBDAD9BC3618FCEC3E676BD04E199FFA;76.
+(rerunfilecheck)             Checksum: 158492B1746C70D7A991C6742F6C5CF8;152.
  ) 
 Here is how much of TeX's memory you used:
- 36794 strings out of 475171
- 766481 string characters out of 5767095
- 1500023 words of memory out of 5000000
- 59072 multiletter control sequences out of 15000+600000
- 567185 words of font info for 66 fonts, out of 8000000 for 9000
+ 36947 strings out of 475171
+ 768292 string characters out of 5767095
+ 1561024 words of memory out of 5000000
+ 59155 multiletter control sequences out of 15000+600000
+ 567827 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,16n,123p,551b,2007s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on aulas_praticas.pdf (22 pages, 1636979 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on aulas_praticas.pdf (44 pages, 1702657 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 639 compressed objects within 7 object streams
- 46 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1459 PDF objects out of 1728 (max. 8388607)
+ 1242 compressed objects within 13 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

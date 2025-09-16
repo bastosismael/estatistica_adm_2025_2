@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  4 SEP 2025 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  12 SEP 2025 15:03
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1292,10 +1292,10 @@ and I'll forget about whatever was undefined.
 \pydata@fh@_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted=\write7
 \openout7 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250904111921 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted config  --timestamp 20250912150340 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250904111921 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250912150340 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (./_minted/default.style.minted) (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
 
@@ -3270,99 +3270,7 @@ and I'll forget about whatever was undefined.
 
 [182
 
-]
-
-[183
-
-]
-
-[184
-
-]
-
-[185
-
-]
-
-[186
-
-]
-
-[187
-
-]
-
-[188
-
-]
-
-[189
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/A3F1B1E82ACBE55C3B81868186A85910.highlight.minted))
-
-[190
-
-]
-
-[191
-
-]
-
-[192
-
-]
-
-[193
-
-]
-
-[194
-
-]
-
-[195
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/97F34373490FA2BA87E9CBFCCB1B9EBE.highlight.minted))
-
-[196
-
-]
-<figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png, id=6668, 602.25pt x 361.35pt>
-File: figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png Graphic file (type png)
-<use figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png>
-Package pdftex.def Info: figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png  used on input line 1482.
-(pdftex.def)             Requested size: 245.83282pt x 147.49832pt.
-
-
-[197
-
- <./figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png>]
-<figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png, id=6702, 602.25pt x 415.5525pt>
-File: figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png Graphic file (type png)
-<use figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png>
-Package pdftex.def Info: figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png  used on input line 1490.
-(pdftex.def)             Requested size: 245.83282pt x 169.62306pt.
-
-
-[198
-
- <./figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png>]
-<figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png, id=6736, 602.25pt x 393.47pt>
-File: figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png Graphic file (type png)
-<use figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png>
-Package pdftex.def Info: figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png  used on input line 1498.
-(pdftex.def)             Requested size: 245.83282pt x 160.60927pt.
-
-
-[199
-
- <./figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png>])
+])
 \tf@nav=\write8
 \openout8 = `main.nav'.
 
@@ -3381,18 +3289,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 4998318A007B8880C2BFE45FFAF37CA4;635.
  ) 
 Here is how much of TeX's memory you used:
- 35522 strings out of 475171
- 761173 string characters out of 5767095
- 1262086 words of memory out of 5000000
- 57361 multiletter control sequences out of 15000+600000
+ 35425 strings out of 475171
+ 757148 string characters out of 5767095
+ 1261592 words of memory out of 5000000
+ 57308 multiletter control sequences out of 15000+600000
  573421 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,20n,123p,862b,1123s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (199 pages, 2586872 bytes).
+Output written on main.pdf (182 pages, 2431736 bytes).
 PDF statistics:
- 6936 PDF objects out of 7423 (max. 8388607)
- 5927 compressed objects within 60 object streams
- 402 named destinations out of 1000 (max. 500000)
- 1073 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6361 PDF objects out of 7423 (max. 8388607)
+ 5432 compressed objects within 55 object streams
+ 368 named destinations out of 1000 (max. 500000)
+ 992 words of extra memory for PDF output out of 10000 (max. 10000000)
 

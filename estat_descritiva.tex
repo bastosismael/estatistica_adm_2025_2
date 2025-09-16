@@ -355,15 +355,15 @@ onde, $f_i = \dfrac{n_i}{n}$
 \hline
 idade & experiência(anos) & sexo & cidade         & formação               & salário (R\$) \\ \hline
 20    & 2                 & 1    & Rio de Janeiro & Farmácia          & 6000          \\ \hline
-25    & 5                 & 0    & São Paulo      & Engenharia Química & 5000          \\ \hline
+25    & 5                 & 0    & São Paulo      & Administração & 5000          \\ \hline
 35    & 7                 & 1    & Rio de Janeiro & Farmácia          & 10000         \\ \hline
-40    & 15                & 1    & Rio de Janeiro & Engenharia Química & 6000          \\ \hline
+40    & 15                & 1    & Rio de Janeiro & Administração & 6000          \\ \hline
 45    & 25                & 1    & Rio de Janeiro & Farmácia          & 7500          \\ \hline
 22    & 1                 & 0    & São Paulo      & Farmácia          & 1740          \\ \hline
 34    & 7                 & 0    & Rio de Janeiro & Farmácia          & 7000          \\ \hline
-56    & 25                & 1    & São Paulo      & Engenharia Química & 6500          \\ \hline
-19    & 0                 & 1    & Rio de Janeiro & Engenharia Química & 1990          \\ \hline
-29    & 9                 & 0    & São Paulo      & Engenharia Química & 8000          \\ \hline
+56    & 25                & 1    & São Paulo      & Administração & 6500          \\ \hline
+19    & 0                 & 1    & Rio de Janeiro & Administração & 1990          \\ \hline
+29    & 9                 & 0    & São Paulo      & Administração & 8000          \\ \hline
 \end{tabular}
 \end{adjustbox}
 \end{table}
@@ -377,7 +377,7 @@ idade & experiência(anos) & sexo & cidade         & formação               & 
 \hline
 Formação               & $n_i$  & $f_i$ \\ \hline
 Farmácia          & 5      & 0,5   \\ \hline
-Engenharia Química & 5      & 0,5   \\ \hline
+Administração & 5      & 0,5   \\ \hline
 total                  & $n$=10 & 1     \\ \hline
 \end{tabular}
 \end{table}
@@ -1229,7 +1229,7 @@ ou seja,
 \end{frame}
 
 \begin{frame}{Escores padronizados}
-    Suponhamos que tenha sido feito um estudo visando entender o desempenho dos alunos do curso de Engenharia Química no curso de Cálculo em comparação com o curso de Estatística. 
+    Suponhamos que tenha sido feito um estudo visando entender o desempenho dos alunos do curso de Administração no curso de Cálculo em comparação com o curso de Estatística. 
     \pause
     \vspace{5px}
     
@@ -1378,124 +1378,124 @@ ou seja,
 % %     \end{itemize}
 % % \end{frame}
 
-\begin{frame}{Covariância e Correlação}
-    \begin{itemize}
-        \item  Até agora, vimos como analisar medidas referentes a uma única variável. Entretanto, na prática, 
-        podemos nos deparar com situaçãos nas quais se faz interessante estudar a relação entre duas ou mais
-        variáveis. 
-        \pause
-        \item    Nesse sentido, surge a Covariância e a Correlação, que são medidas usadas para analisar a relação entre duas ou mais variáveis.  
-    \end{itemize}
-\end{frame}
-
-\begin{frame}{Covariância}
-    A covariância entre duas variáveis $X$ e $Y$ é definida por:
-
-    $$Cov(X,Y) = \dfrac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y}) }{n}$$
-
-    \pause
-
-    \begin{itemize}
-        \item A covariância mede o grau de associação \textbf{linear} entre as variáveis.
-        \pause
-        \item A unidade de medida é dada pelo produto das unidades de medida das variáveis X e Y.
-        \pause
-        \item  \textcolor{red}{Importante}: A covariância depende da escala dos dados, o que faz com que seja difícil estabelecer comparações. 
-        \pause
-        \item  Seus valores podem variar de $-\infty$ a $\infty$
-    \end{itemize}
-\end{frame}
-
-
-\begin{frame}[fragile]
-    \frametitle{Covariância - Exemplo no R}   
-    Para calcular a covariãncia entre duas variáveis no R, utilizamos a função \textit{cov}.
-    \begin{block}{Covariância no R}
-    \begin{minted}[linenos=false,breaklines]{R}
-    dados = read.csv(file.choose())
-    duracao_sono = dados$`Duracao do Sono`
-    idade = dados$Idade
-    cov_dsono_idade = cov(duracao_sono, idade)
-    \end{minted}
-    \end{block}
-\end{frame}
-
-% \begin{frame}{Impacto da escala dos dados no cálculo da covariância}
+% \begin{frame}{Covariância e Correlação}
 %     \begin{itemize}
-%         Exemplo no R, arquivo: escala\_covariancia.R 
+%         \item  Até agora, vimos como analisar medidas referentes a uma única variável. Entretanto, na prática, 
+%         podemos nos deparar com situaçãos nas quais se faz interessante estudar a relação entre duas ou mais
+%         variáveis. 
+%         \pause
+%         \item    Nesse sentido, surge a Covariância e a Correlação, que são medidas usadas para analisar a relação entre duas ou mais variáveis.  
 %     \end{itemize}
 % \end{frame}
 
-\begin{frame}{Coeficiente de correlação}
-    O coeficiente de correlação entre duas variáveis $X$ e $Y$ é definido por:
+% \begin{frame}{Covariância}
+%     A covariância entre duas variáveis $X$ e $Y$ é definida por:
 
-    $$Corr(X,Y) = \rho(X,Y) = \dfrac{1}{n} \sum_{i=1}^n \left( \dfrac{x_i - \bar{x}}{\sigma_X}\right) \left( \dfrac{y_i - \bar{y}}{\sigma_Y}\right)$$
+%     $$Cov(X,Y) = \dfrac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y}) }{n}$$
 
-    \pause
-    \begin{itemize}
-        \item O coeficiente de correlação também mede o grau de associação \textbf{linear} entre as variáveis.
-        \pause
-        \item  O coeficiente de correlação \textbf{não} depende da escala dos dados, permitindo comparações. 
-        \pause
-        \item Seus valores podem variar entre $-1$ e $1$.
-    \end{itemize}
-\end{frame}
+%     \pause
 
-\begin{frame}{Classificação do coeficiente de correlação}
-    
-\begin{table}[H]
-\centering
-\begin{tabular}{|c|l|}
-\hline
-\textbf{Valor de $\rho$ (+ ou –)} & \textbf{Interpretação} \\ \hline
-0{,}00 a 0{,}19 &  Correlação bem fraca \\ \hline
-0{,}20 a 0{,}39 &  Correlação fraca \\ \hline
-0{,}40 a 0{,}69 &  Correlação moderada \\ \hline
-0{,}70 a 0{,}89 &  Correlação forte \\ \hline
-0{,}90 a 1{,}00 &  Correlação muito forte \\ \hline
-\end{tabular}
-\end{table}
-\end{frame}
+%     \begin{itemize}
+%         \item A covariância mede o grau de associação \textbf{linear} entre as variáveis.
+%         \pause
+%         \item A unidade de medida é dada pelo produto das unidades de medida das variáveis X e Y.
+%         \pause
+%         \item  \textcolor{red}{Importante}: A covariância depende da escala dos dados, o que faz com que seja difícil estabelecer comparações. 
+%         \pause
+%         \item  Seus valores podem variar de $-\infty$ a $\infty$
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{Correlação - Exemplo no R}   
-    Para calcular o coeficiente de correlação entre duas variáveis no R, utilizamos a função \textit{cor}.
-    \begin{block}{Correlação no R}
-    \begin{minted}[linenos=false,breaklines]{R}
-    dados = read.csv(file.choose())
-    duracao_sono = dados$`Duracao do Sono`
-    idade = dados$idade
-    cor_dsono_idade = cor(duracao_sono, idade)
-    \end{minted}
-    \end{block}
-\end{frame}
 
-% % \begin{frame}{Correlação \textbf{Linear} ( Apenas Linear)}
-% %     Exemplo no R, arquivo: correlacao\_linear.R
+% \begin{frame}[fragile]
+%     \frametitle{Covariância - Exemplo no R}   
+%     Para calcular a covariãncia entre duas variáveis no R, utilizamos a função \textit{cov}.
+%     \begin{block}{Covariância no R}
+%     \begin{minted}[linenos=false,breaklines]{R}
+%     dados = read.csv(file.choose())
+%     duracao_sono = dados$`Duracao do Sono`
+%     idade = dados$Idade
+%     cov_dsono_idade = cov(duracao_sono, idade)
+%     \end{minted}
+%     \end{block}
+% \end{frame}
+
+% % \begin{frame}{Impacto da escala dos dados no cálculo da covariância}
+% %     \begin{itemize}
+% %         Exemplo no R, arquivo: escala\_covariancia.R 
+% %     \end{itemize}
 % % \end{frame}
 
-\begin{frame}{Correlação não implica causalidade}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\linewidth]{figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png}
-    \end{figure}
-\end{frame}
+% \begin{frame}{Coeficiente de correlação}
+%     O coeficiente de correlação entre duas variáveis $X$ e $Y$ é definido por:
+
+%     $$Corr(X,Y) = \rho(X,Y) = \dfrac{1}{n} \sum_{i=1}^n \left( \dfrac{x_i - \bar{x}}{\sigma_X}\right) \left( \dfrac{y_i - \bar{y}}{\sigma_Y}\right)$$
+
+%     \pause
+%     \begin{itemize}
+%         \item O coeficiente de correlação também mede o grau de associação \textbf{linear} entre as variáveis.
+%         \pause
+%         \item  O coeficiente de correlação \textbf{não} depende da escala dos dados, permitindo comparações. 
+%         \pause
+%         \item Seus valores podem variar entre $-1$ e $1$.
+%     \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Classificação do coeficiente de correlação}
+    
+% \begin{table}[H]
+% \centering
+% \begin{tabular}{|c|l|}
+% \hline
+% \textbf{Valor de $\rho$ (+ ou –)} & \textbf{Interpretação} \\ \hline
+% 0{,}00 a 0{,}19 &  Correlação bem fraca \\ \hline
+% 0{,}20 a 0{,}39 &  Correlação fraca \\ \hline
+% 0{,}40 a 0{,}69 &  Correlação moderada \\ \hline
+% 0{,}70 a 0{,}89 &  Correlação forte \\ \hline
+% 0{,}90 a 1{,}00 &  Correlação muito forte \\ \hline
+% \end{tabular}
+% \end{table}
+% \end{frame}
+
+% \begin{frame}[fragile]
+% \frametitle{Correlação - Exemplo no R}   
+%     Para calcular o coeficiente de correlação entre duas variáveis no R, utilizamos a função \textit{cor}.
+%     \begin{block}{Correlação no R}
+%     \begin{minted}[linenos=false,breaklines]{R}
+%     dados = read.csv(file.choose())
+%     duracao_sono = dados$`Duracao do Sono`
+%     idade = dados$idade
+%     cor_dsono_idade = cor(duracao_sono, idade)
+%     \end{minted}
+%     \end{block}
+% \end{frame}
+
+% % % \begin{frame}{Correlação \textbf{Linear} ( Apenas Linear)}
+% % %     Exemplo no R, arquivo: correlacao\_linear.R
+% % % \end{frame}
+
+% \begin{frame}{Correlação não implica causalidade}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.8\linewidth]{figures/1152_number-of-registered-yamaha-motorcycles-in-the-uk_correlates-with_annual-email-spam-rates.png}
+%     \end{figure}
+% \end{frame}
 
 
-\begin{frame}{Correlação não implica causalidade}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\linewidth]{figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png}
-    \end{figure}
-\end{frame}
+% \begin{frame}{Correlação não implica causalidade}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.8\linewidth]{figures/2011_masters-degrees-awarded-in-engineering-technologies_correlates-with_hydopower-energy-generated-in-vietnam.png}
+%     \end{figure}
+% \end{frame}
 
 
-\begin{frame}{Correlação não implica causalidade}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.8\linewidth]{figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png}
-    \end{figure}
-\end{frame}
+% \begin{frame}{Correlação não implica causalidade}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.8\linewidth]{figures/5236_number-of-websites-on-the-internet_correlates-with_total-wind-power-generated-globally.png}
+%     \end{figure}
+% \end{frame}
 
 % \begin{frame}{Fim!}
 %     Chegamos ao fim da primeira parte da matéria de estatística! 

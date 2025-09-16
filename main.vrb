@@ -1,10 +1,10 @@
-\frametitle{Correlação - Exemplo no R}
-    Para calcular o coeficiente de correlação entre duas variáveis no R, utilizamos a função \textit{cor}.
-    \begin{block}{Correlação no R}
+\frametitle{Variância - Exemplo no R}
+    Para calcular a variância de um conjunto de dados no R, utilizamos a função \textit{var}.
+    \begin{block}{Variância no R}
     \begin{minted}[linenos=false,breaklines]{R}
-    dados = read.csv(file.choose())
+    require("readxl")
+    dados = read_excel(file.choose(), sheet=1)
     duracao_sono = dados$`Duracao do Sono`
-    idade = dados$idade
-    cor_dsono_idade = cor(duracao_sono, idade)
+    var_duracao_sono = var(duracao_sono)
     \end{minted}
     \end{block}
