@@ -592,92 +592,92 @@ Vamos atribuir um número a cada um dos elementos da população:
   \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{Filtrando uma tabela}
-Para filtrar o conjunto de dados baseado em uma condição, primeiro devemos escrever o nome do DataFrame acompanhado da condição dentro de colchetes
- sucedido por virgula e pela coluna que se deseja obter ao final da filtragem. Caso queiramos obter todas as colunas, deixamos vazio. 
+% \begin{frame}[fragile]
+% \frametitle{Filtrando uma tabela}
+% Para filtrar o conjunto de dados baseado em uma condição, primeiro devemos escrever o nome do DataFrame acompanhado da condição dentro de colchetes
+%  sucedido por virgula e pela coluna que se deseja obter ao final da filtragem. Caso queiramos obter todas as colunas, deixamos vazio. 
 
- \begin{exemplo}
-  Suponha que tenhamos interesse em filtrar, no nosso conjunto de dados, todos os indivíduos que tenham idade inferior a 45 anos. O código para isso seria:
+%  \begin{exemplo}
+%   Suponha que tenhamos interesse em filtrar, no nosso conjunto de dados, todos os indivíduos que tenham idade inferior a 45 anos. O código para isso seria:
 
-\begin{lstlisting}[language=R]
-    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
-    dados_l45 = dados[dados$Idade < 45, ] # DataFrame contendo apenas indivíduos com idade inferior a 45 anos.
-\end{lstlisting}
+% \begin{lstlisting}[language=R]
+%     dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+%     dados_l45 = dados[dados$Idade < 45, ] # DataFrame contendo apenas indivíduos com idade inferior a 45 anos.
+% \end{lstlisting}
 
- \end{exemplo}
+%  \end{exemplo}
 
-\end{frame}
+% \end{frame}
 
-\begin{frame}[fragile]
- \frametitle{Filtrando uma tabela}
-\begin{exemplo}
-    Perceba que, após a virgula, não é colocado nada, deixando um espaço vazio. Isso faz com que seja retornada todas as colunas do conjunto de dados filtrado. 
-Por outro lado, caso escrevêssemos o código a seguir, obteriamos apenas a Ocupacao dos indivíduos com Idade inferior a 45 anos. 
+% \begin{frame}[fragile]
+%  \frametitle{Filtrando uma tabela}
+% \begin{exemplo}
+%     Perceba que, após a virgula, não é colocado nada, deixando um espaço vazio. Isso faz com que seja retornada todas as colunas do conjunto de dados filtrado. 
+% Por outro lado, caso escrevêssemos o código a seguir, obteriamos apenas a Ocupacao dos indivíduos com Idade inferior a 45 anos. 
 
-\begin{lstlisting}[language=R]
-    dados = read.csv(file.choose()) # Lendo a base de dados do curso.
-    dados_l45 = dados[dados$Idade < 45, "Ocupacao"] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
-\end{lstlisting}
-\end{exemplo}
+% \begin{lstlisting}[language=R]
+%     dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+%     dados_l45 = dados[dados$Idade < 45, "Ocupacao"] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
+% \end{lstlisting}
+% \end{exemplo}
 
-\end{frame}
+% \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{Filtrando uma tabela}
-\begin{exemplo}
-Podemos também querer filtrar basedo em um conjunto de valores, nesse caso usamos o comparador lógico \%in\%.
+% \begin{frame}[fragile]
+% \frametitle{Filtrando uma tabela}
+% \begin{exemplo}
+% Podemos também querer filtrar basedo em um conjunto de valores, nesse caso usamos o comparador lógico \%in\%.
 
-\begin{lstlisting}[language=R]
-  dados = read.csv(file.choose()) # Lendo a base de dados do curso.
-  dados_l45 = dados[dados$Idade %in% c(12, 45, 27, 30), ] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
-\end{lstlisting}
-\end{exemplo}
-\end{frame}
+% \begin{lstlisting}[language=R]
+%   dados = read.csv(file.choose()) # Lendo a base de dados do curso.
+%   dados_l45 = dados[dados$Idade %in% c(12, 45, 27, 30), ] # Coluna Ocupacao contendo apenas indivíduos com idade inferior a 45 anos.
+% \end{lstlisting}
+% \end{exemplo}
+% \end{frame}
 
-\begin{frame}{Tarefa 4 - Lidando com arquivos Excel}
-  \begin{enumerate}[a)]
-    \item Leia a base de dados (tabela) do curso dentro do RStudio.
-    \item Visualize a tabela dentro do RStudio.
-    \item Mostre na tela os valores da coluna Ocupacao.
-    \item Qual o tamanho (número de linhas) dessa tabela?
-    \item Calcule a média, mediana, variância e desvio padrão dos valores da variável  Duracao do Sono.
-    \item Crie uma tabela contendo a frequência nominal para a variável Sexo.
-    \item Crie uma tabela contendo a frequência relativa para a variável Ocupacao.   
-    \item Considere que essa tabela é a população. Obtenha uma amostra aleatória simples de tamanho 50. 
-    \item Desafio: Construa um boxplot para a variável Nivel de atividade física.
-    \item Desafio: Construa um boxplot para a variável Nivel de atividade física por sexo.
-\end{enumerate}
-\end{frame}
+% \begin{frame}{Tarefa 4 - Lidando com arquivos Excel}
+%   \begin{enumerate}[a)]
+%     \item Leia a base de dados (tabela) do curso dentro do RStudio.
+%     \item Visualize a tabela dentro do RStudio.
+%     \item Mostre na tela os valores da coluna Ocupacao.
+%     \item Qual o tamanho (número de linhas) dessa tabela?
+%     \item Calcule a média, mediana, variância e desvio padrão dos valores da variável  Duracao do Sono.
+%     \item Crie uma tabela contendo a frequência nominal para a variável Sexo.
+%     \item Crie uma tabela contendo a frequência relativa para a variável Ocupacao.   
+%     \item Considere que essa tabela é a população. Obtenha uma amostra aleatória simples de tamanho 50. 
+%     \item Desafio: Construa um boxplot para a variável Nivel de atividade física.
+%     \item Desafio: Construa um boxplot para a variável Nivel de atividade física por sexo.
+% \end{enumerate}
+% \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{Lendo arquivos Excel no formato xls ou xlsx}
+% \begin{frame}[fragile]
+% \frametitle{Lendo arquivos Excel no formato xls ou xlsx}
 
-Para ler arquivos Excel, primeiro precisamos instalar a biblioteca \textit{readxl}.
+% Para ler arquivos Excel, primeiro precisamos instalar a biblioteca \textit{readxl}.
 
-\begin{lstlisting}[language=R]
-   install.packages("readxl")
-\end{lstlisting}
+% \begin{lstlisting}[language=R]
+%    install.packages("readxl")
+% \end{lstlisting}
 
-\pause
+% \pause
 
-\begin{itemize}
-  \item Após isso, lemos o arquivo usando o comando \textit{read\_excel}.
-  \item Podemos também ler pela interface do RStudio. 
-\end{itemize}
-\end{frame}
+% \begin{itemize}
+%   \item Após isso, lemos o arquivo usando o comando \textit{read\_excel}.
+%   \item Podemos também ler pela interface do RStudio. 
+% \end{itemize}
+% \end{frame}
 
-\begin{frame}[fragile]
-\frametitle{Amostragem Aleatória Estratificada no R}
+% \begin{frame}[fragile]
+% \frametitle{Amostragem Aleatória Estratificada no R}
 
-\begin{lstlisting}[language=R]
-n = 3
-populacao = c("Tom", "Lia", "Ema", "Max", "Ana", "Lua", "Mia", "Isa", "Ilo", "Gal")
-populacao_M = c("Tom", "Max", "Ilo")
-populacao_F = c("Lia", "Ema", "Ana", "Lua", "Mia", "Isa", "Gal")
-amostra_1 = sample(populacao_M, round(0.3 * n))
-amostra_2 = sample(populacao_F, round(0.7 * n))
-amostra = c(amostra_1, amostra_2)
-\end{lstlisting}
-\end{frame}
+% \begin{lstlisting}[language=R]
+% n = 3
+% populacao = c("Tom", "Lia", "Ema", "Max", "Ana", "Lua", "Mia", "Isa", "Ilo", "Gal")
+% populacao_M = c("Tom", "Max", "Ilo")
+% populacao_F = c("Lia", "Ema", "Ana", "Lua", "Mia", "Isa", "Gal")
+% amostra_1 = sample(populacao_M, round(0.3 * n))
+% amostra_2 = sample(populacao_F, round(0.7 * n))
+% amostra = c(amostra_1, amostra_2)
+% \end{lstlisting}
+% \end{frame}
 \end{document}

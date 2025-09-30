@@ -1,145 +1,145 @@
-\section{Introdução à Probabilidade}
+\section{Probabilidade}
 
-\begin{frame}{Uma breve história da Probabilidade}
-    \begin{itemize}
-        \item O surgimento da Probabilidade está diretamente ligada ao estudo de jogos de azar. 
-        \pause 
-        \item A Probabilidade, conforme estudamos hoje, surge em 1654 através de correspondências entre Pierre de Fermat e Blaise pascal acerca do \textbf{Problema dos Pontos} . 
-        \pause
+% \begin{frame}{Uma breve história da Probabilidade}
+%     \begin{itemize}
+%         \item O surgimento da Probabilidade está diretamente ligada ao estudo de jogos de azar. 
+%         \pause 
+%         \item A Probabilidade, conforme estudamos hoje, surge em 1654 através de correspondências entre Pierre de Fermat e Blaise pascal acerca do \textbf{Problema dos Pontos} . 
+%         \pause
 
-        \item Observação: O problema já havia sido proposto, aproximadamente, 100 anos antes por Luca Pacioli (Considerado o pai da contabilidade). 
-    \end{itemize}
-\end{frame}
+%         \item Observação: O problema já havia sido proposto, aproximadamente, 100 anos antes por Luca Pacioli (Considerado o pai da contabilidade). 
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}{O Problema dos Pontos}
-    Vamos voltar para 1654. 
-    \pause
-    Vamos jogar o seguinte jogo:
+% \begin{frame}{O Problema dos Pontos}
+%     Vamos voltar para 1654. 
+%     \pause
+%     Vamos jogar o seguinte jogo:
 
-    \textbf{Regras do Jogo:}
-    \begin{itemize}
-        \item O jogo tem exatamente dois jogadores. 
-        \pause
-        \item Cada jogador escolhe uma face de uma moeda (Cara ou Coroa).
-        \pause
-        \item Cada jogador aposta um valor (Exemplo: R\$ 25,00).
-        \pause
-        \item A cada rodada a moeda é lançada e é anotado o resultado, somando 1 ponto para o jogador que escolheu o resultado obtido.
-        \pause
-        \item Vence quem obtiver o total de 3 pontos. Levando o prêmio (Nesse caso, R\$ 50,00)
-    \end{itemize}
-\pause
-    \textcolor{red}{Pergunta:} Esse jogo é justo?
-\end{frame}
+%     \textbf{Regras do Jogo:}
+%     \begin{itemize}
+%         \item O jogo tem exatamente dois jogadores. 
+%         \pause
+%         \item Cada jogador escolhe uma face de uma moeda (Cara ou Coroa).
+%         \pause
+%         \item Cada jogador aposta um valor (Exemplo: R\$ 25,00).
+%         \pause
+%         \item A cada rodada a moeda é lançada e é anotado o resultado, somando 1 ponto para o jogador que escolheu o resultado obtido.
+%         \pause
+%         \item Vence quem obtiver o total de 3 pontos. Levando o prêmio (Nesse caso, R\$ 50,00)
+%     \end{itemize}
+% \pause
+%     \textcolor{red}{Pergunta:} Esse jogo é justo?
+% \end{frame}
 
-\begin{frame}{Jogando o jogo}
-    \textbf{Vamos jogar o jogo!}
+% \begin{frame}{Jogando o jogo}
+%     \textbf{Vamos jogar o jogo!}
     
-    \pause
+%     \pause
 
-    \textbf{Uma chuva de meteoros cai na UFRJ}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.5\linewidth]{figures/molten_rain.jpg}
-    \end{figure}
-    \pause
-    Cada jogador está exatamente com dois pontos, como dividir o prêmio?
-\end{frame}
+%     \textbf{Uma chuva de meteoros cai na UFRJ}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.5\linewidth]{figures/molten_rain.jpg}
+%     \end{figure}
+%     \pause
+%     Cada jogador está exatamente com dois pontos, como dividir o prêmio?
+% \end{frame}
 
-\begin{frame}{OJogando o jogo, novamente}
-    \textbf{Vamos jogar o jogo de novo!}
+% \begin{frame}{OJogando o jogo, novamente}
+%     \textbf{Vamos jogar o jogo de novo!}
 
-    \pause
+%     \pause
 
-    \textbf{Uma chuva de meteoros cai na UFRJ}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.5\linewidth]{figures/molten_rain.jpg}
-    \end{figure}
-    \pause
-    Nesse caso, um jogador está com dois pontos e o outro com um ponto, como dividir o prêmio?
-\end{frame}
+%     \textbf{Uma chuva de meteoros cai na UFRJ}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.5\linewidth]{figures/molten_rain.jpg}
+%     \end{figure}
+%     \pause
+%     Nesse caso, um jogador está com dois pontos e o outro com um ponto, como dividir o prêmio?
+% \end{frame}
 
-\begin{frame}{O Problema dos Pontos}
-    \begin{itemize}
-        \item Esse problema ficou conhecido como problema dos pontos. 
-        \pause
-        \item Pascal e Fermat propõem uma solução para o problema envolvendo probabilidades. 
-        \pause
-        \item Recomendação de leitura que apresenta as correspondências e realiza comentários:  \href{https://archive.org/details/unfinishedgamepa0000devl}{The Unfinished Game} 
-    \end{itemize}
-\end{frame}
+% \begin{frame}{O Problema dos Pontos}
+%     \begin{itemize}
+%         \item Esse problema ficou conhecido como problema dos pontos. 
+%         \pause
+%         \item Pascal e Fermat propõem uma solução para o problema envolvendo probabilidades. 
+%         \pause
+%         \item Recomendação de leitura que apresenta as correspondências e realiza comentários:  \href{https://archive.org/details/unfinishedgamepa0000devl}{The Unfinished Game} 
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}{Como começar pelo começo se as coisas acontecem antes de acontecer?}
-   \begin{itemize}
-    \item De fato, a Probabilidade não começa em 1654, mas sim muito antes, talvez $2.000$ ou $600$ anos antes de cristo. 
-    \pause
-    \item Mas essa é uma história longa e não será abordada em nossa disciplina. 
-   \end{itemize} 
-\end{frame}
+% \begin{frame}{Como começar pelo começo se as coisas acontecem antes de acontecer?}
+%    \begin{itemize}
+%     \item De fato, a Probabilidade não começa em 1654, mas sim muito antes, talvez $2.000$ ou $600$ anos antes de cristo. 
+%     \pause
+%     \item Mas essa é uma história longa e não será abordada em nossa disciplina. 
+%    \end{itemize} 
+% \end{frame}
 
-\begin{frame}{O que significa a probabilidade de algo acontecer?}
-    Vamos considerar a seguinte afirmação:
+% \begin{frame}{O que significa a probabilidade de algo acontecer?}
+%     Vamos considerar a seguinte afirmação:
 
-    \begin{itemize}
-        \item A probabilidade de chover amanhã é 30\%
-    \end{itemize}
+%     \begin{itemize}
+%         \item A probabilidade de chover amanhã é 30\%
+%     \end{itemize}
 
-    \pause
+%     \pause
 
-    O que de fato essa informação nos diz?
+%     O que de fato essa informação nos diz?
 
-\end{frame}
+% \end{frame}
 
-\begin{frame}{O mundo é realmente aleatório?}
+% \begin{frame}{O mundo é realmente aleatório?}
 
-    \begin{itemize}
-        \item  As coisas realmente acontecem aleatoriamente no mundo em que vivemos?
-        \pause
-        \item  A aleatoriadade realmente existe?
-        \pause
-        \item O que é a aleatóriedade?
-    \end{itemize} 
-\end{frame}
+%     \begin{itemize}
+%         \item  As coisas realmente acontecem aleatoriamente no mundo em que vivemos?
+%         \pause
+%         \item  A aleatoriadade realmente existe?
+%         \pause
+%         \item O que é a aleatóriedade?
+%     \end{itemize} 
+% \end{frame}
 
-\begin{frame}{Breve comentário sobre aleatoriedade e Teoria do Caos}
-    \textbf{Filme: De caso com o acaso (1998)}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.4\linewidth]{figures/filme_sliding_doors.jpg}
-    \end{figure}
-\end{frame}
+% \begin{frame}{Breve comentário sobre aleatoriedade e Teoria do Caos}
+%     \textbf{Filme: De caso com o acaso (1998)}
+%     \begin{figure}
+%         \centering
+%         \includegraphics[width=0.4\linewidth]{figures/filme_sliding_doors.jpg}
+%     \end{figure}
+% \end{frame}
 
-\begin{frame}
-    \begin{itemize}
-        \item Apesar disso, será que existe alguma espécie de ordem no caos?
-    \end{itemize}
+% \begin{frame}
+%     \begin{itemize}
+%         \item Apesar disso, será que existe alguma espécie de ordem no caos?
+%     \end{itemize}
 
-    Vamos jogar um jogo!
-\end{frame}
+%     Vamos jogar um jogo!
+% \end{frame}
 
-\begin{frame}{Interpretações da Probabilidade}
-   \begin{itemize}
-    \item Intepretação Clássica: A probabilidade nada mais é que uma simples fração, onde o numerador é o número de casos favoráveis e o denominador é o número de todos os casos possíveis.
-    \item Interpretação Frequentista: A probabilidade de um evento ocorrer é igual a frequência observada na qual ele ocorre. 
-    \item Intepretação Lógica: Probabilidade como a relação entre proposições. 
-    \item Interpretação Subjetivista (Bayesiana). Probabilidade não existe. \pause Exceto na mente de cada um.  
-   \end{itemize} 
-\end{frame}
+% \begin{frame}{Interpretações da Probabilidade}
+%    \begin{itemize}
+%     \item Intepretação Clássica: A probabilidade nada mais é que uma simples fração, onde o numerador é o número de casos favoráveis e o denominador é o número de todos os casos possíveis.
+%     \item Interpretação Frequentista: A probabilidade de um evento ocorrer é igual a frequência observada na qual ele ocorre. 
+%     \item Intepretação Lógica: Probabilidade como a relação entre proposições. 
+%     \item Interpretação Subjetivista (Bayesiana). Probabilidade não existe. \pause Exceto na mente de cada um.  
+%    \end{itemize} 
+% \end{frame}
 
 
-\begin{frame}{Experimentos Aleatórios}
+% \begin{frame}{Experimentos Aleatórios}
 
-\begin{exemplo}
-    \begin{enumerate}
-        \item Jogar um dado e observar a face superior.
-        \item Lançar uma moeda quatro vezes e contar o número de caras.
-        \item Em uma linha de produção, fabrica-se peças em série e conte-se o número de peças defeituosas produzidas em um período de 24 horas.
-        \item Uma lâmpada é fabricada. Em seguida é ensaiada quanto à duração da vida, pela colocação em um soquete e anotação do tempo decorrido (em horas) até queimar.
-        \item Peças são fabricadas até que 10 peças perfeitas sejam produzidas. O número total de peças fabricadas é contado.
-    \end{enumerate}
-\end{exemplo}
-\end{frame}
+% \begin{exemplo}
+%     \begin{enumerate}
+%         \item Jogar um dado e observar a face superior.
+%         \item Lançar uma moeda quatro vezes e contar o número de caras.
+%         \item Em uma linha de produção, fabrica-se peças em série e conte-se o número de peças defeituosas produzidas em um período de 24 horas.
+%         \item Uma lâmpada é fabricada. Em seguida é ensaiada quanto à duração da vida, pela colocação em um soquete e anotação do tempo decorrido (em horas) até queimar.
+%         \item Peças são fabricadas até que 10 peças perfeitas sejam produzidas. O número total de peças fabricadas é contado.
+%     \end{enumerate}
+% \end{exemplo}
+% \end{frame}
 
 \begin{frame}{Espaço amostral}
     O espaço amostral, denotado pela letra grega $\Omega$, é definido como o conjunto de todos os possíveis resultados de um experimento. Relacionando com os experimentos anteriores, temos:
@@ -155,13 +155,13 @@
 \textcolor{red}{Importante}:O espaço amostral está sempre relacionado ao experimento
 \end{frame}
 
-\begin{frame}{Espaço amostral}
-    \textbf{Qual é o espaço amostral do experimento do lançamento de uma moeda?}
+% \begin{frame}{Espaço amostral}
+%     \textbf{Qual é o espaço amostral do experimento do lançamento de uma moeda?}
 
-    \begin{itemize}
-        \item Vídeo: Lançamento de uma moeda.
-    \end{itemize}
-\end{frame}
+%     \begin{itemize}
+%         \item Vídeo: Lançamento de uma moeda.
+%     \end{itemize}
+% \end{frame}
 \begin{frame}{Espaço amostral}
     \begin{exemplo}
         Uma caixa contém 3 bolas de gude: 1 vermelha, 1 verde e uma azul. Considere um experimento que consiste em retirar uma bola de gude da caixa, colocada de volta, em seguida outra bola é retirada. Descreva o espaço amostral.
@@ -229,7 +229,6 @@ $$\mathds{P}(A) = \dfrac{\text{número de elementos em A}}{\text{número de elem
 \begin{frame}
     \begin{exemplo}
         Ao lançarmos dois dados de seis faces, qual a probabilidade da soma dos dois ser igual a sete?
-            
         \end{exemplo}
 \end{frame}
 
@@ -270,7 +269,7 @@ A partir das propriedades definidas no slide anterior, podemos derivar outras pr
     * Principio da inclusão-exclusão
 \end{frame}
 
-\begin{frame}{Probabilidade}
+\begin{frame}{Probabilidade - Intepretação Frequentista}
     \begin{exemplo}
         De uma dada população, 42\% são ruivos, 35\% tem olhos azuis e 20\% são ruivos de olhos azuis. Escolhendo ao acaso uma pessoa dessa população, qual a probabilidade de
         \begin{enumerate}[a)] % a), b), c), ..
@@ -282,31 +281,31 @@ A partir das propriedades definidas no slide anterior, podemos derivar outras pr
 
 \end{frame}
 
-\begin{frame}{Probabilidade}
+\begin{frame}{Sempre podemos calcular probabilidades?}
     \begin{exemplo}
         Um lote contém peças pesando 5, 10, 15, 20, 25 gramas. Admitamos que ao menos duas peças de cada peso sejam encontradas no lote. Duas peças são retiradas do lote. Sejam $X$ o peso da primeira peça escolhida e $Y$ o peso da segunda. 
         \begin{enumerate}[a)] % a), b), c), ..
             \item Determine o espaço amostral desse experimento.
             \item Determine a probabilidade de $X$ ser igual a Y.
-            \item Determine a probabilidade de $Y$ ser maior do que $X$.
-            \item Determine a probabilidade da primeira peça pesar 10 gramas a menos que a segunda peça.
+            % \item Determine a probabilidade de $Y$ ser maior do que $X$.
+            % \item Determine a probabilidade da primeira peça pesar 10 gramas a menos que a segunda peça.
         \end{enumerate}
     \end{exemplo}
 \end{frame}
 
-\begin{frame}{Probabilidade}
-    Um professor de uma disciplina decide montar os grupos de um trabalho da seguinte forma:
-    \begin{enumerate}
-        \item Serão definidos 8 temas.
-        \item Serão definidos dois grupos para cada tema. 
-        \item Cada grupo deve conter exatamente 2 alunos. 
-        \item Os alunos devem manifestar interesse no tema, respeitando o limite máximo de 4 pessoas por tema. Sendo a formação do grupo definida de forma aleatória pelo professor. 
-    \end{enumerate}
+% \begin{frame}{Probabilidade}
+%     Um professor de uma disciplina decide montar os grupos de um trabalho da seguinte forma:
+%     \begin{enumerate}
+%         \item Serão definidos 8 temas.
+%         \item Serão definidos dois grupos para cada tema. 
+%         \item Cada grupo deve conter exatamente 2 alunos. 
+%         \item Os alunos devem manifestar interesse no tema, respeitando o limite máximo de 4 pessoas por tema. Sendo a formação do grupo definida de forma aleatória pelo professor. 
+%     \end{enumerate}
 
-    \pause
+%     \pause
 
-    Suponha que Ana e Marcos desejam fazer o trabalho em dupla e, portanto, se inscreveram no mesmo tema. Qual a probabilidade de que eles terminem no mesmo grupo?
-\end{frame}
+%     Suponha que Ana e Marcos desejam fazer o trabalho em dupla e, portanto, se inscreveram no mesmo tema. Qual a probabilidade de que eles terminem no mesmo grupo?
+% \end{frame}
 
 \begin{frame}{Probabilidade condicional}
     \begin{itemize}
@@ -362,6 +361,10 @@ O problema proposto anteriormente é chamado de probabilidade condicional.
 \begin{frame}{Regra da multiplicação}
  Sejam $A$ e $B$ dois eventos com $\mathds{P}(B)>0$. Então vale:
  $$\mathds{P}(A \cap B) = \mathds{P}(A | B) \mathds{P}(B) = \mathds{P}(B | A) \mathds{P}(A)$$
+
+ \begin{atencao}
+    Note que a regra da multiplicação é uma consequência direta da definição de probabilidade condicional. 
+ \end{atencao}
 \end{frame}
 
 \begin{frame}
@@ -482,19 +485,19 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
     
 \end{frame}
 
-\begin{frame}{Independência}
+% \begin{frame}{Independência}
 
-\begin{exemplo}
-    Ao lançarmos dois dados de seis faces, considere os eventos:
-    \begin{itemize}
-        \item A: O resultado do primeiro é 4
-        \item B: A soma dos dois resultados é 7
-    \end{itemize}
+% \begin{exemplo}
+%     Ao lançarmos dois dados de seis faces, considere os eventos:
+%     \begin{itemize}
+%         \item A: O resultado do primeiro é 4
+%         \item B: A soma dos dois resultados é 7
+%     \end{itemize}
 
-    A e B são independentes?
-\end{exemplo}
+%     A e B são independentes?
+% \end{exemplo}
     
-\end{frame}
+% \end{frame}
 
 \begin{frame}{Variáveis aleatórias}
     Em muitos experimentos é útil trabalhar com uma "variável resumo".
