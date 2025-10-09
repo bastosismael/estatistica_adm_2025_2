@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  30 SEP 2025 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  9 OCT 2025 10:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -797,7 +797,7 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count394
 \l__pdf_internal_box=\box103
-) (./main.aux (./estat_descritiva.aux) (./probabilidade.aux))
+) (./main.aux (./probabilidade.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
@@ -939,247 +939,510 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./main.nav)
-<figures/arbalest.png, id=57, 301.125pt x 301.125pt>
-File: figures/arbalest.png Graphic file (type png)
-<use figures/arbalest.png>
-Package pdftex.def Info: figures/arbalest.png  used on input line 142.
-(pdftex.def)             Requested size: 76.82246pt x 76.82031pt.
+\openout2 = `probabilidade.aux'.
 
+ (./probabilidade.tex
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <./figures/arbalest.png>]
+
+]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.142 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.142 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.142 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.142 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.142 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [2
 
 ]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 156.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 156.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 156.
+ (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.156 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.156 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.156 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.156 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.156 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [3
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 160.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 160.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 160.
- (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
 
 [4
 
 ]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [5
 
 ]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [6
 
 ]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [7
 
 ]
-<figures/pop_sample.png, id=327, 588.2778pt x 373.1541pt>
-File: figures/pop_sample.png Graphic file (type png)
-<use figures/pop_sample.png>
-Package pdftex.def Info: figures/pop_sample.png  used on input line 178.
-(pdftex.def)             Requested size: 215.10196pt x 136.4421pt.
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 
 [8
 
- <./figures/pop_sample.png>]
+]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.188 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [9
 
 ]
-<figures/int_1.png, id=399, 580.41844pt x 304.88907pt>
-File: figures/int_1.png Graphic file (type png)
-<use figures/int_1.png>
-Package pdftex.def Info: figures/int_1.png  used on input line 188.
-(pdftex.def)             Requested size: 245.83282pt x 129.13185pt.
+Overfull \vbox (15.74373pt too high) detected at line 203
+ []
+
 
 
 [10
 
- <./figures/int_1.png>]
+]
+Overfull \vbox (15.74373pt too high) detected at line 203
+ []
+
+
 
 [11
 
 ]
+Overfull \vbox (15.74373pt too high) detected at line 203
+ []
+
+
 
 [12
 
 ]
+Overfull \vbox (15.74373pt too high) detected at line 203
+ []
+
+
 
 [13
 
 ]
-\openout2 = `estat_descritiva.aux'.
+Overfull \vbox (15.74373pt too high) detected at line 203
+ []
 
- (./estat_descritiva.tex
+
 
 [14
-
 
 ]
 
 [15
 
 ]
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 227.
+ (/usr/share/texmf-dist/tex/latex/doublestroke/Udsrom.fd
+File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
+)
 
 [16
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [17
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [18
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.32 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [19
 
@@ -1187,8 +1450,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.251 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1198,8 +1461,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.251 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1209,8 +1472,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.251 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1220,8 +1483,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.251 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1236,8 +1499,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1247,8 +1510,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1258,8 +1521,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1269,8 +1532,30 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.32 \end{frame}
-                
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1282,40 +1567,284 @@ and I'll forget about whatever was undefined.
 [21
 
 ]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 
 [22
 
 ]
-\openout4 = `main.vrb'.
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- (./main.vrb
-\pydata@fh@_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted=\write7
-\openout7 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-runsystem(latexminted config  --timestamp 20250930095940 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- (./_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250930095940 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- (./_minted/default.style.minted) (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
-Overfull \vbox (4.79579pt too high) detected at line 59
- []
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 
 [23
 
-] (./main.vrb (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
-Overfull \vbox (4.79579pt too high) detected at line 59
- []
+]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 
 [24
 
-] (./main.vrb (./_minted/AA56C68D9316A65460E822EB4FBAD2E8.highlight.minted))
-Overfull \vbox (4.79579pt too high) detected at line 59
- []
+]
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 
@@ -1325,8 +1854,8 @@ Overfull \vbox (4.79579pt too high) detected at line 59
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.76 \end{frame}
-                
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1336,8 +1865,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.76 \end{frame}
-                
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1347,8 +1876,41 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \beamer@@tmpl@enumerate item ... {blue}\shadowbox 
                                                   {\insertenumlabel )}
-l.76 \end{frame}
-                
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
+                                                  {\insertenumlabel )}
+l.270 \end{frame}
+                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1360,116 +1922,14 @@ and I'll forget about whatever was undefined.
 [26
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [27
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [28
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.76 \end{frame}
-                
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [29
 
@@ -1478,2758 +1938,16 @@ and I'll forget about whatever was undefined.
 [30
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/435F8E60A39EF8059EB60B0A5BBAB03F.highlight.minted))
 
 [31
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [32
 
 ]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 
 [33
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[34
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.113 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[35
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[36
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[37
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.124 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[38
-
-]
-
-[39
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[40
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[41
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[42
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[43
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[44
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.177 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[45
-
-]
-
-[46
-
-]
-
-[47
-
-]
-
-[48
-
-]
-
-[49
-
-]
-
-[50
-
-]
-<figures/filme_1.jpg, id=1826, 903.375pt x 1204.5pt>
-File: figures/filme_1.jpg Graphic file (type jpg)
-<use figures/filme_1.jpg>
-Package pdftex.def Info: figures/filme_1.jpg  used on input line 240.
-(pdftex.def)             Requested size: 122.91406pt x 163.86864pt.
-
-
-[51
-
- <./figures/filme_1.jpg>]
-
-[52
-
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-[53
-
-]
-
-[54
-
-]
-
-[55
-
-]
-
-[56
-
-]
-<figures/classificacao_variaveis.png, id=2040, 478.78876pt x 512.66531pt>
-File: figures/classificacao_variaveis.png Graphic file (type png)
-<use figures/classificacao_variaveis.png>
-Package pdftex.def Info: figures/classificacao_variaveis.png  used on input line 279.
-(pdftex.def)             Requested size: 153.64493pt x 164.51778pt.
-
-
-[57
-
- <./figures/classificacao_variaveis.png>]
-
-[58
-
-]
-Overfull \vbox (36.74226pt too high) detected at line 325
- []
-
-
-
-[59
-
-]
-Overfull \vbox (36.74226pt too high) detected at line 325
- []
-
-
-
-[60
-
-]
-Overfull \vbox (36.74226pt too high) detected at line 325
- []
-
-
-
-[61
-
-]
-
-[62
-
-]
-
-[63
-
-]
-
-[64
-
-]
-
-[65
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/325769A2BBC6BF88A63E035B5DBC82E1.highlight.minted))
-
-[66
-
-] (./main.vrb (./_minted/325769A2BBC6BF88A63E035B5DBC82E1.highlight.minted))
-
-[67
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/E2A03DDAB4462CC6DD80BCBA218F5065.highlight.minted))
-
-[68
-
-] (./main.vrb (./_minted/E2A03DDAB4462CC6DD80BCBA218F5065.highlight.minted))
-
-[69
-
-]
-
-! LaTeX Error: Unicode character ẽ (U+1EBD)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.422 \end{frame}
-                 
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-
-[70
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/9023F1A091CBFF230FCC768C9ACAA285.highlight.minted))
-
-[71
-
-]
-
-[72
-
-]
-
-[73
-
-]
-
-[74
-
-]
-
-[75
-
-]
-
-[76
-
-]
-
-[77
-
-]
-
-[78
-
-]
-
-[79
-
-]
-
-[80
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/2EF63AB0997E4206A0E24B2F7C61148D.highlight.minted))
-
-[81
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/8E653AC85C6F54075D9CAD1A241012C4.highlight.minted))
-
-[82
-
-]
-<figures/grafico_dispersao.png, id=3022, 651.93562pt x 429.10312pt>
-File: figures/grafico_dispersao.png Graphic file (type png)
-<use figures/grafico_dispersao.png>
-Package pdftex.def Info: figures/grafico_dispersao.png  used on input line 569.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (6.45703pt too high) detected at line 569
- []
-
-
-
-[83
-
- <./figures/grafico_dispersao.png (PNG copy)>]
-
-[84
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/AAFACC46AFEDC55AE1562E8ACC14B588.highlight.minted))
-
-[85
-
-]
-<figures/grafico_pizza.png, id=3148, 651.93562pt x 429.10312pt>
-File: figures/grafico_pizza.png Graphic file (type png)
-<use figures/grafico_pizza.png>
-Package pdftex.def Info: figures/grafico_pizza.png  used on input line 603.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (6.45703pt too high) detected at line 603
- []
-
-
-
-[86
-
- <./figures/grafico_pizza.png (PNG copy)>]
-
-[87
-
-]
-
-[88
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/EA66CD252B37D8B83B57EC77B59EF2A3.highlight.minted))
-
-[89
-
-]
-<figures/grafico_barras.png, id=3303, 651.93562pt x 429.10312pt>
-File: figures/grafico_barras.png Graphic file (type png)
-<use figures/grafico_barras.png>
-Package pdftex.def Info: figures/grafico_barras.png  used on input line 651.
-(pdftex.def)             Requested size: 215.10196pt x 141.57826pt.
-
-Overfull \vbox (43.97601pt too high) detected at line 651
- []
-
-
-
-[90
-
- <./figures/grafico_barras.png (PNG copy)>]
-File: figures/grafico_barras.png Graphic file (type png)
-<use figures/grafico_barras.png>
-Package pdftex.def Info: figures/grafico_barras.png  used on input line 651.
-(pdftex.def)             Requested size: 215.10196pt x 141.57826pt.
-
-Overfull \vbox (43.97601pt too high) detected at line 651
- []
-
-
-
-[91
-
-]
-File: figures/grafico_barras.png Graphic file (type png)
-<use figures/grafico_barras.png>
-Package pdftex.def Info: figures/grafico_barras.png  used on input line 651.
-(pdftex.def)             Requested size: 215.10196pt x 141.57826pt.
-
-Overfull \vbox (43.97601pt too high) detected at line 651
- []
-
-
-
-[92
-
-]
-
-[93
-
-]
-
-[94
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/850199B3086BEDEBBB36A73A291FC896.highlight.minted))
-
-[95
-
-]
-<figures/grafico_histograma.png, id=3518, 651.93562pt x 429.10312pt>
-File: figures/grafico_histograma.png Graphic file (type png)
-<use figures/grafico_histograma.png>
-Package pdftex.def Info: figures/grafico_histograma.png  used on input line 694.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (21.05704pt too high) detected at line 694
- []
-
-
-
-[96
-
- <./figures/grafico_histograma.png (PNG copy)>]
-File: figures/grafico_histograma.png Graphic file (type png)
-<use figures/grafico_histograma.png>
-Package pdftex.def Info: figures/grafico_histograma.png  used on input line 694.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (21.05704pt too high) detected at line 694
- []
-
-
-
-[97
-
-]
-File: figures/grafico_histograma.png Graphic file (type png)
-<use figures/grafico_histograma.png>
-Package pdftex.def Info: figures/grafico_histograma.png  used on input line 694.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (21.05704pt too high) detected at line 694
- []
-
-
-
-[98
-
-]
-File: figures/grafico_histograma.png Graphic file (type png)
-<use figures/grafico_histograma.png>
-Package pdftex.def Info: figures/grafico_histograma.png  used on input line 694.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (21.05704pt too high) detected at line 694
- []
-
-
-
-[99
-
-]
-
-[100
-
-]
-
-[101
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/3B57345C2B3B7E6001EE8C0616473FCD.highlight.minted
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 11.
-))
-
-[102
-
-]
-
-[103
-
-]
-
-[104
-
-]
-<figures/grafico_boxplot.png, id=3828, 651.93562pt x 429.10312pt>
-File: figures/grafico_boxplot.png Graphic file (type png)
-<use figures/grafico_boxplot.png>
-Package pdftex.def Info: figures/grafico_boxplot.png  used on input line 743.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (6.45703pt too high) detected at line 743
- []
-
-
-
-[105
-
- <./figures/grafico_boxplot.png (PNG copy)>]
-File: figures/grafico_boxplot.png Graphic file (type png)
-<use figures/grafico_boxplot.png>
-Package pdftex.def Info: figures/grafico_boxplot.png  used on input line 743.
-(pdftex.def)             Requested size: 245.83282pt x 161.80374pt.
-
-Overfull \vbox (6.45703pt too high) detected at line 743
- []
-
-
-
-[106
-
-]
-<figures/lie_1.png, id=3895, 630.355pt x 472.76625pt>
-File: figures/lie_1.png Graphic file (type png)
-<use figures/lie_1.png>
-Package pdftex.def Info: figures/lie_1.png  used on input line 823.
-(pdftex.def)             Requested size: 245.83282pt x 184.37088pt.
-
-
-[107
-
- <./figures/lie_1.png>]
-<figures/lie_2.jpeg, id=3932, 240.9pt x 179.7114pt>
-File: figures/lie_2.jpeg Graphic file (type jpg)
-<use figures/lie_2.jpeg>
-Package pdftex.def Info: figures/lie_2.jpeg  used on input line 830.
-(pdftex.def)             Requested size: 245.83282pt x 183.39641pt.
-
-
-[108
-
- <./figures/lie_2.jpeg>]
-<figures/lie_4.jpg, id=3968, 621.32124pt x 358.33875pt>
-File: figures/lie_4.jpg Graphic file (type jpg)
-<use figures/lie_4.jpg>
-Package pdftex.def Info: figures/lie_4.jpg  used on input line 838.
-(pdftex.def)             Requested size: 245.83282pt x 141.7801pt.
-
-
-[109
-
- <./figures/lie_4.jpg>]
-<figures/lie_5.jpg, id=4005, 627.34375pt x 836.12375pt>
-File: figures/lie_5.jpg Graphic file (type jpg)
-<use figures/lie_5.jpg>
-Package pdftex.def Info: figures/lie_5.jpg  used on input line 845.
-(pdftex.def)             Requested size: 153.64493pt x 204.78194pt.
-
-Overfull \vbox (6.50604pt too high) detected at line 845
- []
-
-
-
-[110
-
- <./figures/lie_5.jpg>]
-<figures/lie_6.png, id=4042, 629.35126pt x 530.73282pt>
-File: figures/lie_6.png Graphic file (type png)
-<use figures/lie_6.png>
-Package pdftex.def Info: figures/lie_6.png  used on input line 852.
-(pdftex.def)             Requested size: 245.83282pt x 207.3089pt.
-
-Overfull \vbox (9.033pt too high) detected at line 852
- []
-
-
-
-[111
-
- <./figures/lie_6.png (PNG copy)>]
-<figures/lie_7.jpeg, id=4078, 1027.84pt x 1541.76pt>
-File: figures/lie_7.jpeg Graphic file (type jpg)
-<use figures/lie_7.jpeg>
-Package pdftex.def Info: figures/lie_7.jpeg  used on input line 860.
-(pdftex.def)             Requested size: 92.1879pt x 138.2819pt.
-
-
-[112
-
- <./figures/lie_7.jpeg>]
-
-[113
-
-]
-
-[114
-
-]
-Overfull \hbox (24.46024pt too wide) detected at line 887
-[] \OT1/cmss/m/n/9 = [] = 1\OML/cmm/m/it/9 ; \OT1/cmss/m/n/9 76
- []
-
-
-
-[115
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/333BB09DA37F5E86A3187960461AF0EB.highlight.minted))
-
-[116
-
-]
-
-[117
-
-]
-
-[118
-
-]
-
-[119
-
-]
-
-[120
-
-]
-
-[121
-
-]
-
-[122
-
-]
-Overfull \vbox (25.62631pt too high) detected at line 960
- []
-
-
-
-[123
-
-]
-Overfull \vbox (25.62631pt too high) detected at line 960
- []
-
-
-
-[124
-
-]
-
-[125
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/27E572680425F44354B9AFC95EC8911C.highlight.minted))
-
-[126
-
-]
-
-[127
-
-]
-
-[128
-
-]
-
-[129
-
-]
-
-[130
-
-]
-
-[131
-
-]
-
-[132
-
-]
-
-[133
-
-]
-
-[134
-
-]
-
-[135
-
-]
-
-[136
-
-]
-
-[137
-
-]
-
-[138
-
-]
-
-[139
-
-]
-
-[140
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/B0257D2943E6B28085000B8B02DA5C9E.highlight.minted))
-
-[141
-
-]
-<figures/boxplot.png, id=5143, 538.6524pt x 391.9443pt>
-File: figures/boxplot.png Graphic file (type png)
-<use figures/boxplot.png>
-Package pdftex.def Info: figures/boxplot.png  used on input line 1075.
-(pdftex.def)             Requested size: 184.3758pt x 134.15639pt.
-
-
-[142
-
- <./figures/boxplot.png>]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/0CDCC2D59BA5EF0DCA20D906FA7E6295.highlight.minted))
-
-[143
-
-]
-
-[144
-
-]
-Overfull \hbox (3.89348pt too wide) detected at line 1107
-\OT1/mathkerncmss/m/sl/10.95 salarios[] \OT1/cmss/m/n/10.95 = 2\OML/cmm/m/it/10.95 :\OT1/cmss/m/n/10.95 000\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 00; 3\OML/cmm/m/it/10.95 :\OT1/cmss/m/n/10.95 500\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 00; 70\OML/cmm/m/it/10.95 :\OT1/cmss/m/n/10.95 900\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 00; 3\OML/cmm/m/it/10.95 :\OT1/cmss/m/n/10.95 100\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 00; 32\OML/cmm/m/it/10.95 :\OT1/cmss/m/n/10.95 000\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 00
- []
-
-
-
-[145
-
-]
-
-[146
-
-]
-
-[147
-
-]
-
-[148
-
-]
-
-[149
-
-]
-
-[150
-
-]
-
-[151
-
-]
-
-[152
-
-]
-
-[153
-
-]
-
-[154
-
-]
-
-[155
-
-]
-
-[156
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb (./_minted/B2928DF925C51012EB7AE565DB9A71AF.highlight.minted))
-
-[157
-
-]
-
-[158
-
-]
-
-[159
-
-]
-
-[160
-
-]
-
-[161
-
-]
-
-[162
-
-]
-
-[163
-
-]
-
-[164
-
-]
-
-[165
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1249 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1249 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1249 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[166
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1249 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1249 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1249 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[167
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[168
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[169
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[170
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1273 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[171
-
-]
-
-[172
-
-]
-
-[173
-
-]
-
-[174
-
-]
-
-[175
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[176
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[177
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[178
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...ular}{lccccccccc} \toprule 
-                                                  Aluno & 1 & 2 & 3 & 4 & 5 ...
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1319 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[179
-
-]
-
-[180
-
-]
-
-[181
-
-]
-! Undefined control sequence.
-<argument> \begin {tabular}{llccccccccc} \toprule 
-                                                  \multicolumn {2}{c}{Aluno}...
-l.1359 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1359 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \midrule 
-                         
-l.1359 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \bottomrule 
-                            
-l.1359 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[182
-
-])
-\openout2 = `probabilidade.aux'.
-
- (./probabilidade.tex
-
-[183
-
-
-
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.156 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.156 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.156 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.156 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.156 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \vbox (2.26657pt too high) detected at line 156
- []
-
-
-
-[184
-
-]
-
-[185
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[186
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[187
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[188
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[189
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.188 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[190
-
-]
-
-[191
-
-]
-
-[192
-
-]
-
-[193
-
-]
-
-[194
-
-]
-
-[195
-
-]
-
-[196
-
-]
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 227.
- (/usr/share/texmf-dist/tex/latex/doublestroke/Udsrom.fd
-File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
-)
-
-[197
-
-]
-
-[198
-
-]
-
-[199
-
-]
-
-[200
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.251 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.251 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.251 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.251 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \vbox (15.31754pt too high) detected at line 251
- []
-
-
-
-[201
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[202
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[203
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[204
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[205
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[206
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.270 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[207
-
-]
-
-[208
-
-]
-
-[209
-
-]
-
-[210
-
-]
-
-[211
-
-]
-
-[212
-
-]
-
-[213
-
-]
-
-[214
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 359.
@@ -4242,11 +1960,11 @@ LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
 
 
 
-[215
+[34
 
 ]
 
-[216
+[35
 
 ]
 Underfull \hbox (badness 1968) in paragraph at lines 368--368
@@ -4255,27 +1973,19 @@ Underfull \hbox (badness 1968) in paragraph at lines 368--368
 
 
 
-[217
+[36
 
 ]
 
-[218
+[37
 
 ]
 
-[219
+[38
 
 ]
 
-[220
-
-]
-
-[221
-
-]
-
-[222
+[39
 
 ]
 
@@ -4294,31 +2004,11 @@ and deduce the truth by order and method.
 
 
 
-[223
+[40
 
 ]
 
-[224
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/2' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.425 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-
-[225
-
-]
-
-[226
+[41
 
 ]
 
@@ -4334,7 +2024,7 @@ l.439 \end{frame}
 
 
 
-[227
+[42
 
 ]
 
@@ -4350,7 +2040,7 @@ l.450 \end{frame}
 
 
 
-[228
+[43
 
 ]
 
@@ -4371,7 +2061,7 @@ Underfull \hbox (badness 1184) in paragraph at lines 462--462
 
 
 
-[229
+[44
 
 ]
 
@@ -4387,11 +2077,11 @@ l.469 \end{frame}
 
 
 
-[230
+[45
 
 ]
 
-[231
+[46
 
 ]
 
@@ -4407,7 +2097,7 @@ l.486 \end{frame}
 
 
 
-[232
+[47
 
 ]
 
@@ -4423,26 +2113,22 @@ l.513 \end{frame}
 
 
 Underfull \hbox (badness 1629) in paragraph at lines 513--513
-[][][]\OT1/cmss/bx/n/10.95 Exemplo  47:[][] \OT1/cmss/m/n/10.95 Numa pesquisa de opini~ao, decidimos
+[][][]\OT1/cmss/bx/n/10.95 Exemplo  25:[][] \OT1/cmss/m/n/10.95 Numa pesquisa de opini~ao, decidimos
  []
 
 
 
-[233
+[48
 
 ]
-<figures/variavel_aleatoria.png, id=8235, 362.85562pt x 130.98938pt>
+<figures/variavel_aleatoria.png, id=1429, 362.85562pt x 130.98938pt>
 File: figures/variavel_aleatoria.png Graphic file (type png)
 <use figures/variavel_aleatoria.png>
 Package pdftex.def Info: figures/variavel_aleatoria.png  used on input line 534.
 (pdftex.def)             Requested size: 153.64493pt x 55.46486pt.
 
-Overfull \vbox (11.32309pt too high) detected at line 534
- []
 
-
-
-[234
+[49
 
  <./figures/variavel_aleatoria.png (PNG copy)>]
 File: figures/variavel_aleatoria.png Graphic file (type png)
@@ -4450,12 +2136,8 @@ File: figures/variavel_aleatoria.png Graphic file (type png)
 Package pdftex.def Info: figures/variavel_aleatoria.png  used on input line 534.
 (pdftex.def)             Requested size: 153.64493pt x 55.46486pt.
 
-Overfull \vbox (11.32309pt too high) detected at line 534
- []
 
-
-
-[235
+[50
 
 ]
 File: figures/variavel_aleatoria.png Graphic file (type png)
@@ -4463,12 +2145,8 @@ File: figures/variavel_aleatoria.png Graphic file (type png)
 Package pdftex.def Info: figures/variavel_aleatoria.png  used on input line 534.
 (pdftex.def)             Requested size: 153.64493pt x 55.46486pt.
 
-Overfull \vbox (11.32309pt too high) detected at line 534
- []
 
-
-
-[236
+[51
 
 ]
 
@@ -4495,11 +2173,11 @@ Underfull \hbox (badness 5519) in paragraph at lines 543--543
 
 
 
-[237
+[52
 
 ]
 
-[238
+[53
 
 ]
 
@@ -4520,34 +2198,34 @@ Overfull \hbox (15.89316pt too wide) detected at line 571
  []
 
 
-Overfull \vbox (104.81744pt too high) detected at line 571
+Overfull \vbox (85.31754pt too high) detected at line 571
  []
 
 
 
-[239
+[54
 
 ]
-<figures/tab_exemplo_va_discreta.png, id=8439, 1062.21844pt x 287.57437pt>
+<figures/tab_exemplo_va_discreta.png, id=1604, 1062.21844pt x 287.57437pt>
 File: figures/tab_exemplo_va_discreta.png Graphic file (type png)
 <use figures/tab_exemplo_va_discreta.png>
 Package pdftex.def Info: figures/tab_exemplo_va_discreta.png  used on input line 580.
 (pdftex.def)             Requested size: 282.72774pt x 76.54472pt.
 
 
-[240
+[55
 
  <./figures/tab_exemplo_va_discreta.png (PNG copy)>]
 
-[241
+[56
 
 ]
 
-[242
+[57
 
 ]
 
-[243
+[58
 
 ]
 
@@ -4563,16 +2241,16 @@ l.625 \end{frame}
 
 
 Underfull \hbox (badness 3849) in paragraph at lines 625--625
-[][][]\OT1/cmss/bx/n/10.95 Exemplo  51:[][] \OT1/cmss/m/n/10.95 Em um processo de fabrica^^Xc~ao de
+[][][]\OT1/cmss/bx/n/10.95 Exemplo  29:[][] \OT1/cmss/m/n/10.95 Em um processo de fabrica^^Xc~ao de
  []
 
 
 
-[244
+[59
 
 ]
 
-[245
+[60
 
 ]
 
@@ -4586,18 +2264,18 @@ l.651 \end{frame}
                  
 (That was another \errmessage.)
 
-<figures/exemplo_otite.png, id=8653, 743.77875pt x 67.75313pt>
+<figures/exemplo_otite.png, id=1781, 743.77875pt x 67.75313pt>
 File: figures/exemplo_otite.png Graphic file (type png)
 <use figures/exemplo_otite.png>
 Package pdftex.def Info: figures/exemplo_otite.png  used on input line 651.
 (pdftex.def)             Requested size: 282.72774pt x 25.75471pt.
 
-Overfull \vbox (20.9013pt too high) detected at line 651
+Overfull \vbox (1.4014pt too high) detected at line 651
  []
 
 
 
-[246
+[61
 
  <./figures/exemplo_otite.png>]
 
@@ -4616,836 +2294,30 @@ File: figures/exemplo_otite.png Graphic file (type png)
 Package pdftex.def Info: figures/exemplo_otite.png  used on input line 651.
 (pdftex.def)             Requested size: 282.72774pt x 25.75471pt.
 
-Overfull \vbox (20.9013pt too high) detected at line 651
+Overfull \vbox (1.4014pt too high) detected at line 651
  []
 
 
 
-[247
+[62
 
 ]
 
-[248
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/12' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.688 \end{frame}
-                 
-(That was another \errmessage.)
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.688 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.688 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.688 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.688 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \vbox (19.159pt too high) detected at line 688
- []
-
-
-
-[249
-
-]
-
-[250
-
-]
-
-[251
-
-]
-
-[252
-
-]
-
-[253
-
-]
-
-[254
-
-]
-
-[255
-
-]
-
-[256
-
-]
-Overfull \vbox (33.80913pt too high) detected at line 734
- []
-
-
-
-[257
-
-]
-
-[258
-
-]
-
-[259
-
-]
-
-[260
-
-]
-
-[261
-
-]
-
-[262
-
-]
-
-[263
-
-]
-
-[264
-
-]
-
-[265
-
-]
-
-[266
-
-]
-
-[267
-
-]
-
-[268
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/11' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.804 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-Underfull \hbox (badness 3849) in paragraph at lines 804--804
-[][][]\OT1/cmss/bx/n/10.95 Exemplo  57:[][] \OT1/cmss/m/n/10.95 Em um processo de fabrica^^Xc~ao de
- []
-
-
-
-[269
-
-]
-
-[270
-
-]
-
-[271
-
-]
-
-[272
-
-]
-
-[273
-
-]
-
-[274
-
-]
-
-[275
-
-]
-
-[276
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/13' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.916 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-Overfull \vbox (2.55902pt too high) detected at line 916
- []
-
-
-
-[277
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/13' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.916 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-Overfull \vbox (2.55902pt too high) detected at line 916
- []
-
-
-
-[278
-
-]
-
-[279
-
-]
-<figures/binom_1.png, id=9797, 167.87718pt x 52.69687pt>
-File: figures/binom_1.png Graphic file (type png)
-<use figures/binom_1.png>
-Package pdftex.def Info: figures/binom_1.png  used on input line 942.
-(pdftex.def)             Requested size: 92.1879pt x 28.93752pt.
-<figures/binom_2.png, id=9798, 423.08063pt x 60.97781pt>
-File: figures/binom_2.png Graphic file (type png)
-<use figures/binom_2.png>
-Package pdftex.def Info: figures/binom_2.png  used on input line 942.
-(pdftex.def)             Requested size: 153.64493pt x 22.14458pt.
-
-
-[280
-
- <./figures/binom_1.png (PNG copy)> <./figures/binom_2.png (PNG copy)>]
-
-[281
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...opas. Ent\~ao $X\sim \mBin 
-                                                  (3,1/4)$. \medskip \par $\...
-l.970 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[282
-
-]
-
-[283
-
-]
-
-[284
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/14' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.986 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-
-[285
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/16' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.997 \end{frame}
-                 
-(That was another \errmessage.)
-
-
-
-[286
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1010 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1010 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1010 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[287
-
-]
-
-[288
-
-]
-
-[289
-
-]
-
-[290
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/18' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1042 \end{frame}
-                  
-(That was another \errmessage.)
-
-
-
-[291
-
-]
-! Too many }'s.
-\endframe ->\egroup 
-                    \begingroup \def \@currenvir {frame}
-l.1045 \end{frame}
-                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1060 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1060 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[292
-
-]
-
-[293
-
-]
-<figures/continua_1.png, id=10296, 576.65437pt x 292.09125pt>
-File: figures/continua_1.png Graphic file (type png)
-<use figures/continua_1.png>
-Package pdftex.def Info: figures/continua_1.png  used on input line 1082.
-(pdftex.def)             Requested size: 215.10196pt x 108.95453pt.
-
-
-[294
-
- <./figures/continua_1.png (PNG copy)>]
-
-! Package pgfkeys Error: I do not know the key '/tcb/20' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1101 \end{frame}
-                  
-(That was another \errmessage.)
-
-
-Overfull \vbox (41.09438pt too high) detected at line 1101
- []
-
-
-
-[295
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/20' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1101 \end{frame}
-                  
-(That was another \errmessage.)
-
-
-Overfull \vbox (41.09438pt too high) detected at line 1101
- []
-
-
-
-[296
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/20' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1101 \end{frame}
-                  
-(That was another \errmessage.)
-
-
-Overfull \vbox (41.09438pt too high) detected at line 1101
- []
-
-
-
-[297
-
-]
-
-! Package pgfkeys Error: I do not know the key '/tcb/21' and I am going to ignore it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1116 \end{frame}
-                  
-(That was another \errmessage.)
-
-
-
-[298
-
-]
-
-[299
-
-]
-
-[300
-
-]
-
-[301
-
-]
-
-[302
-
-]
-
-[303
-
-]
-<figures/normal_p_1.png, id=10642, 197.98969pt x 176.91093pt>
-File: figures/normal_p_1.png Graphic file (type png)
-<use figures/normal_p_1.png>
-Package pdftex.def Info: figures/normal_p_1.png  used on input line 1189.
-(pdftex.def)             Requested size: 92.1879pt x 82.3734pt.
-
-Overfull \vbox (21.98256pt too high) detected at line 1189
- []
-
-
-
-[304
-
- <./figures/normal_p_1.png (PNG copy)>]
-
-[305
-
-]
-
-[306
-
-]
-
-[307
-
-]
-
-[308
-
-]
-
-[309
-
-]
-
-[310
-
-]
-<figures/normal_dp.jpg, id=10887, 560.0925pt x 305.14pt>
-File: figures/normal_dp.jpg Graphic file (type jpg)
-<use figures/normal_dp.jpg>
-Package pdftex.def Info: figures/normal_dp.jpg  used on input line 1266.
-(pdftex.def)             Requested size: 245.83282pt x 133.93143pt.
-
-
-[311
-
- <./figures/normal_dp.jpg>]
-
-[312
-
-]
-
-[313
-
-]
-
-[314
-
-]
-
-[315
-
-]
-
-[316
-
-]
-
-[317
-
-]
-
-[318
-
-]
-
-[319
-
-]
-Overfull \vbox (24.10933pt too high) detected at line 1601
- []
-
-
-
-[320
-
-]
-Overfull \vbox (24.10933pt too high) detected at line 1601
- []
-
-
-
-[321
-
-]
-Overfull \vbox (24.10933pt too high) detected at line 1601
- []
-
-
-
-[322
-
-]
-
-[323
-
-]
-
-[324
-
-]
-
-[325
-
-]
-
-[326
-
-]
-
-[327
-
-]
-
-[328
-
-]
-
-[329
-
-]
-<figures/confidence_interval.png, id=11518, 648.17157pt x 206.27063pt>
-File: figures/confidence_interval.png Graphic file (type png)
-<use figures/confidence_interval.png>
-Package pdftex.def Info: figures/confidence_interval.png  used on input line 1656.
-(pdftex.def)             Requested size: 245.83282pt x 78.23256pt.
-
-
-[330
-
- <./figures/confidence_interval.png (PNG copy)>]
-
-[331
-
-]
-
-[332
-
-]
-
-[333
-
-]
-
-[334
-
-]
-<figures/confidence_interval_2.png, id=11686, 948.54375pt x 544.28343pt>
-File: figures/confidence_interval_2.png Graphic file (type png)
-<use figures/confidence_interval_2.png>
-Package pdftex.def Info: figures/confidence_interval_2.png  used on input line 1691.
-(pdftex.def)             Requested size: 184.3758pt x 105.79018pt.
-
-
-[335
-
- <./figures/confidence_interval_2.png (PNG copy)>]
-
-[336
-
-]
-<figures/mu_crying.jpg, id=11758, 653.44125pt x 481.8pt>
-File: figures/mu_crying.jpg Graphic file (type jpg)
-<use figures/mu_crying.jpg>
-Package pdftex.def Info: figures/mu_crying.jpg  used on input line 1724.
-(pdftex.def)             Requested size: 122.91406pt x 90.62398pt.
-
-Overfull \vbox (13.31483pt too high) detected at line 1724
- []
-
-
-
-[337
-
- <./figures/mu_crying.jpg>]
-File: figures/mu_crying.jpg Graphic file (type jpg)
-<use figures/mu_crying.jpg>
-Package pdftex.def Info: figures/mu_crying.jpg  used on input line 1724.
-(pdftex.def)             Requested size: 122.91406pt x 90.62398pt.
-
-Overfull \vbox (13.31483pt too high) detected at line 1724
- []
-
-
-
-[338
-
-]
-
-[339
-
-]
-
-[340
-
-]
-
-[341
-
-]
-
-[342
-
-]
-
-[343
-
-]
-
-[344
-
-]
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1829 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1829 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@@tmpl@enumerate item ... {blue}\shadowbox 
-                                                  {\insertenumlabel )}
-l.1829 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[345
-
-]
-
-[346
-
-]
-Overfull \vbox (17.27885pt too high) detected at line 1855
- []
-
-
-
-[347
-
-]
-Overfull \vbox (17.27885pt too high) detected at line 1855
- []
-
-
-
-[348
+[63
 
 ])
-\tf@nav=\write8
-\openout8 = `main.nav'.
+\tf@nav=\write7
+\openout7 = `main.nav'.
 
-\tf@toc=\write9
-\openout9 = `main.toc'.
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
-\tf@snm=\write10
-\openout10 = `main.snm'.
+\tf@snm=\write9
+\openout9 = `main.snm'.
 
-\openout7 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
+runsystem(latexminted cleantemp  --timestamp 20251009104722 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
-runsystem(latexminted clean  --timestamp 20250930095940 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
-
- (./main.aux (./estat_descritiva.aux) (./probabilidade.aux))
+ (./main.aux (./probabilidade.aux))
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -5455,21 +2327,21 @@ L3 programming layer <2025-01-18>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7D56F0C24B5A447FDD38D9989F257975;743.
+(rerunfilecheck)             Checksum: 6FB900C7F11A7F106E614B2DB5EAF260;108.
  ) 
 Here is how much of TeX's memory you used:
- 36214 strings out of 475171
- 768168 string characters out of 5767095
- 1279625 words of memory out of 5000000
- 57746 multiletter control sequences out of 15000+600000
- 576247 words of font info for 103 fonts, out of 8000000 for 9000
+ 34321 strings out of 475171
+ 731858 string characters out of 5767095
+ 1241031 words of memory out of 5000000
+ 56557 multiletter control sequences out of 15000+600000
+ 566474 words of font info for 65 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,20n,123p,862b,1123s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (348 pages, 3548227 bytes).
+ 128i,19n,123p,775b,977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb>
+Output written on main.pdf (63 pages, 614045 bytes).
 PDF statistics:
- 12409 PDF objects out of 12825 (max. 8388607)
- 10554 compressed objects within 106 object streams
- 702 named destinations out of 1000 (max. 500000)
- 1091 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1946 PDF objects out of 2073 (max. 8388607)
+ 1737 compressed objects within 18 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
