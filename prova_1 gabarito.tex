@@ -130,39 +130,94 @@ A partir dessa tabela, responda as seguintes questões:
 
 \vspace{5px}
 
-3) Julia, colega de trabalho de Maikon, acha sua ideia incível e decide expandir a divulgação da plataforma. 
-A ideia de Júlia é divulgar a Quarto-Andar-Edu nas redes sociais, principalmente no Instagram. Após 
+3) Julia também trabalha na empresa Quarto Andar. Ela decide usar uma estratégia mais simples que a de Maikon, consistindo simplesmente
+em divulgar o site da empresa em redes sociais, principalmente no Instagram. Após 
 uma reunião do time de Marketing, Julia apresenta sua ideia. Após ouvir a ideia de Julia, Gabriel, outro membro do time de Marketing, faz a seguinte pergunta:
 
 \begin{quote}
-    \textit{Como podemos quantificar a probabilidade de, dado que o cliente clicou no anúncio, que ele realmente anuncie em nossa plaraforma?}
+    \textit{Como podemos quantificar a probabilidade de, dado que o cliente clicou no anúncio, que ele realmente anuncie em nosso site?}
 \end{quote}
 
-A partir desse questionamento, Julia então desenvolve um modelo estatístico para estimar a probabilidade de, dado que o cliente clicou no anúncio, dele anunciar na plaraforma. 
-
-O modelo construído por Julia possui as seguintes características:
+Após a implantação dos anúncios, Julia consulta o tipo de Analise de Dados e obtem as seguintes informações: 
 
 \begin{itemize}
-    \item Quando a pessoa clica no anúncio, o modelo indica corretamente que a pessoa irá anunciar seu imóvel na plataforma em 95\% dos casos.
-    \item Quando a pessoa não clica no anúncio, o modelo  indica corretamente que a pessoa irá anunciar na plataforma em 5\% dos casos. 
+    \item Dos clientes que clicam no anúncio, 95\% acabam anunciando seu imóvel no site.
+    \item Dos clientes que não clicam no anúncio, 90\% não anunciam no site.
 \end{itemize}
 
-Além disso, baseado em dados históricos da plataforma, Julia sabe que a probabilidade de um cliente clicar no anúncio é de $1\%$
-Após apresentar seu modelo para o time, Gabriel faz outra pergunta:
+Além disso, baseado em dados históricos da plataforma, eles informam que a probabilidade de um cliente clicar no anúncio é de $1\%$.
+Após apresentar esses resultados para o time, Gabriel faz outra pergunta:
 
 \begin{quote}
-   \textit{E se quiséssemos saber o contrário, ou seja, dado que o cliente anunciou em nossa plataforma, qual a probabilidade de que ele tenha vindo do Quarto-Andar-Edu?}
+   \textit{E se quiséssemos saber o contrário, ou seja, dado que o cliente anunciou em nosso site, qual a probabilidade de que ele tenha clicado no anúncio?}
 \end{quote}
 
-Reponda a pergunta feita por Gabriel e interprete o resultado. 
+Usando as informações obtidas porJulia, reponda a pergunta feita por Gabriel e interprete o resultado encontrado. 
+
+Definamos os seguintes eventos:
+
+\begin{itemize}
+    \item $A$: A pessoa clica no anúncio
+    \item $B$: A pessoa anuncia no site da empresa. 
+\end{itemize}
+
+\begin{align*}
+    \mathds{P}(A|B) &= \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P}(B)} = \dfrac{0,95 \cdot 0,01}{\mathds{P}(B|A)\mathds{P}(A) + \mathds{P}(B|A^c)\mathds{P}(A^c) }
+    = \dfrac{0,95 \cdot 0,01}{0,95 \cdot 0,01 + 0,1 \cdot 0,99}\\
+    &= \dfrac{0,95}{10,85} = 0,0875
+\end{align*}
+
+Verificamos que apesar da grande proporção de clientes que anunciam na plataforma vindos do anúncio, o fato das pessoas clicarem no anúncio apenas 1\% das vezes faz com que a probabilidade de que 
+um cliente da plataforma tenha vindo por meio desse anúncio seja baixo. Nesse sentido, talvez a equipe de Marketing devesse investir em melhorar o anúncio 
+para aumentar o percentual de cliente que clicam no anúncio. 
+
+\vspace{5px}
 
 4) Sejam $A$ e $B$ dois eventos em um mesmo espaço amostral $\Omega$. Mostre matematicamente os resultados das questões $a$ e $b$ e com palavras os da $c$, $d$ e $e$:
 \begin{enumerate}[a)]
     \item Se $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}$ então  $\mathds{P}(A|B) = \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P(B)}}$
+    
+    $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}$ implica que $\mathds{P}(B|A) = \dfrac{\mathds{P}(B \cap A)}{\mathds{P}(A)}$
+    além disso, garante também que  $\mathds{P}(B \cap A) = \mathds{P}(B|A) \mathds{P}(A)$
+
+    Usando essas informações e o fato de que $A \cap B = B \cap A$, segue que:
+
+    $$\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)} = \dfrac{\mathds{P}(B \cap A)}{\mathds{P}(B)} = 
+    \dfrac{\mathds{P}(B|A) \mathds{P}(A)}{\mathds{P}(B)}
+    $$
+    
+   
     \item Se $A \subset B$ então $\mathds{P}(A) \leq \mathds{P}(B)$
+    
+    Podemos escrever $B$ como a união de $B \cap A$ e $B\cap A^c$, ou seja, $B = (B \cap A) \cup (B \cap A^c)$
+
+Note que na relação acima funcionaria mesmo se $A \not\subset B$
+
+A partir disso, temos:
+
+$$\mathds{P}(B) = \mathds{P}((B \cap A) \cup (B \cap A^c)) =  \mathds{P}((B \cap A)) +  \mathds{P}((B \cap A^c))$$
+
+Obs: Note que $B \cap A$ e $B \cap A^c$ são mutuamente exclusivos.
+
+Ademais, se $A \subset B$ então $A \cap B = A$
+
+Como $\mathds{P}\left((B \cap A^c)\right) \geq 0$, segue que $\mathds{P}(B) \geq  \mathds{P}((A \cap B))$ e, portanto, $\mathds{P}(B) \geq  \mathds{P}(A)$
+
     \item $\mathds{P}(A\cup B) =\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) $
+
+    Aqui bastava explicar que estamos calculando a probabilidade da união de eventos. Se eles forem não forem mutuamente exclusivos, 
+    somar as probabilidades de $A$ e $B$ incorre em somar duas vezes a probabilidade de $A \cap B$, logo, precisamos descontar essa segunda vez que aparece. 
+    Quando os eventos são mutuamente exclusívos, a relação ainda é valida, mas sabemos que a interseção é o vazio, que tem probabilidade zero. 
+    Para ganhar o total de pontos da questão também seria necessário desenhar o Diagrama de Venn.
+
     \item Se $A$ e $B$ são mutuamente exclusívos, então $\mathds{P}(A|B) = 0$
+    
+    O fato de $A$ e $B$ serem mutuamente exclusívos implica que não podem ocorrer ao mesmo tempo. Logo, se um deles ocorre, o outro automaticamente não pode ocorrer. 
+
     \item Seja $B_1, B_2, \dots, B_n$ uma partição de $\Omega$, então $\mathds{P}(A) = \displaystyle\sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$;
+    
+    Aqui fazer o Diagrama de Venn contendo $A$ e as partições seguido de uma breve explicação do conceito de partição de um espaço amostral. 
+    
 \end{itemize}
 
 \end{document}

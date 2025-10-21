@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  20 OCT 2025 22:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  21 OCT 2025 11:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -469,18 +469,18 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+dsrom on input line 132.
+LaTeX Font Info:    Trying to load font information for U+dsrom on input line 131.
  (/usr/share/texmf-dist/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
 
-! LaTeX Error: \begin{enumerate} on input line 131 ended by \end{itemize}.
+! LaTeX Error: \begin{enumerate} on input line 132 ended by \end{itemize}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 \end{itemize}
+l.139 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -505,7 +505,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  69i,8n,79p,571b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/doublestroke/dsrom12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on prova_1.pdf (2 pages, 132479 bytes).
+Output written on prova_1.pdf (2 pages, 132618 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  66 compressed objects within 1 object stream

@@ -32,7 +32,7 @@
 \maketitle
 
 
-1) (2,5 pontos) Vimos em aula que dado um  conjunto de dados $x_1, x_2, \dots, x_n$ com $n \geq 1$, podemos obter os escores padronizados $z_1, z_2, \dots, z_n$ da seguinte forma:
+1) (2,6 pontos) Vimos em aula que dado um  conjunto de dados $x_1, x_2, \dots, x_n$ com $n \geq 1$, podemos obter os escores padronizados $z_1, z_2, \dots, z_n$ da seguinte forma:
 
 
 $$z_i = \dfrac{x_i - \bar{x}}{\sigma_x}, i\in \{1, \dots, n\},$$
@@ -42,7 +42,7 @@ onde $\bar{x}$ e $\sigma_x$ são, respectivamente, a média e o desvio padrão d
 Sabendo disso, resolva as questões a seguir:
 
 \begin{enumerate}[a)]
-    \item (1,5 pontos) Mostre que para qualquer conjunto de dados $x_1, x_2, \dots, x_n$ com $n \geq 1$, os escores padronizados $z_1, z_2, \dots, z_n$  apresentam média $0$ e desvio padrão igual a $1$. 
+    \item (1,6 pontos) Mostre que para qualquer conjunto de dados $x_1, x_2, \dots, x_n$ com $n \geq 1$, os escores padronizados $z_1, z_2, \dots, z_n$  apresentam média $0$ e desvio padrão igual a $1$. 
     
     \item (1 ponto) Mariana foi contratada para estagiar no setor de Marketing da empresa Aeon. 
     Após 3 meses de estágio, Mariana é convidade a participar de uma reunião de feedback feita pelo setor de Gestão de Pessoas
@@ -79,7 +79,7 @@ as seguintes informações sobre a plataforma:
 \begin{tabular}{lll}
 \hline
                   & Apartamentos & Casas \\ \hline
-Quarto Andar -Edu & 5.000        & 1.800 \\
+Quarto Andar-Edu & 5.000        & 1.800 \\
 Orgânico          & 4.000        & 7.200 \\ \hline
 \end{tabular}
 \caption{Quantidade de clientes captados via Quarto Andar-Edu e de forma orgânica no mês de setembro separados por tipo de imóvel anunciado (Casa ou Apartamento).}
@@ -103,37 +103,39 @@ A partir dessa tabela, responda as seguintes questões:
 
 \vspace{5px}
 
-3) Julia, colega de trabalho de Maikon, acha sua ideia inceível e decide expandir a divulgação da plataforma Quarto Andar-Edu. 
-A ideia de Júlia é divulgar a Quarto-Andar-Edu nas redes sociais, principalmente no Instagram. Após 
+3) (2 pontos) Julia também trabalha na empresa Quarto Andar. Ela decide usar uma estratégia mais simples que a de Maikon, consistindo simplesmente
+em divulgar o site da empresa em redes sociais, principalmente no Instagram. Após 
 uma reunião do time de Marketing, Julia apresenta sua ideia. Após ouvir a ideia de Julia, Gabriel, outro membro do time de Marketing, faz a seguinte pergunta:
 
 \begin{quote}
-    \textit{Como podemos quantificar a probabilidade de, dado que o cliente clicou no anúncio, que ele realmente anuncie em nossa plataforma?}
+    \textit{Como podemos quantificar a probabilidade de, dado que o cliente clicou no anúncio, que ele realmente anuncie em nosso site?}
 \end{quote}
 
-A partir desse questionamento, Julia então desenvolve um modelo estatístico que possui as seguintes características:
+Após a implantação dos anúncios, Julia consulta o tipo de Analise de Dados e obtem as seguintes informações: 
 
 \begin{itemize}
-    \item Quando a pessoa clica no anúncio, o modelo indica corretamente que a pessoa irá anunciar seu imóvel na plataforma em 95\% dos casos.
-    \item Quando a pessoa não clica no anúncio, o modelo  indica corretamente que a pessoa irá anunciar na plataforma em 5\% dos casos. 
+    \item Dos clientes que clicam no anúncio, 95\% acabam anunciando seu imóvel no site.
+    \item Dos clientes que não clicam no anúncio, 90\% não anunciam no site.
 \end{itemize}
 
-Além disso, baseado em dados históricos da plataforma, Julia sabe que a probabilidade de um cliente clicar no anúncio é de $1\%$.
-Após apresentar seu modelo para o time, Gabriel faz outra pergunta:
+Além disso, baseado em dados históricos da plataforma, eles informam que a probabilidade de um cliente clicar no anúncio é de $1\%$.
+Após apresentar esses resultados para o time, Gabriel faz outra pergunta:
 
 \begin{quote}
-   \textit{E se quiséssemos saber o contrário, ou seja, dado que o cliente anunciou em nossa plataforma, qual a probabilidade de que ele tenha clicado no anúncio?}
+   \textit{E se quiséssemos saber o contrário, ou seja, dado que o cliente anunciou em nosso site, qual a probabilidade de que ele tenha clicado no anúncio?}
 \end{quote}
 
-Reponda a pergunta feita por Gabriel e interprete o resultado encontrado. 
+Usando as informações obtidas por Julia, reponda a pergunta feita por Gabriel, interprete o resultado encontrado e responda: Que ação do time de Marketing seria necessária 
+dado o resultado encontrado?
 
-4) Sejam $A$ e $B$ dois eventos em um mesmo espaço amostral $\Omega$. Mostre matematicamente os resultados das questões $a$ e $b$ e com palavras os da $c$, $d$ e $e$:
+4) (3 pontos) Sejam $A$ e $B$ dois eventos em um mesmo espaço amostral $\Omega$ com $\mathds{P}(B)>0$. Mostre matematicamente os resultados das questões $a$ e $b$ e com palavras os da $c$, $d$ e $e$:
 \begin{enumerate}[a)]
-    \item Se $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}$ então  $\mathds{P}(A|B) = \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P(B)}}$
-    \item Se $A \subset B$ então $\mathds{P}(A) \leq \mathds{P}(B)$
-    \item $\mathds{P}(A\cup B) =\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) $
-    \item Se $A$ e $B$ são mutuamente exclusívos, então $\mathds{P}(A|B) = 0$
-    \item Seja $B_1, B_2, \dots, B_n$ uma partição de $\Omega$, então $\mathds{P}(A) = \displaystyle\sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$;
+    \item (0,6 pontos) Se $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}$ então  $\mathds{P}(A|B) = \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P(B)}}$, ou seja, 
+    demonstre o Teorema de Bayes a partir da definição de probabilidade condicional. 
+    \item (0,7 pontos) Se $A \subset B$ então $\mathds{P}(A) \leq \mathds{P}(B)$
+    \item (0,6 pontos) $\mathds{P}(A\cup B) =\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) $
+    \item (0,5 ponto) Se $A$ e $B$ são mutuamente exclusívos, então $\mathds{P}(A|B) = 0$
+    \item (0,6 pontos) Seja $B_1, B_2, \dots, B_n$ uma partição de $\Omega$, então $\mathds{P}(A) = \displaystyle\sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$
 \end{itemize}
 
 \end{document}
