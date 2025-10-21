@@ -374,8 +374,6 @@ experimento consiste em retirar uma bolinha, verificar sua cor e retirar uma
 segunda bolinha sem reposição. Calcule a probabilidade associada a cada re-
 sultado desse experimento.
 \end{exemplo}
-
-\textbf{Observação:} Resolva usando a regra da multiplicação e o diagrama de árvore. 
 \end{frame}
 
 % \begin{frame}{Regra da multiplicação}
@@ -407,22 +405,22 @@ seja o próprio espaço amostral.
     \end{exemplo}
 \end{frame}
 
-% \begin{frame}{Particionamento do espaço amostral}
-%     Podemos generalizar essa noção para $n$ eventos através do Teorema abaixo, conhecido como \textbf{Lei da Probabilidade Total}
-%     Seja $\{B_1, \dots, B_n\}$ uma partição do espaço amostral $\Omega$, onde, $\Omega=\bigcup_{i=1}^n B_i$, $\mathds{P}(B_i)>0$ e $\{B_1, \dots, B_n\}$ disjuntos dois a dois. Se $A$ é um evento qualquer em $\Omega$, vale:
+\begin{frame}{Particionamento do espaço amostral}
+    Podemos generalizar essa noção para $n$ eventos através do Teorema abaixo, conhecido como \textbf{Lei da Probabilidade Total}
+    Seja $\{B_1, \dots, B_n\}$ uma partição do espaço amostral $\Omega$, onde, $\Omega=\bigcup_{i=1}^n B_i$, $\mathds{P}(B_i)>0$ e $\{B_1, \dots, B_n\}$ disjuntos dois a dois. Se $A$ é um evento qualquer em $\Omega$, vale:
 
-%     $$\mathds{P}(A) = \sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$$
-% \end{frame}
+    $$\mathds{P}(A) = \sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$$
+\end{frame}
 
-% \begin{frame}{Particionamento do espaço amostral}
-% \begin{exemplo}[2]
-%     Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza em uma fazenda $F_1$, 30\% de uma outra fazenda $F_2$ e 50\% de $F_3$. Um orgão de fiscalização inspecionou as fazendas de surpresa e observou que 20\% do leite produzido por $F_1$ estava adulterado por adição de água, enquanto para $F_2$ e $F_3$, essa proporção era de 5\% e 2\%, respectivamente. Na indústria de sorvetes, os galões de leite são armazenados em um refrigerador sem identificação das fazendas. 
+\begin{frame}{Particionamento do espaço amostral}
+\begin{exemplo}[2]
+    Suponha que um fabricante de sorvetes recebe 20\% de todo o leite que utiliza em uma fazenda $F_1$, 30\% de uma outra fazenda $F_2$ e 50\% de $F_3$. Um orgão de fiscalização inspecionou as fazendas de surpresa e observou que 20\% do leite produzido por $F_1$ estava adulterado por adição de água, enquanto para $F_2$ e $F_3$, essa proporção era de 5\% e 2\%, respectivamente. Na indústria de sorvetes, os galões de leite são armazenados em um refrigerador sem identificação das fazendas. 
 
-%     \begin{itemize}
-%         \item Qual a probabilidade do leite estar adulterado?
-%     \end{itemize}
-% \end{exemplo}
-% \end{frame}
+    \begin{itemize}
+        \item Qual a probabilidade do leite estar adulterado?
+    \end{itemize}
+\end{exemplo}
+\end{frame}
 
 \begin{frame}{Teorema de Bayes}
 
@@ -449,17 +447,17 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
     
 \end{frame}
 
-\begin{frame}{Teorema de Bayes}
-\begin{exemplo}[5]
-        Uma clínica envia amostras de uma certa substância para 3 laboratórios de análises A, B e C nas seguintes proporções 0,2; 0,3; 0,5 respectivamente. A probabilidade de cada um dos laboratórios elaborar uma análise errada é de $\dfrac{1}{2}, \dfrac{1}{3}, \dfrac{1}{6}$ respectivamente. Baseado nessas informações, pergunta-se:
+% \begin{frame}{Teorema de Bayes}
+% \begin{exemplo}[5]
+%         Uma clínica envia amostras de uma certa substância para 3 laboratórios de análises A, B e C nas seguintes proporções 0,2; 0,3; 0,5 respectivamente. A probabilidade de cada um dos laboratórios elaborar uma análise errada é de $\dfrac{1}{2}, \dfrac{1}{3}, \dfrac{1}{6}$ respectivamente. Baseado nessas informações, pergunta-se:
 
-    \begin{itemize}
-        \item Qual é a probabilidade de um exame executado dar errado?
-        \item Uma análise resultou errada, qual a probabilidade de ter sido feita pelo laboratório A? Pelo B? Pelo C?
-    \end{itemize}
-\end{exemplo}
+%     \begin{itemize}
+%         \item Qual é a probabilidade de um exame executado dar errado?
+%         \item Uma análise resultou errada, qual a probabilidade de ter sido feita pelo laboratório A? Pelo B? Pelo C?
+%     \end{itemize}
+% \end{exemplo}
 
-\end{frame}
+% \end{frame}
 
 \begin{frame}{Teorema de Bayes}
 \begin{exemplo}[6]
@@ -468,198 +466,198 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
 
 \end{frame}
 
-\begin{frame}{Independência}
-    Dizemos que dois eventos A e B definidos em um mesmo espaço amostral são independentes se:
-    $$\mathds{P}(A\cap B) = \mathds{P}(A) \mathds{P}(B)$$
-\end{frame}
-
-\begin{frame}{Independência}
-\begin{exemplo}[7]
-    Suponha que a probabilidade de uma pessoa ser do tipo sanguíneo O é 0,45, ser A é 0,42 e ser B é 0,10. Suponha ainda que a probabilidade de $Rh^+$ é se 0,90 e que o fator independe do tipo sanguíneo. Nestas condições, qual a probabilidade de uma pessoa tomada ao acaso da população ser:
-
-    \begin{itemize}
-        \item O e $Rh^+$
-        \item AB e $RH^-$
-    \end{itemize}
-\end{exemplo}
-    
-\end{frame}
+% \begin{frame}{Independência}
+%     Dizemos que dois eventos A e B definidos em um mesmo espaço amostral são independentes se:
+%     $$\mathds{P}(A\cap B) = \mathds{P}(A) \mathds{P}(B)$$
+% \end{frame}
 
 % \begin{frame}{Independência}
+% \begin{exemplo}[7]
+%     Suponha que a probabilidade de uma pessoa ser do tipo sanguíneo O é 0,45, ser A é 0,42 e ser B é 0,10. Suponha ainda que a probabilidade de $Rh^+$ é se 0,90 e que o fator independe do tipo sanguíneo. Nestas condições, qual a probabilidade de uma pessoa tomada ao acaso da população ser:
 
-% \begin{exemplo}
-%     Ao lançarmos dois dados de seis faces, considere os eventos:
 %     \begin{itemize}
-%         \item A: O resultado do primeiro é 4
-%         \item B: A soma dos dois resultados é 7
+%         \item O e $Rh^+$
+%         \item AB e $RH^-$
 %     \end{itemize}
-
-%     A e B são independentes?
 % \end{exemplo}
     
 % \end{frame}
 
-\begin{frame}{Variáveis aleatórias}
-    Em muitos experimentos é útil trabalhar com uma "variável resumo".
+% % \begin{frame}{Independência}
 
-    \begin{exemplo}[8]
-        Numa pesquisa de opinião, decidimos perguntar a 20 pessoas se elas concordam ou discordam sobre determinado assunto. Nessa pesquisa, anotaremos o valor 1 se a pessoa concorda e 0 se a pessoa discorda.
+% % \begin{exemplo}
+% %     Ao lançarmos dois dados de seis faces, considere os eventos:
+% %     \begin{itemize}
+% %         \item A: O resultado do primeiro é 4
+% %         \item B: A soma dos dois resultados é 7
+% %     \end{itemize}
 
-        \begin{itemize}
-            \item Observe que o tamanho do espaço amostral desse experimento contém $2^{20}=1048576$ elementos.
-            \item Podemos estar interessados em características específicas em relação aos elementos do espaço amostral. 
-        \end{itemize}
-    \end{exemplo}
-\end{frame}
+% %     A e B são independentes?
+% % \end{exemplo}
+    
+% % \end{frame}
 
-\begin{frame}{Variáveis aleatórias}
+% \begin{frame}{Variáveis aleatórias}
+%     Em muitos experimentos é útil trabalhar com uma "variável resumo".
 
-\begin{definicao}
-    Uma variável aleatória nada mais é que uma função que toma como entrada elementos do espaço amostral e gera como saída um número real
-\end{definicao}
+%     \begin{exemplo}[8]
+%         Numa pesquisa de opinião, decidimos perguntar a 20 pessoas se elas concordam ou discordam sobre determinado assunto. Nessa pesquisa, anotaremos o valor 1 se a pessoa concorda e 0 se a pessoa discorda.
 
-\begin{itemize}
-    \item Variáveis aleatórias serão denotadas em geral por letras maiúsculas do final do alfabeto: $W, X, Y, Z$
-    \pause
-    \item Denotaremos por $\Omega_X$ o conjunto de possíveis valores assumidos pela Variável Aleatória $X$.
-    \pause
-    \item \textcolor{red}{Atenção}: Note que $X$ pode ser a função identidade, $\Omega_X$ é igual a $\Omega$.
-\end{itemize}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\linewidth]{figures/variavel_aleatoria.png}
-    \label{fig:enter-label}
-\end{figure}
+%         \begin{itemize}
+%             \item Observe que o tamanho do espaço amostral desse experimento contém $2^{20}=1048576$ elementos.
+%             \item Podemos estar interessados em características específicas em relação aos elementos do espaço amostral. 
+%         \end{itemize}
+%     \end{exemplo}
+% \end{frame}
 
-\end{frame}
-\begin{frame}{Variáveis aleatórias}
-    \begin{exemplo}[9]
-        Considere o experimento do lançamento de duas moedas. Nesse caso temos:
-        $$\Omega = \{(Cara, Cara), (Coroa, Coroa), (Cara, Coroa), (Coroa, Cara)\}$$
+% \begin{frame}{Variáveis aleatórias}
 
-        Definamos a variável aleatória $X:$Número de caras obtidas nas duas moedas. Dessa forma temos, $X((Cara, Cara)) = 2$, $X((Cara, Coroa)) = 1$,  $X((Coroa, Cara)) = 1$, $X((Coroa, Coroa)) = 0$
-    \end{exemplo}
+% \begin{definicao}
+%     Uma variável aleatória nada mais é que uma função que toma como entrada elementos do espaço amostral e gera como saída um número real
+% \end{definicao}
 
-\end{frame}
+% \begin{itemize}
+%     \item Variáveis aleatórias serão denotadas em geral por letras maiúsculas do final do alfabeto: $W, X, Y, Z$
+%     \pause
+%     \item Denotaremos por $\Omega_X$ o conjunto de possíveis valores assumidos pela Variável Aleatória $X$. Dizemos que  $\Omega_X$ é suporte de $X$. 
+%     \pause
+%     \item \textcolor{red}{Atenção}: Note que $X$ pode ser a função identidade, $\Omega_X$ é igual a $\Omega$.
+% \end{itemize}
+% \begin{figure}
+%     \centering
+%     \includegraphics[width=0.5\linewidth]{figures/variavel_aleatoria.png}
+%     \label{fig:enter-label}
+% \end{figure}
 
-\begin{frame}{Variáveis aleatórias discretas}
-    \begin{definicao}
-        Uma variável aleatória discreta é aquela que pode tomar apenas um número contável de valores, tais como $0,1,2,3,4, \dots$. Denotaremos por $\Omega_X$ o conjunto de possíveis valores que essa variável pode assumir.
+% \end{frame}
+% \begin{frame}{Variáveis aleatórias}
+%     \begin{exemplo}[9]
+%         Considere o experimento do lançamento de duas moedas. Nesse caso temos:
+%         $$\Omega = \{(Cara, Cara), (Coroa, Coroa), (Cara, Coroa), (Coroa, Cara)\}$$
 
-        \begin{itemize}
-            \item Variáveis aleatórias discretas geralmente estão relacionadas à contagem. 
-        \end{itemize}
-    \end{definicao}
-\end{frame}
+%         Definamos a variável aleatória $X:$Número de caras obtidas nas duas moedas. Dessa forma temos, $X((Cara, Cara)) = 2$, $X((Cara, Coroa)) = 1$,  $X((Coroa, Cara)) = 1$, $X((Coroa, Coroa)) = 0$
+%     \end{exemplo}
 
-\begin{frame}{Variáveis aleatórias discretas}
-\begin{exemplo}[10]
-    Se lançamos três dados de seis faces podemos definir, entre outras, as seguintes variáveis aleatórias discretas:
-    \begin{itemize}
-        \item X: A soma dos resultados:
-            $$\Omega_X = \{3,4,5,\dots, 16,17,18\}$$
-        \item: X: O produto dos dois primeiros resultados:
-            $$\Omega_X = \{1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 30, 36\}$$
-            \item X: O máximo entre os resultados:
-            $$\Omega_X = \{1,2,3,4,5,6\}$$
-            \item X: O mínimo entre os resultados:
-            $$\Omega_X =  \{1,2,3,4,5,6\}$$
-            \item X: O número de vezes em que apareceu o resultado 6:
-            $$\Omega_X =  \{1,2,3\}$$
-    \end{itemize}
-\end{exemplo}
-\end{frame}
+% \end{frame}
 
-\begin{frame}{Variáveis aleatórias discretas}
-    \begin{exemplo}
-        \begin{figure}
-            \centering
-            \includegraphics[width=1\linewidth]{figures/tab_exemplo_va_discreta.png}
-        \end{figure}
-    \end{exemplo}
-\end{frame}
+% \begin{frame}{Variáveis aleatórias discretas}
+%     \begin{definicao}
+%         Uma variável aleatória discreta é aquela que pode tomar apenas um número contável de valores, tais como $0,1,2,3,4, \dots$. Denotaremos por $\Omega_X$ o conjunto de possíveis valores que essa variável pode assumir.
 
-\begin{frame}{Distribuição de uma variável aleatória discreta}
-    A função de probabilidade de uma variável aleatória discreta é uma lista com as probabilidades associadas a cada possível valor que a variável assume. Também é chamada de função massa de probabilidade. Seja $X$ uma variável aleatória que assume os valores $x_1, x_2, \dots, x_n$, utilizaremos a seguinte notação para representar essa função:
+%         \begin{itemize}
+%             \item Variáveis aleatórias discretas geralmente estão relacionadas à contagem. 
+%         \end{itemize}
+%     \end{definicao}
+% \end{frame}
 
-    $$p(x_i) = \mathds{P}(X=x_i)$$
+% \begin{frame}{Variáveis aleatórias discretas}
+% \begin{exemplo}[10]
+%     Se lançamos três dados de seis faces podemos definir, entre outras, as seguintes variáveis aleatórias discretas:
+%     \begin{itemize}
+%         \item X: A soma dos resultados:
+%             $$\Omega_X = \{3,4,5,\dots, 16,17,18\}$$
+%         \item: X: O produto dos dois primeiros resultados:
+%             $$\Omega_X = \{1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 30, 36\}$$
+%             \item X: O máximo entre os resultados:
+%             $$\Omega_X = \{1,2,3,4,5,6\}$$
+%             \item X: O mínimo entre os resultados:
+%             $$\Omega_X =  \{1,2,3,4,5,6\}$$
+%             \item X: O número de vezes em que apareceu o resultado 6:
+%             $$\Omega_X =  \{1,2,3\}$$
+%     \end{itemize}
+% \end{exemplo}
+% \end{frame}
 
-    Essa função deve satisfazer as seguintes propriedades:
+% \begin{frame}{Variáveis aleatórias discretas}
+%     \begin{exemplo}
+%         \begin{figure}
+%             \centering
+%             \includegraphics[width=1\linewidth]{figures/tab_exemplo_va_discreta.png}
+%         \end{figure}
+%     \end{exemplo}
+% \end{frame}
 
-\begin{itemize}
-    \item $p_X(x_i) \geq 0$ para todo $i$,
-    \item $\sum_{i=1}^{n} p_X(x_i) = 1$
-\end{itemize}
-\end{frame}
+% \begin{frame}{Distribuição de uma variável aleatória discreta}
+%     A função de probabilidade de uma variável aleatória discreta é uma lista com as probabilidades associadas a cada possível valor que a variável assume. Também é chamada de função massa de probabilidade. Seja $X$ uma variável aleatória que assume os valores $x_1, x_2, \dots, x_n$, utilizaremos a seguinte notação para representar essa função:
 
-\begin{frame}{Distribuição de uma variável aleatória discreta}
-    Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
+%     $$p(x_i) = \mathds{P}(X=x_i)$$
 
-    \begin{itemize}
-        \item Qual o espaço amostral desse experimento?
-    \end{itemize}
-\end{frame}
+%     Essa função deve satisfazer as seguintes propriedades:
 
-\begin{frame}{Distribuição de uma variável aleatória discreta}
-    Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
+% \begin{itemize}
+%     \item $p_X(x_i) \geq 0$ para todo $i$,
+%     \item $\sum_{i=1}^{n} p_X(x_i) = 1$
+% \end{itemize}
+% \end{frame}
 
-    \begin{itemize}
-        \item Qual o espaço amostral desse experimento?
-        \item Definamos a variável aleatória Y: Número de caras obtidas, qual a função de probabilidade associada a essa variável?
-    \end{itemize}
+% \begin{frame}{Distribuição de uma variável aleatória discreta}
+%     Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
 
-\end{frame}
+%     \begin{itemize}
+%         \item Qual o espaço amostral desse experimento?
+%     \end{itemize}
+% \end{frame}
 
-\begin{frame}{Distribuição de uma variável aleatória discreta}
+% \begin{frame}{Distribuição de uma variável aleatória discreta}
+%     Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
 
-\begin{exemplo}[11]
-     Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
+%     \begin{itemize}
+%         \item Qual o espaço amostral desse experimento?
+%         \item Definamos a variável aleatória Y: Número de caras obtidas, qual a função de probabilidade associada a essa variável?
+%     \end{itemize}
 
-     \begin{itemize}
-         \item Defina o espaço amostral desse experimento
-         \item Determine a função de probabilidade de $X$.
-     \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Distribuição de uma variável aleatória discreta}
+
+% \begin{exemplo}[11]
+%      Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
+
+%      \begin{itemize}
+%          \item Defina o espaço amostral desse experimento
+%          \item Determine a função de probabilidade de $X$.
+%      \end{itemize}
      
-\end{exemplo}
+% \end{exemplo}
    
-\end{frame}
-\begin{frame}{Função distribuição acumulada}
-    \begin{definicao}
-        Seja $X$ uma variável aleatória, definiremos sua \textbf{Função distribuição acumulada} da seguinte forma:
+% \end{frame}
+% \begin{frame}{Função distribuição acumulada}
+%     \begin{definicao}
+%         Seja $X$ uma variável aleatória, definiremos sua \textbf{Função distribuição acumulada} da seguinte forma:
         
-$$F_X(x) = \mathds{P}(X \leq x)$$
-    \end{definicao}
-\end{frame}
+% $$F_X(x) = \mathds{P}(X \leq x)$$
+%     \end{definicao}
+% \end{frame}
 
-\begin{frame}{Função distribuição acumulada}
-    \begin{exemplo}[12]
-        Considere a variável aleatória $X$ que representa o número de pedidos durante o período de 5 minutos em uma empresa de vendas online.
+% \begin{frame}{Função distribuição acumulada}
+%     \begin{exemplo}[12]
+%         Considere a variável aleatória $X$ que representa o número de pedidos durante o período de 5 minutos em uma empresa de vendas online.
 
-        \begin{figure}
-            \centering
-            \includegraphics[width=1\linewidth]{figures/exemplo_otite.png}
-        \end{figure}
-        Nesse caso:
-        \pause
-        \begin{itemize}
-            \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
-            \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
-            \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
-            \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
-        \end{itemize}
-    \end{exemplo}
-\end{frame}
+%         \begin{figure}
+%             \centering
+%             \includegraphics[width=1\linewidth]{figures/exemplo_otite.png}
+%         \end{figure}
+%         Nesse caso:
+%         \pause
+%         \begin{itemize}
+%             \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
+%             \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
+%             \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
+%             \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
+%         \end{itemize}
+%     \end{exemplo}
+% \end{frame}
 
-\begin{frame}{Função distribuição acumulada}
-            \begin{itemize}
-            \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
-            \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
-            \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
-            \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
-            \item \vdots
-            \item $F_X(6) = \mathds{P}(X \leq 6)=1$
-        \end{itemize}
-\end{frame}
+% \begin{frame}{Função distribuição acumulada}
+%             \begin{itemize}
+%             \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
+%             \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
+%             \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
+%             \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
+%             \item \vdots
+%             \item $F_X(6) = \mathds{P}(X \leq 6)=1$
+%         \end{itemize}
+% \end{frame}
 
 % \begin{frame}{Variável aleatória discreta}
 % \begin{exemplo}[12]

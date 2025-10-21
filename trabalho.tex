@@ -3,12 +3,12 @@
 \usepackage{float}
 \usepackage{xcolor}
 \usepackage[a4paper, total={6in, 10in}]{geometry}
-\title{Trabalho - Bioestatística - 2025.1}
+\title{Trabalho - Estatística para Administração - 2025.2}
 \begin{document}
 \date{}
 \maketitle
 
-\section{Instruções para o Trabalho 1}
+\section{Instruções para o Trabalho}
 
 Neste trabalho, vocês se posicionarão na figura de um pesquisador que deseja elaborar uma texto (artigo) acerca dos resultados se sua pesquisa.
 Ao longo do trabalho, vocês devem usar os conceitos aprendidos nessa primeira parte da disciplina. É importante que vocês se coloquem 
@@ -16,10 +16,8 @@ no papel de um pesquisador/investigador e elaborem perguntas acerca do seu tema 
 
 Para obter o tema e objetivo de sua pesquisa, os seguintes passos devem ocorrer:
 \begin{enumerate}
-    \item Colocar seu nome e e-mail no tema de pesquisa de interesse. 
-    \item Cada grupo deve ser composto de exatamente três pessoas. 
-    \item A determinação do grupo se dará de forma aleatória, de acordo com as pessoas que manifestaram interesse no tema. 
-    \item Após o período de preenchimento, enviarei um e-mail para cada grupo com uma amostra coletada acerca do tema de pesquisa selecionado. 
+    \item Enviar por e-mail, colocando todos os membros do grupo em cópia, o tema de interesse escolhido a partir da lista de temas. 
+    \item Enviarei a base de dados como resposta do e-mail. 
     \item Para fins didáticos, a amostra enviada por e-mail será tratada como sendo a população de estudo, uma vez que a etapa de coleta de dados não será realizada por vocês.
 \end{enumerate}
 
@@ -29,24 +27,24 @@ O trabalho será avaliado como uma nota entre 0 e 10. As seguintes situações i
     \item Entregar o trabalho fora do prazo. 
     \item Entregar o trabalho de forma não-estruturada (desorganizado). 
     \item Não usar a linguagem R.
+    \item Usar conceitos não explicitados em sala. 
+    \item Copiar código de outras fontes. 
     \item Não entregar todos os arquivos.
     \item Código não condizente com o texto. 
-    \item Não colocar o nome e e-mail no arquivo de seleção de temas durante o período de seleção. 
 \end{itemize}
 
 Ao término do trabalho, é necessário que vocês enviem os seguintes itens:
 
 \begin{itemize}
-    \item Arquivo em texto da sua pesquisa. 
-    \item Código utilizado na pesquisa.  
-    \item Imagens adicionais (Caso existam).
+    \item Arquivo em texto da sua pesquisa no formato pdf. 
+    \item Amostra selecionada no formato csv. 
+    \item Arquivo qmd.  
 \end{itemize}
 
 \textcolor{red}{Obsevações}:
 \begin{itemize}
-    \item A escrita do código \textbf{não} será avaliada. Entretanto, será verificado se o código está condizente com os resultados do seu texto. 
-    \item Caso seu grupo opte por fazer o trabalho usando o Quadro/R Markdown, então o arquivo markdown substitui o código, ou seja, 
-    não precisa criar um arquivo com o código separado. 
+    \item A escrita do código \textbf{não} será avaliada, sendo apenas critério para não zerar o trabalho. 
+    \item Caso algum membro do grupo não participe do trabalho, comunicar antes da data de apresentação. 
 \end{itemize}
 
 Após a obtenção do seu conjunto de dados, vocês devem realizar a Parte 1 do trabalho. 
@@ -84,7 +82,7 @@ seção também podem ser levantadas as limitações que impactaram o desenvolvi
     \item Crie dois conjuntos de dados (vetores) vazios no R. Um chamado \textit{media\_amostral} e outro chamado  \textit{variancia\_amostral}.
     \item Obtenha uma amostra de tamanho $5\%$ de $n$ por meio da Amostragem Aleatória Simples do seu conjunto de dados. 
     \item Calcule a média e variância amostral dessa amostra e armazene nos vetores \textit{media\_amostral} e \textit{variancia\_amostral}, respectivamente.
-    \item Repita os itens d) e e) para uma amostra de tamanho $10\%, 15\%, 20\%, 25\%, 30\%, 35\%, 40\%, 45\%, 50\%, 55\%, 60\%, 65\%, 70\%, 75\%, 85\%, 90\%, 95\%$ do 
+    \item Repita os itens d) e e) para uma amostra de tamanho $10\%, 20\%, 30\%, 40\%, 50\%, 60\%, 70\%, 80\%, 90\%$  do 
     tamanho amostral.
     \item Construa um gráfico que possua:
     \begin{itemize}
@@ -96,22 +94,17 @@ seção também podem ser levantadas as limitações que impactaram o desenvolvi
 \end{enumerate}
 
 
-2) Faça os seguintes passos:
+\section{Apresentação}
+\begin{itemize}
+    \item Cada grupo deve montar uma apresentação contendo no máximo 10 slides. 
+    \item A apresentação deve durar no máximo 10 minutos. 
+    \item Após a apresentação, serão feitas perguntas para cada um dos membros do grupo. 
+\end{itemize}
 
-\begin{enumerate}[a)]
-    \item Selecione uma variável quantitativa do seu banco de dados (Recomenda-se que seja selecionada a mesma do item anterior). 
-    \item Calcule a média populacional dessa variável e a armazene em uma variável chamada \textit{media\_populacional}.
-    \item Crie um conjunto de dados (vetores) vazios no R chamado \textit{media\_amostral}.
-    \item Obtenha 1000  amostras de tamanho $50\%$ de $n$ por meio da Amostragem Aleatória Simples do seu conjunto de dados e armazene em uma variável chamada \textit{amostras}. 
-    \item Calcule a média de cada uma das amostras e armazene-as no vetor \textit{media\_amostras}.
-    \item Crie um conjunto de dados (vetor) vazio chamado \textit{media\_das\_medias}.
-    \item O vetor \textit{media\_das\_medias} deve ter tamanho 1000, cada posição $i \in \{1,2, 3, 4, 5, \dots, 1000\}$ desse vetor é obtida fazendo a média dos $i$ primeiros elementos do conjunto \textit{media\_das\_medias}. 
-    \item Construa um gráfico que possua:
-    \begin{itemize}
-    \item Um gráfico de dispersão com $y=$\textit{media\_das\_medias} e $x=$\{1, 2, 3, 4, 5 \dots, 1000 \}.
-    \item Uma reta horizontal vermelha em $y=$\textit{media\_populacional}.
-    \item Escreva um texto explicando que conclusão você tira ao analisar o gráfico. 
-    \end{itemize} 
-\end{enumerate}
+\section{Avaliação}
 
+\begin{itemize}
+    \item O trabalho será em grupo, mas a nota individual. 
+    \item A nota da parte escrita será a mesma para todos, mas a da apresentação será individual. 
+\end{itemize}
 \end{document}

@@ -1,0 +1,168 @@
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=0.8cm, bottom=0.8cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{float}
+\title{Prova 1 - Estatística para Administração- 2025.2}
+\begin{document}
+\date{}
+\maketitle
+
+1) (3 pontos) Vimos em aula que dado um  conjunto de dados $x_1, x_2, \dots, x_n$ com $n \geq 1$, podemos obter os escores padronizados $z_1, z_2, \dots, z_n$ da seguinte forma:
+
+
+$$z_i = \dfrac{x_i - \bar{x}}{\sigma_x}, i\in \{1, \dots, n\},$$
+
+onde $\bar{x}$ e $\sigma_x$ são, respectivamente, a média e o desvio padrão do conjunto $x_1, x_2, \dots, x_n$.
+
+Sabendo disso, resolva as questões a seguir:
+
+\begin{enumerate}[a)]
+    \item (1,5 pontos) Mostre que para qualquer conjunto de dados $x_1, x_2, \dots, x_n$ com $n \geq 1$, os escores padronizados $z_1, z_2, \dots, z_n$  apresentam média $0$ e desvio padrão igual a $1$. 
+    
+    Denotemos por $\bar{z}$ e $\sigma_x$ a média e o desvio padrão do conjunto  $z_1, z_2, \dots, z_n$  respectivamente. A partir disso:
+
+    \begin{align*}
+        \bar{z} &= \dfrac{\displaystyle\sum_{i=1}^n  z_i}{n}
+         = \dfrac{\displaystyle\sum_{i=1}^n \frac{x_i - \bar{x}}{\sigma_x}}{n}
+        = \displaystyle\sum_{i=1}^n \frac{x_i - \bar{x}}{n \sigma_x}
+        = \dfrac{1}{\sigma_x} \dfrac{\displaystyle\sum_{i=1}^n (x_i - \bar{x})}{n}
+        = \dfrac{1}{\sigma_x} \left(\dfrac{\displaystyle\sum_{i=1}^n x_i}{n} - \dfrac{\displaystyle\sum_{i=1}^n \bar{x}}{n}\right)\\
+        &= \dfrac{1}{\sigma_x} \left(\bar{x}- \dfrac{n \bar{x}}{n}\right) 
+        =\dfrac{1}{\sigma_x} \left(\bar{x} - \bar{x}\right) = 0
+    \end{align*}
+
+    \begin{align*}
+        \sigma_z = \displaystyle\sum_{i=1}^n \dfrac{(z_i - \bar{z})^2}{n} = \displaystyle\sum_{i=1}^n \dfrac{z_i^2}{n}
+        = \displaystyle\sum_{i=1}^n \dfrac{(\frac{x_i - \bar{x}}{\sigma_x})^2}{n}
+        = \dfrac{1}{\sigma_x^2}\displaystyle\sum_{i=1}^n \dfrac{(x_i - \bar{x})^2}{n}
+        = \dfrac{1}{\sigma_x^2} \cdot \sigma_x^2 = 1
+    \end{align*}
+
+    \item (1,5 pontos) Mariana foi contratada para estagiar no setor de Marketing da empresa Aeon. 
+    Após 3 meses de estágio, Mariana é convidade a participar de uma reunião de feedback feita pelo setor de Gestão de Pessoas
+     na qual é mencionado que ela concluiu apenas 3 tarefas no primeiro trimestre, enquanto a média geral do setor de Marketing foi de 7. Tendo sido citado 
+     durante a reunião o  exemplo de sua colega de trabalho Jéssica, que concluiuiu $8$ tarefas ao longo do trimestre. Ao final da reunião, Mariana pergunta qual o desvio padrão 
+     do número de tarefas entregues em seu setor. A anfritriã informa que o desvio padrão foi igual a $2,5$.
+
+     Com base nisso, a equipe de Gestão de Pessoas informa que Mariana está tendo um desempenho abaixo da média de tarefas entregues no seu setor, 
+     afirmando que ela deveria se empenhar mais e dedicar-se mais ao estágio. 
+    Mariana responde dizendo que essa comparação é injusta, pois ela é a única estagiária do setor de Marketing, além disso afirma estar há apenas 3 meses na empresa. 
+
+
+Após a reunião, Mariana acredita que a comparação feita pelo time de Gestão de Pessoas está incorreta, pois a comparação deveria ter sido feita entre os estagiários 
+da empresa e não entre ela e os demais funcionários de seu setor.
+Com o objetivo de reforçar sua hipótese, Mariana entra em contato com seu amigo Gabriel, que é estagiário no setor de Gestão de Pessoas, 
+pedindo que ele informasse o numero médio de tarefas entregues pelos estagiários da empresa. Gabriel informa que a o numero médio de tarefas concluidas 
+pelos estagiários da empresa no último trimestre foi de $2,8$. Além disso, Gabriel informa que a variância foi igual a $0,25$.
+
+Baseado nesse cenário, use o conceito de escores padronizados para verificar a hipótese de Mariana. Compare os escores padronizados do número de tarefas de Jéssica 
+e de Mariana. Que informação podemos extrair a partir dessa comparação? 
+
+
+Denotemos por $z_m$ o escore padronizado do número de tarefas concluídas por Mariana com respeito ao conjunto de dados formado pelos estagiários da empresa e por 
+$z_j$ o escore padronizado do número de tarefas concluídas por Jéssica com respeito ao setor de Marketing. Dessa forma, temos que:
+
+
+$$z_m = \dfrac{3 - 2,8}{\sqrt{0,25}} = \dfrac{0,2}{0,5} = 0,4$$
+
+$$z_j = \dfrac{8 - 7}{2,5} = \dfrac{1}{2,5} = 0,4$$
+
+A partir disso, podemos ver que quando comparamos o escore padronizado do número de tarefas realizadas por Mariana com base no conjunto de dados formados pelos estgiários da empresa, verificamos
+que o desempenho dela foi 0,4 desvios padrão acima da média. Além disso, quando comparamos o escore padronizado do número de tarefas concluídas por
+Jéssica com o dos demais funcionários do setor de Marketing, também obtemos que seu desempenho foi 0,4 desvios padrão acima da média. Dessa forma, 
+podemos concluir que a hipótese de Mariana está certa, ou seja, a equipe de Gestão de Pessoas está analisando seu desempenho com base em funcionários 
+mais experientes e não com pessoas que ocupam o mesmo cargo que ela. 
+\end{enumerate}
+
+2) (2 pontos) Maikon é o gerente de Marketing de uma empresa de anúncios de imóveis chamada Quarto Andar. Conversando com o CEO da empresa, Maikon apresenta
+a proposta de criar uma plataforma chamada Quarto Andar-Edu, onde seriam apresentadas aulas explicando como avaliar um imóvel e obter o preço ideal de venda ou de aluguel. A estratégia de Maikon é 
+que ao final das aulas seja mostrado um link que redireciona a pessoa a anunciar seu imóvel na plaraforma. 
+
+
+O CEO da empresa acha a ideia genial e decide que será implementada no próximo mês. Dois meses após a plataforma  Quarto Andar-Edu estar ativa, o CEO da empresa 
+pede que Maikon o envie um relatório contendo informações sobre o sucesso (ou fracasso) de sua ideia. Conversando com o time de Analytics, Maikon obtêm 
+as seguintes informações sobre a plataforma:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lll}
+\hline
+                  & Apartamentos & Casas \\ \hline
+Quarto Andar -Edu & 5.000        & 1.800 \\
+Orgânico          & 4.000        & 7.200 \\ \hline
+\end{tabular}
+\caption{Quantidade de clientes captados vindo do Quarto Andar -Edu e de forma orgânica no mês de setembro separados por tipo de imóvel anunciado (Casa ou Apartamento).}
+\end{table}
+
+A partir dessa tabela, responda as seguintes questões:
+
+\begin{enumerate}[a)]
+    \item Qual a probabilidade de um cliente ser captado por meio plataforma Quarto Andar-Edu?
+    Definamos o evento $A:$ Cliente ser captado pela Quarto Andar-Edu 
+
+    $$\mathds{P}(A) = \dfrac{6800}{18000} = \dfrac{68}{180}=\dfrac{17}{45}$$
+    \item Qual a probabilidade de um cliente ser captado pela plataforma Quarto Andar-Edu dado que o imóvel do anunciado pelo cliente é uma Casa?
+    Definamos o evento $B:$ O imóvel anunciado pelo cliente é uma Casa
+    $$\mathds{P}(A|B) = \dfrac{1800}{9000} = \dfrac{18}{90}$$
+    \item Qual a probabilidade de um cliente ser captado pela plataforma Quarto Andar-Edu dado que o imóvel do cliente é um Apartamento?
+    Definamos o evento $C:$ O imóvel anunciado pelo cliente é um apartamento. 
+    $$\mathds{P}(A|C) = \dfrac{5000}{9000} = \dfrac{50}{90}$$
+    \item Que conclusão acerca da plataforma Quarto Andar-Edu podemos gerar a partir das questões anteriores?
+    É possível perceber que a probabilidade de um cliente ter vindo da plataforma Quarto Andar -Edu, dado que o cliente possui um apartamento é maior do que 
+    a dele vir da plataforma dado que ele possui uma casa. Dessa forma, conclui-se que a plataforma parece ter sido mais efeitiva em donos de apartamentos. 
+    \item Qual interpretação da probabilidade foi usada para resolver as questões anteriores? Explique o que essa interpretação assume e quais suas principais críticas.
+    Usamos a interpretação frequentista. A interpretação frequentista assume que a probabilidade de um evento ocorrer é igual a sua frequência de ocorrência. 
+\end{enumerate}
+
+
+\vspace{5px}
+
+3) Julia, colega de trabalho de Maikon, acha sua ideia incível e decide expandir a divulgação da plataforma. 
+A ideia de Júlia é divulgar a Quarto-Andar-Edu nas redes sociais, principalmente no Instagram. Após 
+uma reunião do time de Marketing, Julia apresenta sua ideia. Após ouvir a ideia de Julia, Gabriel, outro membro do time de Marketing, faz a seguinte pergunta:
+
+\begin{quote}
+    \textit{Como podemos quantificar a probabilidade de, dado que o cliente clicou no anúncio, que ele realmente anuncie em nossa plaraforma?}
+\end{quote}
+
+A partir desse questionamento, Julia então desenvolve um modelo estatístico para estimar a probabilidade de, dado que o cliente clicou no anúncio, dele anunciar na plaraforma. 
+
+O modelo construído por Julia possui as seguintes características:
+
+\begin{itemize}
+    \item Quando a pessoa clica no anúncio, o modelo indica corretamente que a pessoa irá anunciar seu imóvel na plataforma em 95\% dos casos.
+    \item Quando a pessoa não clica no anúncio, o modelo  indica corretamente que a pessoa irá anunciar na plataforma em 5\% dos casos. 
+\end{itemize}
+
+Além disso, baseado em dados históricos da plataforma, Julia sabe que a probabilidade de um cliente clicar no anúncio é de $1\%$
+Após apresentar seu modelo para o time, Gabriel faz outra pergunta:
+
+\begin{quote}
+   \textit{E se quiséssemos saber o contrário, ou seja, dado que o cliente anunciou em nossa plataforma, qual a probabilidade de que ele tenha vindo do Quarto-Andar-Edu?}
+\end{quote}
+
+Reponda a pergunta feita por Gabriel e interprete o resultado. 
+
+4) Sejam $A$ e $B$ dois eventos em um mesmo espaço amostral $\Omega$. Mostre matematicamente os resultados das questões $a$ e $b$ e com palavras os da $c$, $d$ e $e$:
+\begin{enumerate}[a)]
+    \item Se $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)}$ então  $\mathds{P}(A|B) = \dfrac{\mathds{P}(B|A)\mathds{P}(A)}{\mathds{P(B)}}$
+    \item Se $A \subset B$ então $\mathds{P}(A) \leq \mathds{P}(B)$
+    \item $\mathds{P}(A\cup B) =\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) $
+    \item Se $A$ e $B$ são mutuamente exclusívos, então $\mathds{P}(A|B) = 0$
+    \item Seja $B_1, B_2, \dots, B_n$ uma partição de $\Omega$, então $\mathds{P}(A) = \displaystyle\sum_{i=1}^n \mathds{P}(A|B_i)\mathds{P}(B_i)$;
+\end{itemize}
+
+\end{document}

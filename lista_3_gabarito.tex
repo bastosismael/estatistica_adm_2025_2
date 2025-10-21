@@ -1,215 +1,250 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage[shortlabels]{enumitem}
 \usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
 \usepackage{amsmath}
-
-\title{Lista 3 - Gabarito - Estatística  - 2025.1}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{float}
+\title{Lista 3 - Estatística para Administração - 2025.2}
 \begin{document}
 \date{}
 \maketitle
 
-1) $$\sum_{i=1}^n \dfrac{(x_i - \bar{x})}{n} = \sum_{i=1}^n \dfrac{x_i}{n} -  \dfrac{n\bar{x}}{n}  = \bar{x} - \bar{x} = 0$$
 
-2) \begin{itemize}
-    \item $$\bar{z} = \sum_{i=1}^n \dfrac{z_i}{n} = \sum_{i=1}^n \dfrac{(x_i - \bar{x})}{n} =  \sum_{i=1}^n \dfrac{(z_i - \bar{z})}{n} = 0 \text{(Resultado da questão anterior)}  $$
-    \item \begin{align*}
-      Var(z) &= \sum_{i=1}^n \dfrac{(z_i - \bar{z})^2}{n}
-      =  \sum_{i=1}^n \dfrac{(z_i - 0)^2}{n}
-      = \sum_{i=1}^n \dfrac{\left(\frac{x_i - \bar{x}}{\sigma}\right)^2}{n}\\
-      &= \sum_{i=1}^n \dfrac{\left(x_i - \bar{x}\right)^2}{\sigma^2 n}
-       = \dfrac{1}{\sigma^2} \sum_{i=1}^n \dfrac{\left(x_i - \bar{x}\right)^2}{n}
-      = \dfrac{\sigma^2}{\sigma^2} = 1
+1) 
+
+\begin{enumerate}[a)]
+    \item $\{Cara, Coroa\}^4$. Cardinalidade $16$.
+    \item $\{0, 1, 2,3,4, \dots, n \}$ onde $n$ é um número natural. Cardinalidade $n+1$
+    \item $\{t \in \mathbb{R}:t>0\}$. Cardinalidade: $\infty$
+    \item $\{3,4,5,6,7,8,9,10\}$ . Cardinalidade: $8$
+    \item $\{10, 11, 12, 13, \dots, n\}$ onde $n$ é um número natural. Cardinalidade: $n-9$
+    \item $\{Preta\}$. Cardinalidade: $1$
+    \item $\{1,2,3,4,5, \dots, 20\}^{10}$. Cardinalidade: $20^{10}$
+    \item $\{1,2,3,4,5, \dots, n\}^k$. Cardinalidade: $n^k$
+    \item $\{Verde, Branca, Vermelha\}$. Cardinalidade: $3$
+    \item $\{Verde, Branca, Vermelha\}^2$. Cardinalidade $9$
+\end{enumerate}
+
+\vspace{5px}
+
+2) Sejam definidos os seguintes conjuntos:
+
+$$A_1 = \{1,2,3,4,5,6,7,8,9\}, A_2 = \{2, 4, 6, 8\}, A_3 = \{1, 3, 5, 7, 9\}$$
+$$A_4 = \{\}, A_5 = \{A, B, C, D\}, A_6 = \{Amarelo, Azul, Verde, Vermelho\}, A_7 = \emptyset, A_8 = \{\emptyset\}$$
+
+\begin{enumerate}[a)] % a), b), c), ...
+    \item $\{1,2,3,4,5,6,7,8,9, A, B, C, D\}$ 
+    \item $A_2$
+    \item $A_1$
+    \item $\emptyset$
+    \item $A_2$
+    \item $A_1$
+    \item $A_1$
+    \item $\emptyset$
+    \item $\emptyset$
+    \item $18$
+    \item $4$
+\end{enumerate}
+\vspace{10px}
+
+\vspace{5px}
+
+3) 
+
+\begin{enumerate}[a)]
+    \item Verdadeiro
+    \item Falso
+    \item Verdadeiro
+    \item Falso
+    \item Verdadeiro
+    \item Verdadeiro
+\end{enumerate}
+
+\vspace{5px}
+
+4) Suponha o conjunto universo $S= \{1,2,3,4,5,6,7,8,9,10\}$ e $A=\{2,3,4\}$, $B=\{3,4,5\}$ e $C=\{5,6,7\}$. 
+
+\begin{enumerate}[a)] % a), b), c), ...
+    \item $\{5\}$ 
+    \item $\{1,5,6,7,8,9,10, 3,4\}$ 
+    \item $\{2,3,4,5\}$ 
+    \item $\{1,5,6,7,8,9,10\}$
+    \item $\{1,2,5,6,7,8,9,10\}$
+\end{enumerate}
+\vspace{10px}
+
+\vspace{5px}
+
+
+5) 
+
+\begin{enumerate}[a)]
+    \item $A \cap B$
+    \item $A \cup B$
+    \item $A \cap B^c$
+    \item $A^c \cap B^c$
+    \item $A \cup B^c$
+    \item $A \cap B^c$ 
+\end{enumerate}
+
+\vspace{5px}
+
+
+7) 
+
+\begin{enumerate}[a)]
+    \item $\Omega = \{1,2,3,4,5,6\}^2. |\Omega| = 36$
+    \item Definamos o evento $D$: Obter 5 no primeiro dado e seis no segundo. Podemos reescrever esse evento usando a notação de conjunto $D=\{(5,6)\}$. Usando a interpretação clássica da Probabilidade, temos que:
+    $$\mathds{P}(D) = \dfrac{|D|}{|\Omega|} = \dfrac{1}{36}$$
+    \item Definamos o evento $E$: A soma das faces ser igual a 7. Escrevendo $E$ como conjunto, temos que:
+    $$E = \{(3,4), (4,3), (2,5), (5,2), (6,1), (1,6)\}$$
+
+    logo, 
+
+    $$\mathds{P}(E) = \dfrac{|E|}{|\Omega|} = \dfrac{6}{36} = \dfrac{1}{6}$$
+    \item Definamos por $B$: A soma dos dados dar 1. Note que esse é um evento impossível, pois a menor soma obtida é 2, que ocorre quando cada uma das faces apresenta o valor 1.
+    Logo, $\mathds{P}(B) = 0$
+    \item Vamos resolver essa questão de duas formas, uma mais intuitiva e outra mais formal. 
+    
+    \textbf{Forma intuitiva}
+
+    Definamos o evento $A$: Obter seis em pelo menos um dos dados.
+
+    Sabendo do experimento e de $\Omega$, podemos descrever $A$ como um conjunto:
+    
+    $$A = \{(1,6), (6,1), (2,6), (6,2), (3,6), (6,3), (6,4), (4,6), (5,6), (6,5), (6,6)\}$$
+
+    Logo, utilizando a interpretação clássica da Probabilidade, temos que:
+
+    $$\mathds{P}(A) = \dfrac{|A|}{|\Omega|} = \dfrac{11}{36}$$
+
+    \textbf{Modo mais formal de resolver essa questão}
+
+    Outra forma de resolver a questão é se valer do conceito de probabilidade da união de eventos.
+
+    Podemos definir os eventos $B_1$: O primeiro dado apresentar o valor 6 e $B_2$: O segundo dado apresentar o valor 6.
+    Como queremos a probabilidade do primeiro \textbf{ou} do segundo apresentar o valor seis, temos que:
+
+    \begin{align*}
+        \mathds{P}(B_1 \cup B_2) &= \mathds{P}(B_1)  + \mathds{P}(B_2) - \mathds{P}(B_1 \cap B_2)\\
+        &= \dfrac{1}{6} + \dfrac{1}{6} - \dfrac{1}{36}\\
+        &= \dfrac{2}{6} - \dfrac{1}{36} = \dfrac{11}{36}
     \end{align*}
-    \end{itemize}
+
+    Perceba que obtivemos o mesmo valor das duas maneiras. Atente-se para o fato que em muitos cenários práticos em que o espaço amostral é muito grande, a abordagem intuitiva pode ser trabalhosa. 
+
+    \item Definamos o evento $C$: Obter números iguais nos dois dados. Podemos escrever $C$ como um conjunto:
     
+    $$C = \{(1,1), (2,2), (3,3), (4,4), (5,5), (6,6)\}$$
+
+    logo, usando a definição clássica da probabilidade, temos que:
+
+    $$\mathds{P}(C) = \dfrac{|C|}{|\Omega|} = \dfrac{6}{36} = \dfrac{1}{6}$$
+    \item
     
- 3) Falar sobre as interpretrações vistas em sala, focando nas principais abordadas ao longo das aulas.
+    Temos duas maneiras de resolver esse problema, uma intuitiva, usando o conceito de probabilidade condicional, e outra mais direta, usando a expressão para o cálculo 
+    de probabilidade condicional vista em sala. 
 
- 5) 
- \begin{enumerate}
-    \item $120$
-    \item $1/120$
-    \item $\dfrac{\binom{9}{6}}{\binom{10}{7}}$
-    \item $\left(\dfrac{3}{4}\right)^7$
-    \item $1 - \left(\dfrac{3}{4}\right)^7$
-    \item (1)- Independência entre as respostas de cada pergunta; (2) A probabilidade de acerto e erro em cada questão é a mesma.
-     O pressuposto (1) é razoável, já o (2) não parece ser razoável, haja vista que a dificuldade das questões não é a mesma. 
- \end{enumerate}
+    \textbf{Maneira intuitiva}
 
- 6) Essa questão é bem semelhante ao problema da seleção dos grupos para o trabalho que vimos em sala
+    Já sabemos que o espaço amostral desse experimento é $\Omega = \{1,2,3,4,5,6\}^2$. Saber que o primeiro dado apresentou o valor 2 faz com que todas as possibilidades nas quais 
+    o primeiro dado apresenta um valor diferente de 2 sejam eliminadas. Por exemplo, o resultado $(3,2)$ é eliminado, pois o primeiro dado não pode apresentar o valor 3. Logo, 
+ reduzimos nosso campo de possibilidades para o conjunto $\{(2,1), (2,2), (2,3), (2,4), (2,5), (2,6)\}$, ou seja, todos os resultados
+    em que o primeiro dado apresentou o valor 2. 
 
- \begin{enumerate}
-    \item \dfrac{1}{\binom{5}{2}}
-    \item \dfrac{\binom{4}{1}}{\binom{5}{2}} + \dfrac{\binom{4}{1}}{\binom{5}{2}} -  \dfrac{1}{\binom{5}{2}}
- \end{enumerate}
+    Dessa forma, dentre esses possíveis resultados, temos que o único que gera soma igual a 5 é o $(2,3)$, logo, definindo o evento $G:$ A soma dos dados ser 5 e $H:$ O primeiro dado apresentar o valor 2, temos que: 
 
- 7) Questão semelhante a resolvida em sala
- \begin{itemize}
-    \item A: A soma dar um número impar
-    \item B: Um dos dados apresentar o valor 1
- \end{itemize}
+   $$\mathds{P}(G|H) = \dfrac{1}{6}$$
 
- $$\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)} = \dfrac{\frac{|A\cap B|}{|\Omega|}}{\frac{|B|}{|\Omega|}} = \dfrac{|A\cap B|}{|B|} = \dfrac{6}{11}$$
+    \textbf{Maneira direta}
 
-8) 
-\begin{itemize}
-    \item A: Se formando em Engenharia Química
-    \item B: Ser mulher
-\end{itemize}
+    Vamos manter a mesma definição de eventos feita no método anterior, ou seja, $G:$ A soma dos dados ser 5 e $H:$ O primeiro dado apresentar o valor 2.
+
+    Usando a definição de probabilidade condicional, temos que:
+
+    $$\mathds{P}(G|H) = \dfrac{\mathds{P}(G \cap H)}{\mathds{P}(H)} = \dfrac{\frac{1}{36}}{\frac{1}{6}} = \dfrac{6}{36} = \dfrac{1}{6}$$
+
+    \item 
+    
+    \textbf{Maneira intuitiva}
+
+    Sabendo de $\Omega$, o fato de saber que o primeiro dado apresentou um valor par faz com que eliminemos todas as possibilidades em que o primeiro dado apresenta um valor ímpar. 
+    Ou seja, sabendo que o primeiro dado apresentou um valor par, nosso espaço de possibilidades reduz-se para todos os resultados nos quais o primeiro valor é par, sendo 
+    esse um conjunto de cardinalidade 18. 
+
+    Definamos o evento $A$: A soma dos dados ser igual a 5 e $B$: O resultado do primeiro dado ser par.  Dessa forma:
+
+    $$\mathds{P}(A|B) = \dfrac{2}{18} = \dfrac{1}{9}$$
+
+    \textbf{Maneira direta}
+
+    Usemos os mesmos eventos da maneira anterior, ou seja,  $A$: A soma dos dados ser igual a 5 e $B$: O resultado do primeiro dado ser par.
+
+    $$\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)} = \dfrac{\frac{2}{36}}{\frac{3}{6}} = \dfrac{12}{3 \cdot 36} = \dfrac{1}{9}$$
+
+    \item Usamos a interpretação clássica da Probabilidade. 
+\end{enumerate}
+
+\vspace{5px}
+
+8) Considere o experimento do lançamento de uma mesma moeda honesta 3 vezes.  
 
 \begin{enumerate}[a)]
-    \item $\mathds{P}(B|A) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(A)} = \dfrac{0,02}{0,05}$
-    \item $\mathds{P}(A|B) = \dfrac{\mathds{P}(A \cap B)}{\mathds{P}(B)} = \dfrac{0,02}{0,52}$
+    \item $\Omega = \{Cara, Coroa\}^3$ $|\Omega| = 8$
+    \item Definamos o evento $A$: Obter 3 caras. Podemos escrever o evento $A$ usando notação de conjunto ao invés de usar palavras: $A=\{(Cara, Cara, Cara)\}$
+    
+    Usando a interpretação clássica da Probabilidade, temos que $\mathds{P}(A) = \dfrac{|A|}{|\Omega|} = \dfrac{1}{8}$
+    \item
+    Definamos o evento $B:$ Obter 2 caras e 1 coroa. Logo, $$B=\{(Cara, Cara, Coroa), (Cara, Coroa, Cara), (Coroa, Cara, Cara)\}$$
+
+    Usando a interpretação clássica da Probabilidade, temos que:
+    $$\mathds{P}(B) = \dfrac{|B|}{|\Omega|} = \dfrac{3}{8}$$
+    \item Definamos o evento $C:$ Obter mais caras que coroas. Logo, $$C=\{(Cara, Cara, Coroa), (Cara, Coroa, Cara), (Coroa, Cara, Cara), (Cara, Cara, Cara)\}$$, logo:
+    
+    $$\mathds{P}(C) =  \dfrac{|C|}{|\Omega|} = \dfrac{4}{8}$$
+    \item Não poderíamos calcular da forma que fizemos, pois os resultados não seriam equiprováveis. Isso viola o principal pressuposto da interpetação clássica, pois os resultados param de ser equiprováveis. 
 \end{enumerate}
 
-9)
+\vspace{5px}
+
+9) 
+Podemos escrever $B$ como a união de $B \cap A$ e $B\cap A^c$, ou seja, $B = (B \cap A) \cup (B \cap A^c)$
+
+Note que na relação acima funcionaria mesmo se $A \not\subset B$
+
+A partir disso, temos:
+
+$$\mathds{P}(B) = \mathds{P}((B \cap A) \cup (B \cap A^c)) =  \mathds{P}((B \cap A)) +  \mathds{P}((B \cap A^c))$$
+
+Obs: Note que $B \cap A$ e $B \cap A^c$ são mutuamente exclusivos.
+
+Ademais, se $A \subset B$ então $A \cap B = A$
+
+Como $\mathds{P}\left((B \cap A^c)\right) \geq 0$, segue que $\mathds{P}(B) \geq  \mathds{P}((A \cap B))$ e, portanto, $\mathds{P}(B) \geq  \mathds{P}((A)$
+
+\vspace{5px}
+
+10) Discorrer sobre a discussão feita em sala sobre essa expressão. 
+
+11)
 
 \begin{enumerate}[a)]
-    \item $250/2000$
-    \item $100/1000$
-    \item $150/1000$
-\end{enumerate}
-
-10) 
-
-\begin{enumerate}[a)]
-    \item $0,175$
-    \item $0.7454$
-\end{enumerate}
-
-11) 
-
-\begin{enumerate}[a)]
-    \item $\mathds{P}(A^c) = 1 - \mathds{P}(A) = 1/2$
-    \item $\mathds{P}(B^c) = 1 - \mathds{P}(B) = 3/4$
-    \item $\mathds{P}(A \cup B) =\mathds{P}(A) + \mathds{P}(B) - \mathds{P}(A \cap B) = 1/2 + 1/4 - 1/5 = 11/20 $
-    \item $\mathds{P}(A^c \cap B) = \mathds{P}(B) - \mathds{P}(A \cap B) = 1/4 - 1/5 = 1/20$ 
-    \item $\mathds{P}(A \cap B^c) = \mathds{P}(A) - \mathds{P}(A \cap B) = 1/2 - 1/5 = 3/10$ 
-    \item $\mathds{P}(A^c \cap B^c) = 1 - \mathds{P}(A \cup B) = 9/20$
-    \item $\mathds{P}(A^c \cup B^c) = 1 - \mathds{P}(A \cap B) = 4/5$
-\end{enumerate}
-
-12) Questões b,c e d usar as leis de deMorgan. 
-
-\begin{enumerate}[a)]
-    \item $1$
-    \item $2/50$ 
-    \item $17/50 $
-    \item $\sum_{i=1}^x \dfrac{1}{50} \leq 0,5 \iff \dfrac{x}{50} \leq 0,5 \iff x \leq 25 $
-    \item $\left( \dfrac{1}{50}\right)^{50}$
-    \item $\left(\dfrac{1}{50}\right)^x \leq 1,6 \cdot 10^{-7} \iff x = \dfrac{\log(1,6 \cdot 10^{-7})}{\log(1/50)}$
-\end{enumerate}
-
-13) 
-
-\begin{enumerate}
-    \item 1
-    \item 0
-\end{enumerate}
-
-14) Não é possível resolver a questão. A questão não informa a quantidade exata de pessoas do sexo feminino. Essa questão é semelhante a que vimos em sala, 
-chegando a conclusão que nem sempre é possível calcular probabilidades pelo ponto de vista frequentista. 
-
-15)
-
-\begin{enumerate}[a)]
-    \item $\Omega = \{Cara, Coroa\}^2$\\
-     Para resolver as questões b,c e d precisamos das probabilidades de cara e coroa:
-    \begin{itemize}
-    \item $\mathds{P}(Cara) = 4 \cdot \mathds{P}(Coroa)$
-    \item $\mathds{P}(Cara) + \mathds{P}(Coroa) = 1
-    \end{itemize}
-
-Isso implica que:
-
-\begin{align*}
-&1 - \mathds{P}(Coroa)   =  4 \cdot \mathds{P}(Coroa)
-&\implies  \mathds{P}(Coroa) = \dfrac{1}{5}
-&\implies \mathds{P}(Cara) = \dfrac{4}{5}
-\end{align*}
-    \item $2 \cdot \dfrac{1}{5} \cdot \dfrac{4}{5} = \dfrac{8}{25}$ 
-    \item $\dfrac{8}{25} + \dfrac{16}{25} = \dfrac{24}{25}$
-    \item  $\dfrac{1}{25} + \dfrac{16}{25} = \dfrac{17}{25}$
-\end{enumerate}
-
-16) 
-
-\begin{enumerate}[a)]
-    \item 0
-    \item $\mathds{P}(A|B) = 0$
-    \item Não. Claramente isso não é verdade, como pode ser visto $\mathds{P}(A \cap B) = 0 \neq 0,30 \cdot 0,40$. Além disso, pela questão $b$ percebemos que a ocorrência de $B$ anula a ocorrência de $A$, portanto, são dependentes. 
-    \item Percebemos que, se $\mathds{P}(A) \neq 0$ e $\mathds{P}(B) \neq 0$, então o fato de serem mutuamente excludentes implica que são dependentes. Entretanto, o contrário não é sempre válido. 
-\end{enumerate}
-
-17) 2/3
-
-18) 
-\begin{enumerate}[a)]
-    \item $\Omega = \{1,2,3,4,5,6\}^3$ ; $|\Omega| = 216$
-    \item 0
-    \item $27/216$
-    \item $1/6$
-    \item 0
-\end{enumerate}
-
-19) 
-\begin{enumerate}[a)]
-    \item Falso. Por exemplo, considere um experimento de um lançamento de um dado:
-    \begin{itemize}
-        \item $\Omega = \{1,2,3,4,5,6\}$
-        \item $A$: Saír um número par = $\{2,4,6\}$
-        \item $B$: Sair um número primo = $\{2,3,5\}$
-    \end{itemize}
-
-    Perceba que $\mathds{P}(A) + \mathds{P}(B) = 1/2 + 1/2 = 1$, entretanto, $A \cap B = \{2\} \neq \emptyset$, logo, não são mutuamente excludentes. 
-    \item Falso. Não necessariamente, isso só seria verdade se $A$ e $B$ formasse uma partição de $\Omega$. 
-    \item Verdadeiro. Consequência direta do Teorema de Bayes. 
-    \item Falso. A ser independente de C e de B não garante que seja independente se os dois ocorrerem ao mesmo tempo. 
-    \item Falso. Pensar na ideia de probabilidade condicional. 
-\end{enumerate}
-
-20) \begin{enumerate}
-    \item $0,1^2$
-    \item $2 \cdot 0,7 \cdot 0,3 + 0,7^2$ ou $1- 0,3^2$
-    \item $2 \cdot 0,2 \cdot 0,7$
-    \item Foi assumido que as retiradas são independentes. Se fosse sem reposição, as probabilidades iriam se alterar a cada retirada. 
-\end{enumerate}
-
-21) \begin{itemize}
-    \item $D_1$ = Primeiro radio ser defeituoso
-    \item  $D_2$ = Segundo radio ser defeituoso
-\end{itemize}
-
-\begin{align*}
-  \mathds{P}(D_2|D_1)  &= \dfrac{\mathds{P}(D_1 \cap D_2)}{\mathds{P}(D_1)} =  \dfrac{\mathds{P}(D_1 \cap D_2 | A) \mathds{P}(A) + \mathds{P}(D_1 \cap D_2 | B) \mathds{P}(B)}{\mathds{P}(D_1|A)\mathds{P}(A) + \mathds{P}(D_1|B)\mathds{P}(B)}\\
-  &=  \dfrac{0,05^2 \cdot 0,5 + 0,01^2 \cdot 0,5}{0,05^\cdot 0,5 + 0,01 \cdot 0,5} = 0,0433
-\end{align*}
-
-22) 
-
-\begin{enumerate}[a)]
-    \item $0,78665$(Resolvida em sala).
-    \item Seria a multiplicação das probabilidades individuais de cada teste. (Resolvida em sala). 
-\end{enumerate}
-
-23) \begin{itemize}
-    \item B : Lote produzido no Reator Batelada
-    \item O : Apresentar bolhas
-\end{itemize} 
-
-$$\mathds{P}(B|O) = \dfrac{\mathds{P}(O|B)\mathds{P}(B)}{\mathds{P}(O)} = \dfrac{0,04 \cdot 0,4}{0,04 \cdot 0,4 + 0,015 \cdot 0,6} = 0,64 $$
-
-24) $$\mathds{A \cup B \cup C} \leq \mathds{P}(A) + \mathds{P}(B) + \mathds{P}(C) = 0,1$$
-
-25) Prova do Teorema de Bayes vista em sala
-
-26) Usar a definição de probabilidade condicional nos dois lados e olhar para os denominadores (Fazendo o Diagrama de Venn pode ajudar)
-
-27) Fazer o Diagrama de Venn para os três eventos. Perceber e descontar as intersecçõs mutuas. 
-
-28) Leis de DeMorgan + Regra da multiplicação.
-
-29) Leis de DeMorgan + Definição de Probabilidade Condicional + Regra da multiplicação. 
-
-30) Aplicar o Teorema de Bayes no numerador e no denominador. 
- \end{document}
+    \item A média e o desvio padrão dos salários do setor de Gestão de Pessoas são, respectivamente, $3743,33$ e $1675,95$. Já para o setor de Marketing temos 
+    que a média dos salários é de $7610$ e o desvio padrão $3217,02$. Usando o conceito de escores padronizados, temos que o escore padronizado do salário de Sarah
+    com respeito ao setor de Marketing é de $\dfrac{4500 - 7610}{3217,02} = -0,97$. Aplicando o mesmo conceito para Eduarda, temos que o escore padronizado 
+    do seu salário com respeito ao setor de gestão de pessoas é de  $\dfrac{4500 - 3743,33}{1675,95}=0,45$. Dessa forma, podemos dizer que Sarah recebe 
+    um salário aproximadamente  0,96 desvios padrão menor do que a média salarial de seu setor, enquanto Eduarda recebe um salário 0,45 desvios padrão acima da média
+    dos salários de seu setor. Portanto, apesar de receberem salários iguais, o salário de Sarah está mais distante da média dos salários de seu setor quando comparada
+    com Eduarda, além disso, Eduarda recebe um salário maior que a média salarial de seu setor, enquanto Sarah recebe um salário menor que a média salarial de seu setor. 
+\end{document}

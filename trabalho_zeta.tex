@@ -11,7 +11,7 @@
 \usepackage[brazil]{babel}
 \usepackage{hyperref}
 
-\title{\textbf{Trabalho 1 — Estatística (2025.1)}}
+\title{\textbf{Trabalho 1 — Estatística para Administração(2025.2)}}
 \author{}
 \date{}
 
@@ -28,9 +28,8 @@ O objetivo é aplicar os conceitos estudados até aqui na disciplina, com foco e
 \section*{Organização e Grupos}
 
 \begin{enumerate}
-    \item Cada aluno deve colocar seu nome e e-mail no arquivo de seleção de temas.
-    \item Os grupos terão tamanho variável, dependendo do tamanho do conjunto de dados.
-    \item Após o prazo de manifestação de interesse, enviarei por e-mail a cada grupo um conjunto de dados referente ao tema escolhido e o método de amostragem. 
+    \item Enviar por e-mail, colocando todos os membros do grupo em cópia, o tema de interesse escolhido a partir da lista de temas. 
+    \item Enviarei a base de dados como resposta do e-mail e as instruções sobre a amostragem. 
     \item Para fins didáticos, trataremos esse conjunto de dados como a população de estudo.
 \end{enumerate}
 
@@ -39,20 +38,20 @@ O objetivo é aplicar os conceitos estudados até aqui na disciplina, com foco e
 O trabalho será avaliado com nota de 0 a 10. As situações abaixo acarretarão automaticamente nota 0:
 
 \begin{itemize}
-    \item Entrega fora do prazo.
-    \item Trabalho desorganizado ou mal estruturado.
-    \item Não utilizar a linguagem R.
-    \item Não enviar todos os arquivos solicitados.
-    \item Não seguir o método de amostragem informado no e-mail. 
-    \item Não preencher o arquivo de seleção de temas com nome e e-mail no prazo indicado.
-    \item Plágio. 
+    \item Entregar o trabalho fora do prazo. 
+    \item Entregar o trabalho de forma não-estruturada (desorganizado). 
+    \item Não usar a linguagem \textit{R}.
+    \item Não usar o \textit{Quarto}.
+    \item Usar conceitos não explicitados em sala. 
+    \item Copiar código de outras fontes. 
+    \item Não entregar todos os arquivos.
+    \item Código não condizente com o texto. 
+    \item Plágio.
 \end{itemize}
-
 
 \section*{Datas e Prazos}
 \begin{itemize}
-    \item Manifestação do tema de interesse: 22:00h de 25/04 até 30/04 00:00h.
-    \item Entrega do trabalho: até 06/06 00:00h.
+    \item Entrega do trabalho: até 21/11.
     \item A entrega deve ser feita no e-mail: ismael@dme.ufrj.br usando a seguinte estrutura:
     \item \begin{itemize}
         \item Assunto: Trabalho de Estatística. 
@@ -66,8 +65,13 @@ O trabalho será avaliado com nota de 0 a 10. As situações abaixo acarretarão
 
 \begin{itemize}
     \item Arquivo contendo a amostra utilizada nas análises. 
-    \item Arquivo qmd e pdf com os resultados e análises da pesquisa (Parte 1 do trabalho).
-    \item Arquivo qmd e pdf contendo as respostas (Com os gráficos) da Parte 2 do trabalho (Pode ser entregue no mesmo arquivo do anterior).  
+    \item Arquivo qmd e pdf com os resultados e análises da pesquisa.
+\end{itemize}
+
+\textcolor{red}{Obsevações}:
+\begin{itemize}
+    \item A escrita do código \textbf{não} será avaliada, sendo apenas critério para não zerar o trabalho. 
+    \item Caso algum membro do grupo não participe do trabalho, comunicar antes da data de apresentação. 
 \end{itemize}
 
 \section*{Parte 1 — Análise Exploratória de Dados}
@@ -106,52 +110,13 @@ Nesta seção também é interessante você analisar relações entre a variáve
 \subsection*{Capítulo 5 — Conclusão}
 Discuta os principais achados da sua análise. Responda a pergunta principal e comente limitações que afetaram a análise.
 
-\textcolor{red}{\textbf{Importante:}} A estrutura apresentada acima é o mínimo exigido. A exploração de mais elementos de maneira criativa será positivamente avaliada.
+\textcolor{red}{\textbf{Importante:}} 
+\begin{itemize}
+    \item A estrutura apresentada acima é o mínimo exigido. A exploração de mais elementos de maneira criativa será positivamente avaliada.
+    \item Vocês podem usar fontes externas no trabalho, entretanto devem referenciar de onde tiraram a informação, assim como deixar claro a parte do texto que 
+    usaram a informação. 
+    \item Não é necessário o uso de normas ABNT ou algum padrão de escrita. 
+\end{itemize}
 
-\section*{Parte 2 — Tamanho Amostral e Propriedades da Média Amostral}
-
-\subsection*{Exercício 1}
-
-\begin{enumerate}[a)]
-    \item Escolha uma variável quantitativa da sua população.
-    \item Calcule a média populacional e a armazene na variável \texttt{media\_populacional}.
-    \item Crie dois conjuntos de dados (vetores) vazios chamados \texttt{media\_amostral} e \texttt{variancia\_media\_amostral}.
-    \item Considerando $n$ como sendo cada uma das seguintes proporções do tamanho da população (\% do tamanho da população):\\
-    $2\%, 4\%, 6\%, \dots, 98\%$, realize:
-        \begin{itemize}
-            \item Extraia uma amostra de tamanho $n$ via Amostragem Aleatória Simples.
-            \item Calcule a média amostral da variável selecionada.
-            \item Calcule a variância das médias amostrais. 
-            \item Armazene a média amostral e a variância das médias amostrais nos vetores \texttt{media\_amostral} e \texttt{variancia\_media\_amostral}, respectivamente.
-        \end{itemize}
-    \item Construa um gráfico constituído dos seguintes elementos:
-        \begin{itemize}
-            \item Gráfico de dispersão da \texttt{media\_amostral} vs tamanhos amostrais.
-            \item Linha horizontal vermelha em \texttt{y = media\_populacional}.
-        \end{itemize}
-    \item Construa outro gráfico composto pelos seguintes elementos:
-    \begin{itemize}
-        \item Gráfico de dispersão da \texttt{variancia\_media\_amostral} vs tamanhos amostrais.
-        \item Linha horizontal roxa em \texttt{y = 0}.
-        \item Obs: Ajuste seu gráfico para que a linha acima seja visível. 
-    \end{itemize}
-    \item Escreva um texto interpretando os gráficos.
-\end{enumerate}
-
-\subsection*{Exercício 2}
-
-\begin{enumerate}[a)]
-    \item Escolha (de preferência a mesma do Exercício 1) uma variável quantitativa do sua população.
-    \item Calcule a média populacional e a armazene na variável \texttt{media\_populacional}.
-    \item Crie um conjunto de dados (vetor) vazio chamado \texttt{media\_amostras}.
-    \item Extraia 1.000 amostras de tamanho $40\%$ do tamanho da população utilizando o método de Amostragem Aleatória Simples e calcule a média de cada uma, armazenando-as no vetor \texttt{media\_amostras}.
-    \item Crie um vetor \texttt{media\_das\_medias}, onde cada posição $i$ armazena a média dos $i$ primeiros valores de \texttt{media\_amostras}.
-    \item Construa um gráfico contendo:
-        \begin{itemize}
-            \item Um gráfico de dispersão de \texttt{media\_das\_medias} vs número de amostras ($1, 2, ..., 1000$).
-            \item Linha horizontal vermelha em \texttt{y = media\_populacional}.
-        \end{itemize}
-    \item Escreva um texto interpretando o gráfico.
-\end{enumerate}
 
 \end{document}

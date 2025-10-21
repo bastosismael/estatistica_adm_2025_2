@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.8)  5 JUN 2025 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.8.25)  20 OCT 2025 21:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
-**/home/ismael/Documents/estatistica_eng_quimica/trabalho_zeta
-(/home/ismael/Documents/estatistica_eng_quimica/trabalho_zeta.tex
+**/home/ismael/Documentos/Material_Aula/estatistica_adm/trabalho_zeta
+(/home/ismael/Documentos/Material_Aula/estatistica_adm/trabalho_zeta.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -356,7 +356,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 20.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 20.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 42.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 41.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -364,55 +364,32 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (3.0152pt too wide) in paragraph at lines 77--78
+Overfull \hbox (3.0152pt too wide) in paragraph at lines 81--82
 \T1/lmr/m/n/12 Relacionado à principal pergunta da pesquisa. Pode ser simples, mas deve representar
- []
-
-
-Overfull \hbox (5.34648pt too wide) in paragraph at lines 80--82
-\T1/lmr/m/n/12 deseja responder através da pesquisa e perguntas adicionais caso verifique necessidade.
  []
 
 
 
 [2]
-Overfull \hbox (2.96388pt too wide) in paragraph at lines 94--95
+Overfull \hbox (5.34648pt too wide) in paragraph at lines 84--86
+\T1/lmr/m/n/12 deseja responder através da pesquisa e perguntas adicionais caso verifique necessidade.
+ []
+
+
+Overfull \hbox (2.96388pt too wide) in paragraph at lines 98--99
 \T1/lmr/m/n/12 Descreva detalhadamente o método de amostragem adotado, evidenciando o tamanho
  []
 
 
-Overfull \hbox (6.65097pt too wide) in paragraph at lines 104--105
+Overfull \hbox (6.65097pt too wide) in paragraph at lines 108--109
 \T1/lmr/m/n/12 e as demais variáveis, fazendo uso do gráfico de dispersão e do coeficiente de correlação. 
  []
 
 
 
 [3]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 117.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 119.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 119.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 119.
 
-Overfull \hbox (3.49414pt too wide) in paragraph at lines 125--126
-\T1/lmr/m/n/12 vetores \T1/lmtt/m/n/12 media_amostral \T1/lmr/m/n/12 e \T1/lmtt/m/n/12 variancia_media_amostral\T1/lmr/m/n/12 , respectivamente. 
- []
-
-
-Overfull \hbox (16.82126pt too wide) in paragraph at lines 134--135
-[]\T1/lmr/m/n/12 Gráfico de dispersão da \T1/lmtt/m/n/12 variancia_media_amostral \T1/lmr/m/n/12 vs tamanhos amostrais. 
- []
-
-
-
-[4{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
-
-[5] (./trabalho_zeta.aux)
+[4] (./trabalho_zeta.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -421,18 +398,18 @@ Package rerunfilecheck Info: File `trabalho_zeta.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11022 strings out of 475171
- 172817 string characters out of 5767096
- 595900 words of memory out of 5000000
- 33845 multiletter control sequences out of 15000+600000
- 605687 words of font info for 66 fonts, out of 8000000 for 9000
+ 10940 strings out of 475171
+ 171790 string characters out of 5767095
+ 594920 words of memory out of 5000000
+ 33793 multiletter control sequences out of 15000+600000
+ 598830 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 69i,6n,79p,570b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on trabalho_zeta.pdf (5 pages, 98731 bytes).
+ 69i,5n,79p,577b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on trabalho_zeta.pdf (4 pages, 77972 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 39 named destinations out of 1000 (max. 500000)
+ 64 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
