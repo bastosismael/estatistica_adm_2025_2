@@ -1,35 +1,136 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage[shortlabels]{enumitem}
 \usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{dsfont}
-\title{Lista 5 - Estatística para Administração - 2024.2}
+\usepackage{float}
+\title{Lista 5 - Estatística para Administração - 2025.2}
 \begin{document}
 \date{}
 \maketitle
 
-1) Uma empresa produtora café acredita que o peso de suas embalagens de café se comporta como uma variável aleatória Normal de média 200 gramas e desvio padrão 10 gramas. Uma amostra de 25 pacotes é sorteada e pergunta-se:
+1) Dois dados honestos são rolados. Seja $X$ igual ao produto do valor da face dos dois dados. 
 
 \begin{enumerate}[a)]
-    \item Qual é a probabilidade de que o peso do pacote  não exceda 220 gramas.
-    \item Qual o valor de peso a partir do qual a probabilidade do peso ser maior que esse valor seja igual 1\%.
-
+    \item Defina um espaço amostral para o experimento. 
+    \item Defina o suporte de $X$. 
+    \item Obtenha a função de probabilidade de $X$.
 \end{enumerate}
 
-2) Suponha que um hospital deseja saber o peso médio dos recém-nascidos que nasceram no hospital. Para isso, o hospital obtêm uma amostra de 100 bebês utilizando o método de amostragem aleatória simples, obtendo média igual a $4,2$ Kg. O hospital sabe previamente que a variância populacional é igual a 0,16. Nesse cenário, responda as seguintes questões:
+2) Considere o experimento do lançamento de três moedas. Seja $Y$ a diferença entre o número de caras e coroas obtida nos lançamentos. 
 
 \begin{enumerate}[a)]
-    \item Qual as vantagens de se usar a amostragem aleatória simples?
-    \item Obtenha um intervalo de confiança para a média populacional com 95\% de confiança e interprete-o.
-    \item Agora obtenha um intervalo de confiança para a média populacional com 99\% de confiança e interprete-o. O que é possível dizer em relação ao tamanho do intervalo a medida que aumentamos o nível de confiança?
-    \item Suponha que o hospital agora tenha conseguido uma amostra de 500 pacientes e obtido a mesma média amostral. Determine o intervalo de confiança para a média populacional com um nível de confiança de 95\%, interprete esse intervalo e diga: Qual a influência do tamanho da amostra sobre o intervalo?
+    \item Defina um espaço amostral para o experimento. 
+    \item Obtenha o suporte de $Y$.
+    \item Obtenha a função de probabilidade de $Y$. 
+\end{enumerate}
+    
+
+3) Se a função distribuição acumulada de $X$ é dada por
+\[
+F_X(b) =
+\begin{cases}
+0, & b < 0, \\[6pt]
+\dfrac{1}{2}, & 0 \leq b < 1, \\[6pt]
+\dfrac{3}{5}, & 1 \leq b < 2, \\[6pt]
+\dfrac{4}{5}, & 2 \leq b < 3, \\[6pt]
+\dfrac{9}{10}, & 3 \leq b < 3{,}5, \\[6pt]
+1, & b \geq 3{,}5,
+\end{cases}
+\]
+calcule a função de probabilidade de $X$.
+
+4) Um livro de jogos de azar recomenda a seguinte ``estratégia de vitória'' para o jogo de roleta: aposte R\$1{,}00 no vermelho. 
+Se der vermelho (o que tem probabilidade de $\dfrac{18}{38}$ de ocorrer), pegue o lucro de R\$1{,}00 e desista.
+ Se o vermelho não aparecer e você perder a aposta (o que tem probabilidade de $\dfrac{20}{38}$ de ocorrer),
+  faça apostas adicionais de R\$1{,}00 no vermelho em cada um dos próximos dois giros da roleta e então desista. 
+  Seja $X$ o lucro quando você sair da mesa.
+
+\begin{enumerate}[(a)]
+    \item Determine $\mathds{P}(X > 0)$.
+    \item Calcule $\mathds{E}[X]$.
+    \item Você está convencido de que a estratégia é de fato uma ``estratégia de vitória''? Explique sua resposta.
+\end{enumerate}
+ 
+5) Jogam-se duas moedas. A primeira moeda dá cara com probabilidade de $0{,}6$, e a segunda, com probabilidade de $0{,}7$. Suponha que os resultados das jogadas sejam independentes e que $X$ seja igual ao número total de caras que saem.
+
+\begin{enumerate}[(a)]
+    \item Determine $\mathds{P}(X = 1)$.
+    \item Determine $\mathds{E}[X]$.
+    \item Determine $Var(X)$
 \end{enumerate}
 
-3) Em uma rodovia, os motoristas relataram que, em média, ocorrem 2 acidentes por dia em um determinado trecho. Suponha que o número de acidentes por dia siga uma distribuição de Poisson.
+6) Suponha que $S \sim Bernoulli(0.6)$ 
+\begin{enumerate}[(a)]
+    \item Calcule $\mathds{P}(S=0)$
+    \item Calcule $\mathds{P}(S=0|S=1)$
+    \item Obtenha $F_S$
+\end{enumerate}
 
+7) Suponha que $X \sim Bernoulli(p)$
+\begin{enumerate}[(a)]
+    \item Mostre que $\mathds{E}[X] = p$
+    \item Mostre que $Var(X) = p(1-p)$
+    \item Mostre que $X$ atinge variância máxima quando $p=0,5$
+\end{enumerate}
 
-   
-    
-    
+8) Suponha que $X \sim Bernoulli(p)$ e $Y \sim Bernoulli(p)$ são independentes.
+\begin{enumerate}[a)]
+    \item $X$ e $Y$ são iguais? Por que?
+    \item $X$ e $Y$ são igualmente distribuídas?
+    \item O que significa dizer que duas variáveis aleatórias são independentes?
+    \item Defina $V = X+Y$. Qual o suporte de $V$? Qual a função de probabilidade de $V$?
+    \item Defina $U =2X + 3Y$. Qual o suporte de $U$? Qual a função de probabilidade de $U$? 
+    \item Seja $S=e^X$ Calcule $\mathds{E}[S]$
+\end{enumerate}
+
+9) Um gestor de investimentos está avaliando um ativo arriscado $A$, cujo retorno anual (\%) é modelado por
+uma variável aleatória $X_A$ que possui a seguinte distribuição:
+
+$$p_{X_A}(x) =
+\begin{cases}
+ 0{,}3 & \text{se } $x=40$, \\[4pt]
+ 0{,}5 & \text{se } $x=10$,\\[4pt]
+ 0{,}2 & \text{se } $x=-10$,
+\end{cases}
+$$
+
+\begin{enumerate}[(a)]
+    \item Determine o retorno esperado o ativo.
+    \item Determine a variância do retorno do ativo.
+    \item Considere que o gestor possui outra possibilidade de ativo $B$, cujo retorno anual (\%) é modelado por
+uma variável aleatória $X_B$ que possui a seguinte distribuição: 
+$$p_{X_B}(x) =
+\begin{cases}
+ 0{,}6 & \text{se } $x=25$, \\[4pt]
+ 0{,}4 & \text{se } $x=-5$,\\[4pt]
+\end{cases}
+$$
+
+Determine o retorno esperado e a variância do retorno do ativo $B$.
+
+\item Considere agora que o agente deseja compor uma carteira que possua 40\% do ativo A e 60\% do ativo B. Dessa forma, o retorno 
+anual desses ativos combinados é dado por:
+
+$$W = 0,4 X_A + 0,6 X_B.$$
+
+\begin{enumerate}[i)]
+    \item Defina o suporte de $W$
+    \item Obtenha a função de proabilidade de $W$. 
+    \item Obtenha o retorno esperado dessa combinação de ativos. 
+    \item Obtenha a variância do retorno dessa combinados de ativos. 
+\end{enumerate}
+    \item Qual opção é mais vantajosa? Investir tudo no ativo A, investir tudo no ativo B, ou investir na combinação de 40\% de A e 60\% de B?
+\end{enumerate}
 \end{document}

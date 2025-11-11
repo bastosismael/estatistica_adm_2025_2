@@ -466,312 +466,312 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
 
 \end{frame}
 
+\begin{frame}{Independência}
+    Dizemos que dois eventos A e B definidos em um mesmo espaço amostral são independentes se:
+    $$\mathds{P}(A\cap B) = \mathds{P}(A) \mathds{P}(B)$$
+\end{frame}
+
+\begin{frame}{Independência}
+\begin{exemplo}[7]
+    Suponha que a probabilidade de uma pessoa ser do tipo sanguíneo O é 0,45, ser A é 0,42 e ser B é 0,10. Suponha ainda que a probabilidade de $Rh^+$ é se 0,90 e que o fator independe do tipo sanguíneo. Nestas condições, qual a probabilidade de uma pessoa tomada ao acaso da população ser:
+
+    \begin{itemize}
+        \item O e $Rh^+$
+        \item AB e $RH^-$
+    \end{itemize}
+\end{exemplo}
+    
+\end{frame}
+
 % \begin{frame}{Independência}
-%     Dizemos que dois eventos A e B definidos em um mesmo espaço amostral são independentes se:
-%     $$\mathds{P}(A\cap B) = \mathds{P}(A) \mathds{P}(B)$$
-% \end{frame}
 
-% \begin{frame}{Independência}
-% \begin{exemplo}[7]
-%     Suponha que a probabilidade de uma pessoa ser do tipo sanguíneo O é 0,45, ser A é 0,42 e ser B é 0,10. Suponha ainda que a probabilidade de $Rh^+$ é se 0,90 e que o fator independe do tipo sanguíneo. Nestas condições, qual a probabilidade de uma pessoa tomada ao acaso da população ser:
-
-%     \begin{itemize}
-%         \item O e $Rh^+$
-%         \item AB e $RH^-$
-%     \end{itemize}
-% \end{exemplo}
-    
-% \end{frame}
-
-% % \begin{frame}{Independência}
-
-% % \begin{exemplo}
-% %     Ao lançarmos dois dados de seis faces, considere os eventos:
-% %     \begin{itemize}
-% %         \item A: O resultado do primeiro é 4
-% %         \item B: A soma dos dois resultados é 7
-% %     \end{itemize}
-
-% %     A e B são independentes?
-% % \end{exemplo}
-    
-% % \end{frame}
-
-% \begin{frame}{Variáveis aleatórias}
-%     Em muitos experimentos é útil trabalhar com uma "variável resumo".
-
-%     \begin{exemplo}[8]
-%         Numa pesquisa de opinião, decidimos perguntar a 20 pessoas se elas concordam ou discordam sobre determinado assunto. Nessa pesquisa, anotaremos o valor 1 se a pessoa concorda e 0 se a pessoa discorda.
-
-%         \begin{itemize}
-%             \item Observe que o tamanho do espaço amostral desse experimento contém $2^{20}=1048576$ elementos.
-%             \item Podemos estar interessados em características específicas em relação aos elementos do espaço amostral. 
-%         \end{itemize}
-%     \end{exemplo}
-% \end{frame}
-
-% \begin{frame}{Variáveis aleatórias}
-
-% \begin{definicao}
-%     Uma variável aleatória nada mais é que uma função que toma como entrada elementos do espaço amostral e gera como saída um número real
-% \end{definicao}
-
-% \begin{itemize}
-%     \item Variáveis aleatórias serão denotadas em geral por letras maiúsculas do final do alfabeto: $W, X, Y, Z$
-%     \pause
-%     \item Denotaremos por $\Omega_X$ o conjunto de possíveis valores assumidos pela Variável Aleatória $X$. Dizemos que  $\Omega_X$ é suporte de $X$. 
-%     \pause
-%     \item \textcolor{red}{Atenção}: Note que $X$ pode ser a função identidade, $\Omega_X$ é igual a $\Omega$.
-% \end{itemize}
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=0.5\linewidth]{figures/variavel_aleatoria.png}
-%     \label{fig:enter-label}
-% \end{figure}
-
-% \end{frame}
-% \begin{frame}{Variáveis aleatórias}
-%     \begin{exemplo}[9]
-%         Considere o experimento do lançamento de duas moedas. Nesse caso temos:
-%         $$\Omega = \{(Cara, Cara), (Coroa, Coroa), (Cara, Coroa), (Coroa, Cara)\}$$
-
-%         Definamos a variável aleatória $X:$Número de caras obtidas nas duas moedas. Dessa forma temos, $X((Cara, Cara)) = 2$, $X((Cara, Coroa)) = 1$,  $X((Coroa, Cara)) = 1$, $X((Coroa, Coroa)) = 0$
-%     \end{exemplo}
-
-% \end{frame}
-
-% \begin{frame}{Variáveis aleatórias discretas}
-%     \begin{definicao}
-%         Uma variável aleatória discreta é aquela que pode tomar apenas um número contável de valores, tais como $0,1,2,3,4, \dots$. Denotaremos por $\Omega_X$ o conjunto de possíveis valores que essa variável pode assumir.
-
-%         \begin{itemize}
-%             \item Variáveis aleatórias discretas geralmente estão relacionadas à contagem. 
-%         \end{itemize}
-%     \end{definicao}
-% \end{frame}
-
-% \begin{frame}{Variáveis aleatórias discretas}
-% \begin{exemplo}[10]
-%     Se lançamos três dados de seis faces podemos definir, entre outras, as seguintes variáveis aleatórias discretas:
-%     \begin{itemize}
-%         \item X: A soma dos resultados:
-%             $$\Omega_X = \{3,4,5,\dots, 16,17,18\}$$
-%         \item: X: O produto dos dois primeiros resultados:
-%             $$\Omega_X = \{1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 30, 36\}$$
-%             \item X: O máximo entre os resultados:
-%             $$\Omega_X = \{1,2,3,4,5,6\}$$
-%             \item X: O mínimo entre os resultados:
-%             $$\Omega_X =  \{1,2,3,4,5,6\}$$
-%             \item X: O número de vezes em que apareceu o resultado 6:
-%             $$\Omega_X =  \{1,2,3\}$$
-%     \end{itemize}
-% \end{exemplo}
-% \end{frame}
-
-% \begin{frame}{Variáveis aleatórias discretas}
-%     \begin{exemplo}
-%         \begin{figure}
-%             \centering
-%             \includegraphics[width=1\linewidth]{figures/tab_exemplo_va_discreta.png}
-%         \end{figure}
-%     \end{exemplo}
-% \end{frame}
-
-% \begin{frame}{Distribuição de uma variável aleatória discreta}
-%     A função de probabilidade de uma variável aleatória discreta é uma lista com as probabilidades associadas a cada possível valor que a variável assume. Também é chamada de função massa de probabilidade. Seja $X$ uma variável aleatória que assume os valores $x_1, x_2, \dots, x_n$, utilizaremos a seguinte notação para representar essa função:
-
-%     $$p(x_i) = \mathds{P}(X=x_i)$$
-
-%     Essa função deve satisfazer as seguintes propriedades:
-
-% \begin{itemize}
-%     \item $p_X(x_i) \geq 0$ para todo $i$,
-%     \item $\sum_{i=1}^{n} p_X(x_i) = 1$
-% \end{itemize}
-% \end{frame}
-
-% \begin{frame}{Distribuição de uma variável aleatória discreta}
-%     Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
-
-%     \begin{itemize}
-%         \item Qual o espaço amostral desse experimento?
-%     \end{itemize}
-% \end{frame}
-
-% \begin{frame}{Distribuição de uma variável aleatória discreta}
-%     Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
-
-%     \begin{itemize}
-%         \item Qual o espaço amostral desse experimento?
-%         \item Definamos a variável aleatória Y: Número de caras obtidas, qual a função de probabilidade associada a essa variável?
-%     \end{itemize}
-
-% \end{frame}
-
-% \begin{frame}{Distribuição de uma variável aleatória discreta}
-
-% \begin{exemplo}[11]
-%      Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
-
-%      \begin{itemize}
-%          \item Defina o espaço amostral desse experimento
-%          \item Determine a função de probabilidade de $X$.
-%      \end{itemize}
-     
-% \end{exemplo}
-   
-% \end{frame}
-% \begin{frame}{Função distribuição acumulada}
-%     \begin{definicao}
-%         Seja $X$ uma variável aleatória, definiremos sua \textbf{Função distribuição acumulada} da seguinte forma:
-        
-% $$F_X(x) = \mathds{P}(X \leq x)$$
-%     \end{definicao}
-% \end{frame}
-
-% \begin{frame}{Função distribuição acumulada}
-%     \begin{exemplo}[12]
-%         Considere a variável aleatória $X$ que representa o número de pedidos durante o período de 5 minutos em uma empresa de vendas online.
-
-%         \begin{figure}
-%             \centering
-%             \includegraphics[width=1\linewidth]{figures/exemplo_otite.png}
-%         \end{figure}
-%         Nesse caso:
-%         \pause
-%         \begin{itemize}
-%             \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
-%             \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
-%             \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
-%             \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
-%         \end{itemize}
-%     \end{exemplo}
-% \end{frame}
-
-% \begin{frame}{Função distribuição acumulada}
-%             \begin{itemize}
-%             \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
-%             \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
-%             \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
-%             \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
-%             \item \vdots
-%             \item $F_X(6) = \mathds{P}(X \leq 6)=1$
-%         \end{itemize}
-% \end{frame}
-
-% \begin{frame}{Variável aleatória discreta}
-% \begin{exemplo}[12]
-    
-
-%     Considere a variável aleatória $X$ possuindo a seguinte função de probabilidade:
-
-%     \begin{table}[]
-% \begin{tabular}{cc}
-% \hline
-% x  & $p_X(x)$ \\ \hline
-% 20 & 0,20     \\
-% 25 & 0,15     \\
-% 30 & 0,25     \\
-% 35 & 0,40     \\ \hline
-% \end{tabular}
-% \end{table}
-
-% \begin{enumerate}
-%     \item Esta distribuição de probabilidade é valida? Explique.
-%     \item Qual a probabilidade de $X$ ser igual a 30?
-%     \item Qual a probabilidade de $X$ ser menor ou igual a 25?
-%     \item Qual é a probabilidade de $X$ ser maior que 30?
-% \end{enumerate}
-% \end{exemplo}
-% \end{frame}
-% \begin{frame}
-%     Imagine o seguinte jogo:
-%     \begin{itemize}
-%         \item O jogador aposta $R\$ 10,00$ e escolhe cara ou coroa
-%         \item Uma moeda honesta é jogado ao ar.
-%         \item Se a moeda mostrar o resultado cara, então o jogador ganhar  $R\$ 10,00$. Caso contrário, perde os $R\$ 10,00$ apostados. 
-%     \end{itemize}
-
-%     \pause
-%     Esse jogo é justo?
-% \end{frame}
-
-% \begin{frame}{Esperança Matemática para Variáveis Discretas }
-%     O valor esperado, média, ou esperança matemática é uma quantidade utilizada como resumo do comportamento de uma V.A. 
-
-%     $$\mathbb{E}[X] = \sum_{x_i \in \Omega_X} x_i \mathds{P}(X=x_i)$$
-% \end{frame}
-
-% \begin{frame}{Esperança Matemática para Variáveis Discretas }
-%     Historicamente, o conceito de esperança foi usado para verificar se jogos eram justos. Entretanto, esse conceito não se restringe apenas à esse campo. 
-
-%     \pause
-
-%     Vamos verificar se o jogo proposto anteriormente é justo:
-%     \begin{itemize}
-%         \item Definamos $X$: ganho obtido no jogo. 
-%         \pause
-%         \item $\mathds{E}[X] = 10 \cdot \dfrac{1}{2} -10 \cdot \dfrac{1}{2} = 0 $
-%         \pause
-%         \item Portanto, o jogo é justo. 
-%     \end{itemize}
-% \end{frame}
-
-% \begin{frame}{Esperança Matemática para Variáveis Discretas }
 % \begin{exemplo}
-% Um jogo funciona da seguinte forma:
+%     Ao lançarmos dois dados de seis faces, considere os eventos:
 %     \begin{itemize}
-%         \item O jogador deve pagar R\$10,00 para participar do jogo.
-%         \item Se a soma dos resultados dos dois dados for igual a 10, então o jogador ganha $R\$200,00$
-%         \item Se a soma dos resultados dos dois dados for igual a 7, então o jogador perde $R\$100,00$
-%         \item Se a soma dos resultados dos dois dados for um número primo diferente de 7, então o jogador ganha $R\$100,00$
-%         \item Se a soma dos resultados dos dois dados for um número não-primo diferente de 10, então o jogador perde  $R\$50,00$
+%         \item A: O resultado do primeiro é 4
+%         \item B: A soma dos dois resultados é 7
 %     \end{itemize}
-%     Sabendo disso, defina uma variável aleatória como sendo o ganho (ou perda) obtido pelo jogador, obtenha sua esperança e responda a seguinte pergunta: Esse jogo é justo?
-% \end{exemplo}    
+
+%     A e B são independentes?
+% \end{exemplo}
+    
 % \end{frame}
 
-% \begin{frame}{Esperança Matemática para Variáveis Discretas }
-%     Vamos jogar outro jogo:
-%     \begin{itemize}
-%         \item O jogador deve apostar $x$ reais, com $x > 0$.
-%         \pause
-%         \item Uma moeda honesta é jogado ao ar até que saia cara pela primeira vez.
-%         \pause
-%         \item O número de jogadas até sair cara (inlcuindo a própria rodada que saiu cara) é denotado por $n$.
-%         \pause
-%         \item O jogador ganha $R\$: 2^n$
-%         \pause
-%         \item Qual o valor de $x$ para que esse jogo seja justo?
-%     \end{itemize}
-% \end{frame}
+\begin{frame}{Variáveis aleatórias}
+    Em muitos experimentos é útil trabalhar com uma "variável resumo".
 
-% \begin{frame}{Esperança Matemática para Variáveis Discretas }
-%     O jogo do slide anterior ficou conhecido como Paradoxo de São Petesburgo. Sua proposição provoca discussões que se estendem até os dias de hoje. 
-% \end{frame}
+    \begin{exemplo}[8]
+        Numa pesquisa de opinião, decidimos perguntar a 20 pessoas se elas concordam ou discordam sobre determinado assunto. Nessa pesquisa, anotaremos o valor 1 se a pessoa concorda e 0 se a pessoa discorda.
 
-% \begin{frame}{Esperança Matemática para Variáveis Discretas }
-%     Vamos sair um pouco do contexto dos jogos. Se eu jogo um dado simétrico de seis faces, 
-%     definindo $X:$ Resultado apresentado pelo dado. 
-% \pause
-%     $$\mathds{E}[X] = \sum_{s=1}^{6} s \cdot \frac{1}{6} = 3,5$$
-% \pause
-% Qual o significado do valor $3,5$?
-% \end{frame}
+        \begin{itemize}
+            \item Observe que o tamanho do espaço amostral desse experimento contém $2^{20}=1048576$ elementos.
+            \item Podemos estar interessados em características específicas em relação aos elementos do espaço amostral. 
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
 
-% \begin{frame}{Variância de Variáveis Aleatórias}
-%     A variância representa o grau de dispersão de uma variável aleatória em relação a sua média ou esperança $\mathbb{E}[X]$. A forma geral para o cálculo é:
+\begin{frame}{Variáveis aleatórias}
 
-%     $$Var(X) = \mathbb{E}[(X - \mathbb{E}[X])^2]$$
+\begin{definicao}
+    Uma variável aleatória nada mais é que uma função que toma como entrada elementos do espaço amostral e gera como saída um número real
+\end{definicao}
 
-%     Uma forma alternativa de presentar a variância é através da seguinte expressão:
+\begin{itemize}
+    \item Variáveis aleatórias serão denotadas em geral por letras maiúsculas do final do alfabeto: $W, X, Y, Z$
+    \pause
+    \item Denotaremos por $\Omega_X$ o conjunto de possíveis valores assumidos pela Variável Aleatória $X$. Dizemos que  $\Omega_X$ é suporte de $X$. 
+    \pause
+    \item \textcolor{red}{Atenção}: Note que $X$ pode ser a função identidade, $\Omega_X$ é igual a $\Omega$.
+\end{itemize}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/variavel_aleatoria.png}
+    \label{fig:enter-label}
+\end{figure}
 
-%     $$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$$
+\end{frame}
+\begin{frame}{Variáveis aleatórias}
+    \begin{exemplo}[9]
+        Considere o experimento do lançamento de duas moedas. Nesse caso temos:
+        $$\Omega = \{(Cara, Cara), (Coroa, Coroa), (Cara, Coroa), (Coroa, Cara)\}$$
 
-%     onde
+        Definamos a variável aleatória $X:$Número de caras obtidas nas duas moedas. Dessa forma temos, $X((Cara, Cara)) = 2$, $X((Cara, Coroa)) = 1$,  $X((Coroa, Cara)) = 1$, $X((Coroa, Coroa)) = 0$
+    \end{exemplo}
 
-%      $$\mathbb{E}[X^2] = \sum_{x_i \in \Omega_X} x_i^2 \mathds{P}(X=x_i)$$
-% \end{frame}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias discretas}
+    \begin{definicao}
+        Uma variável aleatória discreta é aquela que pode tomar apenas um número contável de valores, tais como $0,1,2,3,4, \dots$. Denotaremos por $\Omega_X$ o conjunto de possíveis valores que essa variável pode assumir.
+
+        \begin{itemize}
+            \item Variáveis aleatórias discretas geralmente estão relacionadas à contagem. 
+        \end{itemize}
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias discretas}
+\begin{exemplo}[10]
+    Se lançamos três dados de seis faces podemos definir, entre outras, as seguintes variáveis aleatórias discretas:
+    \begin{itemize}
+        \item X: A soma dos resultados:
+            $$\Omega_X = \{3,4,5,\dots, 16,17,18\}$$
+        \item: X: O produto dos dois primeiros resultados:
+            $$\Omega_X = \{1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 25, 30, 36\}$$
+            \item X: O máximo entre os resultados:
+            $$\Omega_X = \{1,2,3,4,5,6\}$$
+            \item X: O mínimo entre os resultados:
+            $$\Omega_X =  \{1,2,3,4,5,6\}$$
+            \item X: O número de vezes em que apareceu o resultado 6:
+            $$\Omega_X =  \{1,2,3\}$$
+    \end{itemize}
+\end{exemplo}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias discretas}
+    \begin{exemplo}
+        \begin{figure}
+            \centering
+            \includegraphics[width=1\linewidth]{figures/tab_exemplo_va_discreta.png}
+        \end{figure}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+    A função de probabilidade de uma variável aleatória discreta é uma lista com as probabilidades associadas a cada possível valor que a variável assume. Também é chamada de função massa de probabilidade. Seja $X$ uma variável aleatória que assume os valores $x_1, x_2, \dots, x_n$, utilizaremos a seguinte notação para representar essa função:
+
+    $$p(x_i) = \mathds{P}(X=x_i)$$
+
+    Essa função deve satisfazer as seguintes propriedades:
+
+\begin{itemize}
+    \item $p_X(x_i) \geq 0$ para todo $i$,
+    \item $\sum_{i=1}^{n} p_X(x_i) = 1$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+    Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
+
+    \begin{itemize}
+        \item Qual o espaço amostral desse experimento?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+    Considere o experimento de lançar uma moeda honesta para o ar 3 vezes e anotar a sequência dos resultados
+
+    \begin{itemize}
+        \item Qual o espaço amostral desse experimento?
+        \item Definamos a variável aleatória Y: Número de caras obtidas, qual a função de probabilidade associada a essa variável?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Distribuição de uma variável aleatória discreta}
+
+\begin{exemplo}[11]
+     Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
+
+     \begin{itemize}
+         \item Defina o espaço amostral desse experimento
+         \item Determine a função de probabilidade de $X$.
+     \end{itemize}
+     
+\end{exemplo}
+   
+\end{frame}
+\begin{frame}{Função distribuição acumulada}
+    \begin{definicao}
+        Seja $X$ uma variável aleatória, definiremos sua \textbf{Função distribuição acumulada} da seguinte forma:
+        
+$$F_X(x) = \mathds{P}(X \leq x)$$
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Função distribuição acumulada}
+    \begin{exemplo}[12]
+        Considere a variável aleatória $X$ que representa o número de pedidos durante o período de 5 minutos em uma empresa de vendas online.
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=1\linewidth]{figures/exemplo_otite.png}
+        \end{figure}
+        Nesse caso:
+        \pause
+        \begin{itemize}
+            \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
+            \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
+            \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
+            \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
+
+\begin{frame}{Função distribuição acumulada}
+            \begin{itemize}
+            \item $F_X(-1) = \mathds{P}(X \leq -1) = 0$
+            \item $F_X(0) = \mathds{P}(X \leq 0) = \mathds{P}(X=0) = 0,129$
+            \item $F_X(1) = \mathds{P}(X \leq 1) = \mathds{P}(X=0) + \mathds{P}(X=1) = 0,129 + 0,264 = 0,393$\\
+            \item $F_X(2) = \mathds{P}(X \leq 2) = \mathds{P}(X=0) + \mathds{P}(X=1) + \mathds{P}(X=2) = 0,129 + 0,264 + 0,271 = 0,664 $
+            \item \vdots
+            \item $F_X(6) = \mathds{P}(X \leq 6)=1$
+        \end{itemize}
+\end{frame}
+
+\begin{frame}{Variável aleatória discreta}
+\begin{exemplo}[12]
+    
+
+    Considere a variável aleatória $X$ possuindo a seguinte função de probabilidade:
+
+    \begin{table}[]
+\begin{tabular}{cc}
+\hline
+x  & $p_X(x)$ \\ \hline
+20 & 0,20     \\
+25 & 0,15     \\
+30 & 0,25     \\
+35 & 0,40     \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{enumerate}
+    \item Esta distribuição de probabilidade é valida? Explique.
+    \item Qual a probabilidade de $X$ ser igual a 30?
+    \item Qual a probabilidade de $X$ ser menor ou igual a 25?
+    \item Qual é a probabilidade de $X$ ser maior que 30?
+\end{enumerate}
+\end{exemplo}
+\end{frame}
+\begin{frame}
+    Imagine o seguinte jogo:
+    \begin{itemize}
+        \item O jogador aposta $R\$ 10,00$ e escolhe cara ou coroa
+        \item Uma moeda honesta é jogado ao ar.
+        \item Se a moeda mostrar o resultado cara, então o jogador ganhar  $R\$ 10,00$. Caso contrário, perde os $R\$ 10,00$ apostados. 
+    \end{itemize}
+
+    \pause
+    Esse jogo é justo?
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    O valor esperado, média, ou esperança matemática é uma quantidade utilizada como resumo do comportamento de uma V.A. 
+
+    $$\mathbb{E}[X] = \sum_{x_i \in \Omega_X} x_i \mathds{P}(X=x_i)$$
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    Historicamente, o conceito de esperança foi usado para verificar se jogos eram justos. Entretanto, esse conceito não se restringe apenas à esse campo. 
+
+    \pause
+
+    Vamos verificar se o jogo proposto anteriormente é justo:
+    \begin{itemize}
+        \item Definamos $X$: ganho obtido no jogo. 
+        \pause
+        \item $\mathds{E}[X] = 10 \cdot \dfrac{1}{2} -10 \cdot \dfrac{1}{2} = 0 $
+        \pause
+        \item Portanto, o jogo é justo. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+\begin{exemplo}
+Um jogo funciona da seguinte forma:
+    \begin{itemize}
+        \item O jogador deve pagar R\$10,00 para participar do jogo.
+        \item Se a soma dos resultados dos dois dados for igual a 10, então o jogador ganha $R\$200,00$
+        \item Se a soma dos resultados dos dois dados for igual a 7, então o jogador perde $R\$100,00$
+        \item Se a soma dos resultados dos dois dados for um número primo diferente de 7, então o jogador ganha $R\$100,00$
+        \item Se a soma dos resultados dos dois dados for um número não-primo diferente de 10, então o jogador perde  $R\$50,00$
+    \end{itemize}
+    Sabendo disso, defina uma variável aleatória como sendo o ganho (ou perda) obtido pelo jogador, obtenha sua esperança e responda a seguinte pergunta: Esse jogo é justo?
+\end{exemplo}    
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    Vamos jogar outro jogo:
+    \begin{itemize}
+        \item O jogador deve apostar $x$ reais, com $x > 0$.
+        \pause
+        \item Uma moeda honesta é jogado ao ar até que saia cara pela primeira vez.
+        \pause
+        \item O número de jogadas até sair cara (inlcuindo a própria rodada que saiu cara) é denotado por $n$.
+        \pause
+        \item O jogador ganha $R\$: 2^n$
+        \pause
+        \item Qual o valor de $x$ para que esse jogo seja justo?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    O jogo do slide anterior ficou conhecido como Paradoxo de São Petesburgo. Sua proposição provoca discussões que se estendem até os dias de hoje. 
+\end{frame}
+
+\begin{frame}{Esperança Matemática para Variáveis Discretas }
+    Vamos sair um pouco do contexto dos jogos. Se eu jogo um dado simétrico de seis faces, 
+    definindo $X:$ Resultado apresentado pelo dado. 
+\pause
+    $$\mathds{E}[X] = \sum_{s=1}^{6} s \cdot \frac{1}{6} = 3,5$$
+\pause
+Qual o significado do valor $3,5$?
+\end{frame}
+
+\begin{frame}{Variância de Variáveis Aleatórias}
+    A variância representa o grau de dispersão de uma variável aleatória em relação a sua média ou esperança $\mathbb{E}[X]$. A forma geral para o cálculo é:
+
+    $$Var(X) = \mathbb{E}[(X - \mathbb{E}[X])^2]$$
+
+    Uma forma alternativa de presentar a variância é através da seguinte expressão:
+
+    $$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$$
+
+    onde
+
+     $$\mathbb{E}[X^2] = \sum_{x_i \in \Omega_X} x_i^2 \mathds{P}(X=x_i)$$
+\end{frame}
 
 % \begin{frame}{Exemplos}
 % \begin{exemplo}
@@ -787,19 +787,19 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
     
 % \end{frame}
 
-% \begin{frame}{Exemplos}
-%     \begin{exemplo}[11]
-%      Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
+\begin{frame}{Exemplos}
+    \begin{exemplo}[11]
+     Em um processo de fabricação de semicondutores, três pastilhas de um lote são testadas. Cada pastilha é classificada como "passa" ou "falha". Suponha que a probabilidade de uma pastilha passar no teste seja 0,8 e que as pastilhas sejam independentes. Seja a variável resposta $X$ definida como o número de pastilhas de um lote que passa no teste. 
 
-%      \begin{itemize}
-%          \item Defina o espaço amostral desse experimento
-%          \item Determine a função de probabilidade de $X$.
-%          \item Determine o valor esperado de $X$.
-%          \item Determine a variância de $X$.
-%      \end{itemize}
+     \begin{itemize}
+         \item Defina o espaço amostral desse experimento
+         \item Determine a função de probabilidade de $X$.
+         \item Determine o valor esperado de $X$.
+         \item Determine a variância de $X$.
+     \end{itemize}
      
-% \end{exemplo}
-% \end{frame}
+\end{exemplo}
+\end{frame}
 
 
 % \begin{frame}{Outras medidas de dispersão}
@@ -822,106 +822,106 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
 % $$\mathbb{E}[X_1 + X_2 + \dots + X_n] = \mathbb{E}[X_1] + E[X_2] + \dots + \mathbb{E}[X_n]$$
 % \end{frame}
 
-% \begin{frame}{Distribuições de Probabilidade para Variáveis Aleatórias Discretas}
-%     Algumas variáveis aleatórias aparecem com bastante frequência em situações práticas e justificam um estudo mais aprofundado. Em geral, nesses casos, a \textbf{função de probabilidade} pode ser escrita de maneira mais compacta, isto é, existe uma lei para atribuir probabilidades. 
+\begin{frame}{Distribuições de Probabilidade para Variáveis Aleatórias Discretas}
+    Algumas variáveis aleatórias aparecem com bastante frequência em situações práticas e justificam um estudo mais aprofundado. Em geral, nesses casos, a \textbf{função de probabilidade} pode ser escrita de maneira mais compacta, isto é, existe uma lei para atribuir probabilidades. 
 
-%     As distribuições de probabilidade para variáveis discretas mais importantes são:
+    As distribuições de probabilidade para variáveis discretas mais importantes são:
 
-%     \begin{itemize}
-%         \item Distribuição de Bernoulli
-%         \item Distribuição Binomial 
-%         \item Distribuição de Poisson
-%         \item Distribuição Geométricas
-%         \item Distribuição Hipergeométrica
-%         \item Distribuição Binomial negativa
-%     \end{itemize}
-% \end{frame}
+    \begin{itemize}
+        \item Distribuição de Bernoulli
+        \item Distribuição Binomial 
+        \item Distribuição de Poisson
+        \item Distribuição Geométricas
+        \item Distribuição Hipergeométrica
+        \item Distribuição Binomial negativa
+    \end{itemize}
+\end{frame}
 
-% \begin{frame}{Distribuição de Bernoulli}
+\begin{frame}{Distribuição de Bernoulli}
 
-% Considere os seguintes experimentos:
+Considere os seguintes experimentos:
 
-% \begin{itemize}
-%     \item Lançamento de uma moeda 
-%     \item Retirada de uma peça de um conjunto de 10 peças seguido pela verificação se a peça é defeituosa ou não
-%     \item Pesquisa de opinião se aprova ou não aprova a atual gestão da UFRJ. 
-%     \item Um aluno realiza uma prova e em seguida verifica se passou ou não. 
-%     \item Realização de inseminação artificial seguida pela verificação se ocorreu gravidez ou não.
-% \end{itemize}
+\begin{itemize}
+    \item Lançamento de uma moeda 
+    \item Retirada de uma peça de um conjunto de 10 peças seguido pela verificação se a peça é defeituosa ou não
+    \item Pesquisa de opinião se aprova ou não aprova a atual gestão da UFRJ. 
+    \item Um aluno realiza uma prova e em seguida verifica se passou ou não. 
+    \item Realização de inseminação artificial seguida pela verificação se ocorreu gravidez ou não.
+\end{itemize}
 
-%     O que esses experimentos tem em comum?
+    O que esses experimentos tem em comum?
 
-%     \pause
+    \pause
 
-%     Todos os experimentos acima tem unicamente dois resultados possíveis. Sendo possível criar uma variável aleatória que associe cada resultado aos valores 1 e 0. 
-% \end{frame}
+    Todos os experimentos acima tem unicamente dois resultados possíveis. Sendo possível criar uma variável aleatória que associe cada resultado aos valores 1 e 0. 
+\end{frame}
 
-% \begin{frame}{Distribuição de Bernoulli}
-%     A distribuição de probabilidade da variável aleatória $X$ que segue distribuição de Bernoulli com parâmetro $p$ é dada por. 
+\begin{frame}{Distribuição de Bernoulli}
+    A distribuição de probabilidade da variável aleatória $X$ que segue distribuição de Bernoulli com parâmetro $p$ é dada por. 
 
-%     \begin{table}[H]
-%     \centering
-% \begin{tabular}{cc}
-% \hline
-% x & $p_X(x)$ \\ \hline
-% 1 & p        \\
-% 0 & 1-p      \\ \hline
-% \end{tabular}
-% \end{table}
+    \begin{table}[H]
+    \centering
+\begin{tabular}{cc}
+\hline
+x & $p_X(x)$ \\ \hline
+1 & p        \\
+0 & 1-p      \\ \hline
+\end{tabular}
+\end{table}
 
-% \begin{itemize}
-%     \item Notação: $X \sim Bernoulli(p)$
-%     \item A função de probabilidade da distribuição Bernoulli é dada por: $$p_X(x) = \mathds{P}(X=x) = p^x(1-p)^{1-x} \text{ para x = 0,1}$$
-% \end{itemize}
-% \end{frame}
+\begin{itemize}
+    \item Notação: $X \sim Bernoulli(p)$
+    \item A função de probabilidade da distribuição Bernoulli é dada por: $$p_X(x) = \mathds{P}(X=x) = p^x(1-p)^{1-x} \text{ para x = 0,1}$$
+\end{itemize}
+\end{frame}
 
-% \begin{frame}{Distribuição de Bernoulli}
-%     \textbf{Valor Esperado}
-%     $$\mathbb{E}[X] = 1\cdot p + 0 \cdot (1-p) = p$$
+\begin{frame}{Distribuição de Bernoulli}
+    \textbf{Valor Esperado}
+    $$\mathbb{E}[X] = 1\cdot p + 0 \cdot (1-p) = p$$
     
-%     \textbf{Variância}
-%     \begin{align*}
-%         Var(X) &= \mathbb{E}[X^2] - \mathbb{E}[X]^2\\
-%         &=p\cdot 1^2 + (1-p)\cdot 0 - p^2\\
-%         &= p(1-p)
-%     \end{align*}
-% \end{frame}
+    \textbf{Variância}
+    \begin{align*}
+        Var(X) &= \mathbb{E}[X^2] - \mathbb{E}[X]^2\\
+        &=p\cdot 1^2 + (1-p)\cdot 0 - p^2\\
+        &= p(1-p)
+    \end{align*}
+\end{frame}
 
-% \begin{frame}{Distribuição de Bernoulli: Exemplo}
-%     \begin{exemplo}[13]
-%         \textbf{Experimento:} Lançamento de um dado 
-%         Definamos $X:$ Verificação se o dado apresentou uma face menor que 3
+\begin{frame}{Distribuição de Bernoulli: Exemplo}
+    \begin{exemplo}[13]
+        \textbf{Experimento:} Lançamento de um dado 
+        Definamos $X:$ Verificação se o dado apresentou uma face menor que 3
 
-%         Temos que:
-%         \begin{itemize}
-%             \item $X = 1$ se o resultado obtido for 1 ou 2
-%             \item $X= 0 $ se o resultado obtido for 3, 4 ou 5
-%         \end{itemize}
+        Temos que:
+        \begin{itemize}
+            \item $X = 1$ se o resultado obtido for 1 ou 2
+            \item $X= 0 $ se o resultado obtido for 3, 4 ou 5
+        \end{itemize}
 
-%         Função de probabilidade de $X$
-%         \pause
-%         \begin{table}[H]
-% \begin{tabular}{cc}
-% \hline
-% x & $p_X(x)$ \\ \hline
-% 1 & 2/6      \\
-% 0 & 4/6      \\ \hline
-% \end{tabular}
-% \end{table}
+        Função de probabilidade de $X$
+        \pause
+        \begin{table}[H]
+\begin{tabular}{cc}
+\hline
+x & $p_X(x)$ \\ \hline
+1 & 2/6      \\
+0 & 4/6      \\ \hline
+\end{tabular}
+\end{table}
 
-% Podemos dizer que $X \sim Bernoulli(1/3)$
-%     \end{exemplo}
-% \end{frame}
-% \begin{frame}{Distribuição Binomial}
+Podemos dizer que $X \sim Bernoulli(1/3)$
+    \end{exemplo}
+\end{frame}
+\begin{frame}{Distribuição Binomial}
 
-%     \begin{itemize}
-%         \item São realizados n ensaios de Bernoulli independentes
-%         \item Cada ensaio só pode ter dois resultados possíveis: sucesso ou fracasso
-%         \item A probabilidade $p$ de sucesso em cada ensaio é a mesma
-%     \end{itemize}
+    \begin{itemize}
+        \item São realizados n ensaios de Bernoulli independentes
+        \item Cada ensaio só pode ter dois resultados possíveis: sucesso ou fracasso
+        \item A probabilidade $p$ de sucesso em cada ensaio é a mesma
+    \end{itemize}
 
-%     Vamos definir a variável aleatória $X$ como sendo o número total de sucessos nos n ensaios de Bernoulli. Portanto, X poderá assumir os valores $0, 1, \dots, n$
-% \end{frame}
+    Vamos definir a variável aleatória $X$ como sendo o número total de sucessos nos n ensaios de Bernoulli. Portanto, X poderá assumir os valores $0, 1, \dots, n$
+\end{frame}
 
 % \begin{frame}{Distribuição Binomial}
 %     Suponha que lancemos uma moeda $n$ vezes. Como vimos, podemos construir uma variável aleatória associada a esse experimento que resulta em 1 caso a moeda de cara e 0 caso de coroa. 
@@ -937,14 +937,14 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
 %         \centering
 %         \includegraphics[width=0.5\linewidth]{figures/binom_2.png}
 %     \end{figure}
-% \end{frame}
+\end{frame}
 
-% \begin{frame}{Distribuição Binomial}
-%     Porém, o evento "$x$ sucessos em $n$ ensaios" pode ocorrer de diferentes ordens distintas, todas com a mesma probabilidade. 
+\begin{frame}{Distribuição Binomial}
+    Porém, o evento "$x$ sucessos em $n$ ensaios" pode ocorrer de diferentes ordens distintas, todas com a mesma probabilidade. 
 
-%     Como o número de ordens é o número de combinações de $n$ elementos escolhendo $x$, então a probabilidade de ocorrerem $x$ sucessos em $n$ ensaios de Bernoulli é representada por:
-%     $$\mathds{P}(X=x) = \binom{n}{x}p^x(1-p)^{n-x}, x = 0,1, \dots, n$$
-% \end{frame}
+    Como o número de ordens é o número de combinações de $n$ elementos escolhendo $x$, então a probabilidade de ocorrerem $x$ sucessos em $n$ ensaios de Bernoulli é representada por:
+    $$\mathds{P}(X=x) = \binom{n}{x}p^x(1-p)^{n-x}, x = 0,1, \dots, n$$
+\end{frame}
 
 % \begin{frame}{Distribuição Binomial: Exemplo}
 
@@ -967,117 +967,117 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
 % \end{itemize}
 % \end{frame}
 
-% \begin{frame}{Distribuição Binomial}
-%     \textbf{Valor Esperado e Variância}: $\mathbb{E}[X] = np$ e $Var(X) = np(1-p)$
-% \end{frame}
+\begin{frame}{Distribuição Binomial}
+    \textbf{Valor Esperado e Variância}: $\mathbb{E}[X] = np$ e $Var(X) = np(1-p)$
+\end{frame}
 
-% \begin{frame}{Distribuição Binomial: Exemplo}
-%     Voltar ao exemplo das pastilhas. 
-% \end{frame}
-% \begin{frame}{Distribuição Binomial: Exemplo}
-%     \begin{exemplo}[14]
-%         Certo jogador de basquete costuma acertar 70\% dos lançamentos
-% na cesta. Esse jogador foi convidado para participar de um evento beneficente
-% em que ele pode arrecadar um grande prêmio para uma instituição de sua escolha se ele fizer 10 lançamentos e acertar todos. Supondo que os lançamentos
-% são independentes, qual a probabilidade de ele conseguir o prêmio?
-%     \end{exemplo}
-% \end{frame}
+\begin{frame}{Distribuição Binomial: Exemplo}
+    Voltar ao exemplo das pastilhas. 
+\end{frame}
+\begin{frame}{Distribuição Binomial: Exemplo}
+    \begin{exemplo}[14]
+        Certo jogador de basquete costuma acertar 70\% dos lançamentos
+na cesta. Esse jogador foi convidado para participar de um evento beneficente
+em que ele pode arrecadar um grande prêmio para uma instituição de sua escolha se ele fizer 10 lançamentos e acertar todos. Supondo que os lançamentos
+são independentes, qual a probabilidade de ele conseguir o prêmio?
+    \end{exemplo}
+\end{frame}
 
-% \begin{frame}{Distribuição Binomial: Exemplo}
-%     \begin{exemplo}[16]
-%         Cada amostra de ar tem uma probabilidade de 10\% de conter um determinado poluente orgânico. Considere 18 amostras que sejam independentes com relação à presença do poluente. Seja a variável aleatória $X$ definida como o número de amostras de ar que contêm o poluente orgânico. pergunta-se:
+\begin{frame}{Distribuição Binomial: Exemplo}
+    \begin{exemplo}[16]
+        Cada amostra de ar tem uma probabilidade de 10\% de conter um determinado poluente orgânico. Considere 18 amostras que sejam independentes com relação à presença do poluente. Seja a variável aleatória $X$ definida como o número de amostras de ar que contêm o poluente orgânico. pergunta-se:
 
-%         \begin{itemize}
-%             \item Qual a probabilidade de que exatamente duas amostras contenham o poluente
-%             \item Qual a probabilidade de que pelo menos 4 amostras contenham o poluente. 
-%         \end{itemize}
-%     \end{exemplo}
-% \end{frame}
+        \begin{itemize}
+            \item Qual a probabilidade de que exatamente duas amostras contenham o poluente
+            \item Qual a probabilidade de que pelo menos 4 amostras contenham o poluente. 
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
 
-% \begin{frame}{Distribuição de Poisson}
+\begin{frame}{Distribuição de Poisson}
 
-% Seja um experimento realizado nas seguintes condições:
+Seja um experimento realizado nas seguintes condições:
 
-% \begin{enumerate}
-%     \item As ocorrências são independentes
-%     \item As ocorrências são aleatórias
-%     \item A variável aleatória $X$ é o número de ocorrências de um evento ao longo de algum intervalo
-% \end{enumerate}
+\begin{enumerate}
+    \item As ocorrências são independentes
+    \item As ocorrências são aleatórias
+    \item A variável aleatória $X$ é o número de ocorrências de um evento ao longo de algum intervalo
+\end{enumerate}
 
-%     Vamos definir a variável aleatória $X$como sendo o número de ocorrências em um intervalo. Portanto, $X$ poderá assumir os valores $0, 1, \dots $(sem limite superior)
-% \end{frame}
+    Vamos definir a variável aleatória $X$como sendo o número de ocorrências em um intervalo. Portanto, $X$ poderá assumir os valores $0, 1, \dots $(sem limite superior)
+\end{frame}
 
-% \begin{frame}{Distribuição de Poisson}
-%     Uma variável aleatória segue a distribuição de Poisson se sua função de probabilidade é dada por:
+\begin{frame}{Distribuição de Poisson}
+    Uma variável aleatória segue a distribuição de Poisson se sua função de probabilidade é dada por:
 
-%     $$\mathds{P}(X=x)=\dfrac{e^{-\lambda} \lambda^x}{x!}, \quad x=0,1,2,\dots$$
+    $$\mathds{P}(X=x)=\dfrac{e^{-\lambda} \lambda^x}{x!}, \quad x=0,1,2,\dots$$
 
-%     em que o parâmetro $\lambda > 0$ representa a taxa média de ocorrência por unidade de medida(tempo,  por exemplo)
-% \end{frame}
+    em que o parâmetro $\lambda > 0$ representa a taxa média de ocorrência por unidade de medida(tempo,  por exemplo)
+\end{frame}
 
-% \begin{frame}{Distribuição de Poisson}
-%     Notação: $X \sim$ Poisson($\lambda$)
-%     Esperança e Variância: $\mathbb{E}[X] = Var(X) = \lambda$
-% \end{frame}
-
-
-% \begin{frame}{Exemplo: Distribuição de Poisson}
-%     Sabe-se que em média ocorrem 2 terremotos por semana em certa
-% região do mundo. Numa dada semana, qual a probabilidade de ocorrerem 4
-% terremotos nessa região?
-
-% \end{frame}
-
-% \begin{frame}{Exemplo: Distribuição de Poisson}
-%     \begin{exemplo}[18]
-%         Chamadas telefônicas são recebidas à taxa de 48 por hora no balcão de reservas da Regional Airways
-
-%         \begin{itemize}
-%             \item Calcule a probabilidade de serem recebidas três chamadas em um intervalo de cinco minutos?
-%             \item Calcule a probabilidade de serem recebidas exatamente 10 chamadas em 15 minutos.
-%         \end{itemize}
-%     \end{exemplo}
-% \end{frame}
+\begin{frame}{Distribuição de Poisson}
+    Notação: $X \sim$ Poisson($\lambda$)
+    Esperança e Variância: $\mathbb{E}[X] = Var(X) = \lambda$
+\end{frame}
 
 
-% \end{frame}
+\begin{frame}{Exemplo: Distribuição de Poisson}
+    Sabe-se que em média ocorrem 2 terremotos por semana em certa
+região do mundo. Numa dada semana, qual a probabilidade de ocorrerem 4
+terremotos nessa região?
 
-% \begin{frame}{Variáveis aleatórias contínuas}
-%     Uma variável aleatória é contínua se assume valores em qualquer intervalo dos números reais. 
+\end{frame}
 
-%     Dessa forma, não é possível atribuir probabilidades para um ponto específico, apenas para intervalos da reta. 
+\begin{frame}{Exemplo: Distribuição de Poisson}
+    \begin{exemplo}[18]
+        Chamadas telefônicas são recebidas à taxa de 48 por hora no balcão de reservas da Regional Airways
 
-%     \begin{definicao}
-%         Dize-se que $X$ é uma variável aleatória contínua, se existir uma função $f_X$, denominada função densidade de probabilidade (fdp) de $X$ que satisfaça as seguintes condições:
+        \begin{itemize}
+            \item Calcule a probabilidade de serem recebidas três chamadas em um intervalo de cinco minutos?
+            \item Calcule a probabilidade de serem recebidas exatamente 10 chamadas em 15 minutos.
+        \end{itemize}
+    \end{exemplo}
+\end{frame}
 
-%         \begin{enumerate}
-%             \item $f(x) \geq 0$ para todo x
-%             \item $\int_{-\infty}^{\infty} f(x) dx = 1$
-%         \end{enumerate}
-%     \end{definicao}
-% \end{frame}
 
-% \begin{frame}{Variáveis aleatórias contínuas}
-%     Exemplos de variáveis aleatórias contínuas:
-%     \begin{itemize}
-%         \item Altura de estudantes em uma disciplina
-%         \item Intervalo de tempo entre chegadas de um ônibus
-%         \item Peso de pessoas
-%         \item Profundidade de lagos
-%     \end{itemize}
-% \end{frame}
-% \begin{frame}{Variáveis aleatórias contínuas}
-% Nesse caso, temos:
-%    $$ \mathds{P}(a \leq X \leq b) = \int_{a}^{b} f_X(x) dx$$
+\end{frame}
 
-%    O que implica que
-%    $$\mathds{P}(X =a) = 0$$
+\begin{frame}{Variáveis aleatórias contínuas}
+    Uma variável aleatória é contínua se assume valores em qualquer intervalo dos números reais. 
 
-%    \begin{figure}
-%        \centering
-%        \includegraphics[width=0.7\linewidth]{figures/continua_1.png}
-%    \end{figure}
-% \end{frame}
+    Dessa forma, não é possível atribuir probabilidades para um ponto específico, apenas para intervalos da reta. 
+
+    \begin{definicao}
+        Dize-se que $X$ é uma variável aleatória contínua, se existir uma função $f_X$, denominada função densidade de probabilidade (fdp) de $X$ que satisfaça as seguintes condições:
+
+        \begin{enumerate}
+            \item $f(x) \geq 0$ para todo x
+            \item $\int_{-\infty}^{\infty} f(x) dx = 1$
+        \end{enumerate}
+    \end{definicao}
+\end{frame}
+
+\begin{frame}{Variáveis aleatórias contínuas}
+    Exemplos de variáveis aleatórias contínuas:
+    \begin{itemize}
+        \item Altura de estudantes em uma disciplina
+        \item Intervalo de tempo entre chegadas de um ônibus
+        \item Peso de pessoas
+        \item Profundidade de lagos
+    \end{itemize}
+\end{frame}
+\begin{frame}{Variáveis aleatórias contínuas}
+Nesse caso, temos:
+   $$ \mathds{P}(a \leq X \leq b) = \int_{a}^{b} f_X(x) dx$$
+
+   O que implica que
+   $$\mathds{P}(X =a) = 0$$
+
+   \begin{figure}
+       \centering
+       \includegraphics[width=0.7\linewidth]{figures/continua_1.png}
+   \end{figure}
+\end{frame}
 
 % \begin{frame}{Variáveis aleatórias contínuas}
 %     \begin{exemplo}[20]
@@ -1127,90 +1127,90 @@ $$\mathds{P}(A|B) = \dfrac{\mathds{P}(B | A)\mathds{P}(A)}{\mathds{P}(B)}$$
 %     \end{enumerate}
 % \end{frame}
 
-% \begin{frame}{Função distribuição de uma variável aleatória contínua}
+\begin{frame}{Função distribuição de uma variável aleatória contínua}
 
-%    Vimos que sendo $X$ uma variável aleatória discreta:
-%     $$F_X(x) = \mathds{P}(X \leq x)$$
+   Vimos que sendo $X$ uma variável aleatória discreta:
+    $$F_X(x) = \mathds{P}(X \leq x)$$
 
-%     Essa definição se manterá a mesma para variáveis aleatórias contínuas, no entanto, para obter a função distribuição teremos que nos valer do uso da integral.
+    Essa definição se manterá a mesma para variáveis aleatórias contínuas, no entanto, para obter a função distribuição teremos que nos valer do uso da integral.
 
-%     \begin{definicao}
-%         Seja $Y$ uma variável aleatória contínua, temos que sua função distribuição acumulada é dada por:
-%             $$F_Y(y) = \mathds{P}(Y \leq y) = \int_{-\infty}^{y} f_Y(y)$$
-%     \end{definicao}
+    \begin{definicao}
+        Seja $Y$ uma variável aleatória contínua, temos que sua função distribuição acumulada é dada por:
+            $$F_Y(y) = \mathds{P}(Y \leq y) = \int_{-\infty}^{y} f_Y(y)$$
+    \end{definicao}
 
-% \end{frame}
-% \begin{frame}{Esperança de Variáveis aleatórias contínuas}
-%     Para variáveis aleatórias discretas, vimos que a esperança de uma variável aleatória discreta $X$ é dada por:
-%     $$\mathbb{E}[X] = \sum_{x \in \Omega_X} x \mathds{P}(X=x)$$
+\end{frame}
+\begin{frame}{Esperança de Variáveis aleatórias contínuas}
+    Para variáveis aleatórias discretas, vimos que a esperança de uma variável aleatória discreta $X$ é dada por:
+    $$\mathbb{E}[X] = \sum_{x \in \Omega_X} x \mathds{P}(X=x)$$
 
-%     De forma análoga, sendo $X$ uma variável aleatória contínua, temos que:
+    De forma análoga, sendo $X$ uma variável aleatória contínua, temos que:
 
-%     $$\mathbb{E}[X] = \int_{-\infty}^{\infty} x f_X(x)$$
-% \end{frame}
-% \begin{frame}{Variância de Variáveis aleatórias contínuas}
-%     A seguinte relação ainda é valida para variáveis aleatórias contínuas:
+    $$\mathbb{E}[X] = \int_{-\infty}^{\infty} x f_X(x)$$
+\end{frame}
+\begin{frame}{Variância de Variáveis aleatórias contínuas}
+    A seguinte relação ainda é valida para variáveis aleatórias contínuas:
 
-%     $$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$$
+    $$Var(X) = \mathbb{E}[X^2] - \mathbb{E}[X]^2$$
 
-%     onde:
+    onde:
 
-%     $$\mathbb{E}[X^2] = \int_{-\infty}^{\infty} x^2 f_X(x)dx$$
-% \end{frame}
+    $$\mathbb{E}[X^2] = \int_{-\infty}^{\infty} x^2 f_X(x)dx$$
+\end{frame}
 
-% \begin{frame}{Distribuição Normal padrão}
-%     Uma variável aleatória $Z$ tem distribuição \textbf{Normal padrão}, se:
+\begin{frame}{Distribuição Normal padrão}
+    Uma variável aleatória $Z$ tem distribuição \textbf{Normal padrão}, se:
 
-%     \begin{itemize}
-%         \item $Z$ assume valores em $\mathbb{R}$
-%         \item A f.d.p $f_Z$ é dada por:
-%         $$f_Z(z) = \dfrac{1}{\sqrt{2\pi}} e^{-z^2/2}, z\in \mathbb{R}$$
-%     \end{itemize}
+    \begin{itemize}
+        \item $Z$ assume valores em $\mathbb{R}$
+        \item A f.d.p $f_Z$ é dada por:
+        $$f_Z(z) = \dfrac{1}{\sqrt{2\pi}} e^{-z^2/2}, z\in \mathbb{R}$$
+    \end{itemize}
 
-%     Notação $Z \sim N(0,1)$
-% \end{frame}
+    Notação $Z \sim N(0,1)$
+\end{frame}
 
-% \begin{frame}{Distribuição Normal padrão}
-%     Se $Z \sim N(0,1)$, $f_Z$ é simétrica em torno de 0
-%     $$f_Z(z) = f_Z(-z) \forall z \in \mathbb{R}$$
+\begin{frame}{Distribuição Normal padrão}
+    Se $Z \sim N(0,1)$, $f_Z$ é simétrica em torno de 0
+    $$f_Z(z) = f_Z(-z) \forall z \in \mathbb{R}$$
 
-%     Como a Normal padrão é uma distribuição contínua, a seguinte relação é valida:
+    Como a Normal padrão é uma distribuição contínua, a seguinte relação é valida:
 
-%     $$\mathds{P}(Z \leq z_0) = \int_{-\infty}^{z_0}\dfrac{1}{\sqrt{2\pi}} e^{-x^2/2}, \text{ para } z\in \mathbb{R}$$
+    $$\mathds{P}(Z \leq z_0) = \int_{-\infty}^{z_0}\dfrac{1}{\sqrt{2\pi}} e^{-x^2/2}, \text{ para } z\in \mathbb{R}$$
 
-%     \begin{figure}
-%         \centering
-%         \includegraphics[width=0.3\linewidth]{figures/normal_p_1.png}
-%     \end{figure}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.3\linewidth]{figures/normal_p_1.png}
+    \end{figure}
 
-%     Essa integral é impossível de ser resolvida analiticamente, nesse sentido, surge a necessidade de utilização de uma tabela.
-% \end{frame}
+    Essa integral é impossível de ser resolvida analiticamente, nesse sentido, surge a necessidade de utilização de uma tabela.
+\end{frame}
 
-% \begin{frame}{Utilizando a tabela da Distribuição Normal padrão}
-%     Conforme visto no slide anterior, temos que utilizar tabelas. Algumas informações importantes:
+\begin{frame}{Utilizando a tabela da Distribuição Normal padrão}
+    Conforme visto no slide anterior, temos que utilizar tabelas. Algumas informações importantes:
 
-%     \begin{itemize}
-%         \item A Normal não é a única distribuição na qual é preciso utilizar tabelas.
-%         \item Não existe apenas uma tabela da distribuição Normal, assim como veremos nessa aula. 
-%     \end{itemize}
-% \end{frame}
+    \begin{itemize}
+        \item A Normal não é a única distribuição na qual é preciso utilizar tabelas.
+        \item Não existe apenas uma tabela da distribuição Normal, assim como veremos nessa aula. 
+    \end{itemize}
+\end{frame}
 
-% \begin{frame}{Distribuição Normal padrão}
-% Seja $Z \sim N(0,1)$, calcule as seguintes probabilidades:
+\begin{frame}{Distribuição Normal padrão}
+Seja $Z \sim N(0,1)$, calcule as seguintes probabilidades:
 
-% \begin{itemize}
-%     \item $\mathds{P}(Z > 0)$
-%     \item $\mathds{P}(Z < 0)$
-%     \item $\mathds{P}(Z \leq 0,76)$
-%      \item$ \mathds{P}(Z \geq 0,76)$
-%      \item$ \mathds{P}(Z \leq 1,79)$
-%      \item$ \mathds{P}(Z \geq 2,54)$
-%      \item$ \mathds{P}(Z > -0,5)$
-%      \item$ \mathds{P}(Z < -0,5)$
-%      \item$ \mathds{P}(Z < -1,43)$
-% \end{itemize}
+\begin{itemize}
+    \item $\mathds{P}(Z > 0)$
+    \item $\mathds{P}(Z < 0)$
+    \item $\mathds{P}(Z \leq 0,76)$
+     \item$ \mathds{P}(Z \geq 0,76)$
+     \item$ \mathds{P}(Z \leq 1,79)$
+     \item$ \mathds{P}(Z \geq 2,54)$
+     \item$ \mathds{P}(Z > -0,5)$
+     \item$ \mathds{P}(Z < -0,5)$
+     \item$ \mathds{P}(Z < -1,43)$
+\end{itemize}
     
-% \end{frame}
+\end{frame}
 
 % \begin{frame}{Distribuição Normal($\mu, \sigma$)}
 %     Uma variável aleatória tem distribuição Normal com parâmetros $\mu, \sigma^2$, se:
