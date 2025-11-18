@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.10)  11 NOV 2025 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.10)  18 NOV 2025 08:44
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2630,10 +2630,6 @@ and I'll forget about whatever was undefined.
 
 ]
 
-[101
-
-]
-
 ! Package pgfkeys Error: I do not know the key '/tcb/18' and I am going to ignore it. Perhaps you misspelled it.
 
 See the pgfkeys package documentation for explanation.
@@ -2646,7 +2642,7 @@ l.1040 \end{frame}
 
 
 
-[102
+[101
 
 ]
 ! Too many }'s.
@@ -2681,23 +2677,27 @@ and I'll forget about whatever was undefined.
 
 
 
+[102
+
+]
+
 [103
 
 ]
-
-[104
-
-]
-<figures/continua_1.png, id=3057, 576.65437pt x 292.09125pt>
+<figures/continua_1.png, id=3027, 576.65437pt x 292.09125pt>
 File: figures/continua_1.png Graphic file (type png)
 <use figures/continua_1.png>
 Package pdftex.def Info: figures/continua_1.png  used on input line 1080.
 (pdftex.def)             Requested size: 215.10196pt x 108.95453pt.
 
 
-[105
+[104
 
  <./figures/continua_1.png (PNG copy)>]
+
+[105
+
+]
 
 [106
 
@@ -2710,11 +2710,7 @@ Package pdftex.def Info: figures/continua_1.png  used on input line 1080.
 [108
 
 ]
-
-[109
-
-]
-<figures/normal_p_1.png, id=3205, 197.98969pt x 176.91093pt>
+<figures/normal_p_1.png, id=3175, 197.98969pt x 176.91093pt>
 File: figures/normal_p_1.png Graphic file (type png)
 <use figures/normal_p_1.png>
 Package pdftex.def Info: figures/normal_p_1.png  used on input line 1187.
@@ -2725,15 +2721,73 @@ Overfull \vbox (2.48265pt too high) detected at line 1187
 
 
 
-[110
+[109
 
  <./figures/normal_p_1.png (PNG copy)>]
+
+[110
+
+]
 
 [111
 
 ]
 
 [112
+
+]
+
+[113
+
+]
+
+[114
+
+]
+
+[115
+
+]
+<figures/normal_dp.jpg, id=3382, 560.0925pt x 305.14pt>
+File: figures/normal_dp.jpg Graphic file (type jpg)
+<use figures/normal_dp.jpg>
+Package pdftex.def Info: figures/normal_dp.jpg  used on input line 1264.
+(pdftex.def)             Requested size: 245.83282pt x 133.93143pt.
+
+
+[116
+
+ <./figures/normal_dp.jpg>]
+
+[117
+
+]
+
+[118
+
+]
+
+[119
+
+]
+
+[120
+
+]
+
+[121
+
+]
+
+[122
+
+]
+
+[123
+
+]
+
+[124
 
 ])
 \tf@nav=\write7
@@ -2745,7 +2799,7 @@ Overfull \vbox (2.48265pt too high) detected at line 1187
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-runsystem(latexminted cleantemp  --timestamp 20251111112628 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleantemp  --timestamp 20251118084425 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (./main.aux (./probabilidade.aux))
  ***********
@@ -2760,18 +2814,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6FB900C7F11A7F106E614B2DB5EAF260;108.
  ) 
 Here is how much of TeX's memory you used:
- 34524 strings out of 475171
- 734188 string characters out of 5767094
+ 34596 strings out of 475171
+ 735134 string characters out of 5767094
  1242036 words of memory out of 5000000
- 56660 multiletter control sequences out of 15000+600000
- 566819 words of font info for 66 fonts, out of 8000000 for 9000
+ 56705 multiletter control sequences out of 15000+600000
+ 570906 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,19n,123p,775b,977s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (112 pages, 782171 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/doublestroke/dsrom10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on main.pdf (124 pages, 841375 bytes).
 PDF statistics:
- 3405 PDF objects out of 3580 (max. 8388607)
- 3052 compressed objects within 31 object streams
- 227 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3762 PDF objects out of 4296 (max. 8388607)
+ 3373 compressed objects within 34 object streams
+ 251 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
