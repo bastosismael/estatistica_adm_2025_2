@@ -1,0 +1,110 @@
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1cm, bottom=0.6cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+
+% --- Ajuste fino do título ---
+\makeatletter
+\renewcommand{\maketitle}{
+  \begin{center}
+    {\small\bfseries \@title \par}
+  \end{center}
+  \vspace{-0.1cm} % diminui o espaço entre título e texto
+}
+\makeatother
+
+\title{Prova 2 - Estatística para Administração - 2025.2}
+\date{}
+
+\begin{document}
+\maketitle
+
+1) (5 pontos) Com base nas discussões feitas em aula, responda as seguintes perguntas:
+
+\begin{enumerate}[a)]
+    \item (0,8 pontos) Defina o que é uma variável aleatória e explique por que ela recebe esse nome. Explicite seu domínio e seu contradomínio. 
+    \item (1 ponto) Dê um exemplo de experimento aleatório, defina seu espaço amostral e construa uma variável aleatória associada a esse espaço. Forneça 
+    exemplos de entradas e saídas da variável aleatória criada. 
+    \item (0,8 pontos) Defina o que é função \textbf{de} probabilidade. Quais requisitos uma função deve cumprir para que seja uma função \textbf{de} probabilidade?
+    \item (0,8 pontos) Em sala vimos que a função probabilidade $\mathds{P}$ é uma função que recebe um evento e retorna um valor no intervalo $[0,1]$. 
+    Seja $X$ uma variável aleatória discreta que representa o resultado da soma do lançamento de dois dados. Por que $\mathds{P}(X=2)$ está bem definido? Em outras palavras, 
+    por que consideramos que $X=2$ é um evento? \textcolor{red}{Observação}: Aqui $X=2$ é apenas um caso particular, poderia ser $X$ igual a qualquer elemento de seu suporte. 
+    \item (0,5 pontos) Se $S$ é uma variável aleatória contínua qualquer, seja $a$ uma constante qualquer pertencente ao seu suporte. Calcule $\mathds{P}(S=a)$. Justifique sua resposta.
+    \item (0,6 pontos) Seja $X \sim Bernoulli(p)$ e $Y=2X$. Escreva o suporte de $Y$ e mostre que $Y$ atinge variância máxima quando $p=1/2$
+    \item (0,5 pontos) Explique com suas palavras o Teorema Central do Limite. 
+\end{enumerate}
+
+2) (3,4 pontos) Um cassino possui o seguinte jogo:
+
+\begin{itemize}
+    \item O jogador deve pagar o valor de R\$ 8,00 para participar do jogo. (Esse dinheiro não volta para o jogador, ele paga esse valor para participar.)
+    \item 4 dados honestos são lançados. 
+    \item Se o número de faces pares for maior que o de faces ímpares, o jogador recebe três vezes o valor pago para participar do jogo, ou seja, R\$ 24,00. 
+    \item Se o número de faces pares for menor ou igual ao de faces ímpares, o jogador não ganha nada.
+\end{itemize}
+
+Com base na estrutura desse jogo, responda as questões abaixo
+\begin{enumerate}[a)]
+    \item (0,5 pontos) Definamos a variável aleatória $X_i$: O $i$-ésimo dado apresenta face par, com $i \in \{1,2,3,4\}$. Qual a distribuição de $X_i?$
+    \item (0,7 pontos) Definamos a variável aleatória $Y$ como sendo o número de faces pares obtidas dentre os 4 lançamentos. Qual a distribuição de $Y$? Como podemos escrever $Y$ em função de $X_i$?
+    \item (1,5 pontos) Defina por $G$ a variável aleatória associada ao ganho/lucro (ou perda) do jogador. Use o conceito de esperança para verificar se o jogo proposto é justo. 
+    \item (0,7 pontos) O fato do ganho esperado de um jogo ser negativo indica que o jogador nunca irá ganhar nada com o jogo? 
+        O que realmente isso significa? A resposta tem a ver com alguma das interpretações da Probabilidade que vimos na primeira parte da matéria?
+    \end{enumerate}
+
+
+3) (1,6 pontos) Suponha que $X$ seja uma variável aleatória que segue a distribuição Normal com média 2 e variância 4. Obtenha as seguintes probabilidades:
+\begin{enumerate}[a)]
+    \item (0,5 pontos) $\mathds{P}(X > 3)$
+    \item (0,5 pontos) $ \mathds{P}(X > 3 | X < 4)$
+    \item (0,6 pontos) Explique com suas palavras porquê $\mathds{P}(X > 3) = \mathds{P}(X \geq 3)$ e $\mathds{P}(X\geq 3 | X < 4) <  \mathds{P}(X\geq 3 )$ 
+\end{enumerate}
+
+4) (2,5 pontos) A coordenação do curso de Administração da UFRJ está interessada em saber a média salarial dos estudantes que atualmente estão estagiando para 
+adicionar essa informação ao relatório do curso no final do mês de dezembro. 
+A coordenadora do curso então decide procurar uma empresa júnior para ajudar a resolver esse problema. A empresa júnior seleciona Gabriel para 
+realizar essa tarefa. Gabriel aceita essa tarefa e com base em seus conhecimentos de Estatística e diz os seguintes pontos na reunião de planejamento:
+
+\begin{itemize}
+    \item Gabriel informa que para obter essa informação seria necessário entrevistar todos os alunos que atualmente fazem estágio, o que seria 
+    impossível dado o curto tempo que temos. Nesse sentido, ele recomenda adotar a estratégia de ficar em frente ao palácio em horários variados e entrevistar 
+    aleatoriamente os estudantes do curso de Administração.  
+\end{itemize}
+
+Após coletar os dados, ele obteve uma amostra de tamanho 324. Com base nessa amostra ele obteve uma média salarial é de R\$ 1350,00. Com base em pesquisas de mercado, 
+Gabriel sabe que o desvio padrão do salário de estagiários do curso é aproximadamente R\$ 360,00. 
+
+Com base nesse cenário, responda as seguintes perguntas:
+
+\begin{enumerate}[a)]
+    \item (0,5 pontos) Construa um intervalo de confiança com 99\% de confiança para a verdadeira média dos salários dos estudantes. Interprete o intervalo encontrado. 
+    \item (0,5 pontos) Construa um intervalo de confiança com 40\% de confiança para a verdadeira média dos salários dos estudantes. Interprete o intervalo encontrado.
+    \item (0,7 pontos) Após construir o Intervalo de Confiança e apresenta-lo para Janaina, responsável pelo projeto junto à Coordenação do curso, ela diz a seguinte frase:
+    \begin{quote}
+    \textit{Que irado, Gabriel! Isso significa que existe probabilidade de 90\% do verdadeiro salário médio dos estudantes estar nesse intervalo, certo? }
+    \end{quote}
+
+    O que Gabriel deve responder à Janaina?
+
+    \item (0,8 ponto) Discuta a influência do nível de confiança, tamanho da amostra e o desvio padrão na amplitude do intervalo de confiança.
+\end{enumerate}
+
+
+Informações úteis:
+
+\begin{itemize}
+    \item $\sqrt{324} = 18$
+\end{itemize}
+\end{document}

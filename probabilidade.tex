@@ -1635,167 +1635,167 @@ Considere $X \sim N(10, 5)$
 \end{frame}
 
 
-% \begin{frame}{Estimação por intervalo}
+\begin{frame}{Estimação por intervalo}
 
-% \begin{itemize}
-%     \item Até agora só vimos os estimadores pontuais, que fornecem como estimativa um único valor numérico para o parâmetro de interesse. 
-%     \item  O método de estimação por intervalo visa estabelecer um intervalo de confiança, incorpora, à estimativa pontual do parâmetro,
-% informações a respeito da variabilidade do estimador. Intervalos de confiança são
-% obtidos através da distribuição amostrai de seus estimadores.
-% \end{itemize}
+\begin{itemize}
+    \item Até agora só vimos os estimadores pontuais, que fornecem como estimativa um único valor numérico para o parâmetro de interesse. 
+    \item  O método de estimação por intervalo visa estabelecer um intervalo de confiança, incorpora, à estimativa pontual do parâmetro,
+informações a respeito da variabilidade do estimador. Intervalos de confiança são
+obtidos através da distribuição amostrai de seus estimadores.
+\end{itemize}
     
-% \end{frame}
+\end{frame}
 
-% \begin{frame}{Intervalo de confiança}
-%     \begin{figure}
-%         \centering
-%         \includegraphics[width=0.8\linewidth]{figures/confidence_interval.png}
-%     \end{figure}
-% \end{frame}
+\begin{frame}{Intervalo de confiança}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figures/confidence_interval.png}
+    \end{figure}
+\end{frame}
 
 
-% \begin{frame}{Caso 1: Variância conhecida}
-%     Considere que temos interesse em construir um intervalo de confiança para a média $\mu$ de uma certa população com variância conhecida $\sigma^2$. Supondo uma amostra de tamanho $n$, vimos que a média amostral tem distribuição Normal com a mesma média $\mu$ e variância $\sigma^2/n$, ou seja, 
+\begin{frame}{Caso 1: Variância conhecida}
+    Considere que temos interesse em construir um intervalo de confiança para a média $\mu$ de uma certa população com variância conhecida $\sigma^2$. Supondo uma amostra de tamanho $n$, vimos que a média amostral tem distribuição Normal com a mesma média $\mu$ e variância $\sigma^2/n$, ou seja, 
 
-%     $$Z =\dfrac{\Bar{X} - \mu}{\sigma/\sqrt{n}} \sim N(0,1)$$
+    $$Z =\dfrac{\Bar{X} - \mu}{\sigma/\sqrt{n}} \sim N(0,1)$$
 
-%     \pause
+    \pause
 
-%     Logo, fixando um valor $\alpha$ tal que $0<\alpha<1$, podemos encontrar dois valores $a$ e $b$ tal que:
+    Logo, fixando um valor $\alpha$ tal que $0<\alpha<1$, podemos encontrar dois valores $a$ e $b$ tal que:
 
-%     $$\mathds{P}(a <Z < b) = \alpha$$
-% \end{frame}
+    $$\mathds{P}(a <Z < b) = \alpha$$
+\end{frame}
 
-% \begin{frame}{Caso 1: Variância conhecida}
-%     $$\mathds{P}(a <Z < b) = \alpha$$
+\begin{frame}{Caso 1: Variância conhecida}
+    $$\mathds{P}(a <Z < b) = \alpha$$
 
-%     \begin{itemize}
-%         \item Perceba que, como a distribuição Normal é simétrica, podemos dizer que a = -b.
-%         \item Além disso, $a$ e $b$ são funções de $\alpha$. Qual é a regra dessa função?
-%     \end{itemize}
-%     \pause
+    \begin{itemize}
+        \item Perceba que, como a distribuição Normal é simétrica, podemos dizer que a = -b.
+        \item Além disso, $a$ e $b$ são funções de $\alpha$. Qual é a regra dessa função?
+    \end{itemize}
+    \pause
 
-%     De fato, $a=-z_{\alpha/2}$ e $b = z_{\alpha/2}$
+    De fato, $a=-z_{\alpha/2}$ e $b = z_{\alpha/2}$
    
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    $$\mathds{P}(-z_{\alpha/2} <Z < z_{\alpha/2}) = \alpha$$
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\linewidth]{figures/confidence_interval_2.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    Substituindo, temos que:
+
+    \begin{align*}
+        \mathds{P}(-z_{\alpha/2} <Z < z_{\alpha/2}) &= \mathds{P}\left(-z_{\alpha/2} < \dfrac{\Bar{X} - \mu}{\sigma/\sqrt{n}} < z_{\alpha/2}\right)\\
+        &= \mathds{P}\left(\Bar{X} -z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} < \mu < \Bar{X} + z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right)
+    \end{align*}
+
+    Dessa forma, o intervalo de confiança para $\mu$, com coeficiente de confiança $\alpha$ é dado por:
+
+    $$IC(\mu, \alpha) = \left[ \Bar{X} - z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} ; \Bar{X}+ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right]$$
+
+    $ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}$ é denominada margem de erro.
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    \textcolor{red}{Super Mega Importante} - \textbf{Interpretação do intervalo de confiança:} Se obtivermos várias
+amostras de mesmo tamanho e, para cada uma delas, calcularmos os
+correspondentes intervalos de confiança com coeficiente de confiança $\alpha$ ,
+esperamos que a proporção de intervalos que contenham o valor de $\mu$ seja igual
+a $\alpha$ .
+
+Ou seja, se coletarmos 1000 amostras encontrarmos o intervalo de confiança para $\mu$ com nível de confiança $95\%$, então espera-se que 950 intervalos contenham a média populacional.  
+\pause
+
+\vspace{10px}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{figures/mu_crying.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Caso 1: Variância conhecida}
+    \begin{exemplo}
+        Considere que a altura dos estudantes de uma escola siga a distribuição Normal com média $\mu$ desconhecida e variância igual a $10^{-2}$ .
+         Uma amostra de dez estudantes foi sorteada e forneceu média 1,69. 
+         Forneça uma estimativa para o parâmetro desconhecido $\mu$ \pause com 95\% de confiança e interprete o resultado obtido. 
+         \pause Agora calcule com 99\% de confiança. \pause Agora calcule com 50\% de confiança. 
+    \end{exemplo}
+\end{frame}
+
+
+% \begin{frame}{Caso 2: Variância desconhecida}
+% Na prática é muito comum encontrarmos cenários em que não se tem a variância populacional. 
+
+% O que fazer nesse caso?
+
+% \pause 
+
+% A solução é muito simples, basta substituir o desvio padrão pelo seu estimador.
+
+% $$IC(\mu, \alpha) = \left[ \Bar{X} - t_{c}\dfrac{\hat{\sigma}}{\sqrt{n}} ; \Bar{X}+ t_{c}\dfrac{\hat{\sigma}}{\sqrt{n}}\right]$$
+
+% No entanto, perceba que agora ao invés de $z$, temos $t$. Isso ocorre pois o teorema central do limite foi violado, mas, encontrou-se uma nova distribuição que parecia ser adequada nesse caso, a t de Student.
 % \end{frame}
 
-% \begin{frame}{Caso 1: Variância conhecida}
-%     $$\mathds{P}(-z_{\alpha/2} <Z < z_{\alpha/2}) = \alpha$$
+% \begin{frame}{Caso 2: Variância desconhecida}
+%     Nesse caso, temos o seguinte resultado:
+
+%     $$\dfrac{\Bar{X} - \mu}{\hat{\sigma}/\sqrt{n}} \sim t_{n-1}$$
+% \end{frame}
+
+% \begin{frame}{Distribuição t de Student}
+
+% \textbf{Características da distribuição}
+%     \begin{itemize}
+%         \item É simétrica com média t = 0, assim como a Normnal(0,1) era.
+%         \item Apresenta comportamento diferente dependendo do número de graus de liberdade
+%         \item Conforme os graus de liberdade aumentam, mais próxima ela se torna da Normal
+%     \end{itemize}
 
 %     \begin{figure}
 %         \centering
-%         \includegraphics[width=0.6\linewidth]{figures/confidence_interval_2.png}
+%         \includegraphics[width=0.5\linewidth]{figures/Student_t_pdf.svg.png}
 %     \end{figure}
 % \end{frame}
 
-% \begin{frame}{Caso 1: Variância conhecida}
-%     Substituindo, temos que:
-
-%     \begin{align*}
-%         \mathds{P}(-z_{\alpha/2} <Z < z_{\alpha/2}) &= \mathds{P}\left(-z_{\alpha/2} < \dfrac{\Bar{X} - \mu}{\sigma/\sqrt{n}} < z_{\alpha/2}\right)\\
-%         &= \mathds{P}\left(\Bar{X} -z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} < \mu < \Bar{X} + z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right)
-%     \end{align*}
-
-%     Dessa forma, o intervalo de confiança para $\mu$, com coeficiente de confiança $\alpha$ é dado por:
-
-%     $$IC(\mu, \alpha) = \left[ \Bar{X} - z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}} ; \Bar{X}+ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}\right]$$
-
-%     $ z_{\alpha/2}\dfrac{\sigma}{\sqrt{n}}$ é denominada margem de erro.
-% \end{frame}
-
-% \begin{frame}{Caso 1: Variância conhecida}
-%     \textcolor{red}{Super Mega Importante} - \textbf{Interpretação do intervalo de confiança:} Se obtivermos várias
-% amostras de mesmo tamanho e, para cada uma delas, calcularmos os
-% correspondentes intervalos de confiança com coeficiente de confiança $\alpha$ ,
-% esperamos que a proporção de intervalos que contenham o valor de $\mu$ seja igual
-% a $\alpha$ .
-
-% Ou seja, se coletarmos 1000 amostras encontrarmos o intervalo de confiança para $\mu$ com nível de confiança $95\%$, então espera-se que 950 intervalos contenham a média populacional.  
-% \pause
-
-% \vspace{10px}
-
-% \begin{figure}
-%     \centering
-%     \includegraphics[width=0.4\linewidth]{figures/mu_crying.jpg}
-% \end{figure}
-% \end{frame}
-
-% \begin{frame}{Caso 1: Variância conhecida}
+% \begin{frame}{Caso 2: Variância desconhecida}
 %     \begin{exemplo}
-%         Considere que a altura dos estudantes de uma escola siga a distribuição Normal com média $\mu$ desconhecida e variância igual a $10^{-2}$ .
-%          Uma amostra de dez estudantes foi sorteada e forneceu média 1,69. 
-%          Forneça uma estimativa para o parâmetro desconhecido $\mu$ \pause com 95\% de confiança e interprete o resultado obtido. 
-%          \pause Agora calcule com 99\% de confiança. \pause Agora calcule com 50\% de confiança. 
+%     Uma máquina que produz doces estava programada para fazer bombom com peso médio de 450g. Agora, devido a falhas mecanincas, o equipamente desregulou e, antes que ocorra um prejuizo, deseja-se saber qual o novo peso médio. Para isso, foi retirada uma amostra de 29 bombons que apresentaram média igual a 534g e desvio padrão igual a 20g. Calcule um intervalo de confiança para a média populacional considerando $95\%$ de confiança. 
 %     \end{exemplo}
 % \end{frame}
 
+% \begin{frame}{Caso 2: Variância desconhecida}
+%     Em uma amostra aleatória de 20 municípios do Rio de Janeiro, considerando-se os dados da Secretaria de Segurança Pública relativos ao crime de lesão corporal, a média de crimes é de 87 e o desvio padrão igual a 101,94. Construa um intervalo de 99\% de confiança para a média populacional. 
+% \end{frame}
+% \begin{frame}{Caso 3: Proporção}
+%     Um resultado bastante útil que podemos usar em decorrência do Teorema Central do Limite é a possibilidade de aproximar uma distribuição Binomial para uma distribuição Normal. 
 
-% % \begin{frame}{Caso 2: Variância desconhecida}
-% % Na prática é muito comum encontrarmos cenários em que não se tem a variância populacional. 
+%     \textbf{Como fazer isso? }
 
-% % O que fazer nesse caso?
+%     Primeiramente, temos que lembrar que se $X \sim Binomial(n, p)$, então:
 
-% % \pause 
+%     $$X = W_1 + W_2 + W_3 + \dots + W_n$$
 
-% % A solução é muito simples, basta substituir o desvio padrão pelo seu estimador.
+%     onde $W_i \sim Bernoulli(p)$
 
-% % $$IC(\mu, \alpha) = \left[ \Bar{X} - t_{c}\dfrac{\hat{\sigma}}{\sqrt{n}} ; \Bar{X}+ t_{c}\dfrac{\hat{\sigma}}{\sqrt{n}}\right]$$
+%     Logo, pelo Teorema Central do Limite:
 
-% % No entanto, perceba que agora ao invés de $z$, temos $t$. Isso ocorre pois o teorema central do limite foi violado, mas, encontrou-se uma nova distribuição que parecia ser adequada nesse caso, a t de Student.
-% % \end{frame}
+%     $$X \sim N(E[X], Var(X))$$
 
-% % \begin{frame}{Caso 2: Variância desconhecida}
-% %     Nesse caso, temos o seguinte resultado:
+%     ou seja, 
 
-% %     $$\dfrac{\Bar{X} - \mu}{\hat{\sigma}/\sqrt{n}} \sim t_{n-1}$$
-% % \end{frame}
+%     \pause
 
-% % \begin{frame}{Distribuição t de Student}
-
-% % \textbf{Características da distribuição}
-% %     \begin{itemize}
-% %         \item É simétrica com média t = 0, assim como a Normnal(0,1) era.
-% %         \item Apresenta comportamento diferente dependendo do número de graus de liberdade
-% %         \item Conforme os graus de liberdade aumentam, mais próxima ela se torna da Normal
-% %     \end{itemize}
-
-% %     \begin{figure}
-% %         \centering
-% %         \includegraphics[width=0.5\linewidth]{figures/Student_t_pdf.svg.png}
-% %     \end{figure}
-% % \end{frame}
-
-% % \begin{frame}{Caso 2: Variância desconhecida}
-% %     \begin{exemplo}
-% %     Uma máquina que produz doces estava programada para fazer bombom com peso médio de 450g. Agora, devido a falhas mecanincas, o equipamente desregulou e, antes que ocorra um prejuizo, deseja-se saber qual o novo peso médio. Para isso, foi retirada uma amostra de 29 bombons que apresentaram média igual a 534g e desvio padrão igual a 20g. Calcule um intervalo de confiança para a média populacional considerando $95\%$ de confiança. 
-% %     \end{exemplo}
-% % \end{frame}
-
-% % \begin{frame}{Caso 2: Variância desconhecida}
-% %     Em uma amostra aleatória de 20 municípios do Rio de Janeiro, considerando-se os dados da Secretaria de Segurança Pública relativos ao crime de lesão corporal, a média de crimes é de 87 e o desvio padrão igual a 101,94. Construa um intervalo de 99\% de confiança para a média populacional. 
-% % \end{frame}
-% % \begin{frame}{Caso 3: Proporção}
-% %     Um resultado bastante útil que podemos usar em decorrência do Teorema Central do Limite é a possibilidade de aproximar uma distribuição Binomial para uma distribuição Normal. 
-
-% %     \textbf{Como fazer isso? }
-
-% %     Primeiramente, temos que lembrar que se $X \sim Binomial(n, p)$, então:
-
-% %     $$X = W_1 + W_2 + W_3 + \dots + W_n$$
-
-% %     onde $W_i \sim Bernoulli(p)$
-
-% %     Logo, pelo Teorema Central do Limite:
-
-% %     $$X \sim N(E[X], Var(X))$$
-
-% %     ou seja, 
-
-% %     \pause
-
-% %     $$X \sim N(np, np(1-p))$$
-% % \end{frame}
+%     $$X \sim N(np, np(1-p))$$
+% \end{frame}
 
 
 % \begin{frame}{Caso 3: Proporção}

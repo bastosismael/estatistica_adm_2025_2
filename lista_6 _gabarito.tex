@@ -1,0 +1,134 @@
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{float}
+\title{Lista 6 - Estatística para Administração - 2025.2 - Gabarito}
+\begin{document}
+\date{}
+\maketitle
+
+1) Uma variável aleatória discreta assume valores em um conjunto contável (enumerável), podendo ser finito ou infinito. Já uma variável aleatória 
+contínua assume valores em um conjunto não contável (não enumerável) e necessariamente infinito. Um exemplo de variável aleatória discreta é $X$: Número de pessoas 
+que irá votar em um candidato específico nas próximas eleições. Um exemplo de variável contínua é $Y:$ Tempo que um ônibus leva até chegar ao seu 
+destino final.  
+
+
+\vspace{3px}
+
+2) $$\binom{30}{4} = \dfrac{30!}{26!4!} = 27405$$
+
+\vspace{3px}
+
+3) 
+
+    \begin{enumerate}[a)]
+        \item Binomial(18; 0,25). Podemos olhar por duas perspectivas: A primeira é que cada pessoa acessa o site e clica ou não clica no botão, podendo 
+        ser atribuída uma variável aleatória de Bernoulli a essa situação. Como temos 18 pessoas, o total de visitantes que clicam nada mais é 
+        que a soma dessas variáveis. Como é razoável assumir que cada cliente toma sua ação sem conhecimento da ação dos demais, podemos 
+        assumir independência e, portanto, representando a soma por $X$, temos que $X \sim Binomial(18; 0,25)$. A segunda e mais simples é verificar que 
+        analisar o número de clientes que clicam dentre todos os 18 clientes que acessam o site é exatamente a definição da distribuição Binomial, que 
+        modela o número de "sucessos" dentre $n$ tentativas. 
+        \item $\binom{18}{5} 0,25^5 \cdot 0,75^{13} = 0,1987$
+        \item $\binom{18}{0} 0,25^0 \cdot 0,75^{18} = 0,0056$
+        \item $\mathds{P}(X \geq 2) = 1 -\mathds{P}(X<2) =1 - ( \mathds{P}(X=0) + \mathds{P}(X=1)) =  1- 0,0056 - 0,0338 = 0,9606$
+    \end{enumerate}
+
+\vspace{3px}
+
+4) $Y \sim Binomial(4; 0,3)$
+
+\vspace{3px}
+
+5) Seja $Z$ uma variável aleatória tal que $Z\sim N(0,1)$, calcule:
+
+\begin{enumerate}[a)]
+    \item $0,1587$
+    \item $0,6826$
+    \item $0,14$
+    \item $0,9495$
+    \item $0,9948$
+    \item $0,9896$
+    \item $0$
+    \item $0,0215$
+    \item $0.0228$
+    \item $1$
+    \item $0$
+\end{enumerate}
+
+\vspace{3px}
+
+6) 
+
+Definamos $Y$: Altura dos homens de 25 anos de idade. 
+0.0228
+$$\mathds{P}(Y > 188) = \mathds{P}\left(\dfrac{Y - 180}{4} > \dfrac{188 - 180}{4}\right) = \mathds{P}(Z > 2) = 0,0228$$
+
+\vspace{3px}
+
+
+7) Se X é uma variável aleatória com distribuição Normal com parâmetros $\mu=10$ e $\sigma^2=36$, calcule:
+
+\begin{enumerate}[a)]
+    \item $\mathds{P}(X>5) = \mathds{P}\left(\dfrac{X - 10}{6}>\dfrac{5 - 10}{6}\right) = \mathds{P}(Z > -0,83) = 0,7967 $
+    \item $\mathds{P}(4<X<16) =  \mathds{P}\left(\dfrac{4 - 10}{6}<\dfrac{X - 10}{6}<\dfrac{16 - 10}{6}\right) = \mathds{P}(-1< Z < 1) = 0,6826 $
+    \item $\mathds{P}(X<8) = \mathds{P}\left(\dfrac{X - 10}{6}<\dfrac{8 - 10}{6}\right) = \mathds{P}(Z < -0,33) = 0,3707 $
+    \item $\mathds{P}(X<20) = \mathds{P}\left(\dfrac{X - 10}{6}<\dfrac{20 - 10}{6}\right) = \mathds{P}(Z < 1,67) = 0,9525$
+    \item $\mathds{P}(X>16)=\mathds{P}\left(\dfrac{X - 10}{6}>\dfrac{16 - 10}{6}\right) = \mathds{P}(Z > 1) = 0,1587$
+    \item $\mathds{P}(X>5 | X> 2) = \dfrac{\mathds{P}(X>5) }{\mathds{P}(X>2) } = \dfrac{0,7967}{0,9082} = 0,8772 $
+    \item $5,98$
+    \item $\mathds{P}(5\leq X \leq 15) = \mathds{P}\left(\dfrac{5 - 10}{6}<\dfrac{X - 10}{6}<\dfrac{15 - 10}{6}\right) = \mathds{P}(-0,83< Z < 0,83) = 0,5934$
+\end{enumerate}
+
+\vspace{3px}
+
+
+
+8) 
+\begin{enumerate}[a)]
+    \item $\left[58 - 1,645 \cdot \dfrac{12}{\sqrt{64}}, 58 + 1,645 \cdot \dfrac{12}{\sqrt{64}}\right] = [55,53; 60,46]$
+    
+    \textcolor{red}{Comentário do Professor}: Aqui vocês poderiam ter usado o valor $1,64$ ou $1,65$ que também estaria certo. 
+
+    Interpretação: Podemos afirmar, com $90\%$ de confiança, que o intervalo obtido contém a média populacional da insatisfação dos colaboradores. 
+    De forma geral, podemos afirmar que se fosse realizada a coleta de múltiplas amostras e construído um intervalo de confiança para cada uma delas, 
+    aproximadamente 90\% desses intervalos iriam conter a verdadeira média e 10\% não. 
+    \item $\left[58 - 1,96 \cdot \dfrac{12}{\sqrt{64}}, 58 + 1,96 \cdot \dfrac{12}{\sqrt{64}}\right] = [55,06 ; 60,94]$
+    
+    Interpretação: Podemos afirmar, com $95\%$ de confiança, que o intervalo obtido contém a média populacional da insatisfação dos colaboradores. 
+    De forma geral, podemos afirmar que se fosse realizada a coleta de múltiplas amostras e construído um intervalo de confiança para cada uma delas, 
+    aproximadamente 95\% desses intervalos iriam conter a verdadeira média e 5\% não. 
+    \item Aumentar o tamanho amostral implica em aumentar o denominador do fator da margem de erro, reduzindo a margem de erro, o que implica em intervalos 
+    com amplitude (tamanho) menores. Já o aumento do nível de confiança implica no aumento do valor de $z_{\alpha/2}$ e esse elemento aparece multiplicando 
+    a margem de erro, o que faz com que a amplitude aumente. 
+\end{enumerate}
+
+\vspace{3px}
+
+9) 
+
+Se $X\sim Binomial(n,p)$ podemos escrever $X = \sum_{i=1}^n W_i$, onde $W_i, i \in \{1,2, \dots, n\}$ são variáveis aleatórias independentes e todas 
+seguindo a distribuição Bernoulli com parâmetro $p$. Podemos dizer isso, pois vimos que uma variável aleatória que segue a distribuição Binomial 
+nada mais é do que a soma de variáveis aleatórias Bernoulli Independentes e Igualmente Distribuidas (IID). 
+
+Aplicando as propriedades vistas em sala, temos que:
+
+\begin{itemize}
+    \item $\mathds{E}[X] = \mathds{E}\left[\sum_{i=1}^n W_i\right] = \sum_{i=1}^n \mathds{E}[W_i]  = \sum_{i=1}^n p = np$
+    \item $Var(X) = Var\left(\sum_{i=1}^n W_i\right) = \sum_{i=1}^n Var(W_i)  = \sum_{i=1}^n p(1-p) = np(1-p)$
+\end{itemize}
+
+Note que no ponto 1 não precisamos usar o fato delas serem independentes, enquanto no ponto 2 sim. 
+\end{document}

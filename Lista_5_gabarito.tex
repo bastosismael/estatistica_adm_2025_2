@@ -1,0 +1,155 @@
+\documentclass[12pt]{article}
+\usepackage[shortlabels]{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2cm, right=2cm]{geometry}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{dsfont}
+\usepackage{float}
+\title{Lista 5 - Estatística para Administração - 2025.2}
+\begin{document}
+\date{}
+\maketitle
+
+1) 
+
+\begin{enumerate}[a)]
+    \item $\Omega = \{1,2,3,4,5,6\}^2$
+    \item $\Omega_X = \{1,2,3,4,5,6,8,9,10,12,15,16,18,20,24,25,30,36\}$
+    \item $p_X(x) = \begin{cases}
+        \frac{1}{36} & \text{se } x \in \{1,9, 16, 25, 36\}\\
+        \frac{2}{36} & \text{se } x \in \{2,3,5,8,10,15,18,20,24,30\}\\
+        \frac{3}{36} & \text{se } x =4, \\
+        \frac{4}{36} & \text{se } x \in \{6,12\}
+    \end{cases}$
+\end{enumerate}
+
+2)
+
+\begin{enumerate}[a)]
+    \item $\Omega = \{Cara, Coroa\}^3$
+    \item $\Omega_Y = \{-3, -1, 1, 3\}$
+    \item $p_Y(y) = \begin{cases}
+    \frac{1}{8} &\text{se } y \in \{-3, 3\}\\
+    \frac{3}{8} &\text{se } y \in \{-1, 1\}
+    \end{cases}$
+\end{enumerate}
+    
+
+3) 
+$$p_X(x) = \begin{cases}
+    \frac{1}{2} &\text{se } x = 0\\
+    \frac{1}{10}  &\text{se } x \in \{1; 3; 3,5\}\\
+    \frac{1}{5}  &\text{se } x = 2\\
+\end{cases}$$
+
+4) 
+
+\begin{enumerate}[(a)]
+    \item  $0,5918$.
+    \item $0,5918 -0,4374  -0,2624 = -0,108$
+    \item Não. Na verdade essa estratégia é perdedora, uma vez que o retorno esperado é $-0,108$. Se valendo da interpretação frequentista,
+    é esperado que caso o indivíduo adote essa estratégia um número grande de vezes, em média ele perderá aproximadamente R\$0{,}11.
+    \textcolor{red}{Observação do Professor:} Note que ainda que $\mathds{P}(X>0)$ seja igual a $0,5918$, ou seja, a probabilidade do ganho ser positivo é maior do que a 
+    de ser zero ou negativo, o jogador é desfavorecido ao adotar essa estrtégia. Por que isso acontece?
+\end{enumerate}
+ 
+5) 
+
+\begin{enumerate}[(a)]
+    \item $0,46$.
+    \item $1,3$
+    \item $0,45$
+\end{enumerate}
+
+6) 
+\begin{enumerate}[(a)]
+    \item $0,4$
+    \item $0$
+    \item $F_S(s) = \begin{cases}
+        0 & \text{se }  s<0\\
+        0,4 & \text{se } 0 \leq s<1\\
+        1 & \text{se } s \geq 1\\
+    \end{cases}$
+\end{enumerate}
+
+7) 
+\begin{enumerate}[(a)]
+    \item  $\mathds{E}[X] = (1-p) \cdot 0 + 1\cdot p = p$
+    \item $Var(X) = \mathds{E}[X^2] = \mathds{E}[X]^2 = p - p^2 = p(1-p)$
+    \item Encontrar o ponto de mínimo da função $p - p^2$ e mostrar que de fato é um ponto de mínimo (com palavras ou matematicamente).
+\end{enumerate}
+
+8) 
+\begin{enumerate}[a)]
+    \item Não. São variáveis \textbf{aleatórias}, logo, há incerteza sobre os valores que assumem e, portanto, não da para dizer se são iguais.
+    \item Sim, pos seguem a mesma distribuição e com o mesmo parâmetro $p$. 
+    \item Significa dizer que o resultado que uma delas apresenta não influencia no resultado da outra. 
+    \item $\Omega_V = \{0,1,2\}$, $p_V(v) = \begin{cases}
+        p^2 &\text{se } v=2\\
+        2p(1-p) &\text{se } v=1\\
+        (1-p)^2 &\text{se } v=0\\
+    \end{cases}$
+    \item $\Omega_U = \{0,2,3,5\}$, $p_U(u) = \begin{cases}
+        p^2 &\text{se } u=5\\
+        p(1-p) &\text{se } u \in \{2, 3\}\\
+        (1-p)^2 &\text{se } u=0\\
+    \end{cases}$
+    \item $(1-p) + p\cdot e$
+\end{enumerate}
+
+9) 
+
+$$p_{X_A}(x) =
+\begin{cases}
+ 0{,}3 &\text{se } $x=40$, \\[4pt]
+ 0{,}5 &\text{se } $x=10$,\\[4pt]
+ 0{,}2 &\text{se } $x=-10$,
+\end{cases}
+$$
+
+\begin{enumerate}[(a)]
+    \item $15\%$.
+    \item $325$.
+    \item Considere que o gestor possui outra possibilidade de ativo $B$, cujo retorno anual (\%) é modelado por
+uma variável aleatória $X_B$ que possui a seguinte distribuição: 
+$$p_{X_B}(x) =
+\begin{cases}
+ 0{,}6 & \text{se } $x=25$, \\[4pt]
+ 0{,}4 & \text{se } $x=-5$,\\[4pt]
+\end{cases}
+$$
+
+$\mathds{E}[X_B] = 13\%, Var(X_B) = 216$.
+
+\item Considere agora que o agente deseja compor uma carteira que possua 40\% do ativo A e 60\% do ativo B. Dessa forma, o retorno 
+anual desses ativos combinados é dado por:
+
+$$W = 0,4 X_A + 0,6 X_B.$$
+
+\begin{enumerate}[i)]
+    \item $\Omega_W = \{31, 13,  19, 1, 11, -7\}$
+    \item $p_W(w) = \begin{cases}
+        0,18 &\text{se } x= 31,\\
+        0,12 &\text{se } x \in \{13, 11\},\\
+        0,3 &\text{se } x= 19,\\
+        0,2 &\text{se } x= 1,\\
+        0,08 &\text{se } x= -7,\\
+    \end{cases}$
+    \item $13,8\%$
+    \item $129,76$. 
+    \item \textcolor{red}{Observação do Professor:}: Para resolver essa questão foi assumido que os ativos são independentes. Ou seja, o retorno de um não afeta o retorno do outro. 
+\end{enumerate}
+    \item Depende do perfil do investidor. Se for um investidor que se preocupa apenas com retorno, ignorando a variância do retorno, ele deve investir tudo no ativo $A$. 
+    Se ele se preocupa com retorno e também com a volatilidade do retorno, então deve investir na combinação entre $A$ e $B$. 
+\end{enumerate}
+\end{document}
